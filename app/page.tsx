@@ -29,7 +29,7 @@ export default function Home() {
           <div className="container hero-grid">
             <div className="hero-copy">
               <p className="eyebrow"><span>01</span> Scope before shortlist</p>
-              <h1>Bring in programmers. Keep hold of the code.</h1>
+              <h1>Hire outsourced programmers without losing code control.</h1>
               <p className="lead">
                 Start with the backlog, repo rules, and reviewer. Then ask for a programmer who fits the work, not a pile of vague profiles.
               </p>
@@ -63,7 +63,7 @@ export default function Home() {
         <section className="workbench container" aria-labelledby="workbench-title">
           <div className="section-intro">
             <p className="eyebrow dark"><span>02</span> The sprint desk</p>
-            <h2 id="workbench-title">A useful brief looks more like a ticket than a job ad.</h2>
+            <h2 id="workbench-title">Write the brief like a ticket.</h2>
             <p>Spell out what changes, how it gets checked, and who can ship it. That gives a developer something real to respond to.</p>
           </div>
           <div className="desk-grid">
@@ -114,7 +114,7 @@ export default function Home() {
         <section className="launch container" aria-labelledby="launch-title">
           <div className="section-intro narrow">
             <p className="eyebrow dark"><span>04</span> A controlled start</p>
-            <h2 id="launch-title">Do not make day one a production fire drill.</h2>
+            <h2 id="launch-title">Keep day one out of production.</h2>
             <p>Give the programmer a small path into the codebase. Keep a named technical owner on every decision that can affect customers.</p>
           </div>
           <div className="launch-grid">
@@ -145,7 +145,7 @@ export default function Home() {
 
         <section className="closing container">
           <p className="eyebrow dark"><span>06</span> Start with the real backlog</p>
-          <div><h2>Bring the tickets. Leave with a clearer role.</h2><a className="btn primary" href="/contact">Request a staffing plan</a></div>
+          <div><h2>Bring the tickets. Leave with a clearer role.</h2><a className="btn primary" href="/contact">Map the programmer role</a></div>
         </section>
       </main>
       <Footer />

@@ -43,20 +43,20 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <p className="lead">{post.excerpt}</p>
             <div className="card">
               <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
+              <p>Start with a low-risk ticket, a named code reviewer, and written limits on repository and production access.</p>
               <h2>What to prepare</h2>
               <ul>
-                <li>Task examples and sample replies</li>
-                <li>Tool access and permission rules</li>
-                <li>Daily output target</li>
-                <li>Escalation rules for anything sensitive</li>
+                <li>A real ticket with acceptance rules</li>
+                <li>Repository and test-environment access</li>
+                <li>Pull request and release rules</li>
+                <li>A daily handoff with links and blockers</li>
               </ul>
               <h2>Questions to ask</h2>
               <ul>
-                <li>Who screens the worker?</li>
-                <li>Who checks quality?</li>
-                <li>What happens if fit is poor?</li>
-                <li>How are passwords and customer data handled?</li>
+                <li>Who screens the programmer and reviews the code?</li>
+                <li>Who can merge and release?</li>
+                <li>What happens when the assigned programmer changes?</li>
+                <li>How are secrets and production access handled?</li>
               </ul>
             </div>
           </article>
