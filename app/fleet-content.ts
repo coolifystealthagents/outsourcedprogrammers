@@ -2,22 +2,24 @@ export const fleetServices = [
   {
     "slug": "nextjs-development",
     "title": "Next.js Development",
-    "summary": "Next.js Development delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "A Filipino Next.js developer can build routes, repair rendering bugs, and prepare tested pull requests from a defined ticket queue. Your technical owner keeps control of architecture, merges, secrets, and production releases.",
     "tasks": [
-      "next.js development queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Build App Router pages and reusable React components from approved designs",
+      "Fix server and client rendering bugs with written repro steps",
+      "Add metadata, structured data, redirects, and sitemap entries for new routes",
+      "Prepare pull requests with test results, screenshots, and rollback notes"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "A technical owner approves architecture changes, merges, and releases",
+      "Named repository and preview accounts use the least access needed",
+      "Secrets, billing settings, and production data stay outside ordinary tickets",
+      "Acceptance checks name the route, viewport, browser, and expected result"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Share the repository guide, approved designs, and two example pull requests",
+      "Assign one low-risk route or bug with acceptance checks and a named reviewer",
+      "Run the app in a preview environment and review the first pull request together",
+      "Expand the ticket queue only after tests, handoff notes, and review rules hold up"
     ]
   },
   {
