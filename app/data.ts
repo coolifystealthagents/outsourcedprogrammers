@@ -88,6 +88,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'hire-software-developers-philippines-code-review',
+    title: 'Hire software developers in the Philippines with a clear code review plan',
+    excerpt: 'A practical guide to hiring a Philippines-based developer while keeping tickets, access, code review, and release decisions clear.',
+    minutes: 12,
+  },
+  {
     slug: 'outsourced-programmers-planning',
     title: 'How to plan an outsourced programmer role',
     excerpt: 'Turn real tickets, review rules, and access limits into a programmer brief your team can use.',
@@ -120,9 +126,173 @@ export type BlogDetail = {
   roleBrief: readonly { label: string; text: string }[];
   faqs: readonly { question: string; answer: string }[];
   sources: readonly { name: string; url: string; note: string }[];
+  strictNoPricing?: boolean;
+  stats?: readonly { value: string; label: string; note: string }[];
+  chart?: { title: string; methodsNote: string; bars: readonly { label: string; value: number; display: string }[] };
+  graphic?: { title: string; steps: readonly { label: string; note: string }[] };
+  expertQuote?: { quote: string; name: string; role: string; sourceUrl: string };
+  internalLinks?: readonly { label: string; url: string; note: string }[];
+  banners?: readonly { label: string; title: string; text: string; url: string; cta: string }[];
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  'hire-software-developers-philippines-code-review': {
+    strictNoPricing: true,
+    takeaways: [
+      'Start with real tickets that a reviewer can check in one sitting.',
+      'Give each developer a named account and only the access needed for the first task.',
+      'Keep merge and production release approval with a technical owner inside your company.',
+      'Judge the first week by pull requests, test notes, questions, and handoffs, not by chat activity.',
+    ],
+    stats: [
+      { value: '1.7M+', label: 'developers in the Philippines on GitHub', note: 'GitHub Octoverse 2024 reported more than 1.7 million developers.' },
+      { value: '29%', label: 'year-over-year community growth', note: 'GitHub Octoverse 2024 reported 29% growth for the Philippines.' },
+      { value: '82%', label: 'survey respondents who value secure-by-design projects', note: 'GitHub\'s 2024 open source survey asked project users about security.' },
+      { value: '65%', label: 'respondents who value security when contributing', note: 'The same 2024 GitHub survey covered open source contributors.' },
+    ],
+    readinessRows: [
+      { area: 'First ticket', ready: 'One contained change with examples and acceptance rules', notReady: 'A broad request to improve the whole app' },
+      { area: 'Code review', ready: 'A named reviewer can request changes before merge', notReady: 'The new developer reviews and merges alone' },
+      { area: 'Access', ready: 'Named account, limited permissions, and MFA where available', notReady: 'A shared owner login sent through chat' },
+      { area: 'Test proof', ready: 'The ticket names the checks and expected result', notReady: 'The developer decides what good enough means' },
+      { area: 'Release', ready: 'Your technical owner makes the final release decision', notReady: 'A merged branch goes live without a separate check' },
+    ],
+    chart: {
+      title: 'Philippine developer growth and security signals in 2024',
+      methodsNote: 'Method: the 29% bar is GitHub\'s year-over-year growth figure for the Philippine developer community. The 82% and 65% bars come from GitHub\'s separate 2024 open source survey. They describe different groups and should not be added together.',
+      bars: [
+        { label: 'Philippine developer growth', value: 29, display: '29%' },
+        { label: 'Security matters when using a project', value: 82, display: '82%' },
+        { label: 'Security matters when contributing', value: 65, display: '65%' },
+      ],
+    },
+    graphic: {
+      title: 'A safe path from ticket to release',
+      steps: [
+        { label: '1. Ticket', note: 'Your owner writes the outcome and limits.' },
+        { label: '2. Branch', note: 'The developer works in a separate branch.' },
+        { label: '3. Review', note: 'A named reviewer checks code and tests.' },
+        { label: '4. Release', note: 'Your technical owner approves the change.' },
+      ],
+    },
+    expertQuote: {
+      quote: 'GitHub is like the air we breathe. It’s such a natural part of the way we work that sometimes we don’t even notice it. We cannot imagine living without GitHub.',
+      name: 'Ryuzo Yamamoto',
+      role: 'Software Engineer, Souzoh, quoted in GitHub Octoverse 2024',
+      sourceUrl: 'https://github.blog/news-insights/octoverse/octoverse-2024/',
+    },
+    sections: [
+      {
+        id: 'start-with-role',
+        title: 'Define the role before you search',
+        paragraphs: [
+          'Hiring a software developer in the Philippines works best when the role starts with real work. Pull six to ten recent tickets from your backlog and mark which ones a new person could handle without making a product or release decision. That gives you a job shape you can explain and test.',
+          'Do not begin with a giant list of languages and tools. Name the part of the product, the kinds of changes, and the person who will answer technical questions. A front-end maintenance role, for example, needs a very different first week from a developer who will repair data imports.',
+
+        ],
+        bullets: [
+          'List the product area and two examples of weekly work.',
+          'Name the languages and tools the person will actually touch.',
+          'Write down decisions that must stay with your company.',
+          'Choose the reviewer before you interview anyone.',
+        ],
+      },
+      {
+        id: 'write-first-ticket',
+        title: 'Write a first ticket you can check',
+        paragraphs: [
+          'A good first ticket is useful, small, and easy to reverse. It might repair a form validation bug, add a missing test, clean up a setup script, or document a repeatable support fix. Avoid a task that changes authentication, customer records, and several services at once.',
+          'Write the expected result in plain words. Add screenshots, sample input, error logs, or a link to a similar change when they help. Then state which tests must run and who decides whether the result can merge.',
+          'This ticket is part of the interview even when the person has already started. Watch how the developer handles missing context, explains a tradeoff, and responds when the reviewer asks for a change. Clean code matters, but so does a handoff that another person can follow tomorrow.',
+        ],
+      },
+      {
+        id: 'review-before-merge',
+        title: 'Put code review before merge',
+        paragraphs: [
+          'The company needs a technical owner who can read the change and ask for more work. That person checks the approach, tests, edge cases, and any effect on customer data. A project manager can track the ticket, but should not have to approve code they cannot judge.',
+          'GitHub explains that pull request reviews let collaborators comment, approve, or request changes before merge. Use that control for every new developer, whether the person sits in Manila, Cebu, Davao, or beside you. Location does not replace review, and review should not depend on whether someone happens to be online at the same time.',
+          'Ask each pull request to include the ticket link, a short summary, tests run, screenshots when useful, and anything the developer could not verify. Keep the format short enough that people will use it. If the same question appears twice, repair the ticket template instead of blaming the new hire.',
+        ],
+      },
+      {
+        id: 'limit-access',
+        title: 'Open access one step at a time',
+        paragraphs: [
+          'Create a named account for the developer and start with the few tools needed for the first ticket. A repository, issue board, approved docs, and test environment may be enough. Production data, cloud owner rights, customer exports, and company-wide admin tools should stay closed unless the task truly needs them.',
+          'NIST\'s Secure Software Development Framework tells organizations to protect software from unauthorized access and tampering. CISA\'s secure-by-design guidance also asks software makers to own customer security outcomes. For a small hiring team, separate accounts, limited permissions, review rules, and a written offboarding check are practical starting points.',
+          'The Philippines Data Privacy Act also matters when the work touches personal information. Tell the developer which data may be used in testing and which data must never leave an approved system. Use masked or made-up records in the test environment whenever the real records are not needed.',
+        ],
+        bullets: [
+          'Use a separate account for each person.',
+          'Turn on multi-factor authentication where the tool supports it.',
+          'Keep secrets in the approved secrets manager, not in tickets.',
+          'Record who can add access and who removes it.',
+          'Review access when the role changes or ends.',
+        ],
+      },
+      {
+        id: 'plan-overlap',
+        title: 'Plan the daily overlap around decisions',
+        paragraphs: [
+          'Philippine teams can work with many schedules, but more meetings do not fix a weak brief. Pick a short overlap window for blockers, product questions, and review. Let focused coding and testing happen outside that window when the ticket is clear.',
+          'The daily note should name the active ticket, branch or pull request, completed checks, blocker, and next action. A message that only says work is in progress tells the reviewer almost nothing. Links and test results make the update useful even after people log off.',
+
+        ],
+      },
+      {
+        id: 'read-first-week',
+        title: 'Read the first week through evidence',
+        paragraphs: [
+          'By the end of the first week, you should have more than a feeling about the hire. You should have tickets, pull requests, review comments, test notes, and a list of setup gaps. Read those records together with the developer and the reviewer.',
+          'Look for repeated cleanup. One missed detail may come from a weak ticket, while the same missed detail across several changes may point to a skill or care gap. Fix the brief when the company left something unclear, and slow down the task load when the developer needs more review.',
+          'Do not reward speed by itself. A fast change that hides a failing test or skips a question can cost the team more time later. A slower first ticket with clear notes may be a better sign if the person learns quickly and the next change is cleaner.',
+        ],
+      },
+      {
+        id: 'use-market-data',
+        title: 'Use market data without turning it into proof',
+        paragraphs: [
+          'GitHub\'s 2024 open source survey found that 82% of respondents considered secure-by-design practices important when choosing a project, while 65% cared about them when contributing. The report also said 73% used AI tools for coding or documentation. These are broad GitHub survey findings, not a score for Filipino applicants.',
+          'Use the figures to shape better interview questions. Ask how a candidate checks generated code, keeps secrets out of prompts, and proves that a change works. Then test the answer with one contained ticket rather than accepting a polished claim.',
+
+        ],
+      },
+    ],
+    roleBrief: [
+      { label: 'Role', text: 'Philippines-based software developer for contained product fixes, tests, and maintenance work.' },
+      { label: 'First work', text: 'Complete one approved low-risk ticket in a separate branch using the written acceptance rules.' },
+      { label: 'Pull request', text: 'Include the ticket, summary, tests run, screenshots when useful, and any check that remains open.' },
+      { label: 'Decision limits', text: 'Do not merge, release, change production data, or change customer-facing behavior without written approval.' },
+      { label: 'Review owner', text: 'The company technical owner reviews code, requests changes, and makes the release decision.' },
+      { label: 'Daily handoff', text: 'Send the ticket, branch or pull request, checks completed, blocker, and next action.' },
+    ],
+    internalLinks: [
+      { label: 'Development operations support', url: '/services/operations-support', note: 'See the service lane for backlog fixes and careful handoffs.' },
+      { label: 'QA reporting and release checks', url: '/services/reporting-and-qa', note: 'Plan test notes, bug logs, and release checks.' },
+      { label: 'Plan an outsourced programmer role', url: '/blog/outsourced-programmers-planning', note: 'Turn backlog examples into a usable role brief.' },
+      { label: 'First-week onboarding checklist', url: '/blog/outsourced-programmers-onboarding-checklist', note: 'Prepare access, setup, the first ticket, and the week-one review.' },
+    ],
+    banners: [
+      { label: 'Plan the work', title: 'Bring one real ticket to the hiring call', text: 'A real example makes the role, review needs, and access limits easier to see.', url: '/contact', cta: 'Share the first ticket' },
+      { label: 'Keep releases clear', title: 'Add a named reviewer before the new hire starts', text: 'The reviewer should have enough time and context to check the first pull requests.', url: '/services/operations-support', cta: 'See the support lane' },
+      { label: 'Check the first week', title: 'Use the onboarding checklist after day five', text: 'Review the tickets, test notes, access record, and open questions before adding harder work.', url: '/blog/outsourced-programmers-onboarding-checklist', cta: 'Open the checklist' },
+    ],
+    faqs: [
+      { question: 'Where in the Philippines should I hire a software developer?', answer: 'Choose the person and work setup before choosing a city. Manila, Cebu, Davao, and other areas have developers, but your decision should rest on skill, communication, availability, internet backup, and fit with the actual role.' },
+      { question: 'Should a new developer receive production access?', answer: 'Not by default. Start with the repository, issue board, docs, and test tools needed for the first ticket. Add more access only when the work requires it and a company owner approves it.' },
+      { question: 'What should I ask in the first technical interview?', answer: 'Use one of your own low-risk tickets. Ask the candidate to explain questions, test steps, risks, and the pull request handoff. This is more useful than a long quiz about tools the role will not use.' },
+      { question: 'How should we handle time-zone overlap?', answer: 'Set a short daily window for blockers, decisions, and review. Use written ticket and pull request notes for the rest of the handoff so the team does not need meetings all day.' },
+      { question: 'Can a Philippines-based developer approve a release?', answer: 'The developer can prepare the change and test evidence. Keep final release approval with a named technical owner in your company until your governance rules clearly assign that responsibility.' },
+    ],
+    sources: [
+      { name: '1. GitHub Octoverse 2024', url: 'https://github.blog/news-insights/octoverse/octoverse-2024/', note: 'Published October 2024. Reports more than 1.7 million developers in the Philippines, 29% year-over-year growth, and the quoted 2024 open source survey findings.' },
+      { name: '2. NIST Secure Software Development Framework', url: 'https://csrc.nist.gov/Projects/ssdf', note: 'NIST SP 800-218, version 1.1 published February 2022. Guidance for protecting software and reducing vulnerabilities during development.' },
+      { name: '3. CISA Secure-by-Design', url: 'https://www.cisa.gov/resources-tools/resources/secure-by-design', note: 'Revised October 25, 2023. Guidance on customer security outcomes, transparency, and leadership responsibility.' },
+      { name: '4. GitHub Docs: about pull request reviews', url: 'https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews', note: 'First-party documentation for comments, approvals, and requested changes before merge.' },
+      { name: '5. Official Gazette archive: Republic Act No. 10173', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'The Philippine Data Privacy Act of 2012, including duties around personal information and security safeguards.' },
+    ],
+  },
   'outsourced-programmers-planning': {
     takeaways: [
       'Plan the first month around real tickets, not a long list of technologies.',

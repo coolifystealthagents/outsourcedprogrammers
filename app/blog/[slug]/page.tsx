@@ -144,7 +144,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   return (
     <>
-      <Header />
+      <Header hidePricing={detail.strictNoPricing} />
       <main className="section blog-detail">
         <JsonLd data={articleSchema} />
         <article className="container article-shell">
@@ -157,6 +157,18 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <h2 id="takeaways-title">What to get right before you hire</h2>
             <ul>{detail.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>
           </aside>
+
+          {detail.stats && (
+            <section className="article-module" id="market-signals">
+              <p className="module-label">Dated evidence</p>
+              <h2>What the 2024 data says</h2>
+              <div className="stat-grid">
+                {detail.stats.map((stat) => <div className="stat-card" key={stat.label}><strong>{stat.value}</strong><h3>{stat.label}</h3><p>{stat.note}</p></div>)}
+              </div>
+            </section>
+          )}
+
+          {detail.banners?.[0] && <aside className="article-banner" data-banner-slot="1"><p className="module-label">{detail.banners[0].label}</p><h2>{detail.banners[0].title}</h2><p>{detail.banners[0].text}</p><a href={detail.banners[0].url}>{detail.banners[0].cta}</a></aside>}
 
           <section className="article-module" id="readiness-check">
             <p className="module-label">Readiness check</p>
@@ -174,6 +186,23 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </div>
           </section>
 
+          {detail.chart && (
+            <section className="visual-panel" id="evidence-chart">
+              <p className="module-label">Labeled chart</p>
+              <h2>{detail.chart.title}</h2>
+              <div className="visual-scroll" tabIndex={0} aria-label={`${detail.chart.title}. Swipe or use arrow keys to see the full chart.`}>
+                <svg className="evidence-chart" viewBox="0 0 820 330" role="img" aria-labelledby="chart-title chart-desc">
+                  <title id="chart-title">{detail.chart.title}</title>
+                  <desc id="chart-desc">Three horizontal bars labeled with their reported percentage values.</desc>
+                  {detail.chart.bars.map((bar, index) => { const y=35+index*92; return <g key={bar.label}><text x="20" y={y} className="chart-label">{bar.label}</text><rect x="20" y={y+18} width="720" height="30" rx="4" className="chart-track"/><rect x="20" y={y+18} width={720*bar.value/100} height="30" rx="4" className="chart-fill"/><text x="755" y={y+41} className="chart-value">{bar.display}</text></g>; })}
+                </svg>
+              </div>
+              <p className="methods-note">{detail.chart.methodsNote}</p>
+            </section>
+          )}
+
+          {detail.banners?.[1] && <aside className="article-banner" data-banner-slot="2"><p className="module-label">{detail.banners[1].label}</p><h2>{detail.banners[1].title}</h2><p>{detail.banners[1].text}</p><a href={detail.banners[1].url}>{detail.banners[1].cta}</a></aside>}
+
           {detail.sections.map((section) => (
             <section className="article-copy" id={section.id} key={section.id}>
               <h2>{section.title}</h2>
@@ -181,6 +210,23 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               {section.bullets && <ul>{section.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
             </section>
           ))}
+
+          {detail.graphic && (
+            <section className="visual-panel" id="review-path">
+              <p className="module-label">Process graphic</p>
+              <h2>{detail.graphic.title}</h2>
+              <div className="visual-scroll" tabIndex={0} aria-label={`${detail.graphic.title}. Swipe or use arrow keys to see the full graphic.`}>
+                <svg className="process-graphic" viewBox="0 0 920 230" role="img" aria-labelledby="graphic-title graphic-desc">
+                  <title id="graphic-title">{detail.graphic.title}</title>
+                  <desc id="graphic-desc">Four connected steps show a ticket moving through a branch and code review before release.</desc>
+                  {detail.graphic.steps.map((step,index)=>{const x=20+index*225;return <g key={step.label}><rect x={x} y="35" width="190" height="140" rx="8" className="graphic-card"/><text x={x+18} y="72" className="graphic-title">{step.label}</text><foreignObject x={x+18} y="88" width="154" height="65"><p className="graphic-note">{step.note}</p></foreignObject>{index<detail.graphic!.steps.length-1&&<path d={`M ${x+190} 105 L ${x+220} 105`} className="graphic-arrow"/>}</g>})}
+                </svg>
+              </div>
+              <p className="methods-note">The company owner sets the ticket and release rules. The developer prepares the branch and evidence, while the named reviewer checks the work before approval.</p>
+            </section>
+          )}
+
+          {detail.expertQuote && <figure className="quote-panel"><blockquote>"{detail.expertQuote.quote}"</blockquote><figcaption>{detail.expertQuote.name}, {detail.expertQuote.role}. <a href={detail.expertQuote.sourceUrl}>Read the source</a>.</figcaption></figure>}
 
           <section className="brief-panel" id="role-brief">
             <p className="module-label">Copy-ready brief</p>
@@ -191,6 +237,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               ))}
             </div>
           </section>
+
+          {detail.internalLinks && <section className="article-module related-panel"><p className="module-label">Next steps</p><h2>Keep planning the role</h2><div className="related-grid">{detail.internalLinks.map((link)=><a href={link.url} key={link.url}><strong>{link.label}</strong><span>{link.note}</span></a>)}</div></section>}
+
+          {detail.banners?.[2] && <aside className="article-banner" data-banner-slot="3"><p className="module-label">{detail.banners[2].label}</p><h2>{detail.banners[2].title}</h2><p>{detail.banners[2].text}</p><a href={detail.banners[2].url}>{detail.banners[2].cta}</a></aside>}
 
           <section className="article-copy" id="faq">
             <p className="module-label">Buyer questions</p>
@@ -215,7 +265,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         </article>
         <CTA />
       </main>
-      <Footer />
+      <Footer hidePricing={detail.strictNoPricing} />
     </>
   );
 }
