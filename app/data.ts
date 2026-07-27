@@ -98,26 +98,7 @@ export const blogPosts = [
     title: 'How to plan an outsourced programmer role',
     excerpt: 'Turn real tickets, review rules, and access limits into a programmer brief your team can use.',
     minutes: 10,
-  },
-  {
-    slug: 'outsourced-programmers-tasks-to-outsource',
-    title: 'Which programming tasks should you outsource first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
-    minutes: 7,
-  },
-  {
-    slug: 'outsourced-programmers-provider-questions',
-    title: 'Questions for an outsourced programming provider',
-    excerpt: 'Use these questions before you sign with a provider or freelancer.',
-    minutes: 8,
-  },
-  {
-    slug: 'outsourced-programmers-onboarding-checklist',
-    title: 'First-week onboarding checklist for outsourced programmers',
-    excerpt: 'Set up repository access, review rules, test work, and daily handoffs without giving away production control.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export type BlogDetail = {
   takeaways: readonly string[];
@@ -271,12 +252,12 @@ export const blogDetails: Record<string, BlogDetail> = {
       { label: 'Development operations support', url: '/services/operations-support', note: 'See the service lane for backlog fixes and careful handoffs.' },
       { label: 'QA reporting and release checks', url: '/services/reporting-and-qa', note: 'Plan test notes, bug logs, and release checks.' },
       { label: 'Plan an outsourced programmer role', url: '/blog/outsourced-programmers-planning', note: 'Turn backlog examples into a usable role brief.' },
-      { label: 'First-week onboarding checklist', url: '/blog/outsourced-programmers-onboarding-checklist', note: 'Prepare access, setup, the first ticket, and the week-one review.' },
+      { label: 'First-week onboarding checklist', url: '/blog', note: 'Prepare access, setup, the first ticket, and the week-one review.' },
     ],
     banners: [
       { label: 'Plan the work', title: 'Bring one real ticket to the hiring call', text: 'A real example makes the role, review needs, and access limits easier to see.', url: '/contact', cta: 'Share the first ticket' },
       { label: 'Keep releases clear', title: 'Add a named reviewer before the new hire starts', text: 'The reviewer should have enough time and context to check the first pull requests.', url: '/services/operations-support', cta: 'See the support lane' },
-      { label: 'Check the first week', title: 'Use the onboarding checklist after day five', text: 'Review the tickets, test notes, access record, and open questions before adding harder work.', url: '/blog/outsourced-programmers-onboarding-checklist', cta: 'Open the checklist' },
+      { label: 'Check the first week', title: 'Use the onboarding checklist after day five', text: 'Review the tickets, test notes, access record, and open questions before adding harder work.', url: '/blog', cta: 'Open the checklist' },
     ],
     faqs: [
       { question: 'Where in the Philippines should I hire a software developer?', answer: 'Choose the person and work setup before choosing a city. Manila, Cebu, Davao, and other areas have developers, but your decision should rest on skill, communication, availability, internet backup, and fit with the actual role.' },
