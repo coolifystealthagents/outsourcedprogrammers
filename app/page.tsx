@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="studio" data-design="sprint-desk-2026-07">
+      <main className="studio" data-design="sprint-desk-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
         <JsonLd data={schema} />
 
         <section className="hero">
@@ -42,7 +42,7 @@ export default function Home() {
 
             <div className="hero-visual">
               <div className="photo-frame">
-                <img src="/programmer-workbench.jpg" alt="Programmer working at a desktop code editor" />
+                <img src="/illustrations/getillustrations/inkdex-saas/code-control.webp" alt="Illustrated programmer working in a controlled software development environment" />
                 <div className="photo-label"><span className="live-dot" /> Repository-ready support</div>
               </div>
               <div className="code-card" aria-label="Example pull request review plan">
@@ -72,9 +72,9 @@ export default function Home() {
               <h3>Clean up the release backlog</h3>
               <p>Pick a small set of bugs and maintenance tasks with acceptance rules already attached.</p>
               <div className="ticket-list">
-                <div><span className="check">✓</span><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
-                <div><span className="check">✓</span><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
-                <div><span className="empty" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/ready-for-review.svg" alt="" aria-hidden="true" /><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/dependency-update.svg" alt="" aria-hidden="true" /><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/setup-documentation.svg" alt="" aria-hidden="true" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
               </div>
             </article>
             <aside className="control-card">
@@ -83,6 +83,7 @@ export default function Home() {
               <span>Production access stays with your team unless you approve a different rule in writing.</span>
             </aside>
             <aside className="control-card cobalt">
+              <img className="supporting-illustration" src="/illustrations/getillustrations/drawink-startup/sprint-planning.svg" alt="Illustrated sprint task planning checklist" />
               <p>Daily handoff</p>
               <strong>One note. Links included.</strong>
               <span>What changed, what is blocked, what needs review, and what comes next.</span>
