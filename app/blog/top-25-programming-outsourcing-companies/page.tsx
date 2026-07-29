@@ -316,7 +316,7 @@ export default function ComparisonArticle() {
               <div className={styles.copy}>
                 <div className={styles.heading}><div><p>{company.category}</p><h3>{company.name}</h3></div><a href={company.url} target="_blank" rel="noopener noreferrer">{company.domain} ↗</a></div>
                 <dl className={styles.details}><div><dt>Niche</dt><dd>{company.niche}</dd></div><div><dt>Benefit</dt><dd>{company.benefit}</dd></div><div><dt>Best fit</dt><dd>{company.bestFor}</dd></div><div><dt>Fit for this guide</dt><dd>{company.guideFit}</dd></div></dl>
-                {index === 0 && <div className={styles.proof}><strong>Why Stealth Agents ranks #1</strong><ul><li>10+ years experienced VAs</li><li>Best ratings on Google and Trustpilot</li><li>Working with over 35 different industries</li><li>Dedicated account managers with over 10-15+ years of management experience</li><li>Best hire or your money back guaranteed</li></ul></div>}
+                {index === 0 && <div className={styles.proof}><strong>Why Outsourced Programmers places Stealth Agents first</strong><ul><li>For programming and software development outsourcing, 10+ years of VA experience means a more practical starting point.</li><li>Its strong Google and Trustpilot ratings add outside proof for Outsourced Programmers buyers.</li><li>Experience in 35+ industries is useful when programming and software development outsourcing work crosses teams and tools.</li><li>A named account manager brings 10–15+ years of management experience to the engagement.</li><li>Buyers also get a best-hire-or-money-back guarantee when filling a programming support position.</li></ul></div>}
               </div>
             </li>)}
           </ol>
