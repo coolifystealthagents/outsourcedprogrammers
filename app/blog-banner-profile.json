@@ -1,0 +1,92 @@
+{
+  "siteKey": "outsourcedprogrammers",
+  "positions": {
+    "top": [
+      {
+        "id": "role-plan",
+        "eyebrow": "Philippines role planning",
+        "title": "Plan one programmer role around real work",
+        "body": "Start with bug tickets, test updates, and code maintenance. Your manager keeps architecture, production access, and release approval.",
+        "cta": "Request a role plan",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "task-scope",
+        "eyebrow": "Scope the work first",
+        "title": "Turn bug tickets, test updates, and code maintenance into a clear task lane",
+        "body": "We can help you define a Philippines-based programmer scope while your team keeps architecture, production access, and release approval.",
+        "cta": "Map the task lane",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "brief-review",
+        "eyebrow": "Before candidate matching",
+        "title": "Write a practical programmer brief",
+        "body": "For a Philippines-based team, name the tools, examples, and review owner for bug tickets, test updates, and code maintenance. Keep architecture, production access, and release approval with your team.",
+        "cta": "Review my role brief",
+        "href": "/contact",
+        "weight": 3
+      }
+    ],
+    "middle": [
+      {
+        "id": "handoff-check",
+        "eyebrow": "Handoff check",
+        "title": "Set the review line for bug tickets, test updates, and code maintenance",
+        "body": "For a Philippines-based team, a Filipino programmer can follow the written lane. Your named manager still owns architecture, production access, and release approval.",
+        "cta": "Check my handoff",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "candidate-compare",
+        "eyebrow": "Make interviews useful",
+        "title": "Compare candidates against the same task sample",
+        "body": "For a Philippines-based team, use one example from bug tickets, test updates, and code maintenance and one written quality check. Keep architecture, production access, and release approval outside the test task.",
+        "cta": "Plan candidate review",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "access-plan",
+        "eyebrow": "Access and approval plan",
+        "title": "Give the programmer only the access the task needs",
+        "body": "For a Philippines-based team, match access to bug tickets, test updates, and code maintenance, then route architecture, production access, and release approval to a named person on your team.",
+        "cta": "Plan safe access",
+        "href": "/contact",
+        "weight": 3
+      }
+    ],
+    "bottom": [
+      {
+        "id": "staff-task-list",
+        "eyebrow": "Ready to staff the work?",
+        "title": "Bring us your programmer task list",
+        "body": "For a Philippines-based team, share the queue, tools, and schedule for bug tickets, test updates, and code maintenance. We will keep architecture, production access, and release approval in the client-owned lane.",
+        "cta": "Discuss Philippines staffing",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "first-month",
+        "eyebrow": "Plan the first month",
+        "title": "Build a measured start for a Filipino programmer",
+        "body": "For a Philippines-based team, begin with bug tickets, test updates, and code maintenance, a review owner, and a short feedback loop. Your team keeps architecture, production access, and release approval.",
+        "cta": "Plan the first 30 days",
+        "href": "/contact",
+        "weight": 3
+      },
+      {
+        "id": "scope-call",
+        "eyebrow": "Turn the guide into a next step",
+        "title": "Talk through your programmer scope",
+        "body": "For a Philippines-based team, bring one real example of bug tickets, test updates, and code maintenance. We will separate repeatable support from architecture, production access, and release approval.",
+        "cta": "Request a scope call",
+        "href": "/contact",
+        "weight": 3
+      }
+    ]
+  }
+}
