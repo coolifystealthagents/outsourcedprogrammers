@@ -1,0 +1,23 @@
+{
+  "site": "OutsourcedProgrammers.com",
+  "siteLabel": "Outsourced Programmers",
+  "domain": "outsourcedprogrammers.com",
+  "niche": "outsourced software programmers",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "framework": "Next.js 15",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "schedulerManifest": "ops/recurring-routines.json",
+  "humanizer": {
+    "source": "https://github.com/blader/humanizer",
+    "skill": "humanizer",
+    "minimumVersion": "2.9.1"
+  },
+  "thumbnailSystem": "app/blog-banner-profile.json and app/blog-banners.tsx",
+  "allowedRoutines": [
+    "daily-blog-publishing",
+    "daily-research-publishing"
+  ],
+  "completion": "validated commit pushed to main; record SHA, branch, files, UTC push time, and validation outcome",
+  "coolify": "excluded from both routines"
+}

@@ -1,0 +1,59 @@
+{
+  "version": "2.4",
+  "timezone": "UTC",
+  "secretInjection": {
+    "github": "protected",
+    "gemini": "protected",
+    "coolify": "not_required"
+  },
+  "routines": [
+    {
+      "id": "daily-blog-publishing",
+      "title": "Daily Blog Publishing",
+      "cron": "0 9 * * 1-5",
+      "timezone": "UTC",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "medium",
+      "targetMin": 20,
+      "targetMax": 25,
+      "contentDirectory": "app/data.ts (existing blog data layer)",
+      "roles": ["Content Lead"],
+      "terminalAction": "validated_git_push",
+      "runbook": [
+        "Choose a fresh inclusive random target from 20 through 25.",
+        "Research nonduplicative outsourced-programmer topics and create the required internal brief.",
+        "Draft, validate, humanize with the official blader/humanizer skill, and revalidate each article.",
+        "Generate and validate the approved deterministic thumbnail and metadata.",
+        "Validate links, schema, and the Next.js build.",
+        "Fetch and rebase main, stage only intended files, commit, push, and confirm the remote SHA.",
+        "Record the target, SHA, branch, files, push result, and validation outcome, then stop."
+      ],
+      "prohibitedActions": ["coolify_api", "coolify_deploy", "deployment_monitoring", "live_site_verification", "gsc"]
+    },
+    {
+      "id": "daily-research-publishing",
+      "title": "Daily Research Publishing",
+      "cron": "0 6 * * *",
+      "timezone": "UTC",
+      "concurrency": "always_enqueue",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "targetMin": 10,
+      "targetMax": 15,
+      "contentDirectory": "app/fleet-content.ts (existing research data layer)",
+      "roles": ["CEO/orchestrator", "Content Lead"],
+      "terminalAction": "validated_git_push",
+      "runbook": [
+        "Choose a fresh inclusive random target from 10 through 15.",
+        "Select a planned outsourced-programmer research cluster, gather at least 10 real sources, and create the required internal brief.",
+        "Draft, validate, humanize with the official blader/humanizer skill, and revalidate each article.",
+        "Generate and validate the approved deterministic thumbnail and metadata.",
+        "Validate links, schema, source traceability, and the Next.js build.",
+        "Fetch and rebase main, stage only intended files, commit, push, and confirm the remote SHA.",
+        "Record the target, SHA, branch, files, push result, and validation outcome, then stop."
+      ],
+      "prohibitedActions": ["coolify_api", "coolify_deploy", "deployment_monitoring", "live_site_verification", "gsc"]
+    }
+  ]
+}
