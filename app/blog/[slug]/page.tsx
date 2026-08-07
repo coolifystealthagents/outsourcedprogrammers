@@ -38,29 +38,18 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     return (
       <>
         <Header />
-        <main className="section">
-          <article className="container" style={{ maxWidth: 880 }}>
-            <p className="eyebrow">{site.brand} guide</p>
+        <main className="section blog-detail">
+          <article className="container article-shell">
+            <img src="/programmer-workbench.jpg" alt="Programmer reviewing a scoped work plan" style={{ width: '100%', maxHeight: 360, objectFit: 'cover', marginBottom: 32 }} />
+            <p className="eyebrow">{site.brand} guide · {post.minutes} minute read</p>
             <h1>{post.title}</h1>
-            <p className="lead">{post.excerpt}</p>
-            <div className="card">
-              <h2>The short answer</h2>
-              <p>Start with a low-risk ticket, a named code reviewer, and written limits on repository and production access.</p>
-              <h2>What to prepare</h2>
-              <ul>
-                <li>A real ticket with acceptance rules</li>
-                <li>Repository and test-environment access</li>
-                <li>Pull request and release rules</li>
-                <li>A daily handoff with links and blockers</li>
-              </ul>
-              <h2>Questions to ask</h2>
-              <ul>
-                <li>Who screens the programmer and reviews the code?</li>
-                <li>Who can merge and release?</li>
-                <li>What happens when the assigned programmer changes?</li>
-                <li>How are secrets and production access handled?</li>
-              </ul>
-            </div>
+            <p className="article-lead">{post.excerpt}</p>
+            <aside className="takeaway-panel"><p className="module-label">Quick read</p><h2>The practical answer</h2><ul><li>Start with one contained, reviewable ticket.</li><li>Use named accounts and least-privilege access.</li><li>Keep merge and release approval with your technical owner.</li></ul></aside>
+            <section className="article-copy"><h2>Prepare the work before the handoff</h2><p>{post.title} works best when the outcome, examples, test command, reviewer, and escalation path are written before the first task begins. A narrow brief gives the programmer useful context without granting unnecessary access.</p><p>Use a separate branch and require a written pull-request summary. The reviewer should be able to reproduce the result, see what changed, and decide whether the work is safe to merge.</p></section>
+            <section className="article-module"><p className="module-label">Checklist</p><h2>What to prepare</h2><ul><li>A real ticket with acceptance rules</li><li>Repository and test-environment access</li><li>Pull request and release rules</li><li>A daily handoff with links and blockers</li></ul></section>
+            <section className="article-copy"><h2>Questions to ask</h2><ul><li>Who screens the programmer and reviews the code?</li><li>Who can merge and release?</li><li>What happens when the assigned programmer changes?</li><li>How are secrets and production access handled?</li></ul></section>
+            <section className="article-module related-panel"><p className="module-label">Next steps</p><h2>Keep the operating path clear</h2><div className="related-grid"><a href="/services/operations-support"><strong>Development operations support</strong><span>Plan scoped work, handoffs, and review controls.</span></a><a href="/blog/outsourced-programmers-planning"><strong>Plan an outsourced programmer role</strong><span>Turn recurring work into a usable brief.</span></a><a href="/contact"><strong>Talk through the first ticket</strong><span>Bring one real task to the planning conversation.</span></a></div></section>
+            <section className="source-panel"><p className="module-label">Sources</p><h2>Planning references</h2><ol><li><a href="https://csrc.nist.gov/Projects/ssdf">NIST Secure Software Development Framework</a><span>Guidance for protecting software and reducing vulnerabilities.</span></li><li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews">GitHub pull request reviews</a><span>First-party documentation for review, approval, and requested changes.</span></li></ol></section>
           </article>
           <CTA />
         </main>
