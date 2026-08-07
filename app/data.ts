@@ -98,7 +98,28 @@ export const blogPosts = [
     title: 'How to plan an outsourced programmer role',
     excerpt: 'Turn real tickets, review rules, and access limits into a programmer brief your team can use.',
     minutes: 10,
-  },] as const;
+  },
+  { slug: "outsource-nextjs-maintenance-safely", title: "How to outsource Next.js maintenance safely", excerpt: "A practical handoff for small Next.js fixes, review, testing, and release approval.", minutes: 9 },
+  { slug: "outsourced-react-developer-first-week", title: "Plan the first week with an outsourced React developer", excerpt: "Use a small ticket, a working setup, and a named reviewer to make the first week useful.", minutes: 8 },
+  { slug: "outsource-nodejs-api-bug-fixes", title: "Outsource Node.js API bug fixes with clear controls", excerpt: "Set repro steps, test evidence, and access limits before an API maintenance handoff.", minutes: 9 },
+  { slug: "hire-qa-automation-support", title: "When to hire outsourced QA automation support", excerpt: "Decide which test work is ready for help and which release decisions stay with your team.", minutes: 8 },
+  { slug: "outsource-database-cleanup", title: "A safer plan for outsourcing database cleanup", excerpt: "Separate reversible cleanup work from high-risk data decisions with a practical review path.", minutes: 10 },
+  { slug: "outsourced-programmer-technical-handoff", title: "Build a technical handoff for outsourced programmers", excerpt: "Give a programmer the context, commands, examples, and escalation rules needed to start well.", minutes: 7 },
+  { slug: "outsource-legacy-code-maintenance", title: "How to outsource legacy code maintenance", excerpt: "Start with observability, a contained ticket, and a reviewer who understands the risk.", minutes: 10 },
+  { slug: "philippines-developer-interview-work-sample", title: "Design a fair Philippines developer work sample", excerpt: "Test the real work without asking candidates to build an unpaid product.", minutes: 8 },
+  { slug: "outsourced-programmer-access-checklist", title: "An access checklist for outsourced programmers", excerpt: "Use named accounts, least privilege, and an offboarding owner before sharing tools.", minutes: 7 },
+  { slug: "outsource-frontend-performance-audit", title: "Outsource a frontend performance audit without losing control", excerpt: "Define the page, measurements, evidence, and change approval before the audit begins.", minutes: 9 },
+  { slug: "outsourced-developer-daily-update-template", title: "A daily update template for outsourced developers", excerpt: "Ask for the ticket, change, tests, blocker, and next step in one readable note.", minutes: 6 },
+  { slug: "outsource-technical-documentation", title: "When to outsource technical documentation", excerpt: "Turn setup notes and repeated answers into documentation a technical owner can approve.", minutes: 8 },
+  { slug: "outsourced-programmer-code-review-rules", title: "Set code review rules before outsourcing programming work", excerpt: "Make review ownership, evidence, and merge authority clear before the first pull request.", minutes: 8 },
+  { slug: "outsource-web-accessibility-testing", title: "Outsource web accessibility testing with useful evidence", excerpt: "Scope keyboard, screen reader, and markup checks so findings become actionable tickets.", minutes: 9 },
+  { slug: "outsourced-programmer-incident-support", title: "Use outsourced programmers during incident support carefully", excerpt: "Define the narrow support lane while your incident owner keeps command and communication.", minutes: 8 },
+  { slug: "outsource-dependency-updates", title: "A controlled way to outsource dependency updates", excerpt: "Separate routine updates from risky upgrades with tests, changelogs, and rollback notes.", minutes: 7 },
+  { slug: "outsourced-developer-remote-collaboration", title: "Improve remote collaboration with outsourced developers", excerpt: "Replace meeting volume with clear tickets, written decisions, and review windows.", minutes: 7 },
+  { slug: "outsource-saas-release-checklist", title: "Outsource SaaS release checklist work", excerpt: "Let support staff prepare release evidence while product and engineering retain approval.", minutes: 8 },
+  { slug: "outsourced-programmer-offboarding", title: "Offboard an outsourced programmer without loose ends", excerpt: "Close access, capture handoff notes, and check open branches before the role ends.", minutes: 7 },
+  { slug: "outsource-code-review-documentation", title: "Document outsourced code review decisions", excerpt: "Keep the reasoning behind changes visible so the next reviewer can work from context.", minutes: 7 },
+] as const;
 
 export type BlogDetail = {
   takeaways: readonly string[];
