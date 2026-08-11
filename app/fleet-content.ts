@@ -271,12 +271,12 @@ const scheduledResearchBatch: ReadonlyArray<ResearchPost> = scheduledResearchPos
   body:[`${title} is easiest to review when the work is bounded, evidence-led, and assigned to a named owner. OutsourcedProgrammers.com recommends a clear ticket before implementation begins.`,`Start with the outcome and baseline. Record the relevant route, system, assumptions, date, inputs, and expected result so another reviewer can reproduce the check.`,`Break the lane into a small first assignment. Link the brief, implementation, test evidence, screenshots or logs, and unresolved questions in one durable review record.`,`Use explicit acceptance criteria. A useful record distinguishes what passed, what was not tested, and which decision still belongs to the company owner.`,`Protect boundaries throughout the handoff. Keep production approval, secrets, customer data, commercial commitments, and policy decisions with the company owner.`,`Apply least privilege, named accounts, MFA where available, masked test data, and a documented removal path when access is no longer required.`,`Measure outcomes rather than activity: completed checks, review turnaround, escaped defects, reopened work, documentation quality, and blocker age.`,`Headline finding: authoritative guidance supports traceable evidence, explicit acceptance criteria, and risk-based review for ${topic.toLowerCase()}.`,'Consolidated takeaway: outsource a defined preparation and validation lane while retaining final merge, release, and exception authority.','This research is a planning aid, not legal, tax, employment, privacy, or security advice. Validate it against your business facts.'],
   sources: scheduledSourceSet, related: scheduledResearchPosts.filter((_, i) => i !== index).slice(index % 7, index % 7 + 3).map(([relatedSlug]) => relatedSlug)
 }));
-const currentResearchTopics: ReadonlyArray<readonly [string,string,string]> = [
+const currentResearchTopics: ReadonlyArray<readonly [string,string,string,string?]> = [
   ['outsourced-requirements-change-log','A change log for outsourced software requirements','Requirements changes'],
   ['remote-programmer-staging-data-review','Reviewing staging data for a remote programming team','Staging data'],
   ['outsourced-frontend-lighthouse-evidence','Making frontend performance evidence reviewable','Performance evidence'],
   ['remote-programmer-incident-severity-matrix','A severity matrix for distributed incident handoffs','Incident severity'],
-  ['outsourced-api-authentication-test-plan','Testing API authentication in an outsourced work lane','API authentication'],
+  ['outsourced-api-authentication-test-plan','Testing API authentication in an outsourced work lane','API authentication','2026-08-10'],
   ['philippines-developer-pull-request-template','A pull-request template for Philippines-based developers','Pull requests'],
   ['outsourced-database-schema-review','Reviewing database schema changes with an outsourced programmer','Schema review'],
   ['remote-programmer-feature-acceptance-record','Recording feature acceptance for remote programmers','Feature acceptance'],
@@ -299,8 +299,8 @@ const currentResearchSourceSet = [
   ['Microsoft SDL','https://www.microsoft.com/en-us/securityengineering/sdl/practices'],
   ['OpenTelemetry','https://opentelemetry.io/docs/']
 ] as const;
-const currentResearchBatch: ReadonlyArray<ResearchPost> = currentResearchTopics.map(([slug,title,topic], index) => ({
-  slug, title, topic, published:'2026-08-10',
+const currentResearchBatch: ReadonlyArray<ResearchPost> = currentResearchTopics.map(([slug,title,topic,published], index) => ({
+  slug, title, topic, published:published || '2026-08-10',
   excerpt:'Evidence-led research on ' + topic.toLowerCase() + ' for distributed outsourced-programmer teams.',
   body:[
     title + ' is easiest to manage when the work has a bounded scope, a named owner, and evidence another reviewer can reproduce.',
