@@ -41,7 +41,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <main className="section blog-detail">
           <article className="container article-shell">
             <img src="/programmer-workbench.jpg" alt="Programmer reviewing a scoped work plan" style={{ width: '100%', maxHeight: 360, objectFit: 'cover', marginBottom: 32 }} />
-            <p className="eyebrow">{site.brand} guide · {post.minutes} minute read</p>
+            <p className="eyebrow">{site.brand} guide · {post.minutes} minute read · <time dateTime={post.published}>Published {post.published}</time></p>
             <h1>{post.title}</h1>
             <p className="article-lead">{post.excerpt}</p>
             <aside className="takeaway-panel"><p className="module-label">Quick read</p><h2>The practical answer</h2><ul><li>Start with one contained, reviewable ticket.</li><li>Use named accounts and least-privilege access.</li><li>Keep merge and release approval with your technical owner.</li></ul></aside>
@@ -66,6 +66,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         '@id': `${articleUrl}#article`,
         headline: post.title,
         description: post.excerpt,
+        datePublished: post.published,
+        dateModified: post.published,
         url: articleUrl,
         mainEntityOfPage: { '@id': `${articleUrl}#webpage` },
         author: { '@type': 'Organization', name: site.brand, url: siteUrl },
@@ -139,7 +141,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <main className="section blog-detail">
         <JsonLd data={articleSchema} />
         <article className="container article-shell">
-          <p className="eyebrow">Developer staffing guide · {post.minutes} minute read</p>
+          <p className="eyebrow">Developer staffing guide · {post.minutes} minute read · <time dateTime={post.published}>Published {post.published}</time></p>
           <h1>{post.title}</h1>
           <p className="article-lead">{post.excerpt}</p>
 

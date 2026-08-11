@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "34690c1f-aa74-4232-86aa-2a9cfb715220",
+  "priorIssueId": "50516991-894b-4f1f-8450-3858e19e530a",
+  "validationCommands": [
+    "node scripts/validate-aug10-blog.mjs",
+    "npm run build",
+    "git diff --check"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "outsource-nextjs-maintenance-safely",
+      "route": "/blog/outsource-nextjs-maintenance-safely",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-graphql-schema-review",
+      "route": "/blog/outsource-graphql-schema-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-api-rate-limit-testing",
+      "route": "/blog/outsource-api-rate-limit-testing",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-nextjs-metadata-audit",
+      "route": "/blog/outsource-nextjs-metadata-audit",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-react-accessibility-fixes",
+      "route": "/blog/outsource-react-accessibility-fixes",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-database-migration-dry-run",
+      "route": "/blog/outsource-database-migration-dry-run",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-queue-observability",
+      "route": "/blog/outsource-queue-observability",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-cypress-test-maintenance",
+      "route": "/blog/outsource-cypress-test-maintenance",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-frontend-form-validation",
+      "route": "/blog/outsource-frontend-form-validation",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-search-index-maintenance",
+      "route": "/blog/outsource-search-index-maintenance",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-customer-portal-qa",
+      "route": "/blog/outsource-customer-portal-qa",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-auth-session-review",
+      "route": "/blog/outsource-auth-session-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-image-optimization",
+      "route": "/blog/outsource-image-optimization",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-billing-webhook-reconciliation",
+      "route": "/blog/outsource-billing-webhook-reconciliation",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-integration-contract-testing",
+      "route": "/blog/outsource-integration-contract-testing",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-technical-debt-inventory",
+      "route": "/blog/outsource-technical-debt-inventory",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-staging-environment-parity",
+      "route": "/blog/outsource-staging-environment-parity",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-error-boundary-testing",
+      "route": "/blog/outsource-error-boundary-testing",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-marketing-site-seo-maintenance",
+      "route": "/blog/outsource-marketing-site-seo-maintenance",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-code-ownership-handoff",
+      "route": "/blog/outsource-code-ownership-handoff",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-feature-acceptance-testing",
+      "route": "/blog/outsource-feature-acceptance-testing",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "outsource-backlog-cleanup",
+      "route": "/blog/outsource-backlog-cleanup",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "e35db79d122dbe7bf2234431aa6c1064cf6a6245",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}
