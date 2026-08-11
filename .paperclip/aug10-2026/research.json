@@ -11,7 +11,8 @@
   "priorIssueId": "a898b650-6dc5-410e-b80f-ec6c063963bb",
   "validationCommands": [
     "node scripts/validate-aug10-research.mjs",
-    "npm run build"
+    "npm run build",
+    "git diff --check"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
