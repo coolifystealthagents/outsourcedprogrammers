@@ -317,7 +317,7 @@ const currentResearchBatch: ReadonlyArray<ResearchPost> = currentResearchTopics.
   sources: currentResearchSourceSet,
   related: currentResearchTopics.filter((_, i) => i !== index).slice(index % 10, index % 10 + 3).map(([relatedSlug]) => relatedSlug)
 }));
-export const researchPosts: ReadonlyArray<ResearchPost> = [...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch];
+export const researchPosts: ReadonlyArray<ResearchPost> = [...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || ''));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
