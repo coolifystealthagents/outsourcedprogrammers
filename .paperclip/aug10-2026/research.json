@@ -19,11 +19,11 @@
   "indexNewestFirstPassed": true,
   "entries": [
     {
-      "slug": "outsourced-frontend-performance-budget-review",
-      "route": "/research/outsourced-frontend-performance-budget-review",
+      "slug": "outsourced-api-authentication-test-plan",
+      "route": "/research/outsourced-api-authentication-test-plan",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -33,11 +33,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-frontend-accessibility-regression-review",
-      "route": "/research/outsourced-frontend-accessibility-regression-review",
+      "slug": "outsourced-content-management-qa",
+      "route": "/research/outsourced-content-management-qa",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -47,11 +47,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "remote-programmer-browser-compatibility-matrix",
-      "route": "/research/remote-programmer-browser-compatibility-matrix",
+      "slug": "outsourced-database-schema-review",
+      "route": "/research/outsourced-database-schema-review",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -61,11 +61,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "remote-programmer-test-evidence-standard",
-      "route": "/research/remote-programmer-test-evidence-standard",
+      "slug": "outsourced-frontend-lighthouse-evidence",
+      "route": "/research/outsourced-frontend-lighthouse-evidence",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -75,11 +75,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-qa-flaky-test-triage",
-      "route": "/research/outsourced-qa-flaky-test-triage",
+      "slug": "outsourced-qa-test-case-maintenance",
+      "route": "/research/outsourced-qa-test-case-maintenance",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -89,11 +89,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-qa-device-coverage-plan",
-      "route": "/research/outsourced-qa-device-coverage-plan",
+      "slug": "outsourced-requirements-change-log",
+      "route": "/research/outsourced-requirements-change-log",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -103,11 +103,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-code-change-rollback-note",
-      "route": "/research/outsourced-code-change-rollback-note",
+      "slug": "outsourced-webhook-retry-review",
+      "route": "/research/outsourced-webhook-retry-review",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -117,11 +117,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-database-backup-verification",
-      "route": "/research/outsourced-database-backup-verification",
+      "slug": "philippines-developer-pull-request-template",
+      "route": "/research/philippines-developer-pull-request-template",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -131,11 +131,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-incident-handoff-log",
-      "route": "/research/outsourced-incident-handoff-log",
+      "slug": "philippines-outsourced-developer-offboarding",
+      "route": "/research/philippines-outsourced-developer-offboarding",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -145,11 +145,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "remote-programmer-access-audit",
-      "route": "/research/remote-programmer-access-audit",
+      "slug": "remote-programmer-feature-acceptance-record",
+      "route": "/research/remote-programmer-feature-acceptance-record",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -159,11 +159,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-technical-estimate-evidence",
-      "route": "/research/outsourced-technical-estimate-evidence",
+      "slug": "remote-programmer-incident-severity-matrix",
+      "route": "/research/remote-programmer-incident-severity-matrix",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -173,11 +173,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-design-system-component-audit",
-      "route": "/research/outsourced-design-system-component-audit",
+      "slug": "remote-programmer-release-risk-review",
+      "route": "/research/remote-programmer-release-risk-review",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -187,11 +187,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "remote-programmer-privacy-safe-test-data",
-      "route": "/research/remote-programmer-privacy-safe-test-data",
+      "slug": "remote-programmer-staging-data-review",
+      "route": "/research/remote-programmer-staging-data-review",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
@@ -201,11 +201,11 @@
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "outsourced-api-contract-review",
-      "route": "/research/outsourced-api-contract-review",
+      "slug": "remote-programmer-technical-debt-register",
+      "route": "/research/remote-programmer-technical-debt-register",
       "sourcePath": "app/fleet-content.ts",
       "provenance": "original-aug10-batch",
-      "introducedByCommit": "e83a843e94e4d694c48b8b4f061730c0433580e3",
+      "introducedByCommit": "5496b529fadcad5adb4fea069c5783d4b5d5eb95",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
       "renderedDateFields": [
