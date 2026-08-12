@@ -228,7 +228,7 @@ export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: st
   { slug: "outsource-react-native-upgrade", title: "Outsource a React Native upgrade with device evidence", excerpt: "Break framework upgrades into tested slices with compatibility notes, fixtures, and a clear stop condition.", minutes: 9, published: "2026-08-11" },
   { slug: "outsource-logging-redaction-review", title: "Outsource logging redaction review with safe samples", excerpt: "Find tokens and personal data in diagnostic output while preserving the clues engineers need to debug.", minutes: 8, published: "2026-08-11" },
   { slug: "outsource-dashboard-qa", title: "Outsource dashboard QA with trustworthy data states", excerpt: "Test loading, empty, error, permissions, and date-range behavior against known fixtures and expected totals.", minutes: 8, published: "2026-08-11" },
-  { slug: "outsource-localization-qa", title: "Outsource localization QA with content and layout checks", excerpt: "Catch truncation, formatting, fallback, and direction issues across the locales your product supports.", minutes: 8, published: "2026-08-11" },
+  { slug: "outsource-translation-key-audit", title: "Outsource a translation key audit with release-safe evidence", excerpt: "Find missing, unused, and fallback translation keys across product flows without changing approved source copy.", minutes: 8, published: "2026-08-11" },
   { slug: "outsource-release-rollback-drill", title: "Outsource a release rollback drill with clear evidence", excerpt: "Practice detection, rollback steps, verification, and handoff without granting uncontrolled production authority.", minutes: 9, published: "2026-08-11" },
 ] as const;
 
