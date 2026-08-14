@@ -72,9 +72,9 @@ export default function Home() {
               <h3>Clean up the release backlog</h3>
               <p>Pick a small set of bugs and maintenance tasks with acceptance rules already attached.</p>
               <div className="ticket-list">
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/ready-for-review.svg" alt="" aria-hidden="true" /><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/dependency-update.svg" alt="" aria-hidden="true" /><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/setup-documentation.svg" alt="" aria-hidden="true" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/ready-for-review.svg" alt="Ready for review ticket icon" /><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/dependency-update.svg" alt="Dependency update ticket icon" /><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
+                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/setup-documentation.svg" alt="Setup documentation ticket icon" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
               </div>
             </article>
             <aside className="control-card">
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div className="stream-list">
               {services.map((service: any, index: number) => (
-                <a href={`/services/${service.slug}`} key={service.slug}>
+                <a href="/services" key={service.slug}>
                   <span className="stream-number">0{index + 1}</span>
                   <div><h3>{title(service)}</h3><p>{text(service)}</p></div>
                   <span className="arrow" aria-hidden="true">↗</span>
