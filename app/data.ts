@@ -274,6 +274,7 @@ export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: st
   { slug: "outsource-timezone-data-migration", title: "Outsource timezone data migration review with rollback evidence", excerpt: "Assess stored timestamps, conversion rules, affected records, and reversible steps before data changes are approved.", minutes: 9, published: "2026-08-14" },
   { slug: "outsource-user-export-qa", title: "Outsource user export QA with privacy safeguards", excerpt: "Validate export scope, file contents, access checks, and failure handling using synthetic account data.", minutes: 9, published: "2026-08-14" },
   { slug: "outsource-webhook-signature-testing", title: "Outsource webhook signature testing with replay-safe fixtures", excerpt: "Check valid, missing, altered, and expired signatures without sending events to a live endpoint.", minutes: 9, published: "2026-08-14" },
+  ...august17BlogBatch,
   { slug: "outsource-workflow-state-qa", title: "Outsource workflow state QA with explicit transitions", excerpt: "Map allowed transitions, blocked actions, refresh behavior, and audit evidence around a bounded business flow.", minutes: 8, published: "2026-08-14" },
  ] as const;
 
