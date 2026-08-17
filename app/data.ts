@@ -1,3 +1,4 @@
+import { august17BlogBatch, august17BlogDetails } from './august17-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -764,6 +765,10 @@ for (const post of blogPosts.filter((item) => item.published === "2026-08-14")) 
   const bullets = ["Define the fixture and expected result.", "Exercise the important boundary case.", "Record evidence without sensitive data.", "Escalate policy or access decisions."];
   blogDetails[post.slug] = { strictNoPricing: true, takeaways: bullets, readinessRows: [{ area: "Scope", ready: "One named behavior with acceptance rules", notReady: "A broad request to improve the system" }, { area: "Evidence", ready: "Fixture and observed result", notReady: "An unverified success claim" }, { area: "Access", ready: "Sandbox tools and task-limited permissions", notReady: "Live credentials or real customer data" }, { area: "Review", ready: "Named owner accepts the result", notReady: "Unreviewed policy or release change" }], sections: [{ id: "topic-brief", title: heading, paragraphs: [first, second], bullets }, { id: "handoff-evidence", title: "Leave a decision-ready handoff", paragraphs: ["Record the fixture, expected behavior, observed result, and any condition that was not tested. That gives the technical owner a compact basis for deciding what is ready for review.", "Keep product policy, customer impact, access exceptions, and release timing with the company owner. The programmer can identify the edge case and propose a bounded follow-up without deciding it unilaterally."] }], roleBrief: [{ label: "First slice", text: bullets[0] }, { label: "Evidence", text: bullets[1] }, { label: "Boundary", text: bullets[2] }, { label: "Owner review", text: bullets[3] }], faqs: [{ question: "What should the first task prove?", answer: first }, { question: "What evidence belongs in the review?", answer: "Include the safe fixture, expected result, observed result, and any untested condition." }, { question: "Who owns the final product decision?", answer: "A named company owner retains product, access, policy, merge, and release decisions." }], sources: [{ name: "NIST Secure Software Development Framework", url: "https://csrc.nist.gov/Projects/ssdf", note: "Authoritative guidance for managing software development risk." }, { name: "Google Technical Writing", url: "https://developers.google.com/tech-writing", note: "Guidance for clear, reviewable technical explanations." }] };
 }
+
+
+
+for (const [slug, detail] of Object.entries(august17BlogDetails)) blogDetails[slug] = detail;
 
 export const staffingOffer = {
   included: [
