@@ -1,0 +1,104 @@
+{
+  "software-development-intake-source-register": {
+    "family": "blog",
+    "title": "Software Development Operations: Intake Source Register",
+    "description": "Software Development Operations: Intake Source Register: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-intake-source-register.webp"
+  },
+  "software-development-approval-evidence-matrix": {
+    "family": "blog",
+    "title": "Software Development Operations: Approval Evidence Matrix",
+    "description": "Software Development Operations: Approval Evidence Matrix: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-approval-evidence-matrix.webp"
+  },
+  "software-development-exception-queue-triage": {
+    "family": "blog",
+    "title": "Software Development Operations: Exception Queue Triage",
+    "description": "Software Development Operations: Exception Queue Triage: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-exception-queue-triage.webp"
+  },
+  "software-development-quality-review-cadence": {
+    "family": "blog",
+    "title": "Software Development Operations: Quality Review Cadence",
+    "description": "Software Development Operations: Quality Review Cadence: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-quality-review-cadence.webp"
+  },
+  "software-development-handoff-acceptance-log": {
+    "family": "blog",
+    "title": "Software Development Operations: Handoff Acceptance Log",
+    "description": "Software Development Operations: Handoff Acceptance Log: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-handoff-acceptance-log.webp"
+  },
+  "software-development-access-recertification-review": {
+    "family": "blog",
+    "title": "Software Development Operations: Access Recertification Review",
+    "description": "Software Development Operations: Access Recertification Review: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-access-recertification-review.webp"
+  },
+  "software-development-weekly-decision-brief": {
+    "family": "blog",
+    "title": "Software Development Operations: Weekly Decision Brief",
+    "description": "Software Development Operations: Weekly Decision Brief: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-weekly-decision-brief.webp"
+  },
+  "software-development-source-of-truth-map": {
+    "family": "blog",
+    "title": "Software Development Operations: Source of Truth Map",
+    "description": "Software Development Operations: Source of Truth Map: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-source-of-truth-map.webp"
+  },
+  "software-development-change-control-record": {
+    "family": "blog",
+    "title": "Software Development Operations: Change Control Record",
+    "description": "Software Development Operations: Change Control Record: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-change-control-record.webp"
+  },
+  "software-development-work-queue-ownership": {
+    "family": "blog",
+    "title": "Software Development Operations: Work Queue Ownership",
+    "description": "Software Development Operations: Work Queue Ownership: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-work-queue-ownership.webp"
+  },
+  "software-development-escalation-path-design": {
+    "family": "blog",
+    "title": "Software Development Operations: Escalation Path Design",
+    "description": "Software Development Operations: Escalation Path Design: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-escalation-path-design.webp"
+  },
+  "software-development-launch-readiness-review": {
+    "family": "blog",
+    "title": "Software Development Operations: Launch Readiness Review",
+    "description": "Software Development Operations: Launch Readiness Review: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-launch-readiness-review.webp"
+  },
+  "software-development-source-quality-evidence-research": {
+    "family": "research",
+    "title": "Research Brief: Software Development Operations Source Quality Evidence",
+    "description": "Research Brief: Software Development Operations Source Quality Evidence: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-source-quality-evidence-research.webp"
+  },
+  "software-development-exception-aging-patterns-research": {
+    "family": "research",
+    "title": "Research Brief: Software Development Operations Exception Aging Patterns",
+    "description": "Research Brief: Software Development Operations Exception Aging Patterns: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-exception-aging-patterns-research.webp"
+  },
+  "software-development-review-consistency-research": {
+    "family": "research",
+    "title": "Research Brief: Software Development Operations Review Consistency",
+    "description": "Research Brief: Software Development Operations Review Consistency: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-review-consistency-research.webp"
+  },
+  "software-development-access-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Software Development Operations Access Governance",
+    "description": "Research Brief: Software Development Operations Access Governance: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-access-governance-research.webp"
+  },
+  "software-development-handoff-reliability-research": {
+    "family": "research",
+    "title": "Research Brief: Software Development Operations Handoff Reliability",
+    "description": "Research Brief: Software Development Operations Handoff Reliability: evidence-led guidance for Outsourced Programmers.",
+    "hero": "/aug19-heroes/software-development-handoff-reliability-research.webp"
+  }
+}

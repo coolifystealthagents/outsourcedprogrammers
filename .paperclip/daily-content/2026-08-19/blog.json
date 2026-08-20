@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/software-development-intake-source-register",
+      "source": "content/blog/software-development-intake-source-register.md"
+    },
+    {
+      "route": "/blog/software-development-approval-evidence-matrix",
+      "source": "content/blog/software-development-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/software-development-exception-queue-triage",
+      "source": "content/blog/software-development-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/software-development-quality-review-cadence",
+      "source": "content/blog/software-development-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/software-development-handoff-acceptance-log",
+      "source": "content/blog/software-development-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/software-development-access-recertification-review",
+      "source": "content/blog/software-development-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/software-development-weekly-decision-brief",
+      "source": "content/blog/software-development-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/software-development-source-of-truth-map",
+      "source": "content/blog/software-development-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/software-development-change-control-record",
+      "source": "content/blog/software-development-change-control-record.md"
+    },
+    {
+      "route": "/blog/software-development-work-queue-ownership",
+      "source": "content/blog/software-development-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/software-development-escalation-path-design",
+      "source": "content/blog/software-development-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/software-development-launch-readiness-review",
+      "source": "content/blog/software-development-launch-readiness-review.md"
+    }
+  ]
+}
