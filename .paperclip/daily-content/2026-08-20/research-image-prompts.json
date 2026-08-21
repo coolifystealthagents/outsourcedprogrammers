@@ -1,0 +1,36 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "prompts": [
+    {
+      "route": "/research/outsourced-release-rollback-observability-study",
+      "imagePath": "public/research-heroes/2026-08-20/outsourced-release-rollback-observability-study.png",
+      "generator": "built-in image_gen",
+      "prompt": "release rollback readiness: deployment timeline, sealed artifact, known-good state, navy and amber editorial illustration"
+    },
+    {
+      "route": "/research/outsourced-api-contract-drift-evidence-study",
+      "imagePath": "public/research-heroes/2026-08-20/outsourced-api-contract-drift-evidence-study.png",
+      "generator": "built-in image_gen",
+      "prompt": "API contract drift: connected service panels, mismatched shape, evidence bridge comparing versions, teal and coral editorial illustration"
+    },
+    {
+      "route": "/research/outsourced-accessibility-focus-evidence-study",
+      "imagePath": "public/research-heroes/2026-08-20/outsourced-accessibility-focus-evidence-study.png",
+      "generator": "built-in image_gen",
+      "prompt": "keyboard focus accessibility: luminous dialog panels, visible focus ring, keyboard path, inclusive interface, midnight blue and mint editorial illustration"
+    },
+    {
+      "route": "/research/outsourced-webhook-replay-resistance-study",
+      "imagePath": "public/research-heroes/2026-08-20/outsourced-webhook-replay-resistance-study.png",
+      "generator": "built-in image_gen",
+      "prompt": "webhook replay resistance: event envelopes, verification gate, repeated envelope stopped, secure delivery flow, charcoal blue and emerald editorial illustration"
+    },
+    {
+      "route": "/research/outsourced-search-index-reconciliation-study",
+      "imagePath": "public/research-heroes/2026-08-20/outsourced-search-index-reconciliation-study.png",
+      "generator": "built-in image_gen",
+      "prompt": "search index reconciliation: source database and search index joined by measured bridge, matched records and late record queue, slate blue and gold editorial illustration"
+    }
+  ]
+}
