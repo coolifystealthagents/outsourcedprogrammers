@@ -1,7 +1,7 @@
 import { august13ReplacementResearchBatch } from './august13-research-replacements';
 import { august14ResearchBatch } from './august14-research-batch';
 import { august17ResearchBatch } from './august17-research-batch';
-import { august20ResearchBatch } from './august20-research-batch';
+import { august20ReplacementResearchBatch } from './august20-research-replacements';
 export const fleetServices = [
   {
     "slug": "nextjs-development",
@@ -403,7 +403,7 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
     'Research takeaway: measure verified operational knowledge, not document volume, and keep sensitive access outside public or broadly shared instructions.'
   ], sources:[['Google Technical Writing courses','https://developers.google.com/tech-writing'],['NIST Secure Software Development Framework','https://csrc.nist.gov/Projects/ssdf']] }
 ];
-export const researchPosts: ReadonlyArray<ResearchPost> = [...august20ResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || ''));
+export const researchPosts: ReadonlyArray<ResearchPost> = [...august20ReplacementResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || ''));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

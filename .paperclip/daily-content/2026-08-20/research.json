@@ -5,29 +5,29 @@
   "branch": "main",
   "entries": [
     {
-      "route": "/research/outsourced-release-rollback-observability-study",
-      "sourcePath": "app/august20-research-batch.ts",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-release-rollback-observability-study.png"
+      "route": "/research/outsourced-release-recovery-evidence-study",
+      "sourcePath": "app/august20-research-replacements.ts",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-release-recovery-evidence-study.png"
     },
     {
-      "route": "/research/outsourced-api-contract-drift-evidence-study",
-      "sourcePath": "app/august20-research-batch.ts",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-api-contract-drift-evidence-study.png"
+      "route": "/research/outsourced-api-compatibility-boundary-study",
+      "sourcePath": "app/august20-research-replacements.ts",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-api-compatibility-boundary-study.png"
     },
     {
-      "route": "/research/outsourced-accessibility-focus-evidence-study",
-      "sourcePath": "app/august20-research-batch.ts",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-accessibility-focus-evidence-study.png"
+      "route": "/research/outsourced-keyboard-navigation-study",
+      "sourcePath": "app/august20-research-replacements.ts",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-keyboard-navigation-study.png"
     },
     {
-      "route": "/research/outsourced-webhook-replay-resistance-study",
-      "sourcePath": "app/august20-research-batch.ts",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-webhook-replay-resistance-study.png"
+      "route": "/research/outsourced-event-deduplication-evidence-study",
+      "sourcePath": "app/august20-research-replacements.ts",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-event-deduplication-evidence-study.png"
     },
     {
-      "route": "/research/outsourced-search-index-reconciliation-study",
-      "sourcePath": "app/august20-research-batch.ts",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-search-index-reconciliation-study.png"
+      "route": "/research/outsourced-search-permission-freshness-study",
+      "sourcePath": "app/august20-research-replacements.ts",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-search-permission-freshness-study.png"
     }
   ]
 }
