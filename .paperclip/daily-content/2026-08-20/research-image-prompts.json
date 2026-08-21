@@ -3,32 +3,32 @@
   "family": "research",
   "prompts": [
     {
-      "route": "/research/outsourced-release-rollback-observability-study",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-release-rollback-observability-study.png",
+      "route": "/research/outsourced-release-recovery-evidence-study",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-release-recovery-evidence-study.png",
       "generator": "built-in image_gen",
       "prompt": "release rollback readiness: deployment timeline, sealed artifact, known-good state, navy and amber editorial illustration"
     },
     {
-      "route": "/research/outsourced-api-contract-drift-evidence-study",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-api-contract-drift-evidence-study.png",
+      "route": "/research/outsourced-api-compatibility-boundary-study",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-api-compatibility-boundary-study.png",
       "generator": "built-in image_gen",
       "prompt": "API contract drift: connected service panels, mismatched shape, evidence bridge comparing versions, teal and coral editorial illustration"
     },
     {
-      "route": "/research/outsourced-accessibility-focus-evidence-study",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-accessibility-focus-evidence-study.png",
+      "route": "/research/outsourced-keyboard-navigation-study",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-keyboard-navigation-study.png",
       "generator": "built-in image_gen",
       "prompt": "keyboard focus accessibility: luminous dialog panels, visible focus ring, keyboard path, inclusive interface, midnight blue and mint editorial illustration"
     },
     {
-      "route": "/research/outsourced-webhook-replay-resistance-study",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-webhook-replay-resistance-study.png",
+      "route": "/research/outsourced-event-deduplication-evidence-study",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-event-deduplication-evidence-study.png",
       "generator": "built-in image_gen",
       "prompt": "webhook replay resistance: event envelopes, verification gate, repeated envelope stopped, secure delivery flow, charcoal blue and emerald editorial illustration"
     },
     {
-      "route": "/research/outsourced-search-index-reconciliation-study",
-      "imagePath": "public/research-heroes/2026-08-20/outsourced-search-index-reconciliation-study.png",
+      "route": "/research/outsourced-search-permission-freshness-study",
+      "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-search-permission-freshness-study.png",
       "generator": "built-in image_gen",
       "prompt": "search index reconciliation: source database and search index joined by measured bridge, matched records and late record queue, slate blue and gold editorial illustration"
     }
