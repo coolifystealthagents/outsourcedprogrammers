@@ -8,7 +8,7 @@
   "branch": "main",
   "entries": [
     {
-      "route": "/blog/outsource-feature-flag-cleanup",
+      "route": "/blog/outsource-feature-flag-retirement-review",
       "sourcePaths": [
         "app/august21-blog-batch.ts"
       ]
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "route": "/blog/outsource-queue-retry-policy-review",
+      "route": "/blog/outsource-queue-retry-dead-letter-review",
       "sourcePaths": [
         "app/august21-blog-batch.ts"
       ]

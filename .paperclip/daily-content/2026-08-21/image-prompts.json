@@ -3,8 +3,8 @@
   "family": "blog",
   "entries": [
     {
-      "route": "/blog/outsource-feature-flag-cleanup",
-      "imagePath": "/public/blog-heroes/2026-08-21/outsource-feature-flag-cleanup.png",
+      "route": "/blog/outsource-feature-flag-retirement-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-feature-flag-retirement-review.png",
       "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about feature-flag cleanup, abstract code branches and safe archive box. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
     },
     {
@@ -48,8 +48,8 @@
       "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about file upload boundary, safe files entering a validation gate. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
     },
     {
-      "route": "/blog/outsource-queue-retry-policy-review",
-      "imagePath": "/public/blog-heroes/2026-08-21/outsource-queue-retry-policy-review.png",
+      "route": "/blog/outsource-queue-retry-dead-letter-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-queue-retry-dead-letter-review.png",
       "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about queue retry policy, jobs through retry lanes to a dead letter boundary. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
     },
     {

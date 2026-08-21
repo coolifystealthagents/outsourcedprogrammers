@@ -8,7 +8,7 @@ type Topic = { published: string;
 const topics: Topic[] = [
   {
     published: '2026-08-21',
-    slug: 'outsource-feature-flag-cleanup',
+    slug: 'outsource-feature-flag-retirement-review',
     title: 'Outsource feature-flag cleanup without erasing release history',
     excerpt: 'Retire stale flags with evidence about their branches, owners, fallback behavior, and safe removal boundary.',
     takeaways: ['Inventory every consumer before removing a flag.', 'Test both active and fallback paths with isolated fixtures.', 'Keep rollout and rollback authority with the company.', 'Leave an explicit record for flags that must remain.'],
@@ -161,7 +161,7 @@ const topics: Topic[] = [
   },
   {
     published: '2026-08-21',
-    slug: 'outsource-queue-retry-policy-review',
+    slug: 'outsource-queue-retry-dead-letter-review',
     title: 'Outsource queue retry-policy review with duplicate-safe evidence',
     excerpt: 'Trace retryable and terminal failures, idempotency, backoff, dead letters, and operator recovery using isolated jobs.',
     takeaways: ['Classify failures before counting retries.', 'Prove duplicate safety at the business boundary.', 'Separate worker mechanics from recovery policy.', 'Keep live queue controls and replay authority with the owner.'],
