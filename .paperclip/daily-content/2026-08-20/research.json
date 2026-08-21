@@ -7,6 +7,7 @@
     {
       "slug": "outsourced-release-recovery-evidence-study",
       "route": "/research/outsourced-release-recovery-evidence-study",
+      "sourceRouteField": "route",
       "sourcePaths": ["app/august20-research-replacements.ts"],
       "sourceDateField": "sourceDate",
       "sourceDate": "2026-08-20",
@@ -16,6 +17,7 @@
     {
       "slug": "outsourced-api-compatibility-boundary-study",
       "route": "/research/outsourced-api-compatibility-boundary-study",
+      "sourceRouteField": "route",
       "sourcePaths": ["app/august20-research-replacements.ts"],
       "sourceDateField": "sourceDate",
       "sourceDate": "2026-08-20",
@@ -25,6 +27,7 @@
     {
       "slug": "outsourced-keyboard-navigation-study",
       "route": "/research/outsourced-keyboard-navigation-study",
+      "sourceRouteField": "route",
       "sourcePaths": ["app/august20-research-replacements.ts"],
       "sourceDateField": "sourceDate",
       "sourceDate": "2026-08-20",
@@ -34,6 +37,7 @@
     {
       "slug": "outsourced-event-deduplication-evidence-study",
       "route": "/research/outsourced-event-deduplication-evidence-study",
+      "sourceRouteField": "route",
       "sourcePaths": ["app/august20-research-replacements.ts"],
       "sourceDateField": "sourceDate",
       "sourceDate": "2026-08-20",
@@ -43,6 +47,7 @@
     {
       "slug": "outsourced-search-permission-freshness-study",
       "route": "/research/outsourced-search-permission-freshness-study",
+      "sourceRouteField": "route",
       "sourcePaths": ["app/august20-research-replacements.ts"],
       "sourceDateField": "sourceDate",
       "sourceDate": "2026-08-20",
