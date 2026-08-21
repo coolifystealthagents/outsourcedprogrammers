@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "generator": "Gemini-generated hero image workflow",
+  "receipts": [
+    {"route":"/research/outsourced-release-recovery-evidence-2026","asset":"public/research-heroes/2026-08-21/outsourced-release-recovery-evidence.png","prompt":"Editorial illustration of a software change moving through a guarded release gate with a reversible recovery path; dark navy, cobalt, teal and amber; premium technical magazine; no text or logos."},
+    {"route":"/research/outsourced-api-compatibility-boundary-2026","asset":"public/research-heroes/2026-08-21/outsourced-api-compatibility-boundary.png","prompt":"Editorial illustration showing an API compatibility boundary between two evolving systems, a tested bridge and edge cases; indigo, blue, mint and coral; no text or logos."},
+    {"route":"/research/outsourced-search-permission-freshness-2026","asset":"public/research-heroes/2026-08-21/outsourced-search-permission-freshness.png","prompt":"Editorial illustration of search records reconciled with an authoritative source while permission boundaries remain protected; midnight blue, turquoise, green and gold; no text or logos."},
+    {"route":"/research/outsourced-keyboard-navigation-evidence-2026","asset":"public/research-heroes/2026-08-21/outsourced-keyboard-navigation-evidence.png","prompt":"Editorial illustration of keyboard navigation through an abstract web application with a coherent focus path and assistive cues; deep blue, violet, aqua and yellow; no text or logos."},
+    {"route":"/research/outsourced-documentation-reproducibility-2026","asset":"public/research-heroes/2026-08-21/outsourced-documentation-reproducibility.png","prompt":"Editorial illustration of a second engineer independently verifying technical documentation and reproducing a result; navy, teal, cream and muted orange; no text or logos."}
+  ]
+}

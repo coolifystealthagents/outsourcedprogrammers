@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "entries": [
+    {"route":"/research/outsourced-release-recovery-evidence-2026","sourcePath":"app/august21-research-batch.ts","sourceDate":"2026-08-21","heroPath":"public/research-heroes/2026-08-21/outsourced-release-recovery-evidence.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts.json"},
+    {"route":"/research/outsourced-api-compatibility-boundary-2026","sourcePath":"app/august21-research-batch.ts","sourceDate":"2026-08-21","heroPath":"public/research-heroes/2026-08-21/outsourced-api-compatibility-boundary.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts.json"},
+    {"route":"/research/outsourced-search-permission-freshness-2026","sourcePath":"app/august21-research-batch.ts","sourceDate":"2026-08-21","heroPath":"public/research-heroes/2026-08-21/outsourced-search-permission-freshness.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts.json"},
+    {"route":"/research/outsourced-keyboard-navigation-evidence-2026","sourcePath":"app/august21-research-batch.ts","sourceDate":"2026-08-21","heroPath":"public/research-heroes/2026-08-21/outsourced-keyboard-navigation-evidence.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts.json"},
+    {"route":"/research/outsourced-documentation-reproducibility-2026","sourcePath":"app/august21-research-batch.ts","sourceDate":"2026-08-21","heroPath":"public/research-heroes/2026-08-21/outsourced-documentation-reproducibility.png","promptReceipt":".paperclip/daily-content/2026-08-21/prompts.json"}
+  ]
+}
