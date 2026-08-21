@@ -1,0 +1,62 @@
+[
+  {
+    "route": "/blog/outsource-acceptance-criteria-review",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-acceptance-criteria-review.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about acceptance criteria review. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-mobile-release-smoke-testing",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-mobile-release-smoke-testing.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about mobile release smoke testing. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-orm-query-regression-review",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-orm-query-regression-review.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about ORM query regression review. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-incident-log-reconstruction",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-incident-log-reconstruction.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about incident log reconstruction. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-admin-role-qa",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-admin-role-qa.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about admin role QA. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-file-upload-security-qa",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-file-upload-security-qa.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about file upload QA. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-email-template-rendering",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-email-template-rendering.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about email template rendering. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-cache-invalidation-testing",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-cache-invalidation-testing.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about cache invalidation testing. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-third-party-sdk-upgrade",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-third-party-sdk-upgrade.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about third-party SDK upgrade. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-analytics-event-validation",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-analytics-event-validation.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about analytics event validation. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-database-backup-restore-drill",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-database-backup-restore-drill.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about database backup restore drill. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  },
+  {
+    "route": "/blog/outsource-pull-request-handoff",
+    "imagePath": "/blog-heroes/2026-08-20/outsource-pull-request-handoff.png",
+    "prompt": "Use case: photorealistic-natural. Website article hero for outsourced software development guidance about pull-request handoff. Wide editorial scene with remote programmers, abstract screens, calm green-blue technical light, no readable text, logos, or watermark."
+  }
+]

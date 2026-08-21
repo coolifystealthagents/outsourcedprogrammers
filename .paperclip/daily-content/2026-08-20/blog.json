@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "contract": "fleet-authoring-2026-08-20-blog-v5",
+  "targetDate": "2026-08-20",
+  "family": "blog",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "entries": [
+    {
+      "route": "/blog/outsource-acceptance-criteria-review",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-mobile-release-smoke-testing",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-orm-query-regression-review",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-incident-log-reconstruction",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-admin-role-qa",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-file-upload-security-qa",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-email-template-rendering",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-cache-invalidation-testing",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-third-party-sdk-upgrade",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-analytics-event-validation",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-database-backup-restore-drill",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-pull-request-handoff",
+      "sourcePaths": [
+        "app/august20-blog-batch.ts"
+      ]
+    }
+  ]
+}

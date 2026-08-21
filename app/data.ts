@@ -1,4 +1,5 @@
 import { august17BlogBatch, august17BlogDetails } from './august17-blog-batch';
+import { august20BlogBatch, august20BlogDetails } from './august20-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -275,6 +276,7 @@ export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: st
   { slug: "outsource-user-export-qa", title: "Outsource user export QA with privacy safeguards", excerpt: "Validate export scope, file contents, access checks, and failure handling using synthetic account data.", minutes: 9, published: "2026-08-14" },
   { slug: "outsource-webhook-signature-testing", title: "Outsource webhook signature testing with replay-safe fixtures", excerpt: "Check valid, missing, altered, and expired signatures without sending events to a live endpoint.", minutes: 9, published: "2026-08-14" },
   ...august17BlogBatch,
+  ...august20BlogBatch,
   { slug: "outsource-workflow-state-qa", title: "Outsource workflow state QA with explicit transitions", excerpt: "Map allowed transitions, blocked actions, refresh behavior, and audit evidence around a bounded business flow.", minutes: 8, published: "2026-08-14" },
  ] as const;
 
@@ -291,6 +293,7 @@ export type BlogDetail = {
   graphic?: { title: string; steps: readonly { label: string; note: string }[] };
   expertQuote?: { quote: string; name: string; role: string; sourceUrl: string };
   internalLinks?: readonly { label: string; url: string; note: string }[];
+  heroImage?: string;
   banners?: readonly { label: string; title: string; text: string; url: string; cta: string }[];
 };
 
@@ -770,6 +773,7 @@ for (const post of blogPosts.filter((item) => item.published === "2026-08-14")) 
 
 
 for (const [slug, detail] of Object.entries(august17BlogDetails)) blogDetails[slug] = detail;
+for (const [slug, detail] of Object.entries(august20BlogDetails)) blogDetails[slug] = detail;
 
 export const staffingOffer = {
   included: [
