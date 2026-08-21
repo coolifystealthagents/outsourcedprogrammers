@@ -5,28 +5,48 @@
   "branch": "main",
   "entries": [
     {
+      "slug": "outsourced-release-recovery-evidence-study",
       "route": "/research/outsourced-release-recovery-evidence-study",
       "sourcePath": "app/august20-research-replacements.ts",
+      "sourceDateField": "sourceDate",
+      "sourceDate": "2026-08-20",
+      "sourceUrls": ["https://dora.dev/research/", "https://csrc.nist.gov/Projects/ssdf", "https://opentelemetry.io/docs/", "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"],
       "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-release-recovery-evidence-study.png"
     },
     {
+      "slug": "outsourced-api-compatibility-boundary-study",
       "route": "/research/outsourced-api-compatibility-boundary-study",
       "sourcePath": "app/august20-research-replacements.ts",
+      "sourceDateField": "sourceDate",
+      "sourceDate": "2026-08-20",
+      "sourceUrls": ["https://owasp.org/API-Security/", "https://csrc.nist.gov/Projects/ssdf", "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews", "https://google.github.io/eng-practices/"],
       "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-api-compatibility-boundary-study.png"
     },
     {
+      "slug": "outsourced-keyboard-navigation-study",
       "route": "/research/outsourced-keyboard-navigation-study",
       "sourcePath": "app/august20-research-replacements.ts",
+      "sourceDateField": "sourceDate",
+      "sourceDate": "2026-08-20",
+      "sourceUrls": ["https://www.w3.org/TR/WCAG22/", "https://google.github.io/eng-practices/", "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews", "https://csrc.nist.gov/Projects/ssdf"],
       "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-keyboard-navigation-study.png"
     },
     {
+      "slug": "outsourced-event-deduplication-evidence-study",
       "route": "/research/outsourced-event-deduplication-evidence-study",
       "sourcePath": "app/august20-research-replacements.ts",
+      "sourceDateField": "sourceDate",
+      "sourceDate": "2026-08-20",
+      "sourceUrls": ["https://owasp.org/API-Security/", "https://csrc.nist.gov/Projects/ssdf", "https://opentelemetry.io/docs/", "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"],
       "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-event-deduplication-evidence-study.png"
     },
     {
+      "slug": "outsourced-search-permission-freshness-study",
       "route": "/research/outsourced-search-permission-freshness-study",
       "sourcePath": "app/august20-research-replacements.ts",
+      "sourceDateField": "sourceDate",
+      "sourceDate": "2026-08-20",
+      "sourceUrls": ["https://opentelemetry.io/docs/", "https://owasp.org/API-Security/", "https://csrc.nist.gov/Projects/ssdf", "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"],
       "imagePath": "public/research-heroes/2026-08-20-replacements/outsourced-search-permission-freshness-study.png"
     }
   ]
