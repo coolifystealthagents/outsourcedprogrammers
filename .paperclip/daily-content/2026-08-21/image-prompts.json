@@ -1,0 +1,66 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {
+      "route": "/blog/outsource-feature-flag-cleanup",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-feature-flag-cleanup.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about feature-flag cleanup, abstract code branches and safe archive box. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-graphql-error-contract-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-graphql-error-contract-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about GraphQL error contract, query nodes and partial data fragments. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-search-index-rebuild-qa",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-search-index-rebuild-qa.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about search index rebuild, document cards and permission shield. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-websocket-reconnect-testing",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-websocket-reconnect-testing.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about WebSocket reconnect, glowing connection lines and state cards. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-database-index-migration-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-database-index-migration-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about database index migration, layered data table and reversible arrows. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-accessibility-regression-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-accessibility-regression-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about web accessibility review, keyboard focus path and inclusive interface. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-redirect-canonical-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-redirect-canonical-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about redirect and canonical review, branching web paths converging. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-cache-invalidation-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-cache-invalidation-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about cache invalidation, layered browser edge application cache. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-file-upload-boundary-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-file-upload-boundary-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about file upload boundary, safe files entering a validation gate. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-queue-retry-policy-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-queue-retry-policy-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about queue retry policy, jobs through retry lanes to a dead letter boundary. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-config-drift-review",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-config-drift-review.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about configuration drift, environment panels and redacted settings. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    },
+    {
+      "route": "/blog/outsource-pdf-accessibility-qa",
+      "imagePath": "/public/blog-heroes/2026-08-21/outsource-pdf-accessibility-qa.png",
+      "prompt": "Create a distinct clean editorial hero illustration for a software engineering outsourcing blog article about PDF accessibility QA, structured document pages and reading order. Dark navy programmer workbench aesthetic, vivid green and blue accents, no text, no logos, wide 3:2 composition."
+    }
+  ]
+}

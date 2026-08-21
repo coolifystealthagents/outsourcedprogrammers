@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "contract": "fleet-authoring-2026-08-21-blog-v6",
+  "targetDate": "2026-08-21",
+  "family": "blog",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "entries": [
+    {
+      "route": "/blog/outsource-feature-flag-cleanup",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-graphql-error-contract-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-search-index-rebuild-qa",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-websocket-reconnect-testing",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-database-index-migration-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-accessibility-regression-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-redirect-canonical-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-cache-invalidation-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-file-upload-boundary-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-queue-retry-policy-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-config-drift-review",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsource-pdf-accessibility-qa",
+      "sourcePaths": [
+        "app/august21-blog-batch.ts"
+      ]
+    }
+  ]
+}
