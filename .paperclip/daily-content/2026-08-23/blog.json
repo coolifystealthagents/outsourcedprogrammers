@@ -12,7 +12,7 @@
       "imageStatus": "gemini-unavailable-text-fallback"
     },
     {
-      "route": "/blog/outsource-logging-redaction-review",
+      "route": "/blog/outsource-application-log-redaction-review",
       "sourcePath": "app/august23-blog-batch.ts",
       "imageStatus": "gemini-unavailable-text-fallback"
     },
