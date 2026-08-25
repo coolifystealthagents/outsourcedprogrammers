@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "contract": "fleet-authoring-contract-v8",
+  "campaignDate": "2026-08-24",
+  "family": "research",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "entries": [
+    {"route":"/research/outsourced-api-contract-drift-evidence-2026","sourcePaths":["app/august23-research-batch.ts"],"imagePath":"public/research-heroes/2026-08-24/outsourced-api-contract-drift-evidence-2026.png"},
+    {"route":"/research/outsourced-database-migration-rehearsal-evidence-2026","sourcePaths":["app/august23-research-batch.ts"],"imagePath":"public/research-heroes/2026-08-24/outsourced-database-migration-rehearsal-evidence-2026.png"},
+    {"route":"/research/outsourced-accessibility-regression-evidence-2026","sourcePaths":["app/august23-research-batch.ts"],"imagePath":"public/research-heroes/2026-08-24/outsourced-accessibility-regression-evidence-2026.png"},
+    {"route":"/research/outsourced-dependency-provenance-review-2026","sourcePaths":["app/august23-research-batch.ts"],"imagePath":"public/research-heroes/2026-08-24/outsourced-dependency-provenance-review-2026.png"},
+    {"route":"/research/outsourced-release-observability-evidence-2026","sourcePaths":["app/august23-research-batch.ts"],"imagePath":"public/research-heroes/2026-08-24/outsourced-release-observability-evidence-2026.png"}
+  ]
+}
