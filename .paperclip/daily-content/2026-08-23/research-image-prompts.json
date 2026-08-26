@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "generatedBy": "built-in image generation",
+  "receipts": [
+    {"route":"/research/outsourced-api-contract-drift-evidence-2026","imagePath":"public/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png","prompt":"Editorial 3D illustration of API contract drift detection: two interface layers, branching request paths, a highlighted mismatch examined by a magnifying glass; indigo, cobalt, teal, amber; wide landscape; no readable text, logos, watermark, or stock-photo look."},
+    {"route":"/research/outsourced-database-migration-rehearsal-evidence-2026","imagePath":"public/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png","prompt":"Editorial 3D illustration of database migration rehearsal evidence: layered database cylinders, safe staging bridge, reversible arrows, highlighted lock boundary; indigo, teal, amber; wide landscape; no readable text, logos, watermark, or stock-photo look."},
+    {"route":"/research/outsourced-accessibility-regression-evidence-2026","imagePath":"public/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png","prompt":"Editorial 3D illustration of keyboard accessibility regression evidence: abstract web panels, glowing focus path through controls, visible focus ring and recovery route; indigo, teal, amber; wide landscape; no readable text, logos, watermark, or stock-photo look."},
+    {"route":"/research/outsourced-dependency-provenance-review-2026","imagePath":"public/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png","prompt":"Editorial 3D illustration of dependency provenance review: connected package blocks with verified seals, source trail, one unresolved link under a magnifying glass; indigo, teal, amber; wide landscape; no readable text, logos, watermark, or stock-photo look."},
+    {"route":"/research/outsourced-release-observability-evidence-2026","imagePath":"public/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png","prompt":"Editorial 3D illustration of release observability evidence: software release capsule connected to abstract traces, metrics, logs, and a clear decision signal, boundary between known and unknown; indigo, teal, amber; wide landscape; no readable text, logos, watermark, or stock-photo look."}
+  ]
+}
