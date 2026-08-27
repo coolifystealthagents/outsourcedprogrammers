@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- |
 | Next.js development | `/services/nextjs-development` | How can a team set safe controls before giving an outsourced developer Next.js maintenance work? | `/research/research-nextjs-outsourcing-controls` | Link only from release or maintenance evidence that names a route, check, reviewer, and owner. |
 | React application development | `/services/react-application-development` | What should a first React developer task include before it goes to review? | `/research/research-react-developer-onboarding` | Link when the reader is choosing a Philippines-based React work lane, not from generic hiring advice. |
-| Node.js API development | `/services/nodejs-api-development` | What proof should an API maintenance ticket contain? | `/research/research-node-api-maintenance` | Link from API-contract or authentication evidence that requires a reproducible request and response. |
+| Node.js API development | `/services/nodejs-api-development` | What proof should an API maintenance ticket contain? | `/research/research-node-api-maintenance` | Delivered in the rendered article on 2026-08-23; retain the route-local handoff and do not add another CTA. |
 | WordPress engineering | `/services/wordpress-engineering` | How can a team check content-management changes before they go live? | `/research/outsourced-content-management-qa` | Link only from a content-management QA question; do not make it a substitute for an engineering review. |
 | Shopify development | `/services/shopify-development` | What should a checkout QA brief cover before a store change is accepted? | `/research/outsourced-ecommerce-checkout-qa` | Link from checkout testing guidance when a buyer needs a defined Shopify change lane. |
 | QA automation | `/services/qa-automation` | How can an owner keep release control while assigning QA automation work? | `/research/research-qa-automation-outsourcing` | Link from test ownership or acceptance evidence, with the company retaining the ship decision. |
@@ -19,9 +19,9 @@
 
 ## Imminent execution queue
 
-1. Audit `/research/research-node-api-maintenance` against `/services/nodejs-api-development`. Add one contextual service handoff only if the current rendered article has no competing service CTA and both routes retain Philippines-only scope.
-2. Audit `/research/research-qa-automation-outsourcing` against `/services/qa-automation` under the same route, schema, and sitemap gates.
-3. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
+1. Audit `/research/research-qa-automation-outsourcing` against `/services/qa-automation`. Add one contextual service handoff only if the current rendered article has no competing service CTA and both routes retain Philippines-only scope.
+2. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
+3. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
 ## Release guardrails
 
