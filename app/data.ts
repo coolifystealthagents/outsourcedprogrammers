@@ -2,6 +2,7 @@ import { august17BlogBatch, august17BlogDetails } from './august17-blog-batch';
 import { august20BlogBatch, august20BlogDetails } from './august20-blog-batch';
 import { august21BlogBatch, august21BlogDetails } from './august21-blog-batch';
 import { august23BlogBatch, august23BlogDetails } from './august23-blog-batch';
+import { august31BlogBatch, august31BlogDetails } from './august31-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -281,6 +282,7 @@ export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: st
   ...august20BlogBatch,
   ...august21BlogBatch,
   ...august23BlogBatch,
+  ...august31BlogBatch,
   { slug: "outsource-workflow-state-qa", title: "Outsource workflow state QA with explicit transitions", excerpt: "Map allowed transitions, blocked actions, refresh behavior, and audit evidence around a bounded business flow.", minutes: 8, published: "2026-08-14" },
  ] as const;
 
@@ -780,6 +782,7 @@ for (const [slug, detail] of Object.entries(august17BlogDetails)) blogDetails[sl
 for (const [slug, detail] of Object.entries(august20BlogDetails)) blogDetails[slug] = detail;
 for (const [slug, detail] of Object.entries(august21BlogDetails)) blogDetails[slug] = detail;
 for (const [slug, detail] of Object.entries(august23BlogDetails)) blogDetails[slug] = detail;
+for (const [slug, detail] of Object.entries(august31BlogDetails)) blogDetails[slug] = detail;
 
 export const staffingOffer = {
   included: [
