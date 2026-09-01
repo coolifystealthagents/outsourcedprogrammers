@@ -5,6 +5,7 @@ import { august20ReplacementResearchBatch } from './august20-research-replacemen
 import { august21ResearchBatch } from './august21-research-batch';
 import { august23ResearchBatch } from './august23-research-batch';
 import { august31ResearchBatch } from './august31-research-batch';
+import { september1ResearchBatch } from './september1-research-batch';
 export const fleetServices = [
   {
     "slug": "nextjs-development",
@@ -406,7 +407,7 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
     'Research takeaway: measure verified operational knowledge, not document volume, and keep sensitive access outside public or broadly shared instructions.'
   ], sources:[['Google Technical Writing courses','https://developers.google.com/tech-writing'],['NIST Secure Software Development Framework','https://csrc.nist.gov/Projects/ssdf']] }
 ];
-export const researchPosts: ReadonlyArray<ResearchPost> =  [...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ReplacementResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || '') || a.slug.localeCompare(b.slug));
+export const researchPosts: ReadonlyArray<ResearchPost> =  [...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ReplacementResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || '') || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

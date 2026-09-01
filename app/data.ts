@@ -3,6 +3,7 @@ import { august20BlogBatch, august20BlogDetails } from './august20-blog-batch';
 import { august21BlogBatch, august21BlogDetails } from './august21-blog-batch';
 import { august23BlogBatch, august23BlogDetails } from './august23-blog-batch';
 import { august31BlogBatch, august31BlogDetails } from './august31-blog-batch';
+import { september1BlogBatch, september1BlogDetails } from './september1-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -91,7 +92,9 @@ export const services = [
   },
 ] as const;
 
+
 export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published?: string }> = [
+  ...september1BlogBatch,
   {
     slug: 'hire-software-developers-philippines-code-review',
     title: 'Hire software developers in the Philippines with a clear code review plan',
@@ -783,6 +786,7 @@ for (const [slug, detail] of Object.entries(august20BlogDetails)) blogDetails[sl
 for (const [slug, detail] of Object.entries(august21BlogDetails)) blogDetails[slug] = detail;
 for (const [slug, detail] of Object.entries(august23BlogDetails)) blogDetails[slug] = detail;
 for (const [slug, detail] of Object.entries(august31BlogDetails)) blogDetails[slug] = detail;
+for (const [slug, detail] of Object.entries(september1BlogDetails)) blogDetails[slug] = detail;
 
 export const staffingOffer = {
   included: [
