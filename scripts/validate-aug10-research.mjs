@@ -25,8 +25,8 @@ for(const e of manifest.entries){
   if(new RegExp(`['\\\\"]${e.slug}['\\\\"]`).test(parentSource))fail('not absent before introducing commit '+e.slug);
   if(!commitSource.includes("published:'2026-08-10'")&&!commitSource.includes('published:"2026-08-10"'))fail('source date '+e.slug);
 }
-if(!renderer.includes('datePublished:post.published')||!renderer.includes('time dateTime={post.published}'))fail('rendered date fields');
-if(!renderer.includes('alternates:{canonical:`https://outsourcedprogrammers.com/research/${post.slug}`}'))fail('canonical metadata');
+if(!renderer.includes('const publishedDate=post.datePublished||post.published;')||!renderer.includes('datePublished:publishedDate')||!renderer.includes('time dateTime={publishedDate}'))fail('published-date renderer wiring');
+if(!renderer.includes("const canonical=post?`https://outsourcedprogrammers.com/research/${post.slug}`:'';")||!renderer.includes('alternates:{canonical}'))fail('canonical metadata wiring');
 if(!sitemap.includes('researchPosts.map(p=>`/research/${p.slug}`'))fail('sitemap eligibility');
 if(!index.includes('researchPosts.map'))fail('research index');
 if(!source.includes(".sort((a,b) => (b.published || '').localeCompare(a.published || '')"))fail('newest-first source ordering');
