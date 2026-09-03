@@ -1,0 +1,14 @@
+{"schemaVersion":1,"contract":"teo-september-3-correction","campaignDate":"2026-09-03","family":"blog","repository":"coolifystealthagents/outsourcedprogrammers","branch":"main","entries":[
+ {"route":"/blog/outsource-idempotency-retry-window-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-record-restoration-permission-gate","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-feature-rule-precedence-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-message-suppression-state-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-privileged-action-trace-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-federated-login-return-path-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-async-export-revocation-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-optional-field-contract-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-recurring-job-clock-boundary-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-browser-resource-policy-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-search-result-authorization-audit","sourcePath":"app/september3-blog-batch.ts"},
+ {"route":"/blog/outsource-app-link-authentication-audit","sourcePath":"app/september3-blog-batch.ts"}
+]}
