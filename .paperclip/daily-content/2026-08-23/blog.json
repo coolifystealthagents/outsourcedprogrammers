@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "contract": "fleet-authoring-contract-v8",
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "entries": [
+    {
+      "route": "/blog/outsource-rollback-plan-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-application-log-redaction-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-cicd-permission-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-cache-key-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-api-pagination-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-frontend-error-recovery-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-dependency-license-inventory",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-database-connection-pool-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-file-upload-retry-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-webhook-replay-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-search-relevance-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    },
+    {
+      "route": "/blog/outsource-frontend-bundle-review",
+      "sourcePath": "app/august23-blog-batch.ts",
+      "imageStatus": "gemini-unavailable-text-fallback"
+    }
+  ],
+  "imageReceipt": "Gemini image generation was unavailable in this execution; no stock or replacement imagery was used and existing route imagery was preserved."
+}
