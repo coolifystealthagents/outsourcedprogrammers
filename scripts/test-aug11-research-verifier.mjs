@@ -33,7 +33,7 @@ try {
   execFileSync(process.execPath, [verifier], { cwd: '/', stdio: 'inherit' });
   expectFailure('extra-aug11-route', (text) => text.replace(
     "const august11ResearchPosts: ReadonlyArray<ResearchPost> = [",
-    "const august11ResearchPosts: ReadonlyArray<ResearchPost> = [{slug:'unexpected-aug11-research',title:'Unexpected',excerpt:'Unexpected',published:'2026-08-11',body:['Evidence'],sources:[['NIST','https://csrc.nist.gov/']]},",
+    "const august11ResearchPosts: ReadonlyArray<ResearchPost> = [{slug:'unexpected-aug11-research',title:'Unexpected',excerpt:'Unexpected',published:'2026-08-12',body:['Evidence'],sources:[['NIST','https://csrc.nist.gov/']]},",
   ));
   expectFailure('empty-sources', (text) => text.replace(
     "sources:[['DORA research program','https://dora.dev/research/'],['GitHub pull request review documentation','https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews']]",
@@ -44,11 +44,11 @@ try {
     "['outsourced-programmer-mean-time-to-review-study','A generated duplicate','Requirements changes']",
   ));
   expectFailure('disconnected-export', (text) => text.replace(
-    '[...august11ResearchPosts, ...priorResearchPosts',
-    '[...priorResearchPosts',
+    '...august11ResearchPosts, ',
+    '',
   ));
   expectFailure('wrong-date', (text) => text.replace(
-    "slug:'outsourced-programmer-mean-time-to-review-study', title:'Mean time to review in outsourced programming teams', excerpt:'A measurement study for separating review delay from implementation time in distributed software delivery.', topic:'Review latency', published:'2026-08-11'",
+    "slug:'outsourced-programmer-mean-time-to-review-study', title:'Mean time to review in outsourced programming teams', excerpt:'A measurement study for separating review delay from implementation time in distributed software delivery.', topic:'Review latency', published:'2026-08-12'",
     "slug:'outsourced-programmer-mean-time-to-review-study', title:'Mean time to review in outsourced programming teams', excerpt:'A measurement study for separating review delay from implementation time in distributed software delivery.', topic:'Review latency', published:'2026-08-10'",
   ));
   expectFailure('invalid-source-url', (text) => text.replace(

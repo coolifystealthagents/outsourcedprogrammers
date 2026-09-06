@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import ts from 'typescript';
@@ -10,6 +10,7 @@ const sourcePath = process.env.AUG11_RESEARCH_SOURCE
   ? resolve(process.env.AUG11_RESEARCH_SOURCE)
   : resolve(repoRoot, 'app/fleet-content.ts');
 const source = readFileSync(sourcePath, 'utf8');
+const expectedPublication = '2026-08-12';
 const expected = [
   'outsourced-programmer-mean-time-to-review-study',
   'remote-developer-pull-request-size-analysis',
@@ -35,8 +36,28 @@ const errors = (transpiled.diagnostics || []).filter((diagnostic) => diagnostic.
 if (errors.length) {
   throw new Error(`TypeScript transpilation failed: ${errors.map((item) => item.messageText).join('; ')}`);
 }
-const moduleUrl = `data:text/javascript;base64,${Buffer.from(transpiled.outputText).toString('base64')}`;
-const { researchPosts } = await import(moduleUrl);
+const temp = mkdtempSync(resolve(repoRoot, '.tmp-aug11-research-verifier-'));
+try {
+  // fleet-content imports split research batches. A data: URL has no filesystem
+  // base, so relative imports fail before this verifier can inspect the export.
+  // Transpiling the root and its runtime batch dependencies into one temporary
+  // module directory lets mutation tests exercise the production aggregate.
+  const runtimeImports = [...source.matchAll(/from\s+['"](\.\/[^'"]+)['"]/g)].map((match) => match[1]);
+  for (const specifier of runtimeImports) {
+    const batchPath = resolve(repoRoot, 'app', `${specifier.slice(2)}.ts`);
+    const batch = ts.transpileModule(readFileSync(batchPath, 'utf8'), {
+      compilerOptions: { module: ts.ModuleKind.ES2022, target: ts.ScriptTarget.ES2022 },
+      fileName: batchPath,
+      reportDiagnostics: true,
+    });
+    const batchErrors = (batch.diagnostics || []).filter((diagnostic) => diagnostic.category === ts.DiagnosticCategory.Error);
+    if (batchErrors.length) throw new Error(`TypeScript transpilation failed: ${batchErrors.map((item) => item.messageText).join('; ')}`);
+    writeFileSync(resolve(temp, `${specifier.slice(2)}.mjs`), batch.outputText);
+  }
+  const rootOutput = transpiled.outputText.replace(/(from\s+['"]\.\/[^'"]+)(['"])/g, '$1.mjs$2');
+  const rootPath = resolve(temp, 'fleet-content.mjs');
+  writeFileSync(rootPath, rootOutput);
+  const { researchPosts } = await import(`${pathToFileURL(rootPath).href}?v=${Date.now()}`);
 if (!Array.isArray(researchPosts)) throw new Error('researchPosts export is unavailable');
 
 const allSlugs = researchPosts.map((post) => String(post?.slug ?? ''));
@@ -45,12 +66,12 @@ if (invalidSlugs.length) throw new Error(`invalid rendered Research route segmen
 const duplicates = [...new Set(allSlugs.filter((slug, index) => allSlugs.indexOf(slug) !== index))];
 if (duplicates.length) throw new Error(`duplicate rendered Research routes: ${duplicates.join(', ')}`);
 
-const august11 = researchPosts.filter((post) => post?.published === '2026-08-11');
+const august11 = researchPosts.filter((post) => post?.published === expectedPublication);
 const august11Slugs = august11.map((post) => String(post?.slug || ''));
 const missing = expected.filter((slug) => !august11Slugs.includes(slug));
 const extra = august11Slugs.filter((slug) => !expected.includes(slug));
 if (august11.length !== expected.length || missing.length || extra.length) {
-  throw new Error(`August 11 Research set mismatch: count=${august11.length}; missing=${missing.join(',') || 'none'}; extra=${extra.join(',') || 'none'}`);
+  throw new Error(`August 11 Research set mismatch for ${expectedPublication}: count=${august11.length}; missing=${missing.join(',') || 'none'}; extra=${extra.join(',') || 'none'}`);
 }
 
 for (const slug of expected) {
@@ -80,3 +101,6 @@ console.log(JSON.stringify({
   globallyUniqueResearchRoutes: allSlugs.length,
   evidenceSourcePairs: august11.reduce((sum, post) => sum + post.sources.length, 0),
 }));
+} finally {
+  rmSync(temp, { recursive: true, force: true });
+}
