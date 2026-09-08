@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const url = `https://${site.domain.toLowerCase()}/blog/${slug}`;
+  const heroImage = post?.published === '2026-09-07' ? blogDetails[slug]?.heroImage : undefined;
 
   return {
     title: post?.title || 'Guide',
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url,
       type: 'article',
       siteName: site.brand,
+      ...(heroImage ? { images: [{ url: heroImage, alt: post?.title || 'Guide' }] } : {}),
     },
   };
 }
