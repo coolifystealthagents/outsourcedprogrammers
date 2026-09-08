@@ -11,7 +11,7 @@
 | Node.js API development | `/services/nodejs-api-development` | What proof should an API maintenance ticket contain? | `/research/research-node-api-maintenance` | Delivered in the rendered article on 2026-08-23; retain the route-local handoff and do not add another CTA. |
 | WordPress engineering | `/services/wordpress-engineering` | How can a team check content-management changes before they go live? | `/research/outsourced-content-management-qa` | Link only from a content-management QA question; do not make it a substitute for an engineering review. |
 | Shopify development | `/services/shopify-development` | What should a checkout QA brief cover before a store change is accepted? | `/research/outsourced-ecommerce-checkout-qa` | Link from checkout testing guidance when a buyer needs a defined Shopify change lane. |
-| QA automation | `/services/qa-automation` | How can an owner keep release control while assigning QA automation work? | `/research/research-qa-automation-outsourcing` | Link from test ownership or acceptance evidence, with the company retaining the ship decision. |
+| QA automation | `/services/qa-automation` | How can an owner keep release control while assigning QA automation work? | `/research/research-qa-automation-outsourcing` | Delivered in the rendered article on 2026-09-08; retain its one route-local QA automation handoff and do not add another CTA. |
 | DevOps support | `/services/devops-support` | What makes a software handoff reliable when deployment and runbook work is involved? | `/research/software-development-handoff-reliability-research` | Already rendered and publicly verified on 2026-08-20; retain the existing narrow handoff. |
 | Database engineering | `/services/database-engineering` | What controls make database cleanup reversible and reviewable? | `/research/research-database-cleanup-outsourcing` | Link from backup, schema, or cleanup evidence that calls for a dry run and owner-approved window. |
 | Mobile app development | `/services/mobile-app-development` | How should a distributed team plan browser and device checks before accepting front-end work? | `/research/remote-programmer-browser-compatibility-matrix` | Link only after confirming the supporting page stays specific to mobile acceptance criteria. |
@@ -19,7 +19,7 @@
 
 ## Imminent execution queue
 
-1. Audit `/research/research-qa-automation-outsourcing` against `/services/qa-automation`. Add one contextual service handoff only if the current rendered article has no competing service CTA and both routes retain Philippines-only scope.
+1. Audit `/research/research-nextjs-outsourcing-controls` against `/services/nextjs-development`. Add one contextual service handoff only if the current rendered article has no competing service CTA and both routes retain Philippines-only scope.
 2. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
 3. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
