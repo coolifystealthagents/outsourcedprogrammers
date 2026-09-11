@@ -8,6 +8,7 @@ import { september4BlogBatch, september4BlogDetails } from './september4-blog-ba
 import { september7BlogBatch, september7BlogDetails } from './september7-blog-batch';
 import { september8BlogBatch, september8BlogDetails } from './september8-blog-batch';
 import { september10BlogBatch, september10BlogDetails } from './september10-blog-batch';
+import { september11BlogBatch, september11BlogDetails } from './september11-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -97,6 +98,7 @@ export const services = [
 ] as const;
 
 export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published?: string }> = [
+  ...september11BlogBatch,
   ...september10BlogBatch,
   ...september8BlogBatch,
   {
@@ -817,3 +819,5 @@ export const leadQuestions = [
 ] as const;
 
 export const staffingFitNote = 'The right setup depends on the work, codebase, review time, access limits, and release rules. Share those details so the first role is based on real tickets rather than a broad developer wish list.';
+
+for (const [slug, detail] of Object.entries(september11BlogDetails)) blogDetails[slug] = detail;

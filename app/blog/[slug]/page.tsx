@@ -51,7 +51,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <main className="section blog-detail">
           <article className="container article-shell">
             <img src="/programmer-workbench.jpg" alt="Programmer reviewing a scoped work plan" style={{ width: '100%', maxHeight: 360, objectFit: 'cover', marginBottom: 32 }} />
-            <p className="eyebrow">{site.brand} guide · {post.minutes} minute read · <time dateTime={post.published}>Published {formatPublicationDate(post.published)}</time></p>
+            <p className="eyebrow">{site.brand} guide · {post.minutes} minute read · <time dateTime={post.published}>Published: {formatPublicationDate(post.published)}</time></p>
             <h1>{post.title}</h1>
             <p className="article-lead">{post.excerpt}</p>
             <aside className="takeaway-panel"><p className="module-label">Quick read</p><h2>The practical answer</h2><ul><li>Start with one contained, reviewable ticket.</li><li>Use named accounts and least-privilege access.</li><li>Keep merge and release approval with your technical owner.</li></ul></aside>
@@ -152,7 +152,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <JsonLd data={articleSchema} />
         <article className="container article-shell">
           {detail.heroImage && <img src={detail.heroImage} alt={post.title} style={{ width: '100%', maxHeight: 420, objectFit: 'cover', marginBottom: 32 }} />}
-          <p className="eyebrow">Developer staffing guide · {post.minutes} minute read · <time dateTime={post.published}>Published {formatPublicationDate(post.published)}</time></p>
+          <p className="eyebrow">Developer staffing guide · {post.minutes} minute read · <time dateTime={post.published}>Published: {formatPublicationDate(post.published)}</time></p>
           <h1>{post.title}</h1>
           <p className="article-lead">{post.excerpt}</p>
 
