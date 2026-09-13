@@ -6,7 +6,7 @@
 
 | Service pillar | Existing service URL | Reader question already covered by an existing research page | Supporting research URL | Controlled next handoff |
 | --- | --- | --- | --- | --- |
-| Next.js development | `/services/nextjs-development` | How can a team set safe controls before giving an outsourced developer Next.js maintenance work? | `/research/research-nextjs-outsourcing-controls` | Link only from release or maintenance evidence that names a route, check, reviewer, and owner. |
+| Next.js development | `/services/nextjs-development` | How can a team set safe controls before giving an outsourced developer Next.js maintenance work? | `/research/research-nextjs-outsourcing-controls` | Delivered in the rendered article on 2026-09-11; retain its one route-local Next.js development handoff and do not add another CTA. |
 | React application development | `/services/react-application-development` | What should a first React developer task include before it goes to review? | `/research/research-react-developer-onboarding` | Link when the reader is choosing a Philippines-based React work lane, not from generic hiring advice. |
 | Node.js API development | `/services/nodejs-api-development` | What proof should an API maintenance ticket contain? | `/research/research-node-api-maintenance` | Delivered in the rendered article on 2026-08-23; retain the route-local handoff and do not add another CTA. |
 | WordPress engineering | `/services/wordpress-engineering` | How can a team check content-management changes before they go live? | `/research/outsourced-content-management-qa` | Link only from a content-management QA question; do not make it a substitute for an engineering review. |
@@ -19,9 +19,10 @@
 
 ## Imminent execution queue
 
-1. Audit `/research/research-nextjs-outsourcing-controls` against `/services/nextjs-development`. Add one contextual service handoff only if the current rendered article has no competing service CTA and both routes retain Philippines-only scope.
-2. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
-3. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
+1. Do not add a second Next.js development CTA. The route-local article already renders one handoff; source provenance is `3e2fbc18a9b75c11541089477ec2b61ea86f679c`.
+2. Next, audit `/research/research-react-developer-onboarding` against `/services/react-application-development`. Add one contextual service handoff only if a fresh generated-article check confirms the link is absent, there is no competing service CTA, and both routes retain Philippines-only scope.
+3. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
+4. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
 ## Release guardrails
 
