@@ -7,7 +7,7 @@
 | Service pillar | Existing service URL | Reader question already covered by an existing research page | Supporting research URL | Controlled next handoff |
 | --- | --- | --- | --- | --- |
 | Next.js development | `/services/nextjs-development` | How can a team set safe controls before giving an outsourced developer Next.js maintenance work? | `/research/research-nextjs-outsourcing-controls` | Delivered in the rendered article on 2026-09-11; retain its one route-local Next.js development handoff and do not add another CTA. |
-| React application development | `/services/react-application-development` | What should a first React developer task include before it goes to review? | `/research/research-react-developer-onboarding` | Link when the reader is choosing a Philippines-based React work lane, not from generic hiring advice. |
+| React application development | `/services/react-application-development` | What should a first React developer task include before it goes to review? | `/research/research-react-developer-onboarding` | Delivered locally in rendered source `086bb65d2facfba602d5543f0d4c58421f732ed4` on 2026-09-14. One route-local handoff answers the React work-lane question; public verification remains pending by repository policy. |
 | Node.js API development | `/services/nodejs-api-development` | What proof should an API maintenance ticket contain? | `/research/research-node-api-maintenance` | Delivered in the rendered article on 2026-08-23; retain the route-local handoff and do not add another CTA. |
 | WordPress engineering | `/services/wordpress-engineering` | How can a team check content-management changes before they go live? | `/research/outsourced-content-management-qa` | Link only from a content-management QA question; do not make it a substitute for an engineering review. |
 | Shopify development | `/services/shopify-development` | What should a checkout QA brief cover before a store change is accepted? | `/research/outsourced-ecommerce-checkout-qa` | Link from checkout testing guidance when a buyer needs a defined Shopify change lane. |
@@ -20,9 +20,10 @@
 ## Imminent execution queue
 
 1. Do not add a second Next.js development CTA. The route-local article already renders one handoff; source provenance is `3e2fbc18a9b75c11541089477ec2b61ea86f679c`.
-2. Next, audit `/research/research-react-developer-onboarding` against `/services/react-application-development`. Add one contextual service handoff only if a fresh generated-article check confirms the link is absent, there is no competing service CTA, and both routes retain Philippines-only scope.
-3. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
-4. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
+2. Do not add a second React application development CTA. The rendered source already has one route-local handoff (`086bb65d2facfba602d5543f0d4c58421f732ed4`); public verification is pending because the repository routine prohibits live-site verification.
+3. Next, audit `/research/outsourced-content-management-qa` against `/services/wordpress-engineering`. Add one contextual service handoff only if a fresh generated-article check confirms the link is absent, there is no competing service CTA, and both routes retain Philippines-only scope.
+4. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
+5. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
 ## Release guardrails
 
