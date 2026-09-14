@@ -50,7 +50,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <Header />
         <main className="section blog-detail">
           <article className="container article-shell">
-            <img src="/programmer-workbench.jpg" alt="Programmer reviewing a scoped work plan" style={{ width: '100%', maxHeight: 360, objectFit: 'cover', marginBottom: 32 }} />
+            <img src="/programmer-workbench.jpg" alt="Programmer reviewing a scoped work plan" width="1600" height="900" style={{ width: '100%', maxHeight: 360, objectFit: 'cover', marginBottom: 32 }} />
             <p className="eyebrow">{site.brand} guide · {post.minutes} minute read · <time dateTime={post.published}>Published: {formatPublicationDate(post.published)}</time></p>
             <h1>{post.title}</h1>
             <p className="article-lead">{post.excerpt}</p>
@@ -151,7 +151,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <main className="section blog-detail">
         <JsonLd data={articleSchema} />
         <article className="container article-shell">
-          {detail.heroImage && <img src={detail.heroImage} alt={post.title} style={{ width: '100%', maxHeight: 420, objectFit: 'cover', marginBottom: 32 }} />}
+          {detail.heroImage && <img src={detail.heroImage} alt={post.title} width="1536" height="1024" style={{ width: '100%', maxHeight: 420, objectFit: 'cover', marginBottom: 32 }} />}
           <p className="eyebrow">Developer staffing guide · {post.minutes} minute read · <time dateTime={post.published}>Published: {formatPublicationDate(post.published)}</time></p>
           <h1>{post.title}</h1>
           <p className="article-lead">{post.excerpt}</p>

@@ -1,6 +1,8 @@
 import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
 
+export const metadata = { alternates: { canonical: "https://outsourcedprogrammers.com/" } };
+
 const d = data as any;
 const site = d.site || {};
 const services = (d.services || []).slice(0, 4);
@@ -42,7 +44,7 @@ export default function Home() {
 
             <div className="hero-visual">
               <div className="photo-frame">
-                <img src="/illustrations/getillustrations/inkdex-saas/code-control.webp" alt="Illustrated programmer working in a controlled software development environment" />
+                <img src="/illustrations/getillustrations/inkdex-saas/code-control.webp" alt="Illustrated programmer working in a controlled software development environment" width="1536" height="1024" />
                 <div className="photo-label"><span className="live-dot" /> Repository-ready support</div>
               </div>
               <div className="code-card" aria-label="Example pull request review plan">
@@ -72,9 +74,9 @@ export default function Home() {
               <h3>Clean up the release backlog</h3>
               <p>Pick a small set of bugs and maintenance tasks with acceptance rules already attached.</p>
               <div className="ticket-list">
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/ready-for-review.svg" alt="Ready for review ticket icon" /><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/dependency-update.svg" alt="Dependency update ticket icon" /><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
-                <div><img className="ticket-icon" src="/icons/getillustrations/sharpie-ui/setup-documentation.svg" alt="Setup documentation ticket icon" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
+                <div><img className="ticket-icon" width="64" height="64" src="/icons/getillustrations/sharpie-ui/ready-for-review.svg" alt="Ready for review ticket icon" /><p><b>Checkout bug</b><small>Repro steps and expected result included</small></p><em>review</em></div>
+                <div><img className="ticket-icon" width="64" height="64" src="/icons/getillustrations/sharpie-ui/dependency-update.svg" alt="Dependency update ticket icon" /><p><b>Dependency updates</b><small>One package group per pull request</small></p><em>queued</em></div>
+                <div><img className="ticket-icon" width="64" height="64" src="/icons/getillustrations/sharpie-ui/setup-documentation.svg" alt="Setup documentation ticket icon" /><p><b>Setup notes</b><small>Fix the commands that block a clean install</small></p><em>draft</em></div>
               </div>
             </article>
             <aside className="control-card">
@@ -83,7 +85,7 @@ export default function Home() {
               <span>Production access stays with your team unless you approve a different rule in writing.</span>
             </aside>
             <aside className="control-card cobalt">
-              <img className="supporting-illustration" src="/illustrations/getillustrations/drawink-startup/sprint-planning.svg" alt="Illustrated sprint task planning checklist" />
+              <img className="supporting-illustration" width="240" height="240" src="/illustrations/getillustrations/drawink-startup/sprint-planning.svg" alt="Illustrated sprint task planning checklist" />
               <p>Daily handoff</p>
               <strong>One note. Links included.</strong>
               <span>What changed, what is blocked, what needs review, and what comes next.</span>

@@ -101,7 +101,7 @@ export function BlogBanner({ position }: { position: Position }) {
     pushEvent('blog_banner_impression', position, selected.id, week);
   }, [position, variants, week]);
 
-  const href = taggedHref(variant.href, position, variant.id, week);
+  const href = variant.href;
   return <aside
     className="article-rotation-banner article-banner blog-conversion-banner"
     data-blog-banner-slot={position}
@@ -110,7 +110,7 @@ export function BlogBanner({ position }: { position: Position }) {
   >
     <div>
       <p className="eyebrow article-kicker">{variant.eyebrow}</p>
-      <h2>{variant.title}</h2>
+      <p className="article-banner-title">{variant.title}</p>
       <p>{variant.body}</p>
     </div>
     <a
