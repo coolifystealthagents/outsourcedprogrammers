@@ -38,190 +38,208 @@ export const fleetServices = [
   {
     "slug": "react-application-development",
     "title": "React Application Development",
-    "summary": "React Application Development delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based React specialists handle bounded UI tickets; your owner retains architecture, merge, and release decisions.",
     "tasks": [
-      "react application development queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Implement stateful React views from approved component and interaction specifications",
+      "Refactor hooks and context within named modules while keeping public interfaces unchanged",
+      "Add component tests for approved props, events, loading states, and error states",
+      "Trace render loops and stale state with React DevTools, then submit reviewable patches"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner approves state architecture, package additions, and public component API changes",
+      "Test fixtures use masked data; specialists receive no routine production-user access",
+      "Protected branches require passing checks and owner review before any merge",
+      "Acceptance checks name keyboard behavior, focus order, and supported browser versions"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Provide the component map, design tokens, test commands, and one accepted pull request",
+      "Start with one isolated component defect and written browser-level acceptance checks",
+      "Review the first patch in a preview build against design and interaction specifications",
+      "Add modules only after the owner confirms review, testing, and branch rules"
     ]
   },
   {
     "slug": "nodejs-api-development",
     "title": "Node.js API Development",
-    "summary": "Node.js API Development delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based Node.js specialists handle bounded API tickets; your owner controls contracts, access, merges, and deployment.",
     "tasks": [
-      "node.js api development queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Implement versioned REST or GraphQL handlers from written request and response contracts",
+      "Add schema validation and stable error mapping at inbound API boundaries",
+      "Write unit and integration tests for authorization, validation, and failure paths",
+      "Trace failed jobs or webhook retries from sandbox logs and prepare bounded fixes"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner approves authentication design, schema changes, dependencies, and deployments",
+      "Development credentials are scoped to sandbox services and named test resources",
+      "Third-party keys enter through the secret manager and never appear in fixtures or logs",
+      "Contract tests pin status codes, payload shapes, idempotency, and retry behavior"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Share the OpenAPI or GraphQL contract, supported Node version, and local test commands",
+      "Provide sandbox dependencies, synthetic identities, and representative failure cases",
+      "Assign one non-authentication endpoint with explicit validation and error requirements",
+      "Review logs and contract tests together; the owner retains merge and release actions"
     ]
   },
   {
     "slug": "wordpress-engineering",
     "title": "WordPress Engineering",
-    "summary": "WordPress Engineering delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based WordPress specialists handle bounded theme work; your owner controls plugins, upgrades, publishing, and access.",
     "tasks": [
-      "wordpress engineering queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Build child-theme templates and custom blocks from approved layouts and content models",
+      "Patch plugin or theme compatibility defects in a staging copy of the site",
+      "Implement hooks, filters, and shortcodes without modifying WordPress core files",
+      "Add nonce, capability, sanitization, and escaping checks to named custom-plugin paths"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner approves core or plugin upgrades, hosting changes, and production publishing",
+      "Staging masks personal data and disables live email, payment, and webhook destinations",
+      "Theme and plugin changes remain versioned; direct production editor changes are excluded",
+      "Backup scope and restore steps are recorded before database-affecting work is scheduled"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "List the WordPress and PHP versions, active plugins, theme lineage, and host constraints",
+      "Create a staging clone with masked content and disabled external side effects",
+      "Start with one template or custom-plugin fix that does not require a core upgrade",
+      "Review code diff, visual checks, and restore notes before the owner schedules publishing"
     ]
   },
   {
     "slug": "shopify-development",
     "title": "Shopify Development",
-    "summary": "Shopify Development delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based Shopify specialists handle bounded theme work; your owner controls app scopes, checkout, and publishing.",
     "tasks": [
-      "shopify development queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Build Liquid sections and blocks with merchant-editable schema settings",
+      "Map approved metafields and metaobjects into product or collection templates",
+      "Patch storefront JavaScript, cart, variant, and responsive theme defects",
+      "Configure theme app extensions in a development store without editing checkout logic"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner approves app scopes, discount logic, payment settings, and theme publication",
+      "Work occurs in a duplicate theme or development store before owner-led publication",
+      "Collaborator access excludes unnecessary orders, customers, billing, and store ownership",
+      "Test orders use approved modes; cancellation and inventory-reset steps are documented"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Provide a duplicate theme, brand components, product fixtures, and supported app list",
+      "Grant a collaborator role limited to the development store and required theme resources",
+      "Implement one section with defined settings, breakpoints, and sample catalog content",
+      "Review the theme preview on named devices before the owner publishes or transfers changes"
     ]
   },
   {
     "slug": "qa-automation",
     "title": "QA Automation",
-    "summary": "QA Automation delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based QA specialists automate bounded scenarios; your owner sets release criteria, waivers, and defect priority.",
     "tasks": [
-      "qa automation queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Write Playwright or Cypress tests for named user journeys and browser targets",
+      "Add API contract checks for status codes, payload schemas, and authorization failures",
+      "Build deterministic fixtures and mocks for approved accounts and external dependencies",
+      "Classify flaky tests using traces, screenshots, videos, and repeatable failure evidence"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner defines release-blocking scenarios and decides whether failed checks may be waived",
+      "Test accounts use synthetic data and carry no production payment or privileged access",
+      "Retries cannot hide a failed assertion; quarantine requires a reason and owner approval",
+      "CI logs and retained artifacts must exclude tokens, credentials, and personal data"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Name one critical journey, its browser matrix, test environment, and expected checkpoints",
+      "Provide the existing CI workflow, synthetic accounts, selectors, and fixture-reset method",
+      "Automate one deterministic path and compare its assertions with the manual test case",
+      "Review failure artifacts and quarantine rules before making the suite a required check"
     ]
   },
   {
     "slug": "devops-support",
     "title": "DevOps Support",
-    "summary": "DevOps Support delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based DevOps specialists prepare bounded changes; your owner controls credentials, approvals, and production changes.",
     "tasks": [
-      "devops support queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Edit CI pipeline definitions for named build, test, artifact, and deployment stages",
+      "Prepare reviewed infrastructure-as-code changes with plan output and rollback notes",
+      "Configure dashboards and alerts from owner-approved service indicators and thresholds",
+      "Draft and rehearse non-production runbooks for restart, failover, or rollback procedures"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The platform owner approves production changes, maintenance windows, and rollback decisions",
+      "Accounts use least privilege, separate environments, named identities, and MFA",
+      "Secrets come from an approved vault and are masked in command output and CI logs",
+      "Destructive commands require plan evidence, peer review, and an approved execution window"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Map repositories, environments, cloud accounts, deployment paths, and escalation owners",
+      "Grant read-only access first and verify audit logs before allowing scoped non-production edits",
+      "Choose one non-production pipeline or alert change with explicit validation steps",
+      "Review the plan and runbook; the platform owner conducts the first production execution"
     ]
   },
   {
     "slug": "database-engineering",
     "title": "Database Engineering",
-    "summary": "Database Engineering delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based database specialists prepare bounded schema and query work; your owner controls access, execution, and recovery.",
     "tasks": [
-      "database engineering queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Draft expand-and-contract migrations that preserve compatibility across named app versions",
+      "Review execution plans and propose indexes for documented query patterns",
+      "Write resumable backfill scripts with bounded batches and validation queries",
+      "Reproduce lock waits or deadlocks on representative data and document transaction changes"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The data owner approves schema changes, retention rules, and every production execution",
+      "Development uses masked snapshots or generated fixtures rather than live customer rows",
+      "Migration reviews cover lock timeout, transaction scope, compatibility, and rollback limits",
+      "Elevated credentials are short-lived, named, audited, and withheld from routine development"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Document the engine version, schema ownership, backup method, and restore responsibilities",
+      "Provide a representative masked snapshot plus the target queries and execution plans",
+      "Rehearse one migration or backfill in staging while recording locks and validation results",
+      "Review rollback limits and observed locks before the data owner schedules production work"
     ]
   },
   {
     "slug": "mobile-app-development",
     "title": "Mobile App Development",
-    "summary": "Mobile App Development delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based mobile specialists handle bounded app work; your owner controls signing, store access, releases, and submission.",
     "tasks": [
-      "mobile app development queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Implement approved screens, navigation states, and platform-specific layout adaptations",
+      "Connect typed API clients to documented endpoints and session-state rules",
+      "Add unit, widget, and UI smoke tests for named iOS and Android targets",
+      "Reproduce and patch lifecycle, deep-link, notification, or crash-report defects"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner retains bundle identifiers, signing keys, store accounts, and submission rights",
+      "Secrets stay in owner-managed build settings and are not embedded in source or test logs",
+      "Test accounts use synthetic data and separate development push-notification projects",
+      "Acceptance checks name OS versions, devices, permissions, accessibility, and network states"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Provide framework versions, device targets, design specifications, and local build steps",
+      "Configure development builds through owner-managed signing and sandbox service endpoints",
+      "Start with one screen or reproducible defect that excludes billing and account recovery",
+      "Review build and test evidence before the owner approves beta distribution or store submission"
     ]
   },
   {
     "slug": "legacy-application-maintenance",
     "title": "Legacy Application Maintenance",
-    "summary": "Legacy Application Maintenance delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "Philippines-based maintainers handle bounded legacy fixes; your owner controls scope, dependencies, data conversion, and releases.",
     "tasks": [
-      "legacy application maintenance queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Capture current behavior in characterization tests before changing a named module",
+      "Repair reproducible defects while preserving documented interfaces and file formats",
+      "Replace one deprecated dependency at a time with compatibility and rollback notes",
+      "Document build steps, runtime assumptions, scheduled jobs, and external integration points"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "The owner approves scope, dependency upgrades, data conversions, and release timing",
+      "Each patch starts from a tagged baseline and excludes unrelated modernization work",
+      "Representative fixtures replace live records in development and regression tests",
+      "Release review includes a rollback package and smoke checks for named legacy workflows"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Record supported runtimes, build commands, deployment topology, and known constraints",
+      "Create a reproducible environment with pinned dependencies and representative fixtures",
+      "Select one low-blast-radius defect with baseline behavior and acceptance checks",
+      "Compare baseline and patched behavior before the owner approves a release and rollback window"
     ]
   }
 ] as const;

@@ -5,6 +5,7 @@ import { TestimonialsRail } from '../booking-components';
 export const metadata: Metadata = {
   title: 'Thank You - Book A Meeting',
   description: 'Choose a convenient time to speak with the Stealth Agents team.',
+  alternates: { canonical: 'https://outsourcedprogrammers.com/thank-you' },
   robots: { index: false, follow: false },
 };
 
