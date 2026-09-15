@@ -1,11 +1,15 @@
 import * as data from './data';
+import { fleetServices } from './fleet-content';
 import { Header, Footer, JsonLd } from './components';
 
 export const metadata = { alternates: { canonical: "https://outsourcedprogrammers.com/" } };
 
 const d = data as any;
 const site = d.site || {};
-const services = (d.services || []).slice(0, 4);
+const featuredServiceSlugs = ['nextjs-development', 'react-application-development', 'qa-automation', 'legacy-application-maintenance'];
+const services = featuredServiceSlugs
+  .map((slug) => fleetServices.find((service) => service.slug === slug))
+  .filter(Boolean);
 const posts = (d.blogPosts || []).slice(0, 3);
 
 const title = (item: any) => item.title || item.name || 'Development support';
@@ -104,12 +108,16 @@ export default function Home() {
             </div>
             <div className="stream-list">
               {services.map((service: any, index: number) => (
-                <a href="/services" key={service.slug}>
+                <a href={`/services/${service.slug}`} key={service.slug}>
                   <span className="stream-number">0{index + 1}</span>
                   <div><h3>{title(service)}</h3><p>{text(service)}</p></div>
                   <span className="arrow" aria-hidden="true">↗</span>
                 </a>
               ))}
+            </div>
+            <div className="section-action">
+              <a className="btn primary" href="/contact">Map the developer role</a>
+              <a className="text-link light" href="/services">Browse all services <span>↗</span></a>
             </div>
           </div>
         </section>
@@ -124,6 +132,10 @@ export default function Home() {
             <article><span>day 01</span><h3>Open the right doors</h3><p>Share setup docs, sample pull requests, and limited access. Keep credentials out of chat and loose documents.</p></article>
             <article><span>first tickets</span><h3>Watch the handoff</h3><p>Use work with clear examples. Check the code, the notes, and how quickly questions surface.</p></article>
             <article><span>before release</span><h3>Keep approval local</h3><p>Your technical owner decides what merges and what ships. Expand ownership only after the working rhythm is solid.</p></article>
+          </div>
+          <div className="section-action dark-action">
+            <p>Have a backlog and a reviewer? We can turn them into a focused developer brief.</p>
+            <a className="btn primary" href="/contact">Map the developer role</a>
           </div>
         </section>
 
