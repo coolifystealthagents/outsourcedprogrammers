@@ -80,7 +80,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     <div className="sa-form-card" id="top-form">
       <p className="sa-form-kicker">Free developer consultation</p>
       <h2>Tell us about the programmer you need.</h2>
-      <form onSubmit={submit} id="contactPageForm">
+      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
