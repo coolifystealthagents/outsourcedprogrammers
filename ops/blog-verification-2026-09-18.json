@@ -1,0 +1,215 @@
+{
+  "required": 12,
+  "verified": 0,
+  "timezone": "UTC",
+  "repository": "https://github.com/coolifystealthagents/outsourcedprogrammers.git",
+  "branch": "main",
+  "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+  "deployment_resource": "vbagj11m3mrgp0cuk6v07h28",
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Review Next.js Server Action authorization before outsourcing a fix",
+      "slug": "outsource-nextjs-server-action-authorization-review",
+      "sources": [
+        "https://nextjs.org/docs/app/guides/data-security",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+      ],
+      "content_hash": "fc046350b303c904fbfe5d789b84ae11bbe1095f44ec439999017b35117745cb",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-nextjs-server-action-authorization-review",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Test React optimistic updates when the server says no",
+      "slug": "outsource-react-optimistic-ui-rollback-testing",
+      "sources": [
+        "https://react.dev/reference/react/useOptimistic",
+        "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA19"
+      ],
+      "content_hash": "d239dc6e0e9801cdd483351b340b51ce15966bc218323b71d9af6823ea805382",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-react-optimistic-ui-rollback-testing",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Test Node.js HTTP shutdown with active and idle connections",
+      "slug": "outsource-nodejs-http-graceful-shutdown-test",
+      "sources": [
+        "https://nodejs.org/api/http.html#serverclosecallback",
+        "https://nodejs.org/api/process.html#signal-events"
+      ],
+      "content_hash": "0d44e51bb7230acd5c07dbe93dfd195bd3a746ea47d670c8f5d870d411f6e0a3",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-nodejs-http-graceful-shutdown-test",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Rehearse a WordPress plugin rollback before outsourcing updates",
+      "slug": "outsource-wordpress-plugin-rollback-rehearsal",
+      "sources": [
+        "https://developer.wordpress.org/advanced-administration/security/backup/database/",
+        "https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/"
+      ],
+      "content_hash": "eb876a6e5483b3b75d8176c00eddb3482f46da3675a9a92be03e4d07210a856d",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-wordpress-plugin-rollback-rehearsal",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Plan a Shopify webhook API version migration with replayable fixtures",
+      "slug": "outsource-shopify-webhook-api-version-migration",
+      "sources": [
+        "https://shopify.dev/docs/apps/build/webhooks",
+        "https://shopify.dev/docs/apps/build/webhooks/best-practices"
+      ],
+      "content_hash": "9536eedd632f0da5e364bfb7a739930095a42f4341a95e9da2353c25d33b2c23",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-shopify-webhook-api-version-migration",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Set ownership rules for outsourced visual regression baselines",
+      "slug": "outsource-visual-regression-baseline-review",
+      "sources": [
+        "https://playwright.dev/docs/test-snapshots",
+        "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+      ],
+      "content_hash": "a6fd29981c159296a637dea124bca553d6a64fb354e23f8f1a8c5502ee8f6dc3",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-visual-regression-baseline-review",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Test container health checks without hiding dependency failures",
+      "slug": "outsource-container-healthcheck-dependency-test",
+      "sources": [
+        "https://docs.docker.com/reference/dockerfile/#healthcheck",
+        "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/"
+      ],
+      "content_hash": "a4fbb67c3a926c53db8572e7d7747cb01722bd290affef6af54c0c2c752ab13c",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-container-healthcheck-dependency-test",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Scope an expand-and-contract database migration for outsourced work",
+      "slug": "outsource-database-expand-contract-migration",
+      "sources": [
+        "https://www.postgresql.org/docs/current/sql-altertable.html",
+        "https://www.postgresql.org/docs/current/populate.html"
+      ],
+      "content_hash": "5f7339a45c77b2c89f8bef446eca65e862de45db0b3c1bf6162d553d6ff36598",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-database-expand-contract-migration",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Test mobile biometric sign-in after device credentials change",
+      "slug": "outsource-mobile-biometric-credential-change-qa",
+      "sources": [
+        "https://developer.android.com/identity/sign-in/biometric-auth",
+        "https://developer.apple.com/documentation/localauthentication"
+      ],
+      "content_hash": "e5fd95495ed7d3f0b12632fe444ad9a032d48a17ed6adf083396bb5667cfe12f",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-mobile-biometric-credential-change-qa",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Use characterization tests before outsourcing a legacy code change",
+      "slug": "outsource-legacy-code-characterization-tests",
+      "sources": [
+        "https://martinfowler.com/testing/",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      "content_hash": "15f2da191899d59767cf9abdcc411dfb1b1f0c367161091d2f842624a6c23e6c",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-legacy-code-characterization-tests",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Define an API rate-limit retry contract before outsourcing client fixes",
+      "slug": "outsource-api-rate-limit-retry-contract",
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc6585.html",
+        "https://www.rfc-editor.org/rfc/rfc9110.html#name-retry-after"
+      ],
+      "content_hash": "ff94423abe54594bca3c2a36d596cb6fa46a819fba593440d20079543e688799",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-api-rate-limit-retry-contract",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    },
+    {
+      "family": "blog",
+      "topic": "Audit CODEOWNERS review routing before adding outsourced developers",
+      "slug": "outsource-codeowners-review-routing-audit",
+      "sources": [
+        "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners",
+        "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches"
+      ],
+      "content_hash": "c8ca851b1b52f819f697cfd9cd3cb13c18167d6551e3f88ca5607c1f683f3906",
+      "planned_publication_date": "2026-09-18",
+      "actual_publication_date": null,
+      "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
+      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-codeowners-review-routing-audit",
+      "verification_time": null,
+      "status": "pending_live_verification"
+    }
+  ]
+}
