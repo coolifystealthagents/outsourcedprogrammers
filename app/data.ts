@@ -10,6 +10,7 @@ import { september8BlogBatch, september8BlogDetails } from './september8-blog-ba
 import { september10BlogBatch, september10BlogDetails } from './september10-blog-batch';
 import { september11BlogBatch, september11BlogDetails } from './september11-blog-batch';
 import { september14BlogBatch, september14BlogDetails } from './september14-blog-batch';
+import { september18BlogBatch, september18BlogDetails } from './september18-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -99,6 +100,7 @@ export const services = [
 ] as const;
 
 export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published?: string }> = [
+  ...september18BlogBatch,
   ...september14BlogBatch,
   ...september11BlogBatch,
   ...september10BlogBatch,
@@ -318,6 +320,7 @@ export type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...september18BlogDetails,
   'hire-software-developers-philippines-code-review': {
     strictNoPricing: true,
     takeaways: [
