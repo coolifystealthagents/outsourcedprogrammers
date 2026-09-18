@@ -1,6 +1,6 @@
 {
   "required": 12,
-  "verified": 0,
+  "verified": 12,
   "timezone": "UTC",
   "repository": "https://github.com/coolifystealthagents/outsourcedprogrammers.git",
   "branch": "main",
@@ -17,12 +17,12 @@
       ],
       "content_hash": "fc046350b303c904fbfe5d789b84ae11bbe1095f44ec439999017b35117745cb",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-nextjs-server-action-authorization-review",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -34,12 +34,12 @@
       ],
       "content_hash": "d239dc6e0e9801cdd483351b340b51ce15966bc218323b71d9af6823ea805382",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-react-optimistic-ui-rollback-testing",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -51,12 +51,12 @@
       ],
       "content_hash": "0d44e51bb7230acd5c07dbe93dfd195bd3a746ea47d670c8f5d870d411f6e0a3",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-nodejs-http-graceful-shutdown-test",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -68,12 +68,12 @@
       ],
       "content_hash": "eb876a6e5483b3b75d8176c00eddb3482f46da3675a9a92be03e4d07210a856d",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-wordpress-plugin-rollback-rehearsal",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -85,12 +85,12 @@
       ],
       "content_hash": "9536eedd632f0da5e364bfb7a739930095a42f4341a95e9da2353c25d33b2c23",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-shopify-webhook-api-version-migration",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -102,12 +102,12 @@
       ],
       "content_hash": "a6fd29981c159296a637dea124bca553d6a64fb354e23f8f1a8c5502ee8f6dc3",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-visual-regression-baseline-review",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -119,12 +119,12 @@
       ],
       "content_hash": "a4fbb67c3a926c53db8572e7d7747cb01722bd290affef6af54c0c2c752ab13c",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-container-healthcheck-dependency-test",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -136,12 +136,12 @@
       ],
       "content_hash": "5f7339a45c77b2c89f8bef446eca65e862de45db0b3c1bf6162d553d6ff36598",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-database-expand-contract-migration",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -153,12 +153,12 @@
       ],
       "content_hash": "e5fd95495ed7d3f0b12632fe444ad9a032d48a17ed6adf083396bb5667cfe12f",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-mobile-biometric-credential-change-qa",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -170,12 +170,12 @@
       ],
       "content_hash": "15f2da191899d59767cf9abdcc411dfb1b1f0c367161091d2f842624a6c23e6c",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-legacy-code-characterization-tests",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -187,12 +187,12 @@
       ],
       "content_hash": "ff94423abe54594bca3c2a36d596cb6fa46a819fba593440d20079543e688799",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-api-rate-limit-retry-contract",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     },
     {
       "family": "blog",
@@ -204,12 +204,12 @@
       ],
       "content_hash": "c8ca851b1b52f819f697cfd9cd3cb13c18167d6551e3f88ca5607c1f683f3906",
       "planned_publication_date": "2026-09-18",
-      "actual_publication_date": null,
+      "actual_publication_date": "2026-09-18",
       "content_commit_sha": "8e20915f7fe675a44224d1b9cdf4da07d6e51c87",
-      "deployment_evidence": "pending: Coolify queue full after two authenticated attempts",
+      "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-codeowners-review-routing-audit",
-      "verification_time": null,
-      "status": "pending_live_verification"
+      "verification_time": "2026-09-18T14:29:33Z",
+      "status": "live_verified"
     }
   ]
 }
