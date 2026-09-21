@@ -75,7 +75,7 @@ export default function ContactUsPage() {
       <section className="contact-why" aria-labelledby="about-title">
         <div className="contact-shell contact-why-grid">
           <div className="contact-image-wrap"><Image src="/programmer-workbench.jpg" width={1200} height={800} sizes="(max-width: 900px) 100vw, 50vw" alt="Programmer working at a development workstation" loading="eager" unoptimized /></div>
-          <div><p className="contact-kicker dark">Full-time dedicated talent</p><h2 id="about-title">About Stealth Agents</h2><p className="contact-trust-copy">Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><p>Your programmer search should begin with the work, not a generic profile. Define the stack, responsibilities, security boundaries, communication rhythm, and acceptance process before deciding what a dedicated role should look like.</p><a className="contact-powered" href="https://stealthagents.com/">Powered by Stealth Agents</a></div>
+          <div><p className="contact-kicker dark">Full-time dedicated talent</p><h2 id="about-title">About Stealth Agents</h2><p className="contact-trust-copy">Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><p>Your programmer search should begin with the work, not a generic profile. Define the stack, responsibilities, security boundaries, communication rhythm, and acceptance process before deciding what a dedicated role should look like.</p><a className="contact-powered" href="https://stealthagents.com/">Powered by StealthAgents</a></div>
         </div>
       </section>
 
