@@ -181,6 +181,186 @@
       "deployment_evidence": "Coolify deployment cyxmb4isoa1wm2m6bmblinri finished at 2026-09-18T09:03:46Z for target SHA 618286afdcba4a39b605e85c1308c72723ab695e; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
       "live_url": "https://outsourcedprogrammers.com/blog/outsource-codeowners-review-routing-audit",
       "verification_time": "2026-09-18T14:29:33Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Trace a Next.js hydration mismatch before outsourcing the repair",
+      "slug": "outsource-nextjs-hydration-mismatch-review",
+      "sources": [
+        "https://nextjs.org/docs/messages/react-hydration-error",
+        "https://react.dev/reference/react-dom/client/hydrateRoot"
+      ],
+      "content_hash": "756a2896a1f6ca900049364305ef784c06b22f4e88ed0cc9af0c5420bf16c8ac",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-nextjs-hydration-mismatch-review",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Test React Suspense recovery after a lazy load fails",
+      "slug": "outsource-react-suspense-error-recovery-test",
+      "sources": [
+        "https://react.dev/reference/react/Suspense",
+        "https://react.dev/reference/react/lazy"
+      ],
+      "content_hash": "821397e424f87cf0e226e9f93d25717c0c8020ff59a9d935968e29b6322f9957",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-react-suspense-error-recovery-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Check Node.js request context when asynchronous work overlaps",
+      "slug": "outsource-nodejs-async-context-leak-test",
+      "sources": [
+        "https://nodejs.org/api/async_context.html#class-asynclocalstorage",
+        "https://nodejs.org/api/diagnostics_channel.html"
+      ],
+      "content_hash": "0d0b7355f0e69767fc1b29c416d1ac943b70e342c3c30ca7bd2ca4f537b2c8cd",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-nodejs-async-context-leak-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Test overlapping WordPress scheduled events before changing WP-Cron",
+      "slug": "outsource-wordpress-wp-cron-overlap-test",
+      "sources": [
+        "https://developer.wordpress.org/plugins/cron/",
+        "https://developer.wordpress.org/reference/functions/wp_schedule_event/"
+      ],
+      "content_hash": "8f92ce17b649a3e82e95b3ca1ed8a1fa41a55868ce0ef7224a94764c4d298f9a",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-wordpress-wp-cron-overlap-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Review a Shopify theme app extension upgrade without editing the live theme",
+      "slug": "outsource-shopify-theme-app-extension-upgrade",
+      "sources": [
+        "https://shopify.dev/docs/apps/build/online-store/theme-app-extensions",
+        "https://shopify.dev/docs/apps/build/online-store/theme-app-extensions/configuration"
+      ],
+      "content_hash": "7e7b9932933792f0a4afb89792a9ac1bbea1673b5228ce2afc817a8c0e2f7cfd",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-shopify-theme-app-extension-upgrade",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Keep Playwright authentication state isolated across outsourced QA runs",
+      "slug": "outsource-playwright-auth-state-isolation",
+      "sources": [
+        "https://playwright.dev/docs/auth",
+        "https://playwright.dev/docs/browser-contexts"
+      ],
+      "content_hash": "f2b73950d09124e1d5ffb3ba8a5b36a261512cb39d771fed55f858c546e9a42e",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-playwright-auth-state-isolation",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Check a Docker build for secrets that survive in layers or logs",
+      "slug": "outsource-docker-build-secret-leak-review",
+      "sources": [
+        "https://docs.docker.com/build/building/secrets/",
+        "https://docs.docker.com/build/building/variables/"
+      ],
+      "content_hash": "3a90dc4d43f64e0fbb677df47ac9793ff4da1c9738005f10be60bc9bfec7d742",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-docker-build-secret-leak-review",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Test PostgreSQL serialization retries with conflicting transactions",
+      "slug": "outsource-postgresql-serialization-retry-test",
+      "sources": [
+        "https://www.postgresql.org/docs/current/transaction-iso.html",
+        "https://www.postgresql.org/docs/current/errcodes-appendix.html"
+      ],
+      "content_hash": "e14cc757c77077b3f4d4710d1ace7237095ea4f2f03dda3ebf1ed5ac2c9df85d",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-postgresql-serialization-retry-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Test mobile background sync when local and server edits conflict",
+      "slug": "outsource-mobile-background-sync-conflict-test",
+      "sources": [
+        "https://developer.android.com/develop/background-work/background-tasks",
+        "https://developer.apple.com/documentation/backgroundtasks"
+      ],
+      "content_hash": "3965c436b160db8ef7f9d16d5041c7cd35b7f2414f0ddba98a8d57358638a8cd",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-mobile-background-sync-conflict-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Remove a legacy feature flag without deleting a live path",
+      "slug": "outsource-legacy-feature-flag-removal",
+      "sources": [
+        "https://openfeature.dev/specification/",
+        "https://docs.github.com/en/pull-requests/reference/pull-request-reviews"
+      ],
+      "content_hash": "a29c59458858540559a1f211835c0e19b0434bfa96aac9a7eb78976dff272b14",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-legacy-feature-flag-removal",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Use ETags to test lost updates in an outsourced API change",
+      "slug": "outsource-api-etag-lost-update-test",
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html#name-conditional-requests",
+        "https://www.rfc-editor.org/rfc/rfc9110.html#name-if-match"
+      ],
+      "content_hash": "c22220273f2eb218c644eddd1cae8c91bd4ade9e9e83944dfea4338b77d3d50f",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-api-etag-lost-update-test",
+      "verification_time": "2026-09-23T19:15:26Z"
+    },
+    {
+      "family": "blog",
+      "topic": "Review GitHub Actions boundaries for pull requests from forks",
+      "slug": "outsource-github-actions-untrusted-pr-boundary",
+      "sources": [
+        "https://docs.github.com/en/actions/reference/security/secure-use",
+        "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows"
+      ],
+      "content_hash": "492d5f42849cdf29434e28c3cc1ac19179e0b9f313a749e6a6ca6af5562573bf",
+      "actual_publication_date": "2026-09-23",
+      "commit_sha": "7051762072d60f39d6d34598bc0b426c8c70d4f3",
+      "deployment_evidence": "Coolify deployment rvjwjauadkeplfhgrhusglrc finished at 2026-09-23T16:47:21Z for commit 7051762072d60f39d6d34598bc0b426c8c70d4f3; authenticated status finished; HTTP 200, title, unique content, canonical, datePublished, hero asset, and sitemap verified",
+      "live_url": "https://outsourcedprogrammers.com/blog/outsource-github-actions-untrusted-pr-boundary",
+      "verification_time": "2026-09-23T19:15:26Z"
     }
   ]
 }
