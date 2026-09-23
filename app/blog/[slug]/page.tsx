@@ -77,7 +77,6 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         headline: post.title,
         description: post.excerpt,
         datePublished: post.published,
-        dateModified: post.published,
         url: articleUrl,
         mainEntityOfPage: { '@id': `${articleUrl}#webpage` },
         author: { '@type': 'Organization', name: site.brand, url: siteUrl },
