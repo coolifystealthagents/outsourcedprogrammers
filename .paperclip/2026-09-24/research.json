@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "runDate": "2026-09-24",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranches": [
+    "main",
+    "master"
+  ],
+  "required": 5,
+  "verified": 0,
+  "build": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticPages": 597,
+    "warning": "pre-existing CSS autoprefixer start-value warning"
+  },
+  "remoteSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+  "blocker": "Deployment did not transition; configured Coolify API credentials are unauthorized.",
+  "entries": [
+    {
+      "family": "research",
+      "topic": "nextjs preview production",
+      "slug": "outsourced-nextjs-preview-production-parity-research-2026",
+      "sources": "app/september24-research-batch.ts",
+      "contentHash": "0dcde986918383eff07c8cf9ea5f372e454650880648039fe1a0e627338b4bb9",
+      "publicationDate": null,
+      "commitSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+      "deploymentEvidence": "Coolify application vbagj11m3mrgp0cuk6v07h28 configured for master; API credentials returned 401; public checks returned 404 through 2026-09-24T14:20:57Z",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-nextjs-preview-production-parity-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "react accessible component",
+      "slug": "outsourced-react-accessible-component-acceptance-research-2026",
+      "sources": "app/september24-research-batch.ts",
+      "contentHash": "0dcde986918383eff07c8cf9ea5f372e454650880648039fe1a0e627338b4bb9",
+      "publicationDate": null,
+      "commitSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+      "deploymentEvidence": "Coolify application vbagj11m3mrgp0cuk6v07h28 configured for master; API credentials returned 401; public checks returned 404 through 2026-09-24T14:20:57Z",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-react-accessible-component-acceptance-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "nodejs api idempotency",
+      "slug": "outsourced-nodejs-api-idempotency-evidence-research-2026",
+      "sources": "app/september24-research-batch.ts",
+      "contentHash": "0dcde986918383eff07c8cf9ea5f372e454650880648039fe1a0e627338b4bb9",
+      "publicationDate": null,
+      "commitSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+      "deploymentEvidence": "Coolify application vbagj11m3mrgp0cuk6v07h28 configured for master; API credentials returned 401; public checks returned 404 through 2026-09-24T14:20:57Z",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-nodejs-api-idempotency-evidence-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "wordpress plugin update",
+      "slug": "outsourced-wordpress-plugin-update-evidence-research-2026",
+      "sources": "app/september24-research-batch.ts",
+      "contentHash": "0dcde986918383eff07c8cf9ea5f372e454650880648039fe1a0e627338b4bb9",
+      "publicationDate": null,
+      "commitSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+      "deploymentEvidence": "Coolify application vbagj11m3mrgp0cuk6v07h28 configured for master; API credentials returned 401; public checks returned 404 through 2026-09-24T14:20:57Z",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-wordpress-plugin-update-evidence-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "shopify webhook reconciliation",
+      "slug": "outsourced-shopify-webhook-reconciliation-research-2026",
+      "sources": "app/september24-research-batch.ts",
+      "contentHash": "0dcde986918383eff07c8cf9ea5f372e454650880648039fe1a0e627338b4bb9",
+      "publicationDate": null,
+      "commitSha": "278a6a259bb85b914c51b8d81d4c9a1f2a3f0d08",
+      "deploymentEvidence": "Coolify application vbagj11m3mrgp0cuk6v07h28 configured for master; API credentials returned 401; public checks returned 404 through 2026-09-24T14:20:57Z",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-shopify-webhook-reconciliation-research-2026",
+      "verificationTime": null,
+      "verified": false
+    }
+  ]
+}
