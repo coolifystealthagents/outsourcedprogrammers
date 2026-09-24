@@ -8,7 +8,7 @@
   "requiredCount": 12,
   "contentCommit": "33276bdca02316fc0f8301343e8a0a8896de79ad",
   "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
-  "deploymentEvidence": "pending",
+  "deploymentEvidence": "Coolify3 application vbagj11m3mrgp0cuk6v07h28 API returned 401 Unauthenticated for both configured credentials; bounded public transition checks returned HTTP 404 for all 12 routes after main reached 728668cf015ce9c2852a1dc8beda75593d0768a0",
   "verifiedCount": 0,
   "entries": [
     {"topic":"Next.js cache revalidation","slug":"outsource-nextjs-cache-revalidation-review","sources":["https://nextjs.org/docs/app/guides/caching","https://nextjs.org/docs/app/api-reference/functions/revalidateTag"],"contentHash":"0cc9bbafe10767cb27e2b6705899bd0a75b2e95e1b5adc5ecd08feb54c481131","publicationDate":"2026-09-24","commitSha":"33276bdca02316fc0f8301343e8a0a8896de79ad","liveUrl":"https://outsourcedprogrammers.com/blog/outsource-nextjs-cache-revalidation-review","verificationTime":null},
