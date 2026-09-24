@@ -1,6 +1,6 @@
 import type { BlogDetail } from './data';
 
-type Topic={slug:string;title:string;excerpt:string;focus:string;owner:string;system:string;fixture:string;example:string;failure:string;evidence:string;firstCheck:string;secondCheck:string;recovery:string;serviceUrl:string;serviceLabel:string;sources:readonly {name:string;url:string;note:string}[]};
+export type Topic={slug:string;title:string;excerpt:string;focus:string;owner:string;system:string;fixture:string;example:string;failure:string;evidence:string;firstCheck:string;secondCheck:string;recovery:string;serviceUrl:string;serviceLabel:string;sources:readonly {name:string;url:string;note:string}[]};
 
 const topics:readonly Topic[]=[
 {slug:'outsource-nextjs-hydration-mismatch-review',title:'Trace a Next.js hydration mismatch before outsourcing the repair',excerpt:'Separate server output, browser changes, client state, and extension noise with a reproducible route.',focus:'Next.js hydration mismatch',owner:'Next.js application owner',system:'Next.js application',fixture:'a fixed route, clean browser profiles, JavaScript on and off, and controlled locale and time settings',example:'The server renders a UTC date while the browser formats it locally, exposing the first changed text.',failure:'a client-only workaround hides a real server and client disagreement',evidence:'route, revision, server HTML, browser DOM, console message, locale, timezone, and response',firstCheck:'Capture raw HTML and the first clean-profile render.',secondCheck:'Vary clock, locale, storage, cached data, and JavaScript one at a time.',recovery:'Make inputs deterministic or isolate the truly client-only value.',serviceUrl:'/services/nextjs-development',serviceLabel:'Next.js development',sources:[{name:'Next.js hydration errors',url:'https://nextjs.org/docs/messages/react-hydration-error',note:'Official causes and remedies.'},{name:'React hydrateRoot',url:'https://react.dev/reference/react-dom/client/hydrateRoot',note:'Official hydration requirements.'}]},
@@ -18,7 +18,7 @@ const topics:readonly Topic[]=[
 ];
 const sharedSources=[{name:'NIST Secure Software Development Framework',url:'https://csrc.nist.gov/Projects/ssdf',note:'NIST practices for reducing software risk and retaining development evidence.'}];
 
-function makeDetail(t:Topic,index:number):BlogDetail{return{
+export function makeDetail(t:Topic,index:number):BlogDetail{return{
 strictNoPricing:true,heroImage:index%2===0?'/programmer-workbench.jpg':'/illustrations/getillustrations/inkdex-saas/code-control.webp',
 takeaways:[`Give the outsourced programmer one ${t.focus} decision, not an open-ended system audit.`,`Use ${t.fixture}.`,`Record ${t.evidence}.`,`Keep merge, release, and policy approval with the ${t.owner}.`],
 readinessRows:[{area:'Question',ready:`One observable ${t.focus} outcome`,notReady:'A request to review everything'},{area:'Fixture',ready:t.fixture,notReady:'Customer records or unrestricted credentials'},{area:'Evidence',ready:t.evidence,notReady:'A pass label without inputs or revision'},{area:'Decision',ready:`The ${t.owner} is named`,notReady:'The contractor approves their own production change'}],
