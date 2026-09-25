@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "publicationTimezone": "UTC",
+  "publicationDate": "2026-09-25",
+  "releaseMode": "combined-12-blog-plus-5-research",
+  "releaseIntegrator": "blog",
+  "productionPushAuthorized": false,
+  "deploymentAuthorized": false,
+  "liveVerificationOwner": "browser operator",
+  "baseRemoteSha": "68d9434b1488bf021bcb3c6987c9ca793c5a7b4f",
+  "branch": "research/2026-09-25-out-75",
+  "commitSha": null,
+  "status": "staged-for-combined-release",
+  "articles": [
+    {
+      "topic": "Production deployment separation",
+      "slug": "outsourced-programmer-production-deployment-separation-research-2026",
+      "contentHash": "4cf9d581043c46503da596e48397f6ca8fcfdb65285e6cf35a27f6a80f5beeaf",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-production-deployment-separation-research-2026",
+      "sourcesCheckedDate": "2026-09-25",
+      "liveVerified": false
+    },
+    {
+      "topic": "Dependency change acceptance",
+      "slug": "outsourced-programmer-dependency-change-acceptance-research-2026",
+      "contentHash": "c513c6d2ae7adc5f1a26b1ae89e385ea81c4dcdf656675520246fa6367ee6ad2",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-dependency-change-acceptance-research-2026",
+      "sourcesCheckedDate": "2026-09-25",
+      "liveVerified": false
+    },
+    {
+      "topic": "Secret exposure response",
+      "slug": "outsourced-programmer-secret-exposure-response-research-2026",
+      "contentHash": "1cf7fbdfe01e993dea71369838c66219931f524b2e08b0884ac50206f3eb515e",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-secret-exposure-response-research-2026",
+      "sourcesCheckedDate": "2026-09-25",
+      "liveVerified": false
+    },
+    {
+      "topic": "Test data boundaries",
+      "slug": "outsourced-programmer-test-data-boundary-research-2026",
+      "contentHash": "143ba481cb39515c877d435648097c02e42e2b63bc640fcefd1b618fca7d0c20",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-test-data-boundary-research-2026",
+      "sourcesCheckedDate": "2026-09-25",
+      "liveVerified": false
+    },
+    {
+      "topic": "Paid programming pilot design",
+      "slug": "outsourced-programmer-small-paid-pilot-research-2026",
+      "contentHash": "2f84cb403c55cb313d38187a372fcbc479606c24ef78ef50bf4f7ae985fcf1d9",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-small-paid-pilot-research-2026",
+      "sourcesCheckedDate": "2026-09-25",
+      "liveVerified": false
+    }
+  ]
+}
