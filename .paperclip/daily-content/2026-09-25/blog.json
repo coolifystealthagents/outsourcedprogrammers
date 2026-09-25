@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-09-25",
+  "requiredCount": 12,
+  "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+  "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
+  "deploymentId": null,
+  "deploymentStatus": "browser operator owns the single combined deployment",
+  "verifiedCount": 0,
+  "entries": [
+    {
+      "topic": "Next.js Draft Mode access",
+      "slug": "outsource-nextjs-draft-mode-access-review",
+      "sources": [
+        "https://nextjs.org/docs/app/guides/draft-mode",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "4c455b17eb679bb458dacb0ce49e10cc6bc11438d34d833285ea4112e37ffd14",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nextjs-draft-mode-access-review",
+      "verificationTime": null,
+      "wordCount": 1472
+    },
+    {
+      "topic": "React optimistic-update rollback",
+      "slug": "outsource-react-optimistic-update-rollback-test",
+      "sources": [
+        "https://react.dev/reference/react/useOptimistic",
+        "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA19",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "53fce6c43f6265377f63b416644adfcbfe354fb199337f87e7f8004f83e7f405",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-react-optimistic-update-rollback-test",
+      "verificationTime": null,
+      "wordCount": 1414
+    },
+    {
+      "topic": "Node.js stream backpressure",
+      "slug": "outsource-nodejs-stream-backpressure-test",
+      "sources": [
+        "https://nodejs.org/en/learn/modules/backpressuring-in-streams",
+        "https://nodejs.org/api/stream.html",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "7dc445a6ac0d350afb24320984b1efd5131c75584a1cef5ebeb602e257543392",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nodejs-stream-backpressure-test",
+      "verificationTime": null,
+      "wordCount": 1418
+    },
+    {
+      "topic": "WordPress object-cache invalidation",
+      "slug": "outsource-wordpress-object-cache-invalidation-test",
+      "sources": [
+        "https://developer.wordpress.org/reference/classes/wp_object_cache/",
+        "https://developer.wordpress.org/apis/transients/",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "93daffc8f4a49609b54110f1b0aa2053c5e65b68ea81c2b652b824c285b54a1c",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-wordpress-object-cache-invalidation-test",
+      "verificationTime": null,
+      "wordCount": 1417
+    },
+    {
+      "topic": "Shopify cart transform behavior",
+      "slug": "outsource-shopify-cart-transform-function-test",
+      "sources": [
+        "https://shopify.dev/docs/api/functions/latest/cart-transform",
+        "https://shopify.dev/docs/apps/build/functions/test-debug-functions",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "f29593c64a47c6f193b935b3b771aea7fb859b6281d7159036f60452fa09f46c",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-shopify-cart-transform-function-test",
+      "verificationTime": null,
+      "wordCount": 1407
+    },
+    {
+      "topic": "browser download security and reliability",
+      "slug": "outsource-playwright-download-security-test",
+      "sources": [
+        "https://playwright.dev/docs/downloads",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "5a1ff88e238e043889817e8d801a3715c487379287c2ae57d9c3d0bd9d7a117b",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-playwright-download-security-test",
+      "verificationTime": null,
+      "wordCount": 1431
+    },
+    {
+      "topic": "Docker multi-architecture image behavior",
+      "slug": "outsource-docker-multi-architecture-image-review",
+      "sources": [
+        "https://docs.docker.com/build/building/multi-platform/",
+        "https://github.com/opencontainers/image-spec/blob/main/image-index.md",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "bc3e918754004cb74a90473a1f44cd829781e4caab4d736ce32a6b4aa58e7e3c",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-docker-multi-architecture-image-review",
+      "verificationTime": null,
+      "wordCount": 1423
+    },
+    {
+      "topic": "PostgreSQL row-level security",
+      "slug": "outsource-postgresql-row-level-security-review",
+      "sources": [
+        "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+        "https://www.postgresql.org/docs/current/sql-createpolicy.html",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "cc0f685b5cf3b1282a6304973470c1235c446d0bff086df6684aea2d376eb2f6",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-postgresql-row-level-security-review",
+      "verificationTime": null,
+      "wordCount": 1430
+    },
+    {
+      "topic": "mobile push-notification routing",
+      "slug": "outsource-mobile-push-notification-routing-test",
+      "sources": [
+        "https://firebase.google.com/docs/cloud-messaging/android/receive",
+        "https://developer.apple.com/documentation/usernotifications/handling-notifications-and-notification-related-actions",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "a464ff26d90eaec10e95f59374fb3ff74d452cc2fddf04514c5948da4eb3a02e",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-mobile-push-notification-routing-test",
+      "verificationTime": null,
+      "wordCount": 1438
+    },
+    {
+      "topic": "legacy password-hash migration",
+      "slug": "outsource-legacy-password-hash-migration",
+      "sources": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html",
+        "https://pages.nist.gov/800-63-4/sp800-63b.html",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "c89b35f04f18dae24a0e61768be5340c3e3ca82bca0ae3d9e6338b3d67fbf54f",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-legacy-password-hash-migration",
+      "verificationTime": null,
+      "wordCount": 1429
+    },
+    {
+      "topic": "API pagination consistency",
+      "slug": "outsource-api-pagination-consistency-test",
+      "sources": [
+        "https://relay.dev/graphql/connections.htm",
+        "https://www.postgresql.org/docs/current/functions-comparisons.html#ROW-WISE-COMPARISON",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "2a5179746ec084ee47fe443f1f7ce03fd85da180d4f740fe937b29fdc2322470",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-api-pagination-consistency-test",
+      "verificationTime": null,
+      "wordCount": 1442
+    },
+    {
+      "topic": "GitHub Actions artifact attestation verification",
+      "slug": "outsource-github-actions-artifact-attestation-review",
+      "sources": [
+        "https://docs.github.com/en/actions/concepts/security/artifact-attestations",
+        "https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/verify-attestations",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "1ed041730880d7ba937c648242442d7f0555eb04a0091eedaf27ba5502637dc4",
+      "publicationDate": "2026-09-25",
+      "contentCommit": "ac6a6b0086d58b3081e3db84747ea49704fae61b",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-github-actions-artifact-attestation-review",
+      "verificationTime": null,
+      "wordCount": 1447
+    }
+  ]
+}
