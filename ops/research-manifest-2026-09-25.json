@@ -12,7 +12,7 @@
   "liveVerificationOwner": "browser operator",
   "baseRemoteSha": "68d9434b1488bf021bcb3c6987c9ca793c5a7b4f",
   "branch": "research/2026-09-25-out-75",
-  "commitSha": null,
+  "commitSha": "4c24382b6bc85b9a9afffeb4b254c99fe4912430",
   "status": "staged-for-combined-release",
   "articles": [
     {
