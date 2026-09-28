@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "issue": "OUTAAAAAAAAAAAA-77",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "publicationTimezone": "UTC",
+  "publicationDate": "2026-09-28",
+  "dateReconciliationRequiredBeforeRelease": true,
+  "releaseMode": "combined-12-blog-plus-5-research",
+  "releaseIntegrator": "blog",
+  "productionPushAuthorized": false,
+  "deploymentAuthorized": false,
+  "liveVerificationOwner": "user",
+  "baseRemoteSha": "9723a21f6f7acaaa3bfc12f6c7f57cad3a4363b4",
+  "branch": "research/2026-09-28-out-77",
+  "maximumPairwiseFiveWordShingleJaccard": 0.3925,
+  "validation": {"typescript": "passed", "tests": "23 passed", "productionBuild": "passed with existing CSS warning"},
+  "status": "staged-for-local-blog-handoff",
+  "articles": [
+    {"slug":"react-hydration-mismatch-evidence-outsourced-team-2026","topic":"React hydration mismatch evidence","bodyWordCount":1831,"contentHash":"16b05fefced763b3e8e7f8befbab4875a11550e21d395ca07203d52eef4de718","sourcesCheckedDate":"2026-09-28","liveUrl":"https://outsourcedprogrammers.com/research/react-hydration-mismatch-evidence-outsourced-team-2026","liveVerified":false},
+    {"slug":"nodejs-graceful-shutdown-acceptance-research-2026","topic":"Node.js graceful shutdown acceptance","bodyWordCount":1848,"contentHash":"5e081d6dfc49398501206eebce985c7216d85bd88fc4a656d4fc3d2c2a164219","sourcesCheckedDate":"2026-09-28","liveUrl":"https://outsourcedprogrammers.com/research/nodejs-graceful-shutdown-acceptance-research-2026","liveVerified":false},
+    {"slug":"wordpress-wp-cron-reliability-outsourced-maintenance-research-2026","topic":"WordPress WP-Cron reliability","bodyWordCount":1867,"contentHash":"823a37c6bb93d7c4103f1e1be34285766f2c55a05b4408b069fa81cd059a09ee","sourcesCheckedDate":"2026-09-28","liveUrl":"https://outsourcedprogrammers.com/research/wordpress-wp-cron-reliability-outsourced-maintenance-research-2026","liveVerified":false},
+    {"slug":"shopify-webhook-idempotency-handoff-research-2026","topic":"Shopify webhook idempotency","bodyWordCount":1850,"contentHash":"d25acf0f39b65445f897ff851b1b42434ec8ab21926abe5a7726ebb67a13f6d3","sourcesCheckedDate":"2026-09-28","liveUrl":"https://outsourcedprogrammers.com/research/shopify-webhook-idempotency-handoff-research-2026","liveVerified":false},
+    {"slug":"mobile-deep-link-handoff-testing-outsourced-team-2026","topic":"Mobile deep-link handoff testing","bodyWordCount":1910,"contentHash":"add38f48505420fe2114b17c03171f5a1c577874613a3a6a6356ea4d85af99ad","sourcesCheckedDate":"2026-09-28","liveUrl":"https://outsourcedprogrammers.com/research/mobile-deep-link-handoff-testing-outsourced-team-2026","liveVerified":false}
+  ]
+}
