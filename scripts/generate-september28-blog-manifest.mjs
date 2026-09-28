@@ -19,7 +19,7 @@ if (posts.length !== 12 || new Set(posts.map((post) => post.slug)).size !== 12) 
 const shingles = (words) => new Set(Array.from({ length: Math.max(0, words.length - 4) }, (_, index) => words.slice(index, index + 5).join(' ')));
 const entries = posts.map((post) => {
   const detail = blogDetails[post.slug];
-  const text = [post.title, post.excerpt, ...detail.takeaways, ...detail.sections.flatMap((section) => [section.title, ...section.paragraphs, ...(section.bullets || [])]), ...detail.faqs.flatMap((faq) => [faq.question, faq.answer])].join(' ');
+  const text = detail.sections.flatMap((section) => [section.title, ...section.paragraphs, ...(section.bullets || [])]).join(' ');
   const words = text.toLowerCase().match(/\b[\w’'-]+\b/g) || [];
   if (words.length < 900) throw new Error(`${post.slug} has only ${words.length} substantive words`);
   return {
