@@ -8,7 +8,7 @@
   "timezone": "UTC",
   "publicationDate": "2026-09-28",
   "requiredCount": 12,
-  "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+  "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
   "integrationCommit": null,
   "remoteCommit": null,
   "pairedResearchTask": "OUTAAAAAAAAAAAA-77",
@@ -18,7 +18,7 @@
   "deploymentStatus": "not submitted; waiting for combined Research handoff and sole production push",
   "verifiedCount": 0,
   "maximumPairwiseFiveWordShingleJaccard": {
-    "value": 0.344017094017094,
+    "value": 0.34840622683469236,
     "first": "outsource-react-form-state-race-condition-test",
     "second": "outsource-shopify-webhook-hmac-replay-test"
   },
@@ -31,12 +31,12 @@
         "https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "1bc8be51e746d2e59fb79ec144f694178f7781c35c40c0d83d9cb0a4f0b52ee0",
+      "contentHash": "cbd033b87222dae8855bb30363aedc19a140685b2e71c3bd454593c77698da37",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nextjs-streaming-personalization-cache-test",
       "verificationTime": null,
-      "wordCount": 1121
+      "wordCount": 965
     },
     {
       "topic": "React form submission race behavior",
@@ -46,12 +46,12 @@
         "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA22",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "c2d1b37de71cee785c73da8cd601fcbbbac92448c72ed2928a476dee02a54ada",
+      "contentHash": "6a37f48de6635e530c3ff1916781cd1539b48ed33e1be6ec380be07b3c0ea9df",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-react-form-state-race-condition-test",
       "verificationTime": null,
-      "wordCount": 1041
+      "wordCount": 915
     },
     {
       "topic": "Node.js request cancellation and cleanup",
@@ -61,12 +61,12 @@
         "https://nodejs.org/api/http.html",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "06ba211dff90b08efe0ce4fc0376d72def60901fc1f024e0203bbaed759b8c90",
+      "contentHash": "3e3c199b293d639a6e9dbcd89412b5887754878d71aa152fb39c1f7023b2530d",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nodejs-abort-signal-cleanup-test",
       "verificationTime": null,
-      "wordCount": 1075
+      "wordCount": 933
     },
     {
       "topic": "WordPress plugin database schema upgrades",
@@ -76,12 +76,12 @@
         "https://developer.wordpress.org/advanced-administration/multisite/administration/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "4a806ea315713908ad309a5007753c75b4d4eec1a5f0f43ad9cda6fcd0c5f775",
+      "contentHash": "3c08b20c010df376fbf04ab076c2bbc1e9e84e1233f42391761f3e47a3d215d3",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-wordpress-plugin-schema-upgrade-rehearsal",
       "verificationTime": null,
-      "wordCount": 1131
+      "wordCount": 964
     },
     {
       "topic": "Shopify webhook authenticity and replay handling",
@@ -91,12 +91,12 @@
         "https://shopify.dev/docs/apps/build/webhooks/best-practices",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "395509968b5771c043e5fcdaa10eba0d5ab04fb1495d2d7fa9c0f728d2de6c66",
+      "contentHash": "471a56d63b3c5682ca2d7aec73747aa1cd47f183d70d3266af6e56fe64fc01e7",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-shopify-webhook-hmac-replay-test",
       "verificationTime": null,
-      "wordCount": 1050
+      "wordCount": 918
     },
     {
       "topic": "Playwright clock-dependent test determinism",
@@ -106,12 +106,12 @@
         "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "dc2d1e7da5f3e1068fa54e56b31eaaa7be07024631fb3d548ba61a1cf8399696",
+      "contentHash": "c1a364efdb4a604d0b1365a42dfc4b51a101b3b4df3d1edd6aca0c2433f1060c",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-playwright-clock-dependent-test-review",
       "verificationTime": null,
-      "wordCount": 1058
+      "wordCount": 926
     },
     {
       "topic": "Docker container health and readiness behavior",
@@ -121,12 +121,12 @@
         "https://docs.docker.com/reference/cli/docker/container/inspect/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "e2e216d3506aeb6a169dcb1a77dddd681237af09e621e5c5d9f688043f7900e5",
+      "contentHash": "63e01c8d94c369eda9e8c3e1896158ba82aa623fd4c941e87541cfe3469646e8",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-docker-healthcheck-startup-review",
       "verificationTime": null,
-      "wordCount": 1070
+      "wordCount": 930
     },
     {
       "topic": "PostgreSQL concurrent index migration",
@@ -136,12 +136,12 @@
         "https://www.postgresql.org/docs/current/progress-reporting.html#CREATE-INDEX-PROGRESS-REPORTING",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "1911f8d98d97f4d8b3c619e4e25ce8ad0db90c698bfb502c530fc4fb7487da90",
+      "contentHash": "44b95982ef3b5fa77e38ef27156d6b5790cf036d454b0addbc201c6d62161a8e",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-postgresql-online-index-build-review",
       "verificationTime": null,
-      "wordCount": 1072
+      "wordCount": 929
     },
     {
       "topic": "mobile biometric session recovery",
@@ -151,12 +151,12 @@
         "https://developer.apple.com/documentation/localauthentication",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "1de7860cb8cb71e6d557ca933a3f12b9ea821f45869fe079b179f86c6a0c698e",
+      "contentHash": "ca3130b136a6ef5cda2c0c8990ebc47d26c3ae0148ef53ca5c10ca0a24349efe",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-mobile-biometric-session-recovery-test",
       "verificationTime": null,
-      "wordCount": 1076
+      "wordCount": 932
     },
     {
       "topic": "legacy CSV import encoding and content safety",
@@ -166,12 +166,12 @@
         "https://owasp.org/www-community/attacks/CSV_Injection",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "e57864c1c224e9a00c56d6b108f0586720cd5bd3e05c8827343372ee727298fb",
+      "contentHash": "7c1f6388e7488fbb7e0a2b687c8444dcc1712e7d9cdbbc7fdf4cd0cc3520f3bd",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-legacy-csv-import-encoding-safety-test",
       "verificationTime": null,
-      "wordCount": 1167
+      "wordCount": 989
     },
     {
       "topic": "GraphQL persisted-query cache behavior",
@@ -181,12 +181,12 @@
         "https://www.apollographql.com/docs/apollo-server/performance/apq",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "3eee310e335b75a87bfe50feb16d6c1b678c294c7c7e39d2337a3e5475c75a85",
+      "contentHash": "53d160613dc8a22d4fc851d90569dba0935abd03a92e6ad20ac69ee062c6beb5",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-graphql-persisted-query-cache-review",
       "verificationTime": null,
-      "wordCount": 1081
+      "wordCount": 940
     },
     {
       "topic": "GitHub Actions release concurrency and cancellation",
@@ -196,12 +196,12 @@
         "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "2fecae3682d413e5adc10a44a9896c851b1bfa6cf78aa5217a45a3717b38b8a4",
+      "contentHash": "f6ffdb7353f0e5c72cbb81432cd82dbca324c2c915fb95ee61c49f0f71b38eb6",
       "publicationDate": "2026-09-28",
-      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "contentCommit": "0e9a24f0f4426a999ff4998b8e31b8477586e29e",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-github-actions-concurrency-cancellation-test",
       "verificationTime": null,
-      "wordCount": 1148
+      "wordCount": 982
     }
   ]
 }
