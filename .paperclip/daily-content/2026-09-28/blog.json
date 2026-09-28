@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "cycleLabel": "September 28, 2026",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-09-28",
+  "requiredCount": 12,
+  "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+  "integrationCommit": null,
+  "remoteCommit": null,
+  "pairedResearchTask": "OUTAAAAAAAAAAAA-77",
+  "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
+  "deploymentOwner": "browser operator",
+  "deploymentId": null,
+  "deploymentStatus": "not submitted; waiting for combined Research handoff and sole production push",
+  "verifiedCount": 0,
+  "maximumPairwiseFiveWordShingleJaccard": {
+    "value": 0.344017094017094,
+    "first": "outsource-react-form-state-race-condition-test",
+    "second": "outsource-shopify-webhook-hmac-replay-test"
+  },
+  "entries": [
+    {
+      "topic": "Next.js streaming personalization and cache isolation",
+      "slug": "outsource-nextjs-streaming-personalization-cache-test",
+      "sources": [
+        "https://nextjs.org/docs/app/guides/caching",
+        "https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "1bc8be51e746d2e59fb79ec144f694178f7781c35c40c0d83d9cb0a4f0b52ee0",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nextjs-streaming-personalization-cache-test",
+      "verificationTime": null,
+      "wordCount": 1121
+    },
+    {
+      "topic": "React form submission race behavior",
+      "slug": "outsource-react-form-state-race-condition-test",
+      "sources": [
+        "https://react.dev/reference/react/useActionState",
+        "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA22",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "c2d1b37de71cee785c73da8cd601fcbbbac92448c72ed2928a476dee02a54ada",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-react-form-state-race-condition-test",
+      "verificationTime": null,
+      "wordCount": 1041
+    },
+    {
+      "topic": "Node.js request cancellation and cleanup",
+      "slug": "outsource-nodejs-abort-signal-cleanup-test",
+      "sources": [
+        "https://nodejs.org/api/globals.html#class-abortcontroller",
+        "https://nodejs.org/api/http.html",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "06ba211dff90b08efe0ce4fc0376d72def60901fc1f024e0203bbaed759b8c90",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nodejs-abort-signal-cleanup-test",
+      "verificationTime": null,
+      "wordCount": 1075
+    },
+    {
+      "topic": "WordPress plugin database schema upgrades",
+      "slug": "outsource-wordpress-plugin-schema-upgrade-rehearsal",
+      "sources": [
+        "https://developer.wordpress.org/plugins/creating-tables-with-plugins/",
+        "https://developer.wordpress.org/advanced-administration/multisite/administration/",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "4a806ea315713908ad309a5007753c75b4d4eec1a5f0f43ad9cda6fcd0c5f775",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-wordpress-plugin-schema-upgrade-rehearsal",
+      "verificationTime": null,
+      "wordCount": 1131
+    },
+    {
+      "topic": "Shopify webhook authenticity and replay handling",
+      "slug": "outsource-shopify-webhook-hmac-replay-test",
+      "sources": [
+        "https://shopify.dev/docs/apps/build/webhooks/subscribe/https",
+        "https://shopify.dev/docs/apps/build/webhooks/best-practices",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "395509968b5771c043e5fcdaa10eba0d5ab04fb1495d2d7fa9c0f728d2de6c66",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-shopify-webhook-hmac-replay-test",
+      "verificationTime": null,
+      "wordCount": 1050
+    },
+    {
+      "topic": "Playwright clock-dependent test determinism",
+      "slug": "outsource-playwright-clock-dependent-test-review",
+      "sources": [
+        "https://playwright.dev/docs/clock",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "dc2d1e7da5f3e1068fa54e56b31eaaa7be07024631fb3d548ba61a1cf8399696",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-playwright-clock-dependent-test-review",
+      "verificationTime": null,
+      "wordCount": 1058
+    },
+    {
+      "topic": "Docker container health and readiness behavior",
+      "slug": "outsource-docker-healthcheck-startup-review",
+      "sources": [
+        "https://docs.docker.com/reference/dockerfile/#healthcheck",
+        "https://docs.docker.com/reference/cli/docker/container/inspect/",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "e2e216d3506aeb6a169dcb1a77dddd681237af09e621e5c5d9f688043f7900e5",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-docker-healthcheck-startup-review",
+      "verificationTime": null,
+      "wordCount": 1070
+    },
+    {
+      "topic": "PostgreSQL concurrent index migration",
+      "slug": "outsource-postgresql-online-index-build-review",
+      "sources": [
+        "https://www.postgresql.org/docs/current/sql-createindex.html",
+        "https://www.postgresql.org/docs/current/progress-reporting.html#CREATE-INDEX-PROGRESS-REPORTING",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "1911f8d98d97f4d8b3c619e4e25ce8ad0db90c698bfb502c530fc4fb7487da90",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-postgresql-online-index-build-review",
+      "verificationTime": null,
+      "wordCount": 1072
+    },
+    {
+      "topic": "mobile biometric session recovery",
+      "slug": "outsource-mobile-biometric-session-recovery-test",
+      "sources": [
+        "https://developer.android.com/identity/sign-in/biometric-auth",
+        "https://developer.apple.com/documentation/localauthentication",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "1de7860cb8cb71e6d557ca933a3f12b9ea821f45869fe079b179f86c6a0c698e",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-mobile-biometric-session-recovery-test",
+      "verificationTime": null,
+      "wordCount": 1076
+    },
+    {
+      "topic": "legacy CSV import encoding and content safety",
+      "slug": "outsource-legacy-csv-import-encoding-safety-test",
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc4180",
+        "https://owasp.org/www-community/attacks/CSV_Injection",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "e57864c1c224e9a00c56d6b108f0586720cd5bd3e05c8827343372ee727298fb",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-legacy-csv-import-encoding-safety-test",
+      "verificationTime": null,
+      "wordCount": 1167
+    },
+    {
+      "topic": "GraphQL persisted-query cache behavior",
+      "slug": "outsource-graphql-persisted-query-cache-review",
+      "sources": [
+        "https://graphql.github.io/graphql-over-http/draft/",
+        "https://www.apollographql.com/docs/apollo-server/performance/apq",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "3eee310e335b75a87bfe50feb16d6c1b678c294c7c7e39d2337a3e5475c75a85",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-graphql-persisted-query-cache-review",
+      "verificationTime": null,
+      "wordCount": 1081
+    },
+    {
+      "topic": "GitHub Actions release concurrency and cancellation",
+      "slug": "outsource-github-actions-concurrency-cancellation-test",
+      "sources": [
+        "https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency",
+        "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      "contentHash": "2fecae3682d413e5adc10a44a9896c851b1bfa6cf78aa5217a45a3717b38b8a4",
+      "publicationDate": "2026-09-28",
+      "contentCommit": "c79f5bd3aae3ca7f2df1e3fded5db84d68dba63d",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-github-actions-concurrency-cancellation-test",
+      "verificationTime": null,
+      "wordCount": 1148
+    }
+  ]
+}
