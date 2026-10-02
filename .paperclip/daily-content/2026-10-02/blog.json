@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T12:12:21.991Z",
+  "family": "blog",
+  "cycleLabel": "October 2, 2026",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-02",
+  "requiredCount": 12,
+  "contentCommit": "4af4227d5339c97dd1176eb8815926edb0f52318",
+  "integrationCommit": null,
+  "remoteCommit": null,
+  "pairedResearchTask": "OUTAAAAAAAAAAAA-79",
+  "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
+  "deploymentOwner": "browser operator",
+  "deploymentId": null,
+  "deploymentStatus": "not submitted; waiting for sole combined production push",
+  "verifiedCount": 0,
+  "maximumPairwiseFiveWordShingleJaccard": {
+    "value": 0.3541823662396383,
+    "first": "outsource-shopify-theme-cart-state-test",
+    "second": "outsource-ci-artifact-provenance-handoff"
+  },
   "entries": [
     {
       "family": "blog",
