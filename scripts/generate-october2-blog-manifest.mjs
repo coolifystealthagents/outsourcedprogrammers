@@ -54,5 +54,9 @@ const manifest = {
 const manifestTarget = '.paperclip/daily-content/2026-10-02/blog.json';
 fs.mkdirSync(path.dirname(manifestTarget), { recursive: true });
 fs.writeFileSync(manifestTarget, `${JSON.stringify(manifest, null, 2)}\n`);
-fs.writeFileSync('ops/blog-publishing-ledger.json', `${JSON.stringify({ schemaVersion: 1, updatedAt: new Date().toISOString(), entries }, null, 2)}\n`);
+const ledgerTarget = 'ops/blog-publishing-ledger.json';
+const existingLedger = fs.existsSync(ledgerTarget) ? JSON.parse(fs.readFileSync(ledgerTarget, 'utf8')) : { schemaVersion: 1, entries: [] };
+const currentSlugs = new Set(entries.map((entry) => entry.slug));
+const ledgerEntries = [...(existingLedger.entries || []).filter((entry) => !currentSlugs.has(entry.slug)), ...entries];
+fs.writeFileSync(ledgerTarget, `${JSON.stringify({ ...existingLedger, schemaVersion: 1, updatedAt: new Date().toISOString(), entries: ledgerEntries }, null, 2)}\n`);
 console.log(`wrote October 2 Blog manifest and ledger with ${entries.length} entries; max overlap ${maximumPairwiseFiveWordShingleJaccard.value}`);
