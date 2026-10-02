@@ -337,6 +337,15 @@ const currentResearchSourceSet = [
 ] as const;
 const currentResearchBatch: ReadonlyArray<ResearchPost> = currentResearchTopics.map(([slug,title,topic,published], index) => ({
   slug, title, topic, published:published || '2026-08-10',
+  ...(slug === 'outsourced-content-management-qa' ? {
+    dateModified:'2026-10-02',
+    nextStep:{
+      heading:'Set up a safe WordPress change lane',
+      href:'/services/wordpress-engineering',
+      label:'Review WordPress engineering support',
+      copy:'Use this Philippines-based WordPress work lane for one reviewed theme or plugin fix in staging. Your technical owner approves plugins, publishing, access, and production changes.'
+    }
+  } : {}),
   excerpt:'Evidence-led research on ' + topic.toLowerCase() + ' for distributed outsourced-programmer teams.',
   body:[
     title + ' is easiest to manage when the work has a bounded scope, a named owner, and evidence another reviewer can reproduce.',
