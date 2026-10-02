@@ -364,88 +364,88 @@
     },
     {
       "family": "blog",
-      "topic": "Define the Route Handler cross-origin access decision before assigning work",
+      "topic": "Start with the browser trust boundary, not an allow-origin header",
       "slug": "outsource-nextjs-route-handler-cors-review",
       "sources": [
         "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers",
         "https://fetch.spec.whatwg.org/#http-cors-protocol",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "a1a57760148a08d44acd59640d90590aa35fa0a8c952e8dfcf5201de7c37b925",
+      "contentHash": "fe54a182cbcdd4a8b17dea35866b4321a4844f884defb1b5fd5f714142cad2b9",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nextjs-route-handler-cors-review",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 939
+      "wordCount": 1039
     },
     {
       "family": "blog",
-      "topic": "Define the external-store subscription correctness decision before assigning work",
+      "topic": "Prove what an external-store snapshot means",
       "slug": "outsource-react-external-store-subscription-test",
       "sources": [
         "https://react.dev/reference/react/useSyncExternalStore",
         "https://react.dev/reference/react/StrictMode",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "0e7d05cfb84ad10b2bbdfb10c6b0e9781fb3c166bb1905e2ec8b0750fa0ac97c",
+      "contentHash": "3ad355b4186fff63eb38a2ccdc77016500f3e95e2b8c91c6ceae6bc4f4242848",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-react-external-store-subscription-test",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 942
+      "wordCount": 1004
     },
     {
       "family": "blog",
-      "topic": "Define the background-job idempotency decision before assigning work",
+      "topic": "Inventory business effects before discussing retries",
       "slug": "outsource-nodejs-job-idempotency-retry-review",
       "sources": [
         "https://docs.bullmq.io/guide/retrying-failing-jobs",
         "https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "1882005680e401a3b54e31cead31862abcd69cccdfa519b5122520738edd29ed",
+      "contentHash": "dc901ae68569270a613d6932fa6881a79afc7b291a6e73c2b2218d297f6aa338",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nodejs-job-idempotency-retry-review",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 905
+      "wordCount": 930
     },
     {
       "family": "blog",
-      "topic": "Define the custom REST endpoint authorization decision before assigning work",
+      "topic": "Describe each WordPress route as a public contract",
       "slug": "outsource-wordpress-rest-api-permission-callback-review",
       "sources": [
         "https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-custom-endpoints/",
         "https://wordpress.org/documentation/article/roles-and-capabilities/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "3618fca0c7659d2d9a36603830d203df060518688eacf057ce70610bee75d4fe",
+      "contentHash": "ff34c6b6c102c14149a0fff63c35ccc1476dc74e2d972e255384ad01b9fa3666",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-wordpress-rest-api-permission-callback-review",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 903
+      "wordCount": 923
     },
     {
       "family": "blog",
-      "topic": "Define the storefront cart-state consistency decision before assigning work",
+      "topic": "Begin with line identity, not the visible product title",
       "slug": "outsource-shopify-theme-cart-state-test",
       "sources": [
         "https://shopify.dev/docs/api/ajax/reference/cart",
         "https://shopify.dev/docs/api/ajax/section-rendering",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "e9edcf3c89e15a84f5efbb146eeeb60488fbc9097eeba45ab2d85c7cfa0e04cf",
+      "contentHash": "4b76295631399219e6eeb84d4cb682a9f0300f6ebfe5edffd90991e992b355de",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-shopify-theme-cart-state-test",
       "verificationTime": null,
@@ -454,131 +454,131 @@
     },
     {
       "family": "blog",
-      "topic": "Define the browser-test authentication isolation decision before assigning work",
+      "topic": "Treat a saved browser state as a credential artifact",
       "slug": "outsource-playwright-auth-state-isolation-audit",
       "sources": [
         "https://playwright.dev/docs/auth",
         "https://playwright.dev/docs/test-parallel",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "2eab898a879103f236b4111a6bb26c622b22e7d1ca94977f1e8d3da296f8f255",
+      "contentHash": "6fd90e39473994dd8ec2bd3c99d09e8c9df9d9f83b96d394af405deac5e6c76e",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-playwright-auth-state-isolation-audit",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 910
+      "wordCount": 923
     },
     {
       "family": "blog",
-      "topic": "Define the container shutdown behavior decision before assigning work",
+      "topic": "Find the process that actually receives the stop signal",
       "slug": "outsource-docker-container-signal-shutdown-test",
       "sources": [
         "https://docs.docker.com/reference/dockerfile/#entrypoint",
         "https://docs.docker.com/reference/cli/docker/container/stop/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "752b229892eea38910d625684d9feba0e621a1c0270ca119de5e5e1c08e1ae4c",
+      "contentHash": "89c69422d6b01156bad8bfb623f9070824ed34b3b6d2b2d25aaf0e4c83f5d6e6",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-docker-container-signal-shutdown-test",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 907
+      "wordCount": 903
     },
     {
       "family": "blog",
-      "topic": "Define the tenant isolation with row-level security decision before assigning work",
+      "topic": "Test policies under the application role that really runs queries",
       "slug": "outsource-postgresql-row-level-security-test",
       "sources": [
         "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
         "https://www.postgresql.org/docs/current/sql-set.html",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "86b40b913812973b8cee3d84527cfe83a34288dece65a393ee490347a9ed97c5",
+      "contentHash": "d6a8559b654822f866c9ae48605aa9cf18bbd223f56fd29d540cbfe3e8d834fd",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-postgresql-row-level-security-test",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 905
+      "wordCount": 903
     },
     {
       "family": "blog",
-      "topic": "Define the offline synchronization conflict handling decision before assigning work",
+      "topic": "Represent device edits as histories, not final blobs",
       "slug": "outsource-mobile-offline-sync-conflict-test",
       "sources": [
         "https://developer.android.com/topic/architecture/data-layer/offline-first",
         "https://developer.apple.com/documentation/coredata/synchronizing-a-local-store-to-the-cloud",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "ea411764030d0d72b7ca57c8182c8c97703fe3323f8fe733bb77ff619bc268da",
+      "contentHash": "6801f7e27de949dd7e1195d6c6fd4831267efc1e595e44f32a7b9d1c95e77716",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-mobile-offline-sync-conflict-test",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 910
+      "wordCount": 921
     },
     {
       "family": "blog",
-      "topic": "Define the legacy text-encoding compatibility decision before assigning work",
+      "topic": "Locate the first boundary that turns bytes into text",
       "slug": "outsource-legacy-api-character-encoding-review",
       "sources": [
         "https://encoding.spec.whatwg.org/",
         "https://unicode.org/reports/tr15/",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "9145b6ade32879e0ec4b3ea0251c386a81d0d6b19ac058dbb49e422c9341dfcd",
+      "contentHash": "1ca2a8cd0057781c7a3024f234dfcccd9294a93efb4da6e02853fa86c3bd7c4c",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-legacy-api-character-encoding-review",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 901
+      "wordCount": 900
     },
     {
       "family": "blog",
-      "topic": "Define the field-level GraphQL authorization decision before assigning work",
+      "topic": "Map authorization to fields and objects, not operation names",
       "slug": "outsource-graphql-field-authorization-audit",
       "sources": [
         "https://graphql.org/learn/security/",
         "https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "90b1d28ac499dbf48f54cc65e4429fd7d95840289796d8c183d306d209ae9b99",
+      "contentHash": "12e21ab1301bb1d0946abb05ed746db4e94b92fd2009424c2c7eecc10d257a54",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-graphql-field-authorization-audit",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 905
+      "wordCount": 901
     },
     {
       "family": "blog",
-      "topic": "Define the build-artifact provenance decision before assigning work",
+      "topic": "Follow one artifact from source revision to deployment input",
       "slug": "outsource-ci-artifact-provenance-handoff",
       "sources": [
         "https://docs.github.com/en/actions/security-for-github-actions/using-artifact-attestations",
         "https://slsa.dev/spec/v1.1/provenance",
         "https://csrc.nist.gov/Projects/ssdf"
       ],
-      "contentHash": "02de7ee6bce757cf0f3fe8627a9a5eba911b259ac4fcd046ce37ee4047805acd",
+      "contentHash": "f5bc4fbc27d6aae97ba78f6338ceaa908f427bd46acc3acd3c5eba8f809427e1",
       "publicationDate": "2026-10-02",
-      "commitSha": "4af4227d5339c97dd1176eb8815926edb0f52318",
+      "commitSha": "bfae01c1ea559538296255744b3861cd3e53ad4f",
       "deploymentEvidence": "Pending combined production deployment by Browser Operator",
       "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-ci-artifact-provenance-handoff",
       "verificationTime": null,
       "verified": false,
-      "wordCount": 904
+      "wordCount": 902
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T12:13:07.503Z"
+  "updatedAt": "2026-10-02T13:55:53.003Z"
 }
