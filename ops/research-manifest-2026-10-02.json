@@ -14,6 +14,7 @@
   "liveVerificationOwner": "existing-company-agent-after-browser-operator-evidence",
   "baseRemoteSha": "522242e8689b1a29cebcf003a29931bcf48ada40",
   "branch": "research/2026-10-02-out-79",
+  "sourceCommitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
   "maximumPairwiseFiveWordShingleJaccard": 0.001639,
   "maximumPair": ["outsourced-qa-flaky-test-ownership-research-2026", "outsourced-programmer-continuity-bus-factor-research-2026"],
   "originalityAudit": {
