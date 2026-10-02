@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "issue": "OUTAAAAAAAAAAAA-79",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "publicationTimezone": "UTC",
+  "publicationDate": "2026-10-02",
+  "dateReconciliationRequiredBeforeRelease": true,
+  "releaseMode": "combined-12-blog-plus-5-research",
+  "releaseIntegrator": "blog",
+  "productionPushAuthorized": false,
+  "deploymentAuthorized": false,
+  "liveVerificationOwner": "existing-company-agent-after-browser-operator-evidence",
+  "baseRemoteSha": "522242e8689b1a29cebcf003a29931bcf48ada40",
+  "branch": "research/2026-10-02-out-79",
+  "maximumPairwiseFiveWordShingleJaccard": 0.001639,
+  "maximumPair": ["outsourced-qa-flaky-test-ownership-research-2026", "outsourced-programmer-continuity-bus-factor-research-2026"],
+  "originalityAudit": {
+    "threshold": 0.5,
+    "repeatedParagraphCheck": "passed; no repeated body paragraphs",
+    "sharedArgumentCheck": "passed; each article has a distinct decision, method, evidence model, limitations, and reader outcome",
+    "qualitativeResult": "passed"
+  },
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed with pre-existing CSS flex-start warning",
+    "sourceReachabilitySample": "passed (six primary/authoritative URLs returned HTTP 200)",
+    "renderedRoutes": "passed in Next.js static generation",
+    "images": "reused repository assets; existence and build rendering passed"
+  },
+  "status": "staged-for-local-blog-handoff",
+  "articles": [
+    {"slug":"outsourced-programmer-paid-trial-design-research-2026","topic":"Outsourced programmer paid-trial design","bodyWordCount":1231,"contentHash":"4d3b75c8160d8ff0e96242ef7f17483a7b9e45e5da5188f962b16c3bdeacd22b","sourcesCheckedDate":"2026-10-02","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-paid-trial-design-research-2026","liveVerified":false},
+    {"slug":"outsourced-developer-repository-access-research-2026","topic":"Outsourced developer repository access","bodyWordCount":1303,"contentHash":"d584763ffdc4d95579b38a73d42a4fd025a6771b9bc40b8d31bed7ffa1eaa4d8","sourcesCheckedDate":"2026-10-02","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-developer-repository-access-research-2026","liveVerified":false},
+    {"slug":"outsourced-programmer-code-review-service-level-research-2026","topic":"Outsourced programmer code-review service level","bodyWordCount":1210,"contentHash":"5ac6e433ae1b1ddf95f4f294fe670389f547a824730b5f38a8df085d1b34e7cd","sourcesCheckedDate":"2026-10-02","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-code-review-service-level-research-2026","liveVerified":false},
+    {"slug":"outsourced-qa-flaky-test-ownership-research-2026","topic":"Outsourced QA flaky-test ownership","bodyWordCount":1203,"contentHash":"c88d079c57fc6728d55d61925b57d2283018520709f894e9cd89504d2dc2eb57","sourcesCheckedDate":"2026-10-02","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-qa-flaky-test-ownership-research-2026","liveVerified":false},
+    {"slug":"outsourced-programmer-continuity-bus-factor-research-2026","topic":"Outsourced programmer continuity and key-person risk","bodyWordCount":1210,"contentHash":"bf58e7ad8ccbdd40c115e91bf6dcfa7e6d826738b20cb1244e7f3dddf0186ee9","sourcesCheckedDate":"2026-10-02","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-continuity-bus-factor-research-2026","liveVerified":false}
+  ]
+}
