@@ -304,6 +304,15 @@ const scheduledSourceSet = [
 ] as const;
 const scheduledResearchBatch: ReadonlyArray<ResearchPost> = scheduledResearchPosts.map(([slug,title,topic], index) => ({
   slug, title, topic, published:'2026-08-10', excerpt:`Evidence-led research on ${topic.toLowerCase()} for distributed outsourced-programmer teams.`,
+  ...(slug === 'outsourced-ecommerce-checkout-qa' ? {
+    dateModified:'2026-10-04',
+    nextStep:{
+      heading:'Plan a Shopify checkout test lane',
+      href:'/services/shopify-development',
+      label:'Review Shopify development support',
+      copy:'Use the Shopify development page when you need a Philippines-based specialist to test a defined checkout change in a development store. Your store owner approves checkout, payment settings, app scopes, and publication.'
+    }
+  } : {}),
   body:[`${title} is easiest to review when the work is bounded, evidence-led, and assigned to a named owner. OutsourcedProgrammers.com recommends a clear ticket before implementation begins.`,`Start with the outcome and baseline. Record the relevant route, system, assumptions, date, inputs, and expected result so another reviewer can reproduce the check.`,`Break the lane into a small first assignment. Link the brief, implementation, test evidence, screenshots or logs, and unresolved questions in one durable review record.`,`Use explicit acceptance criteria. A useful record distinguishes what passed, what was not tested, and which decision still belongs to the company owner.`,`Protect boundaries throughout the handoff. Keep production approval, secrets, customer data, commercial commitments, and policy decisions with the company owner.`,`Apply least privilege, named accounts, MFA where available, masked test data, and a documented removal path when access is no longer required.`,`Measure outcomes rather than activity: completed checks, review turnaround, escaped defects, reopened work, documentation quality, and blocker age.`,`Headline finding: authoritative guidance supports traceable evidence, explicit acceptance criteria, and risk-based review for ${topic.toLowerCase()}.`,'Consolidated takeaway: outsource a defined preparation and validation lane while retaining final merge, release, and exception authority.','This research is a planning aid, not legal, tax, employment, privacy, or security advice. Validate it against your business facts.'],
   sources: scheduledSourceSet, related: scheduledResearchPosts.filter((_, i) => i !== index).slice(index % 7, index % 7 + 3).map(([relatedSlug]) => relatedSlug)
 }));
