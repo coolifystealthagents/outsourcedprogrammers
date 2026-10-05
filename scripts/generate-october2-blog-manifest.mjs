@@ -60,6 +60,6 @@ fs.writeFileSync(manifestTarget, `${JSON.stringify(manifest, null, 2)}\n`);
 const ledgerTarget = 'ops/blog-publishing-ledger.json';
 const existingLedger = fs.existsSync(ledgerTarget) ? JSON.parse(fs.readFileSync(ledgerTarget, 'utf8')) : { schemaVersion: 1, entries: [] };
 const currentSlugs = new Set(entries.map((entry) => entry.slug));
-const ledgerEntries = [...(existingLedger.entries || []).filter((entry) => !currentSlugs.has(entry.slug)), ...entries];
+const ledgerEntries = [...(existingLedger.entries || []).filter((entry) => entry.publicationDate !== publicationDate && entry.actual_publication_date !== publicationDate && !currentSlugs.has(entry.slug)), ...entries];
 fs.writeFileSync(ledgerTarget, `${JSON.stringify({ ...existingLedger, schemaVersion: 1, updatedAt: new Date().toISOString(), entries: ledgerEntries }, null, 2)}\n`);
 console.log(`wrote ${publicationDate} Blog manifest and ledger with ${entries.length} entries; max overlap ${maximumPairwiseFiveWordShingleJaccard.value}`);
