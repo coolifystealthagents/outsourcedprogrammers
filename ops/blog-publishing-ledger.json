@@ -577,8 +577,212 @@
       "verificationTime": null,
       "verified": false,
       "wordCount": 902
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Next.js storefront that mixes static product pages, tagged fetches, and authenticated Server Actions",
+      "slug": "outsource-nextjs-cache-invalidation-review",
+      "sources": [
+        "https://nextjs.org/docs/app/guides/caching",
+        "https://nextjs.org/docs/app/api-reference/functions/revalidateTag"
+      ],
+      "contentHash": "14f5df0c450bb894b76e4b666bb1e7b28d4e4256a0640364b2b588fa5f41a0b8",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nextjs-cache-invalidation-review",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1052
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a React application that renders localized pages on the server and hydrates them in the browser",
+      "slug": "outsource-react-hydration-localization-test",
+      "sources": [
+        "https://react.dev/reference/react-dom/client/hydrateRoot",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Internationalization"
+      ],
+      "contentHash": "cd99053505f482056db378e0cbcf88bb929a0983f94f8afecfce5f6003ca02b3",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-react-hydration-localization-test",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1050
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Node.js package consumed by both ECMAScript-module and CommonJS applications",
+      "slug": "outsource-nodejs-package-exports-compatibility-review",
+      "sources": [
+        "https://nodejs.org/api/packages.html",
+        "https://www.typescriptlang.org/docs/handbook/modules/reference.html"
+      ],
+      "contentHash": "b5f849943a9cf0fe310d7c78b20d84e2ddf6fc959287e6a6138b4ebfc8b7d540",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-nodejs-package-exports-compatibility-review",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 996
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a PostgreSQL-backed application with a large, frequently updated table and a latency-sensitive query",
+      "slug": "outsource-postgresql-online-index-plan",
+      "sources": [
+        "https://www.postgresql.org/docs/current/sql-createindex.html",
+        "https://www.postgresql.org/docs/current/indexes.html"
+      ],
+      "contentHash": "33d784342a968377c79c1843fa24a6fa7939bb9191b7c2ab9f1ba193cfba5a4c",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-postgresql-online-index-plan",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1007
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a WordPress multisite network with a mixture of network-activated and site-activated plugins",
+      "slug": "outsource-wordpress-multisite-plugin-upgrade",
+      "sources": [
+        "https://developer.wordpress.org/advanced-administration/multisite/administration/",
+        "https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/"
+      ],
+      "contentHash": "dccefe1a68ffbf76c13ad1f01e0cb82605d284d20cffdf8c9147bbde2be68263",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-wordpress-multisite-plugin-upgrade",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 982
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Shopify subscription application connected to a theme, selling plans, and merchant administration workflows",
+      "slug": "outsource-shopify-subscription-contract-test",
+      "sources": [
+        "https://shopify.dev/docs/apps/build/purchase-options/subscriptions/contracts",
+        "https://shopify.dev/docs/apps/build/webhooks/best-practices"
+      ],
+      "contentHash": "35d33c5bc19be05e3acfc56fe4f3ce0c755e0ed7d01c6969b76b3405f047f8cb",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-shopify-subscription-contract-test",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 982
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Laravel application with policies, scoped bindings, jobs, and tenant-owned resources",
+      "slug": "outsource-laravel-policy-regression-review",
+      "sources": [
+        "https://laravel.com/docs/authorization",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+      ],
+      "contentHash": "c9249d6cc38deed42cc01fd14ed873542f88e93e0f759e645a0623a4808753f2",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-laravel-policy-regression-review",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 994
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Django application that commits business state and sends Celery tasks to workers",
+      "slug": "outsource-django-celery-delivery-review",
+      "sources": [
+        "https://docs.djangoproject.com/en/stable/topics/db/transactions/#performing-actions-after-commit",
+        "https://docs.celeryq.dev/en/stable/userguide/tasks.html"
+      ],
+      "contentHash": "6cb427b834590f828c2359b106c3ee5d9df10c0c855b46585724e0776083a546",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-django-celery-delivery-review",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 994
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a Ruby on Rails application that must backfill a large table while old and new code versions overlap",
+      "slug": "outsource-rails-background-migration-checklist",
+      "sources": [
+        "https://guides.rubyonrails.org/active_record_migrations.html",
+        "https://docs.gitlab.com/development/database/batched_background_migrations/"
+      ],
+      "contentHash": "929ebb88fc9277221e9994f6df883eba53f52af809eec31ab730bde890d99f82",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-rails-background-migration-checklist",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1031
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside an iOS and Android application that receives transactional push notifications from a backend service",
+      "slug": "outsource-mobile-push-notification-qa",
+      "sources": [
+        "https://developer.apple.com/documentation/usernotifications/handling-notifications-and-notification-related-actions",
+        "https://firebase.google.com/docs/cloud-messaging/receive-messages"
+      ],
+      "contentHash": "85f59d218bdedf2f0342f96b78450a8eb9affd818f773072f11398296706ae84",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-mobile-push-notification-qa",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1026
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a web application that signs users in through an external OAuth 2.0 or OpenID Connect provider",
+      "slug": "outsource-oauth-callback-state-review",
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc9700",
+        "https://openid.net/specs/openid-connect-core-1_0.html"
+      ],
+      "contentHash": "d76d9c84ec84a20875b65ea8c3d33e6833b5ca72f1fd4e13e2aacd91d296997f",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-oauth-callback-state-review",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1062
+    },
+    {
+      "family": "blog",
+      "topic": "Start with the decision inside a batch data pipeline that receives partner files or API records and loads an analytics warehouse",
+      "slug": "outsource-data-pipeline-schema-drift",
+      "sources": [
+        "https://json-schema.org/specification",
+        "https://csrc.nist.gov/pubs/sp/1800/25/final"
+      ],
+      "contentHash": "58796abd6662d4871181f265a9a43a699cecf222395ce261314c56e4ab702dd3",
+      "publicationDate": "2026-10-05",
+      "commitSha": "dbf1b709864180131315901d335301cbb6d17c9a",
+      "deploymentEvidence": "Pending combined production deployment by Browser Operator",
+      "liveUrl": "https://outsourcedprogrammers.com/blog/outsource-data-pipeline-schema-drift",
+      "verificationTime": null,
+      "verified": false,
+      "wordCount": 1012
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T13:55:53.003Z"
+  "updatedAt": "2026-10-05T14:32:26.679Z"
 }
