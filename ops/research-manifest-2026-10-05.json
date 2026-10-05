@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "issue": "OUTAAAAAAAAAAAA-81",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "publicationTimezone": "UTC",
+  "publicationDate": "2026-10-05",
+  "dateReconciliationRequiredBeforeRelease": true,
+  "releaseMode": "combined-12-blog-plus-5-research",
+  "releaseIntegrator": "blog",
+  "productionPushAuthorized": false,
+  "deploymentAuthorized": false,
+  "liveVerificationOwner": "existing-company-agent-after-browser-operator-evidence",
+  "baseRemoteSha": "65a028af5729506ff830ab672fb8e1105c995a40",
+  "branch": "research/2026-10-05-out-81",
+  "sourceCommitSha": "PENDING_LOCAL_COMMIT",
+  "maximumPairwiseFiveWordShingleJaccard": 0.000816,
+  "maximumPair": ["outsourced-nodejs-api-rate-limit-contract-research-2026", "outsourced-qa-visual-regression-baseline-research-2026"],
+  "originalityAudit": {
+    "threshold": 0.5,
+    "repeatedParagraphCheck": "passed; no repeated body paragraphs",
+    "sharedArgumentCheck": "passed; each article has a different decision boundary, method, examples, evidence model, and reader outcome",
+    "qualitativeResult": "passed"
+  },
+  "validation": {
+    "typescript": "passed in Next.js production build",
+    "productionBuild": "passed with pre-existing CSS flex-start warning",
+    "renderedRoutes": "passed in Next.js static generation",
+    "images": "reused existing repository assets; existence and build rendering passed",
+    "sourceReview": "primary and authoritative sources reviewed 2026-10-05"
+  },
+  "status": "staged-for-local-blog-handoff",
+  "articles": [
+    {"slug":"outsourced-programmer-bug-triage-severity-research-2026","topic":"Outsourced programmer bug-triage severity","bodyWordCount":1321,"contentHash":"02f5cde33ab2fd88a0e0e9983f7ec62a396e599dcd130dc574da335643fad1a4","sourcesCheckedDate":"2026-10-05","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-bug-triage-severity-research-2026","liveVerified":false},
+    {"slug":"outsourced-wordpress-staging-data-refresh-research-2026","topic":"WordPress staging data refresh safety","bodyWordCount":1239,"contentHash":"807303aca8e8166e9f37340aa0ab30b82ba82495fcb21f6ffd54c4b53d7fdf73","sourcesCheckedDate":"2026-10-05","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-wordpress-staging-data-refresh-research-2026","liveVerified":false},
+    {"slug":"outsourced-shopify-theme-performance-budget-research-2026","topic":"Shopify theme performance budget","bodyWordCount":1212,"contentHash":"d1f3bdbeccd67ff23383f630b08f7d046eee9b1a9dd44e1bcc341550a0d6b5a1","sourcesCheckedDate":"2026-10-05","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-shopify-theme-performance-budget-research-2026","liveVerified":false},
+    {"slug":"outsourced-nodejs-api-rate-limit-contract-research-2026","topic":"Node.js API rate-limit contract","bodyWordCount":1217,"contentHash":"4675edf1045dd47dfcc19ee1bf51af4b42a14d1d07c9a56a835af4b5e8ab1bdc","sourcesCheckedDate":"2026-10-05","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-nodejs-api-rate-limit-contract-research-2026","liveVerified":false},
+    {"slug":"outsourced-qa-visual-regression-baseline-research-2026","topic":"Outsourced QA visual-regression baseline governance","bodyWordCount":1212,"contentHash":"ad34e07c75f0af9bf80fb51d34c70bf231215ca5430cb82042610cad63ba0af8","sourcesCheckedDate":"2026-10-05","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-qa-visual-regression-baseline-research-2026","liveVerified":false}
+  ]
+}

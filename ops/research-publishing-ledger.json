@@ -1,11 +1,280 @@
-{"schemaVersion":1,"entries":[
-{"family":"research","topic":"Inherited codebase maintenance assessment","slug":"outsourced-programmer-inherited-codebase-assessment","sources":["NIST SSDF","CISA software supply-chain practices","GitHub protected branches","GitHub pull-request reviews","OWASP ASVS"],"contentHash":"5aee82a1828b09127eaa24c9bbc83882010b1b8dbfad8edc4db26bab8d92d648","publicationDate":"2026-09-23","commitSha":"aa5dab168fb33910c534941135ba958ffcb695b9","deploymentEvidence":"Pending combined production deployment","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-inherited-codebase-assessment","verificationTime":null,"verified":false},
-{"family":"research","topic":"AI coding-assistant governance","slug":"outsourced-developer-ai-coding-assistant-boundaries","sources":["NIST SSDF","NIST AI RMF","OWASP LLM Top 10","GitHub protected branches"],"contentHash":"2df437593e19fd7d65b80908dd57b9a187e6c58c1215432463ce1272f819068c","publicationDate":"2026-09-23","commitSha":"aa5dab168fb33910c534941135ba958ffcb695b9","deploymentEvidence":"Pending combined production deployment","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-developer-ai-coding-assistant-boundaries","verificationTime":null,"verified":false},
-{"family":"research","topic":"Dependency and license handoff","slug":"outsourced-software-dependency-license-handoff","sources":["NIST SSDF","CISA software supply-chain practices","NTIA SBOM","OpenSSF Scorecard"],"contentHash":"c0ddac0bab74e9a49b368d91eb1893ac086e1c07e6fbb22f419fc7321ebae43e","publicationDate":"2026-09-23","commitSha":"aa5dab168fb33910c534941135ba958ffcb695b9","deploymentEvidence":"Pending combined production deployment","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-software-dependency-license-handoff","verificationTime":null,"verified":false},
-{"family":"research","topic":"Production incident access","slug":"outsourced-developer-production-incident-access-decision","sources":["NIST SSDF","NIST incident handling guide","CISA incident playbooks","GitHub protected branches"],"contentHash":"7fb86deb2539510c3d2b4f627ca98133dda61cafee196f5112e16299267e2876","publicationDate":"2026-09-23","commitSha":"aa5dab168fb33910c534941135ba958ffcb695b9","deploymentEvidence":"Pending combined production deployment","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-developer-production-incident-access-decision","verificationTime":null,"verified":false},
-{"family":"research","topic":"Knowledge-transfer acceptance","slug":"outsourced-programmer-knowledge-transfer-acceptance-test","sources":["NIST SSDF","CISA software supply-chain practices","Google Technical Writing","The Open Group ADR guidance"],"contentHash":"498e81a2bee65ec28f71894b5feb3044af8e55403797c38a5bd6712ac70bf8e7","publicationDate":"2026-09-23","commitSha":"aa5dab168fb33910c534941135ba958ffcb695b9","deploymentEvidence":"Pending combined production deployment","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-knowledge-transfer-acceptance-test","verificationTime":null,"verified":false},
-{"family":"research","topic":"Outsourced programmer paid-trial design","slug":"outsourced-programmer-paid-trial-design-research-2026","sources":["EEOC Employment Tests and Selection Procedures","NIST SSDF","GitHub pull request reviews","OWASP Developer Guide"],"contentHash":"4d3b75c8160d8ff0e96242ef7f17483a7b9e45e5da5188f962b16c3bdeacd22b","publicationDate":"2026-10-02","commitSha":"cdf617cb99a56d0bc0ce8718100f757d0c73a954","deploymentEvidence":"Pending combined production deployment by Blog integrator","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-paid-trial-design-research-2026","verificationTime":null,"verified":false},
-{"family":"research","topic":"Outsourced developer repository access","slug":"outsourced-developer-repository-access-research-2026","sources":["GitHub repository roles","GitHub protected branches","GitHub Actions security hardening","NIST SP 800-53 Rev. 5"],"contentHash":"d584763ffdc4d95579b38a73d42a4fd025a6771b9bc40b8d31bed7ffa1eaa4d8","publicationDate":"2026-10-02","commitSha":"cdf617cb99a56d0bc0ce8718100f757d0c73a954","deploymentEvidence":"Pending combined production deployment by Blog integrator","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-developer-repository-access-research-2026","verificationTime":null,"verified":false},
-{"family":"research","topic":"Outsourced programmer code-review service level","slug":"outsourced-programmer-code-review-service-level-research-2026","sources":["DORA continuous delivery","GitHub pull request reviews","Google code review","Google review speed"],"contentHash":"5ac6e433ae1b1ddf95f4f294fe670389f547a824730b5f38a8df085d1b34e7cd","publicationDate":"2026-10-02","commitSha":"cdf617cb99a56d0bc0ce8718100f757d0c73a954","deploymentEvidence":"Pending combined production deployment by Blog integrator","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-code-review-service-level-research-2026","verificationTime":null,"verified":false},
-{"family":"research","topic":"Outsourced QA flaky-test ownership","slug":"outsourced-qa-flaky-test-ownership-research-2026","sources":["Playwright retries","Playwright Trace Viewer","Playwright isolation","pytest flaky tests","Google Testing Blog"],"contentHash":"c88d079c57fc6728d55d61925b57d2283018520709f894e9cd89504d2dc2eb57","publicationDate":"2026-10-02","commitSha":"cdf617cb99a56d0bc0ce8718100f757d0c73a954","deploymentEvidence":"Pending combined production deployment by Blog integrator","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-qa-flaky-test-ownership-research-2026","verificationTime":null,"verified":false},
-{"family":"research","topic":"Outsourced programmer continuity and key-person risk","slug":"outsourced-programmer-continuity-bus-factor-research-2026","sources":["NIST SP 800-34 Rev. 1","NIST SSDF","CISA Secure by Design","Google SRE"],"contentHash":"bf58e7ad8ccbdd40c115e91bf6dcfa7e6d826738b20cb1244e7f3dddf0186ee9","publicationDate":"2026-10-02","commitSha":"cdf617cb99a56d0bc0ce8718100f757d0c73a954","deploymentEvidence":"Pending combined production deployment by Blog integrator","liveUrl":"https://outsourcedprogrammers.com/research/outsourced-programmer-continuity-bus-factor-research-2026","verificationTime":null,"verified":false}]}
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "family": "research",
+      "topic": "Inherited codebase maintenance assessment",
+      "slug": "outsourced-programmer-inherited-codebase-assessment",
+      "sources": [
+        "NIST SSDF",
+        "CISA software supply-chain practices",
+        "GitHub protected branches",
+        "GitHub pull-request reviews",
+        "OWASP ASVS"
+      ],
+      "contentHash": "5aee82a1828b09127eaa24c9bbc83882010b1b8dbfad8edc4db26bab8d92d648",
+      "publicationDate": "2026-09-23",
+      "commitSha": "aa5dab168fb33910c534941135ba958ffcb695b9",
+      "deploymentEvidence": "Pending combined production deployment",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-inherited-codebase-assessment",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "AI coding-assistant governance",
+      "slug": "outsourced-developer-ai-coding-assistant-boundaries",
+      "sources": [
+        "NIST SSDF",
+        "NIST AI RMF",
+        "OWASP LLM Top 10",
+        "GitHub protected branches"
+      ],
+      "contentHash": "2df437593e19fd7d65b80908dd57b9a187e6c58c1215432463ce1272f819068c",
+      "publicationDate": "2026-09-23",
+      "commitSha": "aa5dab168fb33910c534941135ba958ffcb695b9",
+      "deploymentEvidence": "Pending combined production deployment",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-developer-ai-coding-assistant-boundaries",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Dependency and license handoff",
+      "slug": "outsourced-software-dependency-license-handoff",
+      "sources": [
+        "NIST SSDF",
+        "CISA software supply-chain practices",
+        "NTIA SBOM",
+        "OpenSSF Scorecard"
+      ],
+      "contentHash": "c0ddac0bab74e9a49b368d91eb1893ac086e1c07e6fbb22f419fc7321ebae43e",
+      "publicationDate": "2026-09-23",
+      "commitSha": "aa5dab168fb33910c534941135ba958ffcb695b9",
+      "deploymentEvidence": "Pending combined production deployment",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-software-dependency-license-handoff",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Production incident access",
+      "slug": "outsourced-developer-production-incident-access-decision",
+      "sources": [
+        "NIST SSDF",
+        "NIST incident handling guide",
+        "CISA incident playbooks",
+        "GitHub protected branches"
+      ],
+      "contentHash": "7fb86deb2539510c3d2b4f627ca98133dda61cafee196f5112e16299267e2876",
+      "publicationDate": "2026-09-23",
+      "commitSha": "aa5dab168fb33910c534941135ba958ffcb695b9",
+      "deploymentEvidence": "Pending combined production deployment",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-developer-production-incident-access-decision",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Knowledge-transfer acceptance",
+      "slug": "outsourced-programmer-knowledge-transfer-acceptance-test",
+      "sources": [
+        "NIST SSDF",
+        "CISA software supply-chain practices",
+        "Google Technical Writing",
+        "The Open Group ADR guidance"
+      ],
+      "contentHash": "498e81a2bee65ec28f71894b5feb3044af8e55403797c38a5bd6712ac70bf8e7",
+      "publicationDate": "2026-09-23",
+      "commitSha": "aa5dab168fb33910c534941135ba958ffcb695b9",
+      "deploymentEvidence": "Pending combined production deployment",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-knowledge-transfer-acceptance-test",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced programmer paid-trial design",
+      "slug": "outsourced-programmer-paid-trial-design-research-2026",
+      "sources": [
+        "EEOC Employment Tests and Selection Procedures",
+        "NIST SSDF",
+        "GitHub pull request reviews",
+        "OWASP Developer Guide"
+      ],
+      "contentHash": "4d3b75c8160d8ff0e96242ef7f17483a7b9e45e5da5188f962b16c3bdeacd22b",
+      "publicationDate": "2026-10-02",
+      "commitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-paid-trial-design-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced developer repository access",
+      "slug": "outsourced-developer-repository-access-research-2026",
+      "sources": [
+        "GitHub repository roles",
+        "GitHub protected branches",
+        "GitHub Actions security hardening",
+        "NIST SP 800-53 Rev. 5"
+      ],
+      "contentHash": "d584763ffdc4d95579b38a73d42a4fd025a6771b9bc40b8d31bed7ffa1eaa4d8",
+      "publicationDate": "2026-10-02",
+      "commitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-developer-repository-access-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced programmer code-review service level",
+      "slug": "outsourced-programmer-code-review-service-level-research-2026",
+      "sources": [
+        "DORA continuous delivery",
+        "GitHub pull request reviews",
+        "Google code review",
+        "Google review speed"
+      ],
+      "contentHash": "5ac6e433ae1b1ddf95f4f294fe670389f547a824730b5f38a8df085d1b34e7cd",
+      "publicationDate": "2026-10-02",
+      "commitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-code-review-service-level-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced QA flaky-test ownership",
+      "slug": "outsourced-qa-flaky-test-ownership-research-2026",
+      "sources": [
+        "Playwright retries",
+        "Playwright Trace Viewer",
+        "Playwright isolation",
+        "pytest flaky tests",
+        "Google Testing Blog"
+      ],
+      "contentHash": "c88d079c57fc6728d55d61925b57d2283018520709f894e9cd89504d2dc2eb57",
+      "publicationDate": "2026-10-02",
+      "commitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-qa-flaky-test-ownership-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced programmer continuity and key-person risk",
+      "slug": "outsourced-programmer-continuity-bus-factor-research-2026",
+      "sources": [
+        "NIST SP 800-34 Rev. 1",
+        "NIST SSDF",
+        "CISA Secure by Design",
+        "Google SRE"
+      ],
+      "contentHash": "bf58e7ad8ccbdd40c115e91bf6dcfa7e6d826738b20cb1244e7f3dddf0186ee9",
+      "publicationDate": "2026-10-02",
+      "commitSha": "cdf617cb99a56d0bc0ce8718100f757d0c73a954",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-continuity-bus-factor-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced programmer bug-triage severity",
+      "slug": "outsourced-programmer-bug-triage-severity-research-2026",
+      "sources": [
+        "NIST SP 800-61 Rev. 3",
+        "CISA Incident Response Playbooks",
+        "OWASP Logging",
+        "WCAG 2.2",
+        "GitHub issues"
+      ],
+      "contentHash": "02f5cde33ab2fd88a0e0e9983f7ec62a396e599dcd130dc574da335643fad1a4",
+      "publicationDate": "2026-10-05",
+      "commitSha": "PENDING_LOCAL_COMMIT",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-programmer-bug-triage-severity-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "WordPress staging data refresh safety",
+      "slug": "outsourced-wordpress-staging-data-refresh-research-2026",
+      "sources": [
+        "WP-CLI search-replace",
+        "WordPress Hardening",
+        "OWASP WSTG",
+        "NIST Privacy Framework"
+      ],
+      "contentHash": "807303aca8e8166e9f37340aa0ab30b82ba82495fcb21f6ffd54c4b53d7fdf73",
+      "publicationDate": "2026-10-05",
+      "commitSha": "PENDING_LOCAL_COMMIT",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-wordpress-staging-data-refresh-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Shopify theme performance budget",
+      "slug": "outsourced-shopify-theme-performance-budget-research-2026",
+      "sources": [
+        "Shopify theme performance",
+        "Shopify performance testing",
+        "Core Web Vitals",
+        "W3C Web Performance"
+      ],
+      "contentHash": "d1f3bdbeccd67ff23383f630b08f7d046eee9b1a9dd44e1bcc341550a0d6b5a1",
+      "publicationDate": "2026-10-05",
+      "commitSha": "PENDING_LOCAL_COMMIT",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-shopify-theme-performance-budget-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Node.js API rate-limit contract",
+      "slug": "outsourced-nodejs-api-rate-limit-contract-research-2026",
+      "sources": [
+        "RFC 9110",
+        "IETF RateLimit Fields",
+        "OWASP Denial of Service",
+        "Node.js HTTP",
+        "OWASP REST Security"
+      ],
+      "contentHash": "4675edf1045dd47dfcc19ee1bf51af4b42a14d1d07c9a56a835af4b5e8ab1bdc",
+      "publicationDate": "2026-10-05",
+      "commitSha": "PENDING_LOCAL_COMMIT",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-nodejs-api-rate-limit-contract-research-2026",
+      "verificationTime": null,
+      "verified": false
+    },
+    {
+      "family": "research",
+      "topic": "Outsourced QA visual-regression baseline governance",
+      "slug": "outsourced-qa-visual-regression-baseline-research-2026",
+      "sources": [
+        "Playwright visual comparisons",
+        "Playwright isolation",
+        "WCAG 2.2",
+        "WAI-ARIA APG",
+        "Testing Library"
+      ],
+      "contentHash": "ad34e07c75f0af9bf80fb51d34c70bf231215ca5430cb82042610cad63ba0af8",
+      "publicationDate": "2026-10-05",
+      "commitSha": "PENDING_LOCAL_COMMIT",
+      "deploymentEvidence": "Pending combined production deployment by Blog integrator",
+      "liveUrl": "https://outsourcedprogrammers.com/research/outsourced-qa-visual-regression-baseline-research-2026",
+      "verificationTime": null,
+      "verified": false
+    }
+  ]
+}
