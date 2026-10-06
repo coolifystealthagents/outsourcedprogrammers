@@ -9,6 +9,8 @@ if (!/^[0-9a-f]{40}$/.test(commitSha || '')) throw new Error('Pass the full Blog
 const publicationDate = process.argv[3] || '2026-10-02';
 if (!/^2026-\d{2}-\d{2}$/.test(publicationDate)) throw new Error('Pass a valid 2026 publication date');
 const pairedResearchTask = process.argv[4] || 'OUTAAAAAAAAAAAA-79';
+const cycleDate = process.argv[5] || publicationDate;
+if (!/^2026-\d{2}-\d{2}$/.test(cycleDate)) throw new Error('Pass a valid 2026 cycle date');
 const scratch = process.env.PAPERCLIP_RUN_SCRATCH_DIR;
 if (!scratch) throw new Error('PAPERCLIP_RUN_SCRATCH_DIR is required');
 const compiled = path.join(scratch, 'october2-blog-manifest-compiled');
@@ -47,14 +49,14 @@ if (maximumPairwiseFiveWordShingleJaccard.value >= 0.5) throw new Error(`Maximum
 for (const entry of entries) delete entry.shingles;
 
 const manifest = {
-  schemaVersion: 1, family: 'blog', cycleLabel: `October ${Number(publicationDate.slice(-2))}, 2026`, domain: 'outsourcedprogrammers.com',
+  schemaVersion: 1, family: 'blog', cycleLabel: `October ${Number(cycleDate.slice(-2))}, 2026`, domain: 'outsourcedprogrammers.com',
   repository: 'coolifystealthagents/outsourcedprogrammers', productionBranch: 'main', timezone: 'UTC',
   publicationDate, requiredCount: 12, contentCommit: commitSha, integrationCommit: null, remoteCommit: null,
   pairedResearchTask, deploymentResource: 'vbagj11m3mrgp0cuk6v07h28', deploymentOwner: 'browser operator',
   deploymentId: null, deploymentStatus: 'not submitted; waiting for sole combined production push', verifiedCount: 0,
   maximumPairwiseFiveWordShingleJaccard, entries,
 };
-const manifestTarget = `.paperclip/daily-content/${publicationDate}/blog.json`;
+const manifestTarget = `.paperclip/daily-content/${cycleDate}/blog.json`;
 fs.mkdirSync(path.dirname(manifestTarget), { recursive: true });
 fs.writeFileSync(manifestTarget, `${JSON.stringify(manifest, null, 2)}\n`);
 const ledgerTarget = 'ops/blog-publishing-ledger.json';

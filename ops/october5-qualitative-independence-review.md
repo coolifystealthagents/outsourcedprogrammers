@@ -1,9 +1,9 @@
 # October 5 qualitative independence review
 
-Candidate reviewed: `39429ecf9449928799e25dccc33f330ac216c115`  
-Prior-corpus boundary: `65a028af5729506ff830ab672fb8e1105c995a40`  
-Configured publication timezone: UTC  
-Review date: 2026-10-05 UTC
+Content candidate reviewed after date reconciliation: `c09cf34418424bf230a0994b35b287eb59bf2c69`
+Prior-corpus boundary: `65a028af5729506ff830ab672fb8e1105c995a40`
+Configured publication timezone: UTC
+Review date: 2026-10-06 UTC
 
 This review covers all 12 Blog and five Research articles. The comparison corpus contains 480 uniquely paired prior slugs and titles extracted from 87 application source files. Automated title similarity only selects candidates for human review; it is not the originality decision. The decision below compares the central claim, worked evidence, and decision left to the reader. Current cross-family comparisons test whether Blog and Research duplicated one another within this release.
 
@@ -158,4 +158,4 @@ This review covers all 12 Blog and five Research articles. The comparison corpus
 - Maximum Blog-to-Research five-word-shingle Jaccard: 0.0004570383912248629, between the Node.js package-exports Blog and Node.js rate-limit Research. Their package-resolution and network-admission arguments are materially distinct as described above.
 - Qualitative result: pass. Adjacent platform or control themes form useful topical pillars, but no article repeats another article's central claim, worked example, evidence trail, argument sequence, or reader decision.
 
-This report does not authorize a production push or deployment. Publication records remain provisional until an approved release is publicly reachable and verified in UTC.
+This report supports the approved single corrective production push but does not authorize deployment. The October 5 cycle remains the durable cycle label; its still-unpublished articles use October 6, 2026 as the candidate first-publication date in UTC. Publication records remain unverified until the approved release is publicly reachable and verified.
