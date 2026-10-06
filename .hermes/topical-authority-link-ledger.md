@@ -13,7 +13,7 @@
 | Shopify development | `/services/shopify-development` | What should a checkout QA brief cover before a store change is accepted? | `/research/outsourced-ecommerce-checkout-qa` | Delivered in rendered source `3c61919f09cc2716af323ac5b6f0f685cf6abbca` on 2026-10-04. Keep its one route-local Shopify development handoff; public verification is pending by repository policy. |
 | QA automation | `/services/qa-automation` | How can an owner keep release control while assigning QA automation work? | `/research/research-qa-automation-outsourcing` | Delivered in the rendered article on 2026-09-08; retain its one route-local QA automation handoff and do not add another CTA. |
 | DevOps support | `/services/devops-support` | What makes a software handoff reliable when deployment and runbook work is involved? | `/research/software-development-handoff-reliability-research` | Already rendered and publicly verified on 2026-08-20; retain the existing narrow handoff. |
-| Database engineering | `/services/database-engineering` | What controls make database cleanup reversible and reviewable? | `/research/research-database-cleanup-outsourcing` | Link from backup, schema, or cleanup evidence that calls for a dry run and owner-approved window. |
+| Database engineering | `/services/database-engineering` | What controls make database cleanup reversible and reviewable? | `/research/research-database-cleanup-outsourcing` | Delivered in rendered source `944c16b700017ca72ebb66aef97f733a02c3f925` on 2026-10-06. Keep its one route-local Database Engineering handoff; the data owner retains approval for production access, execution, and recovery. |
 | Mobile app development | `/services/mobile-app-development` | How should a distributed team plan browser and device checks before accepting front-end work? | `/research/remote-programmer-browser-compatibility-matrix` | Link only after confirming the supporting page stays specific to mobile acceptance criteria. |
 | Legacy application maintenance | `/services/legacy-application-maintenance` | How can a team make legacy maintenance observable before it expands the queue? | `/research/research-legacy-code-maintenance` | Link from a bounded legacy maintenance decision with a test that captures the bug. |
 
@@ -23,9 +23,10 @@
 2. Do not add a second React application development CTA. The rendered source already has one route-local handoff (`086bb65d2facfba602d5543f0d4c58421f732ed4`); public verification is pending because the repository routine prohibits live-site verification.
 3. Do not add a second WordPress engineering CTA. The rendered-source commit `0f35172bd1155f54875533ec42899fa35e41e91c` added exactly one route-local next step in `/research/outsourced-content-management-qa`; preserve that source commit while deployment and public verification remain pending by policy.
 4. Do not add a second Shopify development CTA. The rendered-source commit `3c61919f09cc2716af323ac5b6f0f685cf6abbca` added one route-local checkout QA handoff; public verification is pending because policy prohibits it.
-5. Leave the database, mobile, and legacy rows as unpromoted research candidates. Their generated source pages currently have zero links to their mapped services, but this audit does not authorize multiple same-run CTAs.
-6. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
-7. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
+5. Do not add a second Database Engineering CTA. The rendered-source commit `944c16b700017ca72ebb66aef97f733a02c3f925` added one route-local cleanup handoff; public verification is pending because policy prohibits it.
+6. Leave the mobile and legacy rows as unpromoted research candidates. Their generated source pages currently have zero links to their mapped services, but this audit does not authorize multiple same-run CTAs.
+7. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
+8. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
 ## Release guardrails
 
@@ -46,3 +47,10 @@
 - Local proof: a fresh production build emitted `/research/outsourced-ecommerce-checkout-qa` with its expected H1, self-canonical link, updated date `2026-10-04`, one route-local Shopify development href, the checkout-test marker, and the store-owner boundary. The Shopify service artifact has its own canonical and H1, and both routes appear in the generated sitemap; this sitemap intentionally has no `<lastmod>` values.
 - Deployment/public state: `deployment_pending_public_verification`. `ops/recurring-routines.json` prohibits Coolify deployment, deployment monitoring, and live-site verification for the approved publishing routines. No deployment or public probe was attempted, so this source delivery is not represented as live.
 - Preserve rendered-source commit `3c61919f09cc2716af323ac5b6f0f685cf6abbca`; do not add another Shopify CTA. This status-only record must remain separate from the rendered source.
+
+## Delivery status — 2026-10-06
+
+- Rendered source: `944c16b700017ca72ebb66aef97f733a02c3f925`.
+- Local proof: a fresh production build emitted `/research/research-database-cleanup-outsourcing` with its expected H1, self-canonical link, updated date `2026-10-06`, one route-local Database Engineering href, the cleanup-lane marker, and the data-owner boundary. The Database Engineering service artifact has its own canonical and H1, and both routes appear in the generated sitemap; this sitemap intentionally has no `<lastmod>` values.
+- Deployment/public state: `deployment_pending_public_verification`. `ops/recurring-routines.json` prohibits Coolify deployment, deployment monitoring, and live-site verification for the approved publishing routines. No deployment or public probe was attempted, so this source delivery is not represented as live.
+- Preserve rendered-source commit `944c16b700017ca72ebb66aef97f733a02c3f925`; do not add another Database Engineering CTA. This status-only record must remain separate from the rendered source.
