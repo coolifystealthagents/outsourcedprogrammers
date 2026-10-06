@@ -1,6 +1,6 @@
 import type { ResearchPost } from './fleet-content';
 type Study = Omit<ResearchPost,'published'> & {body:string[]};
-const published='2026-10-05';
+const published='2026-10-06';
 const p=(s:string)=>s.trim().split(/\n\n+/);
 
 const triage:Study={slug:'outsourced-programmer-bug-triage-severity-research-2026',title:'How should an outsourced programmer triage software bugs without owning product priority?',excerpt:'A decision model for reproducible evidence, severity, routing, and owner-controlled priority in a distributed support lane.',topic:'Outsourced programmer bug-triage severity',hero:'/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png',body:p(`Bug triage turns an uncertain report into evidence that the right owner can act on. It is not the same as deciding which customer, feature, or commercial commitment matters most. An outsourced programmer can reproduce a symptom, identify affected boundaries, estimate technical reach, and propose safe containment. The company still owns product priority, customer promises, incident declarations, and release decisions. Keeping those decisions separate lets a distributed support lane move quickly without quietly giving a contractor authority that belongs with accountable product and technical owners.

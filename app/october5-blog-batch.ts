@@ -1,7 +1,7 @@
 import type { BlogDetail } from './data';
 
 type Entry={slug:string;title:string;excerpt:string;service:string;takeaways:readonly string[];sections:BlogDetail['sections'];sources:BlogDetail['sources'];brief:BlogDetail['roleBrief'];faqs:BlogDetail['faqs']};
-const published='2026-10-05';
+const published='2026-10-06';
 const heroImage='/programmer-workbench.jpg';
 const entries:readonly Entry[]=[
 {
