@@ -28,6 +28,20 @@
 7. Do not add a generic service carousel or sitewide related-links block. Each handoff must answer the research page's specific next question.
 8. Keep `/research/research-node-api-maintenance` → `/services/nodejs-api-development` non-duplicable: its rendered article already has one route-local CTA.
 
+## October 5 research-cluster reconciliation
+
+The five October 5 studies already render their data-owned next steps. Each source route has one matching service link inside its route-local `<main>`, so these pairs are delivered and non-duplicable:
+
+| Supporting research URL | Existing service URL | Reader decision covered | Ledger result |
+| --- | --- | --- | --- |
+| `/research/outsourced-programmer-bug-triage-severity-research-2026` | `/services/qa-automation` | Turn a bug report into a safe, owner-routed QA lane. | Delivered; keep the one `Define a safe bug-triage lane` handoff. |
+| `/research/outsourced-wordpress-staging-data-refresh-research-2026` | `/services/wordpress-engineering` | Plan a bounded staging refresh without treating production data as a default fixture. | Delivered; keep the one `Design a bounded staging refresh` handoff. |
+| `/research/outsourced-shopify-theme-performance-budget-research-2026` | `/services/shopify-development` | Set a reviewable theme budget before a merchant accepts a change. | Delivered; keep the one `Set a theme budget before coding` handoff. |
+| `/research/outsourced-nodejs-api-rate-limit-contract-research-2026` | `/services/nodejs-api-development` | Define a rate-limit contract before implementation work starts. | Delivered; keep the one `Write the limit as a contract` handoff. |
+| `/research/outsourced-qa-visual-regression-baseline-research-2026` | `/services/qa-automation` | Make one visual baseline reviewable before it is accepted. | Delivered; keep the one `Make one baseline reviewable` handoff. |
+
+This is a source-only reconciliation. It records the current rendered inventory and does not claim a deployment or public rollout.
+
 ## Release guardrails
 
 - The company technical owner keeps architecture, merge, production, secrets, and commercial authority.
