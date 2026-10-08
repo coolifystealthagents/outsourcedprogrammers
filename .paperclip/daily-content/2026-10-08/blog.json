@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "cycleLabel": "October 8, 2026",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 12,
+  "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
+  "entries": [
+    "outsource-feature-flag-retirement-review",
+    "outsource-nextjs-cache-invalidation-test",
+    "outsource-api-pagination-contract-review",
+    "outsource-react-form-draft-recovery-test",
+    "outsource-database-index-change-rehearsal",
+    "outsource-ci-cache-poisoning-review",
+    "outsource-webhook-delivery-reconciliation",
+    "outsource-accessible-data-grid-qa",
+    "outsource-oauth-token-rotation-test",
+    "outsource-queue-backpressure-load-test",
+    "outsource-sbom-release-gate-review",
+    "outsource-mobile-api-offline-sync-review"
+  ]
+}

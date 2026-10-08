@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "family": "research",
+  "cycleLabel": "October 8, 2026",
+  "domain": "outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 5,
+  "deploymentResource": "vbagj11m3mrgp0cuk6v07h28",
+  "entries": [
+    "outsourced-programmer-change-failure-evidence-study",
+    "remote-code-review-queue-latency-research",
+    "outsourced-test-data-privacy-control-study",
+    "distributed-dependency-update-lead-time-analysis",
+    "outsourced-release-recovery-time-evidence-research"
+  ]
+}
