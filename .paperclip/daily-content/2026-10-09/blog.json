@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "outsourcedprogrammers-priority-intake-triage",
+      "title": "Outsourced Software Development Priority Intake Triage",
+      "excerpt": "A practical guide to sequence new requests by evidence, impact, and accepted ownership.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-priority-intake-triage"
+    },
+    {
+      "slug": "outsourcedprogrammers-exception-owner-map",
+      "title": "Outsourced Software Development Exception Owner Map",
+      "excerpt": "A practical guide to route ambiguous work to an authorized decision owner.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-exception-owner-map"
+    },
+    {
+      "slug": "outsourcedprogrammers-source-record-verification",
+      "title": "Outsourced Software Development Source Record Verification",
+      "excerpt": "A practical guide to confirm the governing record before work begins.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-source-record-verification"
+    },
+    {
+      "slug": "outsourcedprogrammers-handoff-acceptance-receipt",
+      "title": "Outsourced Software Development Handoff Acceptance Receipt",
+      "excerpt": "A practical guide to prove the receiving team accepted the next action.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-handoff-acceptance-receipt"
+    },
+    {
+      "slug": "outsourcedprogrammers-backlog-aging-review",
+      "title": "Outsourced Software Development Backlog Aging Review",
+      "excerpt": "A practical guide to separate active handling from documented waiting states.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-backlog-aging-review"
+    },
+    {
+      "slug": "outsourcedprogrammers-quality-sample-calibration",
+      "title": "Outsourced Software Development Quality Sample Calibration",
+      "excerpt": "A practical guide to align reviewers on observable acceptance evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-quality-sample-calibration"
+    },
+    {
+      "slug": "outsourcedprogrammers-access-scope-recertification",
+      "title": "Outsourced Software Development Access Scope Recertification",
+      "excerpt": "A practical guide to keep permissions aligned with current duties.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-access-scope-recertification"
+    },
+    {
+      "slug": "outsourcedprogrammers-change-control-release-note",
+      "title": "Outsourced Software Development Change Control Release Note",
+      "excerpt": "A practical guide to publish a dated rule change with rollback context.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-change-control-release-note"
+    },
+    {
+      "slug": "outsourcedprogrammers-capacity-overflow-trigger",
+      "title": "Outsourced Software Development Capacity Overflow Trigger",
+      "excerpt": "A practical guide to surface demand that exceeds the safe service window.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-capacity-overflow-trigger"
+    },
+    {
+      "slug": "outsourcedprogrammers-client-decision-packet",
+      "title": "Outsourced Software Development Client Decision Packet",
+      "excerpt": "A practical guide to prepare facts without transferring client authority.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-client-decision-packet"
+    },
+    {
+      "slug": "outsourcedprogrammers-correction-propagation-check",
+      "title": "Outsourced Software Development Correction Propagation Check",
+      "excerpt": "A practical guide to reconcile corrected facts across dependent systems.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-correction-propagation-check"
+    },
+    {
+      "slug": "outsourcedprogrammers-monthly-control-closeout",
+      "title": "Outsourced Software Development Monthly Control Closeout",
+      "excerpt": "A practical guide to close open exceptions and preserve review evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedprogrammers-monthly-control-closeout"
+    }
+  ]
+}

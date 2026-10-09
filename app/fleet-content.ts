@@ -1,5 +1,6 @@
 import { october5ResearchBatch } from './october5-research-batch';
 import { october8ResearchBatch } from './october8-research-batch';
+import { october9ResearchBatch } from './october9-research-batch';
 import { september28ResearchBatch } from './september28-research-batch';
 import { october2ResearchBatch } from './october2-research-batch';
 import { september25ResearchBatch } from './september25-research-batch';
@@ -456,6 +457,7 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
   ], sources:[['Google Technical Writing courses','https://developers.google.com/tech-writing'],['NIST Secure Software Development Framework','https://csrc.nist.gov/Projects/ssdf']] }
 ];
 export const researchPosts: ReadonlyArray<ResearchPost> =  [...october8ResearchBatch, ...october5ResearchBatch, ...october2ResearchBatch, ...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september22ResearchBatch, ...september14ResearchBatch, ...september11ResearchBatch, ...september10ResearchBatch, ...september8ResearchBatch, ...september7ResearchSource, ...september4ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ReplacementResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || '') || a.slug.localeCompare(b.slug));
+export const researchPosts: ReadonlyArray<ResearchPost> =  [...october9ResearchBatch, ...october5ResearchBatch, ...october2ResearchBatch, ...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september22ResearchBatch, ...september14ResearchBatch, ...september11ResearchBatch, ...september10ResearchBatch, ...september8ResearchBatch, ...september7ResearchSource, ...september4ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ReplacementResearchBatch, ...august17ResearchBatch, ...august14ResearchBatch, ...august13ReplacementResearchBatch, ...august11ResearchPosts, ...priorResearchPosts, ...newResearchPosts, ...runResearchPosts, ...dailyResearchPosts, ...scheduledResearchBatch, ...currentResearchBatch].sort((a,b) => (b.published || '').localeCompare(a.published || '') || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
