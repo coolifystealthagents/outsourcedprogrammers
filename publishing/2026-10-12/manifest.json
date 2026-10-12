@@ -1,0 +1,115 @@
+{
+  "site": "OutsourcedProgrammers.com",
+  "date": "2026-10-12",
+  "blog": [
+    {
+      "slug": "pull-request-review-latency-triage",
+      "title": "Triage Pull Request Review Latency Without Rushing Approval",
+      "route": "/blog/pull-request-review-latency-triage",
+      "thumbnail": "/oct12/blog/pull-request-review-latency-triage.png"
+    },
+    {
+      "slug": "staging-data-reset-runbook",
+      "title": "Write a Staging Data Reset Runbook Before Outsourcing the Task",
+      "route": "/blog/staging-data-reset-runbook",
+      "thumbnail": "/oct12/blog/staging-data-reset-runbook.png"
+    },
+    {
+      "slug": "feature-flag-ownership-handoff",
+      "title": "Hand Off Feature Flag Maintenance With an Ownership Map",
+      "route": "/blog/feature-flag-ownership-handoff",
+      "thumbnail": "/oct12/blog/feature-flag-ownership-handoff.png"
+    },
+    {
+      "slug": "api-deprecation-consumer-inventory",
+      "title": "Build an API Deprecation Consumer Inventory Before Code Changes",
+      "route": "/blog/api-deprecation-consumer-inventory",
+      "thumbnail": "/oct12/blog/api-deprecation-consumer-inventory.png"
+    },
+    {
+      "slug": "ci-flaky-test-evidence-queue",
+      "title": "Manage Flaky CI Tests With an Evidence Queue",
+      "route": "/blog/ci-flaky-test-evidence-queue",
+      "thumbnail": "/oct12/blog/ci-flaky-test-evidence-queue.png"
+    },
+    {
+      "slug": "database-migration-dry-run-packet",
+      "title": "Prepare a Database Migration Dry-Run Packet for Technical Review",
+      "route": "/blog/database-migration-dry-run-packet",
+      "thumbnail": "/oct12/blog/database-migration-dry-run-packet.png"
+    },
+    {
+      "slug": "frontend-performance-budget-handoff",
+      "title": "Delegate Frontend Performance Checks With a Measurable Budget",
+      "route": "/blog/frontend-performance-budget-handoff",
+      "thumbnail": "/oct12/blog/frontend-performance-budget-handoff.png"
+    },
+    {
+      "slug": "mobile-crash-symbolication-brief",
+      "title": "Scope Mobile Crash Symbolication Without Exposing User Data",
+      "route": "/blog/mobile-crash-symbolication-brief",
+      "thumbnail": "/oct12/blog/mobile-crash-symbolication-brief.png"
+    },
+    {
+      "slug": "webhook-replay-reconciliation",
+      "title": "Reconcile Webhook Replays With Idempotency Evidence",
+      "route": "/blog/webhook-replay-reconciliation",
+      "thumbnail": "/oct12/blog/webhook-replay-reconciliation.png"
+    },
+    {
+      "slug": "dependency-license-review-handoff",
+      "title": "Create a Dependency License Review Handoff for Counsel",
+      "route": "/blog/dependency-license-review-handoff",
+      "thumbnail": "/oct12/blog/dependency-license-review-handoff.png"
+    },
+    {
+      "slug": "observability-dashboard-change-review",
+      "title": "Review Observability Dashboard Changes Against Operator Decisions",
+      "route": "/blog/observability-dashboard-change-review",
+      "thumbnail": "/oct12/blog/observability-dashboard-change-review.png"
+    },
+    {
+      "slug": "incident-followup-code-owner-matrix",
+      "title": "Map Incident Follow-Up Work to the Right Code Owners",
+      "route": "/blog/incident-followup-code-owner-matrix",
+      "thumbnail": "/oct12/blog/incident-followup-code-owner-matrix.png"
+    }
+  ],
+  "research": [
+    {
+      "slug": "code-review-rework-denominator-study",
+      "title": "Code Review Rework: A Denominator-First Study",
+      "route": "/research/code-review-rework-denominator-study",
+      "thumbnail": "/oct12/research/code-review-rework-denominator-study.png"
+    },
+    {
+      "slug": "deployment-rollback-rehearsal-reliability",
+      "title": "Deployment Rollback Rehearsals: A Reliability Protocol",
+      "route": "/research/deployment-rollback-rehearsal-reliability",
+      "thumbnail": "/oct12/research/deployment-rollback-rehearsal-reliability.png"
+    },
+    {
+      "slug": "test-fixture-representativeness-analysis",
+      "title": "Test Fixture Representativeness: An Engineering Analysis",
+      "route": "/research/test-fixture-representativeness-analysis",
+      "thumbnail": "/oct12/research/test-fixture-representativeness-analysis.png"
+    },
+    {
+      "slug": "production-access-expiry-control-study",
+      "title": "Production Access Expiry: A Control-Effectiveness Study",
+      "route": "/research/production-access-expiry-control-study",
+      "thumbnail": "/oct12/research/production-access-expiry-control-study.png"
+    },
+    {
+      "slug": "maintenance-backlog-risk-stratification",
+      "title": "Software Maintenance Backlogs: A Risk-Stratification Study",
+      "route": "/research/maintenance-backlog-risk-stratification",
+      "thumbnail": "/oct12/research/maintenance-backlog-risk-stratification.png"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}

@@ -19,6 +19,7 @@ import { october2BlogBatch, october2BlogDetails } from './october2-blog-batch';
 import { october5BlogBatch, october5BlogDetails } from './october5-blog-batch';
 import { october8BlogBatch, october8BlogDetails } from './october8-blog-batch';
 import { october9BlogBatch, october9BlogDetails } from './october9-blog-batch';
+import { october12BlogBatch, october12BlogDetails } from './october12-blog-batch';
 export const site = {
   domain: 'OutsourcedProgrammers.com',
   slug: 'outsourcedprogrammers',
@@ -108,6 +109,7 @@ export const services = [
 ] as const;
 
 export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published?: string }> = [
+  ...october12BlogBatch,
   ...october8BlogBatch,
   ...october9BlogBatch,
   ...october5BlogBatch,
@@ -336,6 +338,7 @@ export type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...october12BlogDetails,
   ...october8BlogDetails,
   ...october9BlogDetails,
   ...october5BlogDetails,
