@@ -1,0 +1,118 @@
+{
+  "site": "OutsourcedProgrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "baseSha": "1840052dd3e12a3b0e0f38839483714c8296e7af",
+  "date": "2026-10-13",
+  "blog": [
+    {
+      "slug": "cache-stampede-rehearsal-runbook",
+      "title": "Rehearse Cache Stampede Protection Before a Traffic Event",
+      "route": "/blog/cache-stampede-rehearsal-runbook",
+      "thumbnail": "/oct13/blog/cache-stampede-rehearsal-runbook.png"
+    },
+    {
+      "slug": "schema-backward-compatibility-gate",
+      "title": "Gate Schema Changes With Backward-Compatibility Evidence",
+      "route": "/blog/schema-backward-compatibility-gate",
+      "thumbnail": "/oct13/blog/schema-backward-compatibility-gate.png"
+    },
+    {
+      "slug": "secret-scanner-false-positive-triage",
+      "title": "Triage Secret Scanner Findings Without Normalizing Alerts",
+      "route": "/blog/secret-scanner-false-positive-triage",
+      "thumbnail": "/oct13/blog/secret-scanner-false-positive-triage.png"
+    },
+    {
+      "slug": "poison-message-quarantine-handoff",
+      "title": "Handoff Poison Message Quarantine With Replay Boundaries",
+      "route": "/blog/poison-message-quarantine-handoff",
+      "thumbnail": "/oct13/blog/poison-message-quarantine-handoff.png"
+    },
+    {
+      "slug": "locale-number-parsing-acceptance",
+      "title": "Accept Locale-Aware Number Parsing With Adverse Fixtures",
+      "route": "/blog/locale-number-parsing-acceptance",
+      "thumbnail": "/oct13/blog/locale-number-parsing-acceptance.png"
+    },
+    {
+      "slug": "infrastructure-drift-plan-review",
+      "title": "Review an Infrastructure Drift Plan Before Applying Changes",
+      "route": "/blog/infrastructure-drift-plan-review",
+      "thumbnail": "/oct13/blog/infrastructure-drift-plan-review.png"
+    },
+    {
+      "slug": "pagination-cursor-contract-review",
+      "title": "Review Pagination Cursor Contracts Before Outsourced Changes",
+      "route": "/blog/pagination-cursor-contract-review",
+      "thumbnail": "/oct13/blog/pagination-cursor-contract-review.png"
+    },
+    {
+      "slug": "browser-storage-migration-runbook",
+      "title": "Write a Browser Storage Migration Runbook With Recovery States",
+      "route": "/blog/browser-storage-migration-runbook",
+      "thumbnail": "/oct13/blog/browser-storage-migration-runbook.png"
+    },
+    {
+      "slug": "timezone-database-update-handoff",
+      "title": "Handoff Time Zone Database Updates With Scenario Evidence",
+      "route": "/blog/timezone-database-update-handoff",
+      "thumbnail": "/oct13/blog/timezone-database-update-handoff.png"
+    },
+    {
+      "slug": "email-retry-suppression-control",
+      "title": "Control Email Retries and Suppression Without Duplicate Sends",
+      "route": "/blog/email-retry-suppression-control",
+      "thumbnail": "/oct13/blog/email-retry-suppression-control.png"
+    },
+    {
+      "slug": "object-storage-lifecycle-dry-run",
+      "title": "Dry-Run Object Storage Lifecycle Rules Before Delegation",
+      "route": "/blog/object-storage-lifecycle-dry-run",
+      "thumbnail": "/oct13/blog/object-storage-lifecycle-dry-run.png"
+    },
+    {
+      "slug": "lockfile-merge-conflict-resolution",
+      "title": "Resolve Dependency Lockfile Conflicts With Reproducible Evidence",
+      "route": "/blog/lockfile-merge-conflict-resolution",
+      "thumbnail": "/oct13/blog/lockfile-merge-conflict-resolution.png"
+    }
+  ],
+  "research": [
+    {
+      "slug": "queue-retry-policy-effectiveness-study",
+      "title": "Queue Retry Policy Effectiveness: A Bounded Study",
+      "route": "/research/queue-retry-policy-effectiveness-study",
+      "thumbnail": "/oct13/research/queue-retry-policy-effectiveness-study.png"
+    },
+    {
+      "slug": "api-contract-drift-detection-study",
+      "title": "API Contract Drift Detection: A Reproducibility Study",
+      "route": "/research/api-contract-drift-detection-study",
+      "thumbnail": "/oct13/research/api-contract-drift-detection-study.png"
+    },
+    {
+      "slug": "secret-exposure-response-completeness",
+      "title": "Secret Exposure Response Completeness Study",
+      "route": "/research/secret-exposure-response-completeness",
+      "thumbnail": "/oct13/research/secret-exposure-response-completeness.png"
+    },
+    {
+      "slug": "test-isolation-contamination-analysis",
+      "title": "Test Isolation Contamination: An Engineering Analysis",
+      "route": "/research/test-isolation-contamination-analysis",
+      "thumbnail": "/oct13/research/test-isolation-contamination-analysis.png"
+    },
+    {
+      "slug": "cache-invalidation-recovery-reliability",
+      "title": "Cache Invalidation Recovery Reliability Study",
+      "route": "/research/cache-invalidation-recovery-reliability",
+      "thumbnail": "/oct13/research/cache-invalidation-recovery-reliability.png"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}
