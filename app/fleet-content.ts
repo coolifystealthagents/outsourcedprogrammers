@@ -289,6 +289,15 @@ const dailySourceSet = [
 ] as const;
 const dailyResearchPosts: ReadonlyArray<ResearchPost> = dailyResearchTopics.map(([slug,title,topic], index) => ({
   slug, title, topic, published:'2026-08-10', excerpt:`Evidence-led research on ${topic.toLowerCase()} for distributed outsourced-programmer teams.`,
+  ...(slug === 'remote-programmer-browser-compatibility-matrix' ? {
+    dateModified:'2026-10-16',
+    nextStep:{
+      heading:'Plan browser and device checks before mobile work starts',
+      href:'/services/mobile-app-development',
+      label:'Review mobile app development support',
+      copy:'Use this page to plan browser and device checks for a defined Philippines-based mobile app task. Your technical owner decides supported devices, acceptance, release, and any customer-impacting change.'
+    }
+  } : {}),
   body:[`${title} is safest when the ticket names the user or system outcome, scope, test conditions, evidence, and a reviewer.`,'Start with a baseline and record the environment, assumptions, date, and expected result so later checks remain comparable.','Use a bounded first assignment. Link the implementation, measurements, test output, and unresolved questions in one durable review record.','Separate evidence gathering from approval. A remote programmer can prepare a focused change and reproducible checks while the owner decides acceptance.','Keep production authority, secrets, customer data, commercial commitments, and policy decisions with the company owner.',`Headline finding: authoritative guidance supports traceable evidence, explicit acceptance criteria, and risk-based review for ${topic.toLowerCase()}.`,'Consolidated takeaway: outsource preparation and validation of a defined work lane while retaining final merge, release, and exception authority.','This research is a planning aid, not legal, tax, employment, privacy, or security advice. Validate it against your business facts.'],
   sources: dailySourceSet, related: dailyResearchTopics.filter((_, i) => i !== index).slice(index % 3, index % 3 + 3).map(([relatedSlug]) => relatedSlug)
 }));
