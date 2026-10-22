@@ -30,7 +30,7 @@ const topics: Topic[] = [
     slug: "outsource-postgres-failover-connection-qa",
     title: "Check application connections during a PostgreSQL failover drill",
     excerpt:
-      "Give a remote programmer a reproducible lock case without opening access to live customer records.",
+      "Test application connections during a PostgreSQL failover, covering transaction loss, pool recovery, retries, stale sessions, and duplicate work.",
     focus: "database lock contention",
     problem:
       "A slow request looks like a query problem even though it is waiting behind another transaction.",
@@ -45,7 +45,7 @@ const topics: Topic[] = [
     slug: "outsource-signed-download-expiry-testing",
     title: "Test signed download expiry with two clocks and one clear policy",
     excerpt:
-      "Check warning timing, renewal, logout, and unsaved work with isolated test identities.",
+      "Test signed-download expiry with controlled clocks, checking early and late access, replay, authorization changes, logout, renewal, and interrupted transfers.",
     focus: "session expiry",
     problem:
       "A warning appears too late, renews the wrong session, or lets unsaved work disappear.",
@@ -90,7 +90,7 @@ const topics: Topic[] = [
     slug: "outsource-graphql-depth-limit-review",
     title: "Review GraphQL depth limits with queries that resemble real work",
     excerpt:
-      "Prove that cached responses keep account, locale, role, and query scope separate.",
+      "Review GraphQL depth limits with realistic nested queries, measuring cost, aliases, fragments, error behavior, and safe thresholds before enforcement.",
     focus: "cache key boundaries",
     problem:
       "A cached response returns content created for another tenant, role, language, or query.",
@@ -120,7 +120,7 @@ const topics: Topic[] = [
     slug: "outsource-feature-entitlement-cache-qa",
     title: "Test cached feature entitlements after a plan change",
     excerpt:
-      "Map status, code, message, field errors, and request IDs across representative failures.",
+      "Test entitlement caches after plan changes, including invalidation timing, tenant isolation, stale grants, and the source of each authorization decision.",
     focus: "API error envelopes",
     problem:
       "Client code branches on message text because services disagree about an error shape.",
@@ -135,7 +135,7 @@ const topics: Topic[] = [
     slug: "outsource-object-storage-multipart-cleanup",
     title: "Audit abandoned multipart uploads before storage quietly grows",
     excerpt:
-      "Find where cancellation stops new work, interrupts active work, or arrives after completion.",
+      "Audit abandoned multipart uploads by tracing initiation, part expiry, cancellation, retries, and cleanup without touching customer-owned objects.",
     focus: "job cancellation",
     problem:
       "The interface says canceled while a worker continues writing records or producing side effects.",

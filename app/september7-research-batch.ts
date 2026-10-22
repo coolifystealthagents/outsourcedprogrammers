@@ -4,7 +4,7 @@ export const september7ResearchSource: ReadonlyArray<ResearchPost> = [
     slug: "research-review-queue-wait-state-analysis-2026",
     title: "What review queue data leaves unexplained",
     excerpt:
-      "A source-led method for measuring review delay without turning response time into a developer score.",
+      "Analyze code-review wait states by separating unavailable reviewers, unclear ownership, revision cycles, blocked work, and measurement gaps.",
     topic: "Review queue health",
     published: "2026-09-07",
     hero: "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
@@ -95,7 +95,7 @@ export const september7ResearchSource: ReadonlyArray<ResearchPost> = [
     slug: "research-access-removal-verification-lag-2026",
     title: "The gap between disabling an account and ending access",
     excerpt:
-      "A source-led framework for measuring account closure and token revocation after role changes or offboarding.",
+      "Measure the lag between account disablement and effective access removal across sessions, tokens, caches, integrations, and verification checks.",
     topic: "Access lifecycle",
     published: "2026-09-07",
     hero: "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",

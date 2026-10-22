@@ -15,7 +15,7 @@ const topics: Topic[] = [
     slug: "outsource-webhook-delivery-ledger-review",
     title: "Review a webhook delivery ledger with an outsourced programmer",
     excerpt:
-      "Build a safe record of attempts, acknowledgements, retries, and terminal outcomes for one webhook.",
+      "Review one webhook delivery ledger from initial attempt to acknowledgement, retry, ambiguous timeout, and terminal outcome using synthetic events.",
     focus: "webhook delivery",
     problem:
       "A provider says an event was delivered, but the application cannot explain which attempt produced the final state.",
@@ -60,7 +60,7 @@ const topics: Topic[] = [
     slug: "outsource-file-preview-isolation-review",
     title: "Check file-preview isolation before delegating upload QA",
     excerpt:
-      "Test generated previews, direct URLs, deletion, and tenant boundaries with harmless sample files.",
+      "Test file-preview isolation with harmless uploads, direct URLs, generated derivatives, deletions, and cross-tenant access attempts.",
     focus: "file preview isolation",
     problem:
       "A preview worker or cached URL exposes a file beyond the account that uploaded it.",
@@ -75,7 +75,7 @@ const topics: Topic[] = [
     slug: "outsource-pagination-cursor-contract-review",
     title: "Review pagination cursor contracts across changing data",
     excerpt:
-      "Exercise inserts, deletions, expiry, and invalid cursors against a known test collection.",
+      "Review pagination cursor contracts through inserts, deletions, expiry, tampering, and reuse, with expected ordering defined for a known collection.",
     focus: "pagination cursors",
     problem:
       "Users see duplicates or miss records when the collection changes between page requests.",
@@ -105,7 +105,7 @@ const topics: Topic[] = [
     slug: "outsource-feature-flag-cleanup-handoff",
     title: "Prepare a feature-flag cleanup handoff for owner approval",
     excerpt:
-      "Trace callers, fallbacks, stored values, and rollback before removing an old flag.",
+      "Prepare a feature-flag cleanup handoff by tracing callers, defaults, persisted values, fallback behavior, removal order, and a safe rollback path.",
     focus: "feature flag cleanup",
     problem:
       "Removing an apparently finished flag revives a stale default or breaks a worker that still reads it.",
@@ -150,7 +150,7 @@ const topics: Topic[] = [
     slug: "outsource-audit-export-redaction-review",
     title: "Review audit-export redaction with an outsourced programmer",
     excerpt:
-      "Keep useful audit evidence while removing secrets and unnecessary personal data.",
+      "Review audit exports for secrets and unnecessary personal data while preserving the actors, actions, timestamps, and outcomes investigators need.",
     focus: "audit export redaction",
     problem:
       "An investigation export includes tokens, raw request bodies, or unrelated personal fields.",
@@ -180,7 +180,7 @@ const topics: Topic[] = [
     slug: "outsource-dependency-license-inventory-handoff",
     title: "Build a dependency-license inventory for counsel review",
     excerpt:
-      "Collect package identity, version, source, license files, and unresolved cases without giving legal advice.",
+      "Prepare a dependency license inventory with package identity, version, source, license files, and unresolved classifications for counsel to review.",
     focus: "dependency license inventory",
     problem:
       "A package list hides dependency paths or repeats an unverified registry label as a conclusion.",

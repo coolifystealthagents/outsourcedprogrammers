@@ -28,7 +28,7 @@ export const september4ResearchBatch: ReadonlyArray<ResearchPost> = [
     title:
       "Synthetic test data for outsourced QA: evidence, limits, and ownership",
     excerpt:
-      "Research on test fixtures that reduce exposure to customer data while preserving important edge cases.",
+      "Study synthetic test data for outsourced QA, balancing privacy boundaries with realistic relationships, edge cases, reproducibility, and fixture ownership.",
     topic: "Synthetic test data",
     published: "2026-09-04",
     hero: "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
@@ -51,7 +51,7 @@ export const september4ResearchBatch: ReadonlyArray<ResearchPost> = [
     slug: "research-outsourced-dependency-update-evidence",
     title: "Evidence standards for outsourced dependency updates",
     excerpt:
-      "A practical reading of provenance, change scope, testing, and residual uncertainty in package updates.",
+      "Define evidence for outsourced dependency updates through package provenance, change scope, compatibility tests, vulnerability context, and residual uncertainty.",
     topic: "Dependency updates",
     published: "2026-09-04",
     hero: "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
@@ -72,7 +72,7 @@ export const september4ResearchBatch: ReadonlyArray<ResearchPost> = [
     title:
       "Measuring incident handoff completeness in remote engineering teams",
     excerpt:
-      "Research on whether the next owner receives enough evidence to act without confusing documentation volume with readiness.",
+      "Assess remote incident handoffs by testing whether the next owner can act from the timeline, system state, evidence, open risks, and decision boundaries.",
     topic: "Incident handoffs",
     published: "2026-09-04",
     hero: "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
