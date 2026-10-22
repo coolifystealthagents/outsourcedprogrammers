@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({revision:process.env.SOURCE_COMMIT||process.env.COOLIFY_GIT_COMMIT_SHA||process.env.GIT_COMMIT_SHA||'unknown'},{headers:{'cache-control':'no-store'}})}

@@ -19,7 +19,7 @@ test('database cleanup research keeps a bounded Database Engineering next step',
 });
 
 test('research renderer renders optional next-step data without a database slug branch', () => {
-  assert.match(renderer, /post\.nextStep&&<section className="related-panel">/);
-  assert.match(renderer, /<a href=\{post\.nextStep\.href\}>\{post\.nextStep\.label\}<\/a>/);
+  assert.match(renderer, /p\.nextStep&&<aside className="article-next-v3">/);
+  assert.match(renderer, /<a href=\{p\.nextStep\.href\}>\{p\.nextStep\.label\}<\/a>/);
   assert.doesNotMatch(renderer, /research-database-cleanup-outsourcing/);
 });

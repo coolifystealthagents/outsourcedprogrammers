@@ -1,6 +1,7 @@
 import * as data from './data';
 import { fleetServices } from './fleet-content';
-import { Header, Footer, JsonLd } from './components';
+import {Header, Footer, JsonLd} from './components';
+import {TopicHero} from './topic-hero';
 
 export const metadata = { alternates: { canonical: "https://outsourcedprogrammers.com/" } };
 
@@ -26,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="studio" data-design="sprint-desk-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
+      <main id="main-content" className="studio" data-design="release-control-room-v3" data-design-variance="8" data-motion-intensity="3" data-visual-density="8">
         <JsonLd data={schema} />
 
         <section className="hero">
@@ -40,17 +41,14 @@ export default function Home() {
                 Start with the backlog, repo rules, and reviewer. Then ask for a programmer who fits the work, not a pile of vague profiles.
               </p>
               <div className="actions">
-                <a className="btn primary" href="/contact">Map the developer role</a>
+                <a className="btn primary" href="/contact-us">Map the developer role</a>
                 <a className="text-link" href="#workstreams">See the workstreams <span>↘</span></a>
               </div>
               <p className="fine-print">No rate card or mystery shortlist. The first conversation is about the work.</p>
             </div>
 
             <div className="hero-visual">
-              <div className="photo-frame">
-                <img src="/illustrations/getillustrations/inkdex-saas/code-control.webp" alt="Illustrated programmer working in a controlled software development environment" width="1536" height="1024" />
-                <div className="photo-label"><span className="live-dot" /> Repository-ready support</div>
-              </div>
+              <TopicHero title="A controlled programming work lane" kind="Delivery brief" />
               <div className="code-card" aria-label="Example pull request review plan">
                 <div className="code-top"><span>review-plan.md</span><i>example</i></div>
                 <pre><code><b>owner:</b> your tech lead{`\n`}<b>first work:</b> low-risk tickets{`\n`}<b>merge:</b> review required{`\n`}<b>release:</b> your team approves</code></pre>
@@ -116,7 +114,7 @@ export default function Home() {
               ))}
             </div>
             <div className="section-action">
-              <a className="btn primary" href="/contact">Map the developer role</a>
+              <a className="btn primary" href="/contact-us">Map the developer role</a>
               <a className="text-link light" href="/services">Browse all services <span>↗</span></a>
             </div>
           </div>
@@ -135,7 +133,7 @@ export default function Home() {
           </div>
           <div className="section-action dark-action">
             <p>Have a backlog and a reviewer? We can turn them into a focused developer brief.</p>
-            <a className="btn primary" href="/contact">Map the developer role</a>
+            <a className="btn primary" href="/contact-us">Map the developer role</a>
           </div>
         </section>
 
@@ -160,7 +158,7 @@ export default function Home() {
 
         <section className="closing container">
           <p className="eyebrow dark"><span>06</span> Start with the real backlog</p>
-          <div><h2>Bring the tickets. Leave with a clearer role.</h2><a className="btn primary" href="/contact">Map the programmer role</a></div>
+          <div><h2>Bring the tickets. Leave with a clearer role.</h2><a className="btn primary" href="/contact-us">Map the programmer role</a></div>
         </section>
       </main>
       <Footer />

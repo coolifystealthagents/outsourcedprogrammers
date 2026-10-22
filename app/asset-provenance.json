@@ -1,0 +1,9 @@
+{
+  "assets": [
+    {"path":"/brand/stealth-agents-logo.png","owner":"Stealth Agents","approval":"Approved first-party parent-brand asset","source":"websitedesignoutsource.com V3 approved asset register","sha256":"bc5b225c1bf37d71ab282bc6d59b519e717263a8ecddd2423225a56d47416e45"},
+    {"path":"/brand/stealth-agents-team-bacolod.jpg","owner":"Stealth Agents","approval":"Approved first-party team photograph","source":"websitedesignoutsource.com V3 approved asset register","sha256":"19543866547bd6bb5b5eb9a329db2e8495ea580a87016c8cb48b1ccdca916736"}
+  ],
+  "generatedVisuals":"app/topic-hero.tsx creates deterministic, topic-aware release-control diagrams. They are first-party generated interface illustrations and have descriptive accessible labels.",
+  "existingLicensedAssets":"Homepage GetIllustrations assets remain under the repository's existing licensed asset record.",
+  "limits":"No third-party logos, ratings, source dates, or individual review URLs were invented."
+}

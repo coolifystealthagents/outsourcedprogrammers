@@ -21,6 +21,6 @@ test('checkout QA keeps its bounded Shopify development handoff', () => {
 });
 
 test('research renderer keeps the Shopify handoff data-owned', () => {
-  assert.match(renderer, /post\.nextStep&&<section className="related-panel">/);
-  assert.match(renderer, /href=\{post\.nextStep\.href\}/);
+  assert.match(renderer, /p\.nextStep&&<aside className="article-next-v3">/);
+  assert.match(renderer, /href=\{p\.nextStep\.href\}/);
 });

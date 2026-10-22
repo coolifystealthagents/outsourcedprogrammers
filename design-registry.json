@@ -1,0 +1,15 @@
+{
+  "site": "outsourcedprogrammers.com",
+  "updated": "2026-10-22",
+  "designRead": "A technical staffing and delivery site for engineering leaders with real backlogs. Precise, pragmatic, operator-led, and organized as a light release-control room rather than an editorial studio.",
+  "settings": {"designVariance": 8, "motionIntensity": 3, "visualDensity": 8, "redesignMode": "evolve", "theme": "light"},
+  "concept": "Release Control Room",
+  "visualFamily": "Dense technical operations interface with white work surfaces, navy control panels, cobalt states, terminal green acceptance markers, square ticket geometry, and owner-control language.",
+  "antiCloneComparison": {
+    "websiteDesignOutsource": ["different visual family", "different hero composition", "different type character", "different palette", "different shape grammar", "different signature element", "different section rhythm"],
+    "outsourcedLabor": ["different visual family", "different hero composition", "different primary palette", "different interaction model", "different signature element", "different editorial geometry"]
+  },
+  "signatureElements": ["release-control SVG topic briefings", "review queue and acceptance status modules", "ticket-to-client-release evidence trail", "continuous approved review tape"],
+  "imagePolicy": "Use existing licensed GetIllustrations programmer artwork on the homepage, route-specific editorial assets where already supplied, generated release-control SVG briefings for missing route imagery, and the approved first-party Stealth Agents team photo on the contact page.",
+  "avoid": ["soft gradient SaaS cards", "generic dashboard cloning", "decorative giant numerals", "unverified testimonial URLs", "autoplay video", "pill-shaped interface overuse"]
+}

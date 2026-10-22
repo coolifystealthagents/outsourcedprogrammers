@@ -25,6 +25,6 @@ test('React onboarding research keeps its bounded Philippines service handoff', 
 });
 
 test('research renderer continues to render optional data-owned next steps', () => {
-  assert.match(renderer, /post\.nextStep&&<section className="related-panel">/);
-  assert.match(renderer, /href=\{post\.nextStep\.href\}/);
+  assert.match(renderer, /p\.nextStep&&<aside className="article-next-v3">/);
+  assert.match(renderer, /href=\{p\.nextStep\.href\}/);
 });

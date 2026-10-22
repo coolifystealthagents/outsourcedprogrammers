@@ -25,13 +25,13 @@ test('redirects an HTTP production URL to HTTPS while preserving path and query'
   );
 });
 
-test('redirects when the forwarded protocol identifies an HTTP visitor', () => {
+test('redirects a canonical HTTPS www URL to the non-www host', () => {
   assert.equal(
     canonicalHttpsRedirect(
       'https://www.outsourcedprogrammers.com/pricing?plan=team',
-      headers({ 'x-forwarded-proto': 'http, https' }),
+      headers({ 'x-forwarded-proto': 'https' }),
     ),
-    'https://www.outsourcedprogrammers.com/pricing?plan=team',
+    'https://outsourcedprogrammers.com/pricing?plan=team',
   );
 });
 
@@ -81,7 +81,7 @@ test('redirects a proxy-normalized URL using an exact forwarded host', () => {
       'http://127.0.0.1:3000/pricing',
       headers({ host: 'internal:3000', 'x-forwarded-host': 'www.outsourcedprogrammers.com', 'x-forwarded-proto': 'http' }),
     ),
-    'https://www.outsourcedprogrammers.com/pricing',
+    'https://outsourcedprogrammers.com/pricing',
   );
 });
 

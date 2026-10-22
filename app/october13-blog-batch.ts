@@ -254,7 +254,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -427,7 +427,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -600,7 +600,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -773,7 +773,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -946,7 +946,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1119,7 +1119,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1292,7 +1292,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1465,7 +1465,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1638,7 +1638,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1811,7 +1811,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -1984,7 +1984,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]
@@ -2157,7 +2157,7 @@ export const october13BlogDetails: Record<string, BlogDetail> = {
       },
       {
         "label": "Development operations support",
-        "url": "/services/operations-support",
+        "url": "/services/legacy-application-maintenance",
         "note": "Plan a scoped outsourced-programmer lane."
       }
     ]

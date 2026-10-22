@@ -9,4 +9,4 @@ function allSource(){let out=''; const walk=d=>{for(const e of fs.readdirSync(d,
 test('homepage images have nonempty text labels',()=>assert.ok(!/alt\s*=\s*['"]\s*['"]/.test(homepageSource())));
 test('homepage source does not define duplicate main headings',()=>assert.ok((homepageSource().match(/<h1\b/g)||[]).length<=1));
 test('homepage featured workstreams link to dedicated service pages', () => { const s = homepageSource(); for (const slug of ['nextjs-development','react-application-development','qa-automation','legacy-application-maintenance']) assert.ok(s.includes(slug), slug); assert.match(s, /href=\{`\/services\/\$\{service\.slug\}`\}/); });
-test('homepage repeats one consistent primary conversion path', () => { const s = homepageSource(); assert.ok((s.match(/href="\/contact"/g)||[]).length >= 3); });
+test('homepage repeats one consistent primary conversion path', () => { const s = homepageSource(); assert.ok((s.match(/href="\/contact-us"/g)||[]).length >= 3); });

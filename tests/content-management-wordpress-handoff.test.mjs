@@ -21,6 +21,6 @@ test('content-management QA keeps its bounded WordPress engineering handoff', ()
 });
 
 test('research renderer renders the data-owned WordPress next step', () => {
-  assert.match(renderer, /post\.nextStep&&<section className="related-panel">/);
-  assert.match(renderer, /href=\{post\.nextStep\.href\}/);
+  assert.match(renderer, /p\.nextStep&&<aside className="article-next-v3">/);
+  assert.match(renderer, /href=\{p\.nextStep\.href\}/);
 });

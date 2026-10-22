@@ -13,7 +13,7 @@ export async function generateMetadata({
 }) {
   const { page } = await params;
   return {
-    title: `Blog — Page ${page}`,
+    title: `Blog , Page ${page}`,
     description: `Outsourced programming guides, page ${page}.`,
     alternates: {
       canonical: `https://outsourcedprogrammers.com/blog/page/${page}`,

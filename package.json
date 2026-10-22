@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
-    "next": "15.5.25",
+    "next": "15.5.28",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sharp": "0.35.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",

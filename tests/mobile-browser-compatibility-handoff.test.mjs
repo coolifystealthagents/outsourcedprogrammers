@@ -19,7 +19,7 @@ test('browser-compatibility research keeps a bounded mobile development next ste
 });
 
 test('research renderer keeps mobile handoffs data-owned', () => {
-  assert.match(renderer, /post\.nextStep&&<section className="related-panel">/);
-  assert.match(renderer, /href=\{post\.nextStep\.href\}/);
+  assert.match(renderer, /p\.nextStep&&<aside className="article-next-v3">/);
+  assert.match(renderer, /href=\{p\.nextStep\.href\}/);
   assert.doesNotMatch(renderer, /remote-programmer-browser-compatibility-matrix/);
 });

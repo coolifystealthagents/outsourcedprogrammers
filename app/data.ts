@@ -483,14 +483,14 @@ export const blogDetails: Record<string, BlogDetail> = {
       { label: 'Daily handoff', text: 'Send the ticket, branch or pull request, checks completed, blocker, and next action.' },
     ],
     internalLinks: [
-      { label: 'Development operations support', url: '/services/operations-support', note: 'See the service lane for backlog fixes and careful handoffs.' },
-      { label: 'QA reporting and release checks', url: '/services/reporting-and-qa', note: 'Plan test notes, bug logs, and release checks.' },
+      { label: 'Development operations support', url: '/services/legacy-application-maintenance', note: 'See the service lane for backlog fixes and careful handoffs.' },
+      { label: 'QA reporting and release checks', url: '/services/qa-automation', note: 'Plan test notes, bug logs, and release checks.' },
       { label: 'Plan an outsourced programmer role', url: '/blog/outsourced-programmers-planning', note: 'Turn backlog examples into a usable role brief.' },
       { label: 'First-week onboarding checklist', url: '/blog', note: 'Prepare access, setup, the first ticket, and the week-one review.' },
     ],
     banners: [
       { label: 'Plan the work', title: 'Bring one real ticket to the hiring call', text: 'A real example makes the role, review needs, and access limits easier to see.', url: '/contact', cta: 'Share the first ticket' },
-      { label: 'Keep releases clear', title: 'Add a named reviewer before the new hire starts', text: 'The reviewer should have enough time and context to check the first pull requests.', url: '/services/operations-support', cta: 'See the support lane' },
+      { label: 'Keep releases clear', title: 'Add a named reviewer before the new hire starts', text: 'The reviewer should have enough time and context to check the first pull requests.', url: '/services/legacy-application-maintenance', cta: 'See the support lane' },
       { label: 'Check the first week', title: 'Use the onboarding checklist after day five', text: 'Review the tickets, test notes, access record, and open questions before adding harder work.', url: '/blog', cta: 'Open the checklist' },
     ],
     faqs: [
