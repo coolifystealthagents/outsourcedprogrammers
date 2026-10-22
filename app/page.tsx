@@ -35,7 +35,7 @@ export default function Home() {
           <div className="hero-orbit orbit-two" aria-hidden="true" />
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow"><span>01</span> Scope before shortlist</p>
+              <p className="eyebrow">Scope before shortlist</p>
               <h1>Hire outsourced programmers without losing code control.</h1>
               <p className="lead">
                 Start with the backlog, repo rules, and reviewer. Then ask for a programmer who fits the work, not a pile of vague profiles.
@@ -66,7 +66,7 @@ export default function Home() {
 
         <section className="workbench container" aria-labelledby="workbench-title">
           <div className="section-intro">
-            <p className="eyebrow dark"><span>02</span> The sprint desk</p>
+            <p className="eyebrow dark">The sprint desk</p>
             <h2 id="workbench-title">Write the brief like a ticket.</h2>
             <p>Spell out what changes, how it gets checked, and who can ship it. That gives a developer something real to respond to.</p>
           </div>
@@ -99,15 +99,14 @@ export default function Home() {
           <div className="container">
             <div className="split-head">
               <div>
-                <p className="eyebrow"><span>03</span> Workstreams</p>
+                <p className="eyebrow">Workstreams</p>
                 <h2>Choose the work before you choose the person.</h2>
               </div>
               <p>These starting points keep the first assignment narrow enough to review and useful enough to matter.</p>
             </div>
             <div className="stream-list">
-              {services.map((service: any, index: number) => (
+              {services.map((service: any) => (
                 <a href={`/services/${service.slug}`} key={service.slug}>
-                  <span className="stream-number">0{index + 1}</span>
                   <div><h3>{title(service)}</h3><p>{text(service)}</p></div>
                   <span className="arrow" aria-hidden="true">↗</span>
                 </a>
@@ -122,12 +121,12 @@ export default function Home() {
 
         <section className="launch container" aria-labelledby="launch-title">
           <div className="section-intro narrow">
-            <p className="eyebrow dark"><span>04</span> A controlled start</p>
+            <p className="eyebrow dark">A controlled start</p>
             <h2 id="launch-title">Keep day one out of production.</h2>
             <p>Give the programmer a small path into the codebase. Keep a named technical owner on every decision that can affect customers.</p>
           </div>
           <div className="launch-grid">
-            <article><span>day 01</span><h3>Open the right doors</h3><p>Share setup docs, sample pull requests, and limited access. Keep credentials out of chat and loose documents.</p></article>
+            <article><span>day one</span><h3>Open the right doors</h3><p>Share setup docs, sample pull requests, and limited access. Keep credentials out of chat and loose documents.</p></article>
             <article><span>first tickets</span><h3>Watch the handoff</h3><p>Use work with clear examples. Check the code, the notes, and how quickly questions surface.</p></article>
             <article><span>before release</span><h3>Keep approval local</h3><p>Your technical owner decides what merges and what ships. Expand ownership only after the working rhythm is solid.</p></article>
           </div>
@@ -140,7 +139,7 @@ export default function Home() {
         <section className="guide-section">
           <div className="container guide-grid">
             <div className="guide-title">
-              <p className="eyebrow"><span>05</span> Field notes</p>
+              <p className="eyebrow">Field notes</p>
               <h2>Read this before the first interview.</h2>
               <a className="text-link light" href="/blog">Browse all guides <span>↗</span></a>
             </div>
@@ -157,7 +156,7 @@ export default function Home() {
         </section>
 
         <section className="closing container">
-          <p className="eyebrow dark"><span>06</span> Start with the real backlog</p>
+          <p className="eyebrow dark">Start with the real backlog</p>
           <div><h2>Bring the tickets. Leave with a clearer role.</h2><a className="btn primary" href="/contact-us">Map the programmer role</a></div>
         </section>
       </main>
