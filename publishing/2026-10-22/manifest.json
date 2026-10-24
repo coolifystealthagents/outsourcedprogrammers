@@ -1,0 +1,118 @@
+{
+  "site": "OutsourcedProgrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "baseSha": "1840052dd3e12a3b0e0f38839483714c8296e7af",
+  "date": "2026-10-22",
+  "blog": [
+    {
+      "slug": "dependency-upgrade-test-matrix",
+      "title": "Build a Dependency Upgrade Test Matrix Before Merging",
+      "route": "/blog/dependency-upgrade-test-matrix",
+      "thumbnail": "/oct22/blog/dependency-upgrade-test-matrix.png"
+    },
+    {
+      "slug": "feature-flag-cleanup-evidence",
+      "title": "Retire a Feature Flag With Production Evidence",
+      "route": "/blog/feature-flag-cleanup-evidence",
+      "thumbnail": "/oct22/blog/feature-flag-cleanup-evidence.png"
+    },
+    {
+      "slug": "database-index-change-review",
+      "title": "Review Database Index Changes With Query Evidence",
+      "route": "/blog/database-index-change-review",
+      "thumbnail": "/oct22/blog/database-index-change-review.png"
+    },
+    {
+      "slug": "error-budget-alert-tuning",
+      "title": "Tune Error-Budget Alerts Without Hiding Incidents",
+      "route": "/blog/error-budget-alert-tuning",
+      "thumbnail": "/oct22/blog/error-budget-alert-tuning.png"
+    },
+    {
+      "slug": "backfill-job-rehearsal",
+      "title": "Rehearse a Data Backfill Job Before Production Execution",
+      "route": "/blog/backfill-job-rehearsal",
+      "thumbnail": "/oct22/blog/backfill-job-rehearsal.png"
+    },
+    {
+      "slug": "third-party-sdk-removal",
+      "title": "Remove a Third-Party SDK Without Dropping Required Behavior",
+      "route": "/blog/third-party-sdk-removal",
+      "thumbnail": "/oct22/blog/third-party-sdk-removal.png"
+    },
+    {
+      "slug": "rollback-artifact-retention",
+      "title": "Retain Rollback Artifacts for the Supported Recovery Window",
+      "route": "/blog/rollback-artifact-retention",
+      "thumbnail": "/oct22/blog/rollback-artifact-retention.png"
+    },
+    {
+      "slug": "log-redaction-change-review",
+      "title": "Review Log Redaction Changes Before Deploying Them",
+      "route": "/blog/log-redaction-change-review",
+      "thumbnail": "/oct22/blog/log-redaction-change-review.png"
+    },
+    {
+      "slug": "platform-permission-change-request",
+      "title": "Route Mobile Platform Permission Changes With Evidence",
+      "route": "/blog/platform-permission-change-request",
+      "thumbnail": "/oct22/blog/platform-permission-change-request.png"
+    },
+    {
+      "slug": "container-image-base-update",
+      "title": "Update a Container Base Image With Reproducible Evidence",
+      "route": "/blog/container-image-base-update",
+      "thumbnail": "/oct22/blog/container-image-base-update.png"
+    },
+    {
+      "slug": "scheduled-job-idempotency-review",
+      "title": "Review Scheduled Job Idempotency Before Enabling Retries",
+      "route": "/blog/scheduled-job-idempotency-review",
+      "thumbnail": "/oct22/blog/scheduled-job-idempotency-review.png"
+    },
+    {
+      "slug": "codeowner-map-change-review",
+      "title": "Review Code Owner Map Changes Against Real Review Paths",
+      "route": "/blog/codeowner-map-change-review",
+      "thumbnail": "/oct22/blog/codeowner-map-change-review.png"
+    }
+  ],
+  "research": [
+    {
+      "slug": "dependency-upgrade-regression-study",
+      "title": "Dependency Upgrade Regression Evidence Study",
+      "route": "/research/dependency-upgrade-regression-study",
+      "thumbnail": "/oct22/research/dependency-upgrade-regression-study.png"
+    },
+    {
+      "slug": "flag-retirement-exposure-study",
+      "title": "Feature Flag Retirement Exposure Study",
+      "route": "/research/flag-retirement-exposure-study",
+      "thumbnail": "/oct22/research/flag-retirement-exposure-study.png"
+    },
+    {
+      "slug": "index-change-write-cost-study",
+      "title": "Database Index Change Write-Cost Study",
+      "route": "/research/index-change-write-cost-study",
+      "thumbnail": "/oct22/research/index-change-write-cost-study.png"
+    },
+    {
+      "slug": "backfill-integrity-rehearsal-study",
+      "title": "Data Backfill Integrity Rehearsal Study",
+      "route": "/research/backfill-integrity-rehearsal-study",
+      "thumbnail": "/oct22/research/backfill-integrity-rehearsal-study.png"
+    },
+    {
+      "slug": "rollback-artifact-availability-study",
+      "title": "Rollback Artifact Availability Study",
+      "route": "/research/rollback-artifact-availability-study",
+      "thumbnail": "/oct22/research/rollback-artifact-availability-study.png"
+    }
+  ],
+  "expected": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  }
+}

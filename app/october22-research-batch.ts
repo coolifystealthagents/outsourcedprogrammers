@@ -1,0 +1,428 @@
+import type { ResearchPost } from './fleet-content';
+export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
+  {
+    "slug": "dependency-upgrade-regression-study",
+    "title": "Dependency Upgrade Regression Evidence Study",
+    "excerpt": "A reproducible research protocol for dependency upgrade validation, with declared population, unit, strata, denominators, independent review, security controls, and explicit limitations.",
+    "topic": "dependency upgrade validation",
+    "published": "2026-10-22",
+    "body": [
+      "How often do dependency upgrades change behavior outside the package's stated changelog? This protocol defines the population as eligible dependency upgrades in a declared repository group and observation window. Its observation unit is one package revision linked to tests, affected features, incidents, and reviewer decisions. Freeze the decision purpose, systems, window, inclusion rules, and accountable owners before selecting records so the result cannot be redesigned after outcomes are visible.",
+      "Research on dependency upgrade validation separates contributor preparation from consequential company decisions. An outsourced programmer may assemble evidence, run approved checks, and flag conflicts. Company owners retain access policy, product behavior, security exceptions, customer communication, merge approval, production execution, and risk acceptance.",
+      "Build the sampling frame from authoritative version-control, CI, deployment, identity, inventory, or incident systems as appropriate to dependency upgrade validation. Record package type, version jump, transitive change, runtime, test coverage, and rollback state. Use consecutive eligible records where practical and include failed, changed, reopened, urgent, and externally blocked conditions.",
+      "Report eligible count, observed count, exclusions, missing records, and protected evidence that could not be inspected for Dependency Upgrade Regression Evidence Study. A convenient sample of clean cases can hide the exact tail conditions the study needs to reveal. Treat unavailable evidence as unavailable rather than replacing it with a summary.",
+      "For each one package revision linked to tests, affected features, incidents, and reviewer decisions, preserve source event, exact revision, rule or codebook version, actor, timestamp, environment, evidence, reviewer action, exception, and accepted destination state. Retain conflicting sources and record which authorized owner resolved them.",
+      "Define time states before calculation. Separate active handling, contributor wait, company-owner wait, system delay, external dependency wait, and time outside the service window. Do not add overlapping intervals or infer labor from elapsed clock time in the dependency upgrade validation dataset.",
+      "Primary measures are regressions, failed checks, missed behavior, correction, rollback, and accepted residual risk. Every rate displays its numerator, eligible denominator, observation window, exclusions, and missing-data count. Pair distributions with representative adverse cases; one average can conceal severe tails, correct stops, or work moved to another queue.",
+      "Create a known-good and known-bad control for dependency upgrade validation. Confirm the method recognizes both. Recompute a protected subset from source artifacts and compare it with the generated result. A classifier that accepts an intentionally incomplete case is not reliable enough for management decisions.",
+      "For Dependency Upgrade Regression Evidence Study, give an independent reviewer the same codebook and protected sample without revealing first-pass classifications. Compare eligibility, source state, risk band, timing, exception, and disposition. Resolve ambiguity through the accountable owner rather than majority vote.",
+      "Test alternative explanations before attributing a pattern to outsourced work. Change mix, reviewer capacity, tool migration, automation, incident discovery, dependency behavior, and company decision latency can affect dependency upgrade validation. This descriptive study does not establish causation unless its design supports that claim.",
+      "Protect the Dependency Upgrade Regression Evidence Study dataset itself. Use named least-privilege access, minimal fields, stable study keys, redacted outputs, approved storage, retention, and verified disposal. Records about dependency upgrade validation can reveal vulnerabilities, customer impact, personal information, secrets, and operational topology.",
+      "For dependency upgrade validation, use NIST SSDF and Cybersecurity Framework outcomes to frame preparation, protection, detection, response, and recovery questions. CISA, SLSA, OpenSSF, OWASP, OpenTelemetry, GitHub, and Google SRE materials add authoritative practices but do not certify this result.",
+      "Run sensitivity checks for Dependency Upgrade Regression Evidence Study by varying plausible boundaries such as reopened-unit treatment, outage exclusion, risk bands, missing evidence, or wait ownership. If the conclusion changes materially, present both readings and label the decision that depends on the definition.",
+      "Translate Dependency Upgrade Regression Evidence Study findings into one bounded experiment relevant to dependency upgrade validation: repair intake, add a fixture, reserve reviewer capacity, remove stale access, rehearse recovery, or change an owner rule. Name its expected signal, owner, time limit, rollback, and review date.",
+      "The study describes selected upgrades and tests; it cannot prove every feature or future version is safe. Results also depend on local system accuracy, the stated period, package type, version jump, transitive change, runtime, test coverage, and rollback state, reviewer judgment, and protected-evidence access. Publish those limits next to conclusions rather than relegating them to a detached appendix.",
+      "The practical finding for dependency upgrade validation is reproducibility within the declared boundary. Another reviewer should locate the included and excluded records, recalculate regressions, failed checks, missed behavior, correction, rollback, and accepted residual risk, explain conflicting evidence, identify retained authority, and verify the accepted state without private clarification.",
+      "Pre-register a stopping rule for Dependency Upgrade Regression Evidence Study. The team should stop collection when the declared population window closes, when source integrity fails, or when a security or privacy condition requires a protected review path. Extending the window because early results look inconvenient creates a different study and must receive a new version, owner, and rationale.",
+      "Create a publication table for dependency upgrade validation that separates directly observed fields, derived fields, reviewer classifications, and management interpretations. Each derived value should name its inputs and calculation, while every classification cites the codebook rule in force. This traceability lets a later reviewer correct one assumption without rebuilding an undocumented spreadsheet from memory.",
+      "Audit boundary cases in Dependency Upgrade Regression Evidence Study, including records just inside and outside the inclusion rule, cases whose state changed near the cutoff, and items with contradictory authoritative sources. Boundary review tests whether the denominator is stable. It also reveals whether reviewers are quietly selecting by outcome rather than applying the declared eligibility rule.",
+      "Before management acts on dependency upgrade validation, compare the proposed action with the evidence actually collected. A queue intervention may be supported when wait ownership is observed; a code change needs reproducible technical evidence; an access change needs entitlement evidence. The study should not lend quantitative appearance to a decision that depends on an unmeasured mechanism.",
+      "Package the replication materials for Dependency Upgrade Regression Evidence Study: frozen protocol, codebook, source inventory, query or extraction revision, calculation notes, protected sample keys, disagreement log, exclusions, output tables, and change history. Sensitive artifacts remain in approved storage, while the published packet records how an authorized reviewer can request and verify them.",
+      "Set a refresh trigger for dependency upgrade validation when the repository, toolchain, architecture, owner model, control rule, workload, or evidence source changes materially. If none changes, repeat the observation on a declared cadence and compare like with like. Report an incompatible period separately instead of drawing a trend line across different definitions."
+    ],
+    "sources": [
+      [
+        "NIST Secure Software Development Framework",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      [
+        "NIST Cybersecurity Framework 2.0",
+        "https://www.nist.gov/cyberframework"
+      ],
+      [
+        "NIST SP 800-53 Rev. 5",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GitHub pull request reviews",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      [
+        "OpenSSF Scorecard",
+        "https://scorecard.dev/"
+      ],
+      [
+        "SLSA specification",
+        "https://slsa.dev/spec/v1.0/"
+      ],
+      [
+        "OpenTelemetry specification",
+        "https://opentelemetry.io/docs/specs/"
+      ],
+      [
+        "Google SRE workbook",
+        "https://sre.google/workbook/table-of-contents/"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
+      ]
+    ],
+    "related": [
+      "flag-retirement-exposure-study",
+      "index-change-write-cost-study",
+      "backfill-integrity-rehearsal-study"
+    ],
+    "hero": "/oct22/research/dependency-upgrade-regression-study.webp",
+    "nextStep": {
+      "heading": "Turn the finding into a bounded engineering brief",
+      "href": "/contact",
+      "label": "Plan the first reviewed ticket",
+      "copy": "Bring the dependency upgrade validation evidence, systems, owners, and unresolved definitions to a scoped planning conversation."
+    }
+  },
+  {
+    "slug": "flag-retirement-exposure-study",
+    "title": "Feature Flag Retirement Exposure Study",
+    "excerpt": "A reproducible research protocol for feature flag retirement, with declared population, unit, strata, denominators, independent review, security controls, and explicit limitations.",
+    "topic": "feature flag retirement",
+    "published": "2026-10-22",
+    "body": [
+      "What evidence is missing when a flag is removed while some traffic or code path still depends on it? This protocol defines the population as eligible flag removals in declared services during a frozen period. Its observation unit is one flag linked to exposure, code references, removal change, and post-removal behavior. Freeze the decision purpose, systems, window, inclusion rules, and accountable owners before selecting records so the result cannot be redesigned after outcomes are visible.",
+      "Research on feature flag retirement separates contributor preparation from consequential company decisions. An outsourced programmer may assemble evidence, run approved checks, and flag conflicts. Company owners retain access policy, product behavior, security exceptions, customer communication, merge approval, production execution, and risk acceptance.",
+      "Build the sampling frame from authoritative version-control, CI, deployment, identity, inventory, or incident systems as appropriate to feature flag retirement. Record flag type, rollout state, segment, service, owner, telemetry coverage, and removal method. Use consecutive eligible records where practical and include failed, changed, reopened, urgent, and externally blocked conditions.",
+      "Report eligible count, observed count, exclusions, missing records, and protected evidence that could not be inspected for Feature Flag Retirement Exposure Study. A convenient sample of clean cases can hide the exact tail conditions the study needs to reveal. Treat unavailable evidence as unavailable rather than replacing it with a summary.",
+      "For each one flag linked to exposure, code references, removal change, and post-removal behavior, preserve source event, exact revision, rule or codebook version, actor, timestamp, environment, evidence, reviewer action, exception, and accepted destination state. Retain conflicting sources and record which authorized owner resolved them.",
+      "Define time states before calculation. Separate active handling, contributor wait, company-owner wait, system delay, external dependency wait, and time outside the service window. Do not add overlapping intervals or infer labor from elapsed clock time in the feature flag retirement dataset.",
+      "Primary measures are stale references, exposure mismatch, failed removal, rollback, correction, and reopened cleanup. Every rate displays its numerator, eligible denominator, observation window, exclusions, and missing-data count. Pair distributions with representative adverse cases; one average can conceal severe tails, correct stops, or work moved to another queue.",
+      "Create a known-good and known-bad control for feature flag retirement. Confirm the method recognizes both. Recompute a protected subset from source artifacts and compare it with the generated result. A classifier that accepts an intentionally incomplete case is not reliable enough for management decisions.",
+      "For Feature Flag Retirement Exposure Study, give an independent reviewer the same codebook and protected sample without revealing first-pass classifications. Compare eligibility, source state, risk band, timing, exception, and disposition. Resolve ambiguity through the accountable owner rather than majority vote.",
+      "Test alternative explanations before attributing a pattern to outsourced work. Change mix, reviewer capacity, tool migration, automation, incident discovery, dependency behavior, and company decision latency can affect feature flag retirement. This descriptive study does not establish causation unless its design supports that claim.",
+      "Protect the Feature Flag Retirement Exposure Study dataset itself. Use named least-privilege access, minimal fields, stable study keys, redacted outputs, approved storage, retention, and verified disposal. Records about feature flag retirement can reveal vulnerabilities, customer impact, personal information, secrets, and operational topology.",
+      "For feature flag retirement, use NIST SSDF and Cybersecurity Framework outcomes to frame preparation, protection, detection, response, and recovery questions. CISA, SLSA, OpenSSF, OWASP, OpenTelemetry, GitHub, and Google SRE materials add authoritative practices but do not certify this result.",
+      "Run sensitivity checks for Feature Flag Retirement Exposure Study by varying plausible boundaries such as reopened-unit treatment, outage exclusion, risk bands, missing evidence, or wait ownership. If the conclusion changes materially, present both readings and label the decision that depends on the definition.",
+      "Translate Feature Flag Retirement Exposure Study findings into one bounded experiment relevant to feature flag retirement: repair intake, add a fixture, reserve reviewer capacity, remove stale access, rehearse recovery, or change an owner rule. Name its expected signal, owner, time limit, rollback, and review date.",
+      "Observed removals cannot reveal every undocumented override or external consumer. Results also depend on local system accuracy, the stated period, flag type, rollout state, segment, service, owner, telemetry coverage, and removal method, reviewer judgment, and protected-evidence access. Publish those limits next to conclusions rather than relegating them to a detached appendix.",
+      "The practical finding for feature flag retirement is reproducibility within the declared boundary. Another reviewer should locate the included and excluded records, recalculate stale references, exposure mismatch, failed removal, rollback, correction, and reopened cleanup, explain conflicting evidence, identify retained authority, and verify the accepted state without private clarification.",
+      "Pre-register a stopping rule for Feature Flag Retirement Exposure Study. The team should stop collection when the declared population window closes, when source integrity fails, or when a security or privacy condition requires a protected review path. Extending the window because early results look inconvenient creates a different study and must receive a new version, owner, and rationale.",
+      "Create a publication table for feature flag retirement that separates directly observed fields, derived fields, reviewer classifications, and management interpretations. Each derived value should name its inputs and calculation, while every classification cites the codebook rule in force. This traceability lets a later reviewer correct one assumption without rebuilding an undocumented spreadsheet from memory.",
+      "Audit boundary cases in Feature Flag Retirement Exposure Study, including records just inside and outside the inclusion rule, cases whose state changed near the cutoff, and items with contradictory authoritative sources. Boundary review tests whether the denominator is stable. It also reveals whether reviewers are quietly selecting by outcome rather than applying the declared eligibility rule.",
+      "Before management acts on feature flag retirement, compare the proposed action with the evidence actually collected. A queue intervention may be supported when wait ownership is observed; a code change needs reproducible technical evidence; an access change needs entitlement evidence. The study should not lend quantitative appearance to a decision that depends on an unmeasured mechanism.",
+      "Package the replication materials for Feature Flag Retirement Exposure Study: frozen protocol, codebook, source inventory, query or extraction revision, calculation notes, protected sample keys, disagreement log, exclusions, output tables, and change history. Sensitive artifacts remain in approved storage, while the published packet records how an authorized reviewer can request and verify them.",
+      "Set a refresh trigger for feature flag retirement when the repository, toolchain, architecture, owner model, control rule, workload, or evidence source changes materially. If none changes, repeat the observation on a declared cadence and compare like with like. Report an incompatible period separately instead of drawing a trend line across different definitions."
+    ],
+    "sources": [
+      [
+        "NIST Secure Software Development Framework",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      [
+        "NIST Cybersecurity Framework 2.0",
+        "https://www.nist.gov/cyberframework"
+      ],
+      [
+        "NIST SP 800-53 Rev. 5",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GitHub pull request reviews",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      [
+        "OpenSSF Scorecard",
+        "https://scorecard.dev/"
+      ],
+      [
+        "SLSA specification",
+        "https://slsa.dev/spec/v1.0/"
+      ],
+      [
+        "OpenTelemetry specification",
+        "https://opentelemetry.io/docs/specs/"
+      ],
+      [
+        "Google SRE workbook",
+        "https://sre.google/workbook/table-of-contents/"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
+      ]
+    ],
+    "related": [
+      "dependency-upgrade-regression-study",
+      "index-change-write-cost-study",
+      "backfill-integrity-rehearsal-study"
+    ],
+    "hero": "/oct22/research/flag-retirement-exposure-study.webp",
+    "nextStep": {
+      "heading": "Turn the finding into a bounded engineering brief",
+      "href": "/contact",
+      "label": "Plan the first reviewed ticket",
+      "copy": "Bring the feature flag retirement evidence, systems, owners, and unresolved definitions to a scoped planning conversation."
+    }
+  },
+  {
+    "slug": "index-change-write-cost-study",
+    "title": "Database Index Change Write-Cost Study",
+    "excerpt": "A reproducible research protocol for database index change, with declared population, unit, strata, denominators, independent review, security controls, and explicit limitations.",
+    "topic": "database index change",
+    "published": "2026-10-22",
+    "body": [
+      "Do index changes improve target queries without unacceptable write, storage, or migration cost? This protocol defines the population as eligible index changes reviewed in a declared database environment. Its observation unit is one index change tied to query evidence, write profile, migration test, and owner decision. Freeze the decision purpose, systems, window, inclusion rules, and accountable owners before selecting records so the result cannot be redesigned after outcomes are visible.",
+      "Research on database index change separates contributor preparation from consequential company decisions. An outsourced programmer may assemble evidence, run approved checks, and flag conflicts. Company owners retain access policy, product behavior, security exceptions, customer communication, merge approval, production execution, and risk acceptance.",
+      "Build the sampling frame from authoritative version-control, CI, deployment, identity, inventory, or incident systems as appropriate to database index change. Record table size, write rate, query pattern, index type, lock behavior, and rollback path. Use consecutive eligible records where practical and include failed, changed, reopened, urgent, and externally blocked conditions.",
+      "Report eligible count, observed count, exclusions, missing records, and protected evidence that could not be inspected for Database Index Change Write-Cost Study. A convenient sample of clean cases can hide the exact tail conditions the study needs to reveal. Treat unavailable evidence as unavailable rather than replacing it with a summary.",
+      "For each one index change tied to query evidence, write profile, migration test, and owner decision, preserve source event, exact revision, rule or codebook version, actor, timestamp, environment, evidence, reviewer action, exception, and accepted destination state. Retain conflicting sources and record which authorized owner resolved them.",
+      "Define time states before calculation. Separate active handling, contributor wait, company-owner wait, system delay, external dependency wait, and time outside the service window. Do not add overlapping intervals or infer labor from elapsed clock time in the database index change dataset.",
+      "Primary measures are query improvement, write impact, migration time, lock evidence, rollback, and accepted cost. Every rate displays its numerator, eligible denominator, observation window, exclusions, and missing-data count. Pair distributions with representative adverse cases; one average can conceal severe tails, correct stops, or work moved to another queue.",
+      "Create a known-good and known-bad control for database index change. Confirm the method recognizes both. Recompute a protected subset from source artifacts and compare it with the generated result. A classifier that accepts an intentionally incomplete case is not reliable enough for management decisions.",
+      "For Database Index Change Write-Cost Study, give an independent reviewer the same codebook and protected sample without revealing first-pass classifications. Compare eligibility, source state, risk band, timing, exception, and disposition. Resolve ambiguity through the accountable owner rather than majority vote.",
+      "Test alternative explanations before attributing a pattern to outsourced work. Change mix, reviewer capacity, tool migration, automation, incident discovery, dependency behavior, and company decision latency can affect database index change. This descriptive study does not establish causation unless its design supports that claim.",
+      "Protect the Database Index Change Write-Cost Study dataset itself. Use named least-privilege access, minimal fields, stable study keys, redacted outputs, approved storage, retention, and verified disposal. Records about database index change can reveal vulnerabilities, customer impact, personal information, secrets, and operational topology.",
+      "For database index change, use NIST SSDF and Cybersecurity Framework outcomes to frame preparation, protection, detection, response, and recovery questions. CISA, SLSA, OpenSSF, OWASP, OpenTelemetry, GitHub, and Google SRE materials add authoritative practices but do not certify this result.",
+      "Run sensitivity checks for Database Index Change Write-Cost Study by varying plausible boundaries such as reopened-unit treatment, outage exclusion, risk bands, missing evidence, or wait ownership. If the conclusion changes materially, present both readings and label the decision that depends on the definition.",
+      "Translate Database Index Change Write-Cost Study findings into one bounded experiment relevant to database index change: repair intake, add a fixture, reserve reviewer capacity, remove stale access, rehearse recovery, or change an owner rule. Name its expected signal, owner, time limit, rollback, and review date.",
+      "Benchmark fixtures cannot reproduce every production distribution or concurrency pattern. Results also depend on local system accuracy, the stated period, table size, write rate, query pattern, index type, lock behavior, and rollback path, reviewer judgment, and protected-evidence access. Publish those limits next to conclusions rather than relegating them to a detached appendix.",
+      "The practical finding for database index change is reproducibility within the declared boundary. Another reviewer should locate the included and excluded records, recalculate query improvement, write impact, migration time, lock evidence, rollback, and accepted cost, explain conflicting evidence, identify retained authority, and verify the accepted state without private clarification.",
+      "Pre-register a stopping rule for Database Index Change Write-Cost Study. The team should stop collection when the declared population window closes, when source integrity fails, or when a security or privacy condition requires a protected review path. Extending the window because early results look inconvenient creates a different study and must receive a new version, owner, and rationale.",
+      "Create a publication table for database index change that separates directly observed fields, derived fields, reviewer classifications, and management interpretations. Each derived value should name its inputs and calculation, while every classification cites the codebook rule in force. This traceability lets a later reviewer correct one assumption without rebuilding an undocumented spreadsheet from memory.",
+      "Audit boundary cases in Database Index Change Write-Cost Study, including records just inside and outside the inclusion rule, cases whose state changed near the cutoff, and items with contradictory authoritative sources. Boundary review tests whether the denominator is stable. It also reveals whether reviewers are quietly selecting by outcome rather than applying the declared eligibility rule.",
+      "Before management acts on database index change, compare the proposed action with the evidence actually collected. A queue intervention may be supported when wait ownership is observed; a code change needs reproducible technical evidence; an access change needs entitlement evidence. The study should not lend quantitative appearance to a decision that depends on an unmeasured mechanism.",
+      "Package the replication materials for Database Index Change Write-Cost Study: frozen protocol, codebook, source inventory, query or extraction revision, calculation notes, protected sample keys, disagreement log, exclusions, output tables, and change history. Sensitive artifacts remain in approved storage, while the published packet records how an authorized reviewer can request and verify them.",
+      "Set a refresh trigger for database index change when the repository, toolchain, architecture, owner model, control rule, workload, or evidence source changes materially. If none changes, repeat the observation on a declared cadence and compare like with like. Report an incompatible period separately instead of drawing a trend line across different definitions."
+    ],
+    "sources": [
+      [
+        "NIST Secure Software Development Framework",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      [
+        "NIST Cybersecurity Framework 2.0",
+        "https://www.nist.gov/cyberframework"
+      ],
+      [
+        "NIST SP 800-53 Rev. 5",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GitHub pull request reviews",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      [
+        "OpenSSF Scorecard",
+        "https://scorecard.dev/"
+      ],
+      [
+        "SLSA specification",
+        "https://slsa.dev/spec/v1.0/"
+      ],
+      [
+        "OpenTelemetry specification",
+        "https://opentelemetry.io/docs/specs/"
+      ],
+      [
+        "Google SRE workbook",
+        "https://sre.google/workbook/table-of-contents/"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
+      ]
+    ],
+    "related": [
+      "dependency-upgrade-regression-study",
+      "flag-retirement-exposure-study",
+      "backfill-integrity-rehearsal-study"
+    ],
+    "hero": "/oct22/research/index-change-write-cost-study.webp",
+    "nextStep": {
+      "heading": "Turn the finding into a bounded engineering brief",
+      "href": "/contact",
+      "label": "Plan the first reviewed ticket",
+      "copy": "Bring the database index change evidence, systems, owners, and unresolved definitions to a scoped planning conversation."
+    }
+  },
+  {
+    "slug": "backfill-integrity-rehearsal-study",
+    "title": "Data Backfill Integrity Rehearsal Study",
+    "excerpt": "A reproducible research protocol for data backfill rehearsal, with declared population, unit, strata, denominators, independent review, security controls, and explicit limitations.",
+    "topic": "data backfill rehearsal",
+    "published": "2026-10-22",
+    "body": [
+      "Does a backfill rehearsal demonstrate row selection, idempotency, runtime, and recovery at representative scale? This protocol defines the population as eligible backfill plans rehearsed against disposable representative data. Its observation unit is one backfill revision linked to selection rule, target state, side effects, timing, and recovery. Freeze the decision purpose, systems, window, inclusion rules, and accountable owners before selecting records so the result cannot be redesigned after outcomes are visible.",
+      "Research on data backfill rehearsal separates contributor preparation from consequential company decisions. An outsourced programmer may assemble evidence, run approved checks, and flag conflicts. Company owners retain access policy, product behavior, security exceptions, customer communication, merge approval, production execution, and risk acceptance.",
+      "Build the sampling frame from authoritative version-control, CI, deployment, identity, inventory, or incident systems as appropriate to data backfill rehearsal. Record row volume, transformation type, dependency, lock risk, idempotency, and rollback method. Use consecutive eligible records where practical and include failed, changed, reopened, urgent, and externally blocked conditions.",
+      "Report eligible count, observed count, exclusions, missing records, and protected evidence that could not be inspected for Data Backfill Integrity Rehearsal Study. A convenient sample of clean cases can hide the exact tail conditions the study needs to reveal. Treat unavailable evidence as unavailable rather than replacing it with a summary.",
+      "For each one backfill revision linked to selection rule, target state, side effects, timing, and recovery, preserve source event, exact revision, rule or codebook version, actor, timestamp, environment, evidence, reviewer action, exception, and accepted destination state. Retain conflicting sources and record which authorized owner resolved them.",
+      "Define time states before calculation. Separate active handling, contributor wait, company-owner wait, system delay, external dependency wait, and time outside the service window. Do not add overlapping intervals or infer labor from elapsed clock time in the data backfill rehearsal dataset.",
+      "Primary measures are selection accuracy, duplicate effects, runtime, integrity checks, failed steps, and verified recovery. Every rate displays its numerator, eligible denominator, observation window, exclusions, and missing-data count. Pair distributions with representative adverse cases; one average can conceal severe tails, correct stops, or work moved to another queue.",
+      "Create a known-good and known-bad control for data backfill rehearsal. Confirm the method recognizes both. Recompute a protected subset from source artifacts and compare it with the generated result. A classifier that accepts an intentionally incomplete case is not reliable enough for management decisions.",
+      "For Data Backfill Integrity Rehearsal Study, give an independent reviewer the same codebook and protected sample without revealing first-pass classifications. Compare eligibility, source state, risk band, timing, exception, and disposition. Resolve ambiguity through the accountable owner rather than majority vote.",
+      "Test alternative explanations before attributing a pattern to outsourced work. Change mix, reviewer capacity, tool migration, automation, incident discovery, dependency behavior, and company decision latency can affect data backfill rehearsal. This descriptive study does not establish causation unless its design supports that claim.",
+      "Protect the Data Backfill Integrity Rehearsal Study dataset itself. Use named least-privilege access, minimal fields, stable study keys, redacted outputs, approved storage, retention, and verified disposal. Records about data backfill rehearsal can reveal vulnerabilities, customer impact, personal information, secrets, and operational topology.",
+      "For data backfill rehearsal, use NIST SSDF and Cybersecurity Framework outcomes to frame preparation, protection, detection, response, and recovery questions. CISA, SLSA, OpenSSF, OWASP, OpenTelemetry, GitHub, and Google SRE materials add authoritative practices but do not certify this result.",
+      "Run sensitivity checks for Data Backfill Integrity Rehearsal Study by varying plausible boundaries such as reopened-unit treatment, outage exclusion, risk bands, missing evidence, or wait ownership. If the conclusion changes materially, present both readings and label the decision that depends on the definition.",
+      "Translate Data Backfill Integrity Rehearsal Study findings into one bounded experiment relevant to data backfill rehearsal: repair intake, add a fixture, reserve reviewer capacity, remove stale access, rehearse recovery, or change an owner rule. Name its expected signal, owner, time limit, rollback, and review date.",
+      "Disposable rehearsal data cannot prove production locking, volume, or every downstream effect. Results also depend on local system accuracy, the stated period, row volume, transformation type, dependency, lock risk, idempotency, and rollback method, reviewer judgment, and protected-evidence access. Publish those limits next to conclusions rather than relegating them to a detached appendix.",
+      "The practical finding for data backfill rehearsal is reproducibility within the declared boundary. Another reviewer should locate the included and excluded records, recalculate selection accuracy, duplicate effects, runtime, integrity checks, failed steps, and verified recovery, explain conflicting evidence, identify retained authority, and verify the accepted state without private clarification.",
+      "Pre-register a stopping rule for Data Backfill Integrity Rehearsal Study. The team should stop collection when the declared population window closes, when source integrity fails, or when a security or privacy condition requires a protected review path. Extending the window because early results look inconvenient creates a different study and must receive a new version, owner, and rationale.",
+      "Create a publication table for data backfill rehearsal that separates directly observed fields, derived fields, reviewer classifications, and management interpretations. Each derived value should name its inputs and calculation, while every classification cites the codebook rule in force. This traceability lets a later reviewer correct one assumption without rebuilding an undocumented spreadsheet from memory.",
+      "Audit boundary cases in Data Backfill Integrity Rehearsal Study, including records just inside and outside the inclusion rule, cases whose state changed near the cutoff, and items with contradictory authoritative sources. Boundary review tests whether the denominator is stable. It also reveals whether reviewers are quietly selecting by outcome rather than applying the declared eligibility rule.",
+      "Before management acts on data backfill rehearsal, compare the proposed action with the evidence actually collected. A queue intervention may be supported when wait ownership is observed; a code change needs reproducible technical evidence; an access change needs entitlement evidence. The study should not lend quantitative appearance to a decision that depends on an unmeasured mechanism.",
+      "Package the replication materials for Data Backfill Integrity Rehearsal Study: frozen protocol, codebook, source inventory, query or extraction revision, calculation notes, protected sample keys, disagreement log, exclusions, output tables, and change history. Sensitive artifacts remain in approved storage, while the published packet records how an authorized reviewer can request and verify them.",
+      "Set a refresh trigger for data backfill rehearsal when the repository, toolchain, architecture, owner model, control rule, workload, or evidence source changes materially. If none changes, repeat the observation on a declared cadence and compare like with like. Report an incompatible period separately instead of drawing a trend line across different definitions."
+    ],
+    "sources": [
+      [
+        "NIST Secure Software Development Framework",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      [
+        "NIST Cybersecurity Framework 2.0",
+        "https://www.nist.gov/cyberframework"
+      ],
+      [
+        "NIST SP 800-53 Rev. 5",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GitHub pull request reviews",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      [
+        "OpenSSF Scorecard",
+        "https://scorecard.dev/"
+      ],
+      [
+        "SLSA specification",
+        "https://slsa.dev/spec/v1.0/"
+      ],
+      [
+        "OpenTelemetry specification",
+        "https://opentelemetry.io/docs/specs/"
+      ],
+      [
+        "Google SRE workbook",
+        "https://sre.google/workbook/table-of-contents/"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
+      ]
+    ],
+    "related": [
+      "dependency-upgrade-regression-study",
+      "flag-retirement-exposure-study",
+      "index-change-write-cost-study"
+    ],
+    "hero": "/oct22/research/backfill-integrity-rehearsal-study.webp",
+    "nextStep": {
+      "heading": "Turn the finding into a bounded engineering brief",
+      "href": "/contact",
+      "label": "Plan the first reviewed ticket",
+      "copy": "Bring the data backfill rehearsal evidence, systems, owners, and unresolved definitions to a scoped planning conversation."
+    }
+  },
+  {
+    "slug": "rollback-artifact-availability-study",
+    "title": "Rollback Artifact Availability Study",
+    "excerpt": "A reproducible research protocol for rollback artifact retention, with declared population, unit, strata, denominators, independent review, security controls, and explicit limitations.",
+    "topic": "rollback artifact retention",
+    "published": "2026-10-22",
+    "body": [
+      "Can a reviewer actually restore the declared previous release within the supported recovery window? This protocol defines the population as eligible releases and their declared rollback artifacts during a frozen retention period. Its observation unit is one release linked to artifact digest, configuration, dependencies, access, and restore test. Freeze the decision purpose, systems, window, inclusion rules, and accountable owners before selecting records so the result cannot be redesigned after outcomes are visible.",
+      "Research on rollback artifact retention separates contributor preparation from consequential company decisions. An outsourced programmer may assemble evidence, run approved checks, and flag conflicts. Company owners retain access policy, product behavior, security exceptions, customer communication, merge approval, production execution, and risk acceptance.",
+      "Build the sampling frame from authoritative version-control, CI, deployment, identity, inventory, or incident systems as appropriate to rollback artifact retention. Record service, artifact type, retention age, configuration, database state, and access role. Use consecutive eligible records where practical and include failed, changed, reopened, urgent, and externally blocked conditions.",
+      "Report eligible count, observed count, exclusions, missing records, and protected evidence that could not be inspected for Rollback Artifact Availability Study. A convenient sample of clean cases can hide the exact tail conditions the study needs to reveal. Treat unavailable evidence as unavailable rather than replacing it with a summary.",
+      "For each one release linked to artifact digest, configuration, dependencies, access, and restore test, preserve source event, exact revision, rule or codebook version, actor, timestamp, environment, evidence, reviewer action, exception, and accepted destination state. Retain conflicting sources and record which authorized owner resolved them.",
+      "Define time states before calculation. Separate active handling, contributor wait, company-owner wait, system delay, external dependency wait, and time outside the service window. Do not add overlapping intervals or infer labor from elapsed clock time in the rollback artifact retention dataset.",
+      "Primary measures are missing artifact, digest mismatch, restore success, configuration mismatch, access failure, and recovery time. Every rate displays its numerator, eligible denominator, observation window, exclusions, and missing-data count. Pair distributions with representative adverse cases; one average can conceal severe tails, correct stops, or work moved to another queue.",
+      "Create a known-good and known-bad control for rollback artifact retention. Confirm the method recognizes both. Recompute a protected subset from source artifacts and compare it with the generated result. A classifier that accepts an intentionally incomplete case is not reliable enough for management decisions.",
+      "For Rollback Artifact Availability Study, give an independent reviewer the same codebook and protected sample without revealing first-pass classifications. Compare eligibility, source state, risk band, timing, exception, and disposition. Resolve ambiguity through the accountable owner rather than majority vote.",
+      "Test alternative explanations before attributing a pattern to outsourced work. Change mix, reviewer capacity, tool migration, automation, incident discovery, dependency behavior, and company decision latency can affect rollback artifact retention. This descriptive study does not establish causation unless its design supports that claim.",
+      "Protect the Rollback Artifact Availability Study dataset itself. Use named least-privilege access, minimal fields, stable study keys, redacted outputs, approved storage, retention, and verified disposal. Records about rollback artifact retention can reveal vulnerabilities, customer impact, personal information, secrets, and operational topology.",
+      "For rollback artifact retention, use NIST SSDF and Cybersecurity Framework outcomes to frame preparation, protection, detection, response, and recovery questions. CISA, SLSA, OpenSSF, OWASP, OpenTelemetry, GitHub, and Google SRE materials add authoritative practices but do not certify this result.",
+      "Run sensitivity checks for Rollback Artifact Availability Study by varying plausible boundaries such as reopened-unit treatment, outage exclusion, risk bands, missing evidence, or wait ownership. If the conclusion changes materially, present both readings and label the decision that depends on the definition.",
+      "Translate Rollback Artifact Availability Study findings into one bounded experiment relevant to rollback artifact retention: repair intake, add a fixture, reserve reviewer capacity, remove stale access, rehearse recovery, or change an owner rule. Name its expected signal, owner, time limit, rollback, and review date.",
+      "Restore tests in controlled environments cannot prove recovery under every production condition. Results also depend on local system accuracy, the stated period, service, artifact type, retention age, configuration, database state, and access role, reviewer judgment, and protected-evidence access. Publish those limits next to conclusions rather than relegating them to a detached appendix.",
+      "The practical finding for rollback artifact retention is reproducibility within the declared boundary. Another reviewer should locate the included and excluded records, recalculate missing artifact, digest mismatch, restore success, configuration mismatch, access failure, and recovery time, explain conflicting evidence, identify retained authority, and verify the accepted state without private clarification.",
+      "Pre-register a stopping rule for Rollback Artifact Availability Study. The team should stop collection when the declared population window closes, when source integrity fails, or when a security or privacy condition requires a protected review path. Extending the window because early results look inconvenient creates a different study and must receive a new version, owner, and rationale.",
+      "Create a publication table for rollback artifact retention that separates directly observed fields, derived fields, reviewer classifications, and management interpretations. Each derived value should name its inputs and calculation, while every classification cites the codebook rule in force. This traceability lets a later reviewer correct one assumption without rebuilding an undocumented spreadsheet from memory.",
+      "Audit boundary cases in Rollback Artifact Availability Study, including records just inside and outside the inclusion rule, cases whose state changed near the cutoff, and items with contradictory authoritative sources. Boundary review tests whether the denominator is stable. It also reveals whether reviewers are quietly selecting by outcome rather than applying the declared eligibility rule.",
+      "Before management acts on rollback artifact retention, compare the proposed action with the evidence actually collected. A queue intervention may be supported when wait ownership is observed; a code change needs reproducible technical evidence; an access change needs entitlement evidence. The study should not lend quantitative appearance to a decision that depends on an unmeasured mechanism.",
+      "Package the replication materials for Rollback Artifact Availability Study: frozen protocol, codebook, source inventory, query or extraction revision, calculation notes, protected sample keys, disagreement log, exclusions, output tables, and change history. Sensitive artifacts remain in approved storage, while the published packet records how an authorized reviewer can request and verify them.",
+      "Set a refresh trigger for rollback artifact retention when the repository, toolchain, architecture, owner model, control rule, workload, or evidence source changes materially. If none changes, repeat the observation on a declared cadence and compare like with like. Report an incompatible period separately instead of drawing a trend line across different definitions."
+    ],
+    "sources": [
+      [
+        "NIST Secure Software Development Framework",
+        "https://csrc.nist.gov/Projects/ssdf"
+      ],
+      [
+        "NIST Cybersecurity Framework 2.0",
+        "https://www.nist.gov/cyberframework"
+      ],
+      [
+        "NIST SP 800-53 Rev. 5",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GitHub pull request reviews",
+        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews"
+      ],
+      [
+        "OpenSSF Scorecard",
+        "https://scorecard.dev/"
+      ],
+      [
+        "SLSA specification",
+        "https://slsa.dev/spec/v1.0/"
+      ],
+      [
+        "OpenTelemetry specification",
+        "https://opentelemetry.io/docs/specs/"
+      ],
+      [
+        "Google SRE workbook",
+        "https://sre.google/workbook/table-of-contents/"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
+      ]
+    ],
+    "related": [
+      "dependency-upgrade-regression-study",
+      "flag-retirement-exposure-study",
+      "index-change-write-cost-study"
+    ],
+    "hero": "/oct22/research/rollback-artifact-availability-study.webp",
+    "nextStep": {
+      "heading": "Turn the finding into a bounded engineering brief",
+      "href": "/contact",
+      "label": "Plan the first reviewed ticket",
+      "copy": "Bring the rollback artifact retention evidence, systems, owners, and unresolved definitions to a scoped planning conversation."
+    }
+  }
+];
