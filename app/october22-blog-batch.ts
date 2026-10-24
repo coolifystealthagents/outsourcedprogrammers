@@ -1,2165 +1,2366 @@
 import type { BlogDetail } from './data';
+
 export const october22BlogBatch = [
   {
-    "slug": "dependency-upgrade-test-matrix",
-    "title": "Build a Dependency Upgrade Test Matrix Before Merging",
-    "excerpt": "A technical operating guide for dependency upgrade validation: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 12,
+    "slug": "webhook-signature-replay-window-test",
+    "title": "Test Webhook Signature Replay Windows Before Cutover",
+    "excerpt": "Prove a signature tolerance, suppress duplicate deliveries, and leave a replay packet a second reviewer can reproduce without the original programmer.",
+    "minutes": 11,
     "published": "2026-10-22"
   },
   {
-    "slug": "feature-flag-cleanup-evidence",
-    "title": "Retire a Feature Flag With Production Evidence",
-    "excerpt": "A technical operating guide for feature flag retirement: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 13,
+    "slug": "background-job-idempotency-rehearsal",
+    "title": "Rehearse Background Job Idempotency With Duplicate Deliveries",
+    "excerpt": "Run a queue rehearsal that resends the same job, crashes the worker mid-step, and shows which side effects stay single.",
+    "minutes": 12,
     "published": "2026-10-22"
   },
   {
     "slug": "database-index-change-review",
-    "title": "Review Database Index Changes With Query Evidence",
-    "excerpt": "A technical operating guide for database index change: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 14,
-    "published": "2026-10-22"
-  },
-  {
-    "slug": "error-budget-alert-tuning",
-    "title": "Tune Error-Budget Alerts Without Hiding Incidents",
-    "excerpt": "A technical operating guide for error-budget alert tuning: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 15,
-    "published": "2026-10-22"
-  },
-  {
-    "slug": "backfill-job-rehearsal",
-    "title": "Rehearse a Data Backfill Job Before Production Execution",
-    "excerpt": "A technical operating guide for data backfill rehearsal: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 12,
-    "published": "2026-10-22"
-  },
-  {
-    "slug": "third-party-sdk-removal",
-    "title": "Remove a Third-Party SDK Without Dropping Required Behavior",
-    "excerpt": "A technical operating guide for third-party SDK removal: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
+    "title": "Review Database Index Changes Against Real Query Evidence",
+    "excerpt": "Turn an index proposal into a reviewable packet with query plans, write cost, lock behaviour, and a stated rollback path.",
     "minutes": 13,
     "published": "2026-10-22"
   },
   {
-    "slug": "rollback-artifact-retention",
-    "title": "Retain Rollback Artifacts for the Supported Recovery Window",
-    "excerpt": "A technical operating guide for rollback artifact retention: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 14,
+    "slug": "feature-flag-kill-switch-rehearsal",
+    "title": "Rehearse a Feature Flag Kill Switch Before Launch Day",
+    "excerpt": "Assign the switch owner, bound the blast radius, and record what the fallback path does when the flag flips back.",
+    "minutes": 10,
     "published": "2026-10-22"
   },
   {
-    "slug": "log-redaction-change-review",
-    "title": "Review Log Redaction Changes Before Deploying Them",
-    "excerpt": "A technical operating guide for log redaction change: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 15,
+    "slug": "file-upload-scan-handoff",
+    "title": "Hand Off File Upload Scanning Without Skipping Quarantine",
+    "excerpt": "Define the scan states, the quarantine owner, and the evidence that a rejected file never reaches a download link.",
+    "minutes": 11,
     "published": "2026-10-22"
   },
   {
-    "slug": "platform-permission-change-request",
-    "title": "Route Mobile Platform Permission Changes With Evidence",
-    "excerpt": "A technical operating guide for mobile platform permission change: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
+    "slug": "graphql-query-cost-limit-review",
+    "title": "Review GraphQL Query Cost Limits With Adversarial Documents",
+    "excerpt": "Set a cost budget, test nested fragments and alias inflation, and keep the throttle decision with a named company owner.",
     "minutes": 12,
     "published": "2026-10-22"
   },
   {
-    "slug": "container-image-base-update",
-    "title": "Update a Container Base Image With Reproducible Evidence",
-    "excerpt": "A technical operating guide for container base image update: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
+    "slug": "keyboard-navigation-regression-sweep",
+    "title": "Sweep Keyboard Navigation Regressions on a Bounded Route Set",
+    "excerpt": "Walk a fixed list of screens with the keyboard, record focus order and traps, and attach a reproducible evidence sheet.",
+    "minutes": 10,
+    "published": "2026-10-22"
+  },
+  {
+    "slug": "third-party-api-outage-fallback",
+    "title": "Test Third Party API Outage Fallbacks With Named Owners",
+    "excerpt": "Decide what the product does when a vendor stops answering, then prove the fallback with fault injection and a recovery check.",
+    "minutes": 12,
+    "published": "2026-10-22"
+  },
+  {
+    "slug": "test-data-masking-review",
+    "title": "Review Test Data Masking Before Sharing a Fixture Set",
+    "excerpt": "Check field coverage, reversibility, and fixture provenance before masked records leave the company boundary.",
+    "minutes": 11,
+    "published": "2026-10-22"
+  },
+  {
+    "slug": "release-rollback-evidence-pack",
+    "title": "Assemble a Release Rollback Evidence Pack",
+    "excerpt": "Name the last known good revision, the irreversible steps, the operator, and the check that proves recovery.",
     "minutes": 13,
     "published": "2026-10-22"
   },
   {
-    "slug": "scheduled-job-idempotency-review",
-    "title": "Review Scheduled Job Idempotency Before Enabling Retries",
-    "excerpt": "A technical operating guide for scheduled job idempotency: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 14,
+    "slug": "code-review-sla-evidence",
+    "title": "Measure Code Review Turnaround Without Hiding Wait Time",
+    "excerpt": "Separate author work from reviewer queue, count business hours honestly, and keep a useful service target.",
+    "minutes": 10,
     "published": "2026-10-22"
   },
   {
-    "slug": "codeowner-map-change-review",
-    "title": "Review Code Owner Map Changes Against Real Review Paths",
-    "excerpt": "A technical operating guide for code owner map change: define the observation unit, fixtures, evidence, access, recovery, and company-owned approval boundary.",
-    "minutes": 15,
+    "slug": "offboarding-access-revocation-drill",
+    "title": "Drill Offboarding Access Revocation With a Closure Register",
+    "excerpt": "Remove repository, cloud, and vendor access in a timed drill, then prove each grant is gone from the source system.",
+    "minutes": 11,
     "published": "2026-10-22"
   }
 ] as const;
+
 export const october22BlogDetails: Record<string, BlogDetail> = {
-  "dependency-upgrade-test-matrix": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/dependency-upgrade-test-matrix.webp",
+  "webhook-signature-replay-window-test": {
     "takeaways": [
-      "Define one package revision linked to supported runtime, affected features, fixtures, and review state.",
-      "Require lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance.",
-      "Stop on breaking change, unknown transitive package, unfixed advisory, unsupported runtime, or production-only behavior.",
-      "Keep merge and release decisions with the company technical owner."
+      "Write the timestamp tolerance and the duplicate identifier rule before the first test request.",
+      "Prove both boundaries: one second inside the window and one second outside it.",
+      "Keep the production signing secret with a company owner, never in the fixture repository.",
+      "Accept the control only when a second reviewer can reproduce the rejection and the suppression."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one package revision linked to supported runtime, affected features, fixtures, and review state",
-        "notReady": "A broad request to improve dependency upgrade validation"
+        "area": "Rule",
+        "ready": "Tolerance, identifier store, and expected status written per case",
+        "notReady": "A vague instruction to validate signatures"
       },
       {
-        "area": "Evidence",
-        "ready": "lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Fixtures",
+        "ready": "Generated payloads with signed timestamps and duplicate identifiers",
+        "notReady": "One copied production request"
       },
       {
         "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "ready": "Repository read, sandbox deploy, test secret only",
+        "notReady": "Sender dashboard and production secret"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Evidence",
+        "ready": "Command, redacted output, status, stored identifier, side effect",
+        "notReady": "A screenshot of a green check"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "define-the-replay-rule",
+        "title": "Define the replay window as a testable rule",
         "paragraphs": [
-          "Define dependency upgrade validation as a bounded delivery lane before assigning work. The unit is one package revision linked to supported runtime, affected features, fixtures, and review state. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require current and target versions, advisory status, changelog, dependency graph, test matrix, and rollback path before the dependency upgrade validation item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "A webhook receiver only deserves trust when it rejects an old signature, accepts a fresh one, and records enough detail to explain the difference. Write that rule down before a Philippines-based programmer touches the integration, including the timestamp tolerance, the identifier that prevents duplicates, and the response the sender should see in each case.",
+          "Most teams describe the replay window in one sentence and then test it by firing a happy request. That proves almost nothing. The bench needs a stale signed payload, a fresh signed payload, a replayed identifier inside the window, and the same identifier after the window closes."
+        ],
+        "bullets": [
+          "Signed at now minus tolerance minus one minute: reject with a named status code.",
+          "Signed at now: accept once and store the delivery identifier.",
+          "Same identifier repeated inside the window: ignore or reject by rule, never reprocess.",
+          "Identifier reused after the window: reject and raise an alert rather than dropping it silently."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "write-the-ticket",
+        "title": "Write the ticket before the bench opens",
         "paragraphs": [
-          "Write the completion state for dependency upgrade validation in terms of destination evidence: lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of dependency upgrade validation. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket should name the endpoint, the event type, the secret version, the tolerance value, the table or cache that holds seen identifiers, and the person who owns the signing secret. Ask for a branch, a fixture list, one test command, and the observed response code for every case.",
+          "Keep the first ticket to one event type and one receiver. A programmer working from Manila can usually finish that in a day or two, and your reviewer can replay the same commands without a call. A broad request to harden the whole webhook layer produces a long branch and vague evidence."
+        ]
+      },
+      {
+        "id": "signed-fixtures",
+        "title": "Build signed fixtures that include stale timestamps",
+        "paragraphs": [
+          "Generate fixtures from code, not from a copied production request. A small script that takes a body, a secret, and a timestamp keeps the test honest and lets the reviewer regenerate the header later. Store the body, the header, the tolerance, and the expected status beside each other.",
+          "Do not put the real signing secret in the fixture repository. Use a test secret that exists only in the sandbox, and let the company owner rotate the production value. If the receiver needs the secret to boot, load it from the environment and fail closed when it is missing.",
+          "Stale timestamps are the case most likely to be skipped. Put the tolerance in configuration, not in the test file, then prove the boundary at tolerance minus one second and tolerance plus one second. Boundary proof is what turns a claim into a rule."
+        ]
+      },
+      {
+        "id": "secret-boundary",
+        "title": "Keep the signing secret out of the test lane",
+        "paragraphs": [
+          "Named accounts matter more here than in most tickets. The programmer needs read access to the receiver repository, a sandbox deploy target, and a test secret. They do not need the sender dashboard, the production secret, or the ability to disable signature checks for a demonstration.",
+          "Write the stop rule in the ticket. If a test requires a production payload, real customer identifiers, or a relaxed check in a shared environment, work stops and the company owner decides. A replay test that weakens verification in order to pass is worse than no test at all."
+        ]
+      },
+      {
+        "id": "delivery-evidence",
+        "title": "Record what the receiver did with each delivery",
+        "paragraphs": [
+          "Evidence should show the delivery identifier, the timestamp, the signature header, the tolerance in force, the body hash, the stored identifier, the response status, and whether a side effect ran. A screenshot of a green check is not evidence for a replay control.",
+          "Ask the programmer to attach the command and the redacted output. If the receiver logs to a table, include the query and the rows it returned. The reviewer should be able to see that the duplicate was suppressed by a stored identifier rather than by timing luck.",
+          "Name every item that could not be verified. A missing sandbox sender, an absent clock source, or a queue that cannot be inspected belongs in the pull request summary, not in a private message that disappears when the contract ends."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Cover clock skew, parallel duplicates, and rotated secrets",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving breaking change, unknown transitive package, unfixed advisory, unsupported runtime, or production-only behavior. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: upgrading successfully while an untested feature or transitive dependency changes behavior. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Adverse cases belong in the same ticket. Move the test host clock forward and backward, send two deliveries in parallel, rotate the secret while a payload is in flight, and send an unsigned request. Each case needs a defined outcome and an owner who can accept the result.",
+          "The parallel case exposes the real weakness. A check that reads, compares, and writes in three steps will pass a sequential test and fail under concurrency. Ask for the unique constraint, lock, or idempotency key that makes the second write harmless."
+        ],
+        "bullets": [
+          "Clock skew: reject outside tolerance and log the observed offset.",
+          "Unsigned request: reject before parsing the body.",
+          "Rotated secret: accept the new version and reject the retired one after the declared cutover.",
+          "Duplicate in flight: one side effect, one stored identifier, two recorded responses."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "cadence-and-measures",
+        "title": "Set review cadence and measures with denominators",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for dependency upgrade validation. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for dependency upgrade validation, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Count eligible deliveries, not just failures. The useful measure is rejected stale signatures divided by all stale signatures presented, alongside accepted fresh signatures divided by all fresh signatures presented. Add duplicate side effects per one thousand accepted deliveries.",
+          "Review the numbers weekly while the integration is new and monthly after two clean cycles. Attribute wait time to the owner who caused it: sender dashboard access, reviewer availability, sandbox availability, or secret rotation approval. Do not fold those waits into a single delivery score.",
+          "Pair each rate with the count of untested cases. A rejection rate of one hundred percent across two fixtures is not a mature control, and the reviewer should say so before the number reaches a status report."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "close-the-packet",
+        "title": "Close with a replay packet a second reviewer can run",
         "paragraphs": [
-          "Record dependency upgrade validation failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for dependency upgrade validation. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For dependency upgrade validation, measure eligible one package revision linked to supported runtime, affected features, fixtures, and review state records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each dependency upgrade validation item with lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the dependency upgrade validation evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is an upgrade record that separates verified compatibility from accepted residual risk. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff contains the tolerance rule, the fixture generator revision, the secret owner, the seen-identifier store, the test commands, the observed status for each case, and the remaining risks. Add the date of the last secret rotation and the next review date.",
+          "Close the ticket only when another reviewer can reproduce the stale rejection and the duplicate suppression without asking the programmer for help. That reproduction, not the merged branch, is the durable output of the work.",
+          "A short index of the fixtures and their expected statuses saves the next reviewer from reading the whole pull request. Keep it beside the generator so the two cannot drift apart silently."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "dependency upgrade validation"
+        "label": "Bench",
+        "text": "One receiver, one event type, sandbox deploy only."
       },
       {
-        "label": "Unit",
-        "text": "one package revision linked to supported runtime, affected features, fixtures, and review state"
-      },
-      {
-        "label": "Required inputs",
-        "text": "current and target versions, advisory status, changelog, dependency graph, test matrix, and rollback path"
+        "label": "Fixtures",
+        "text": "Generated bodies with fresh, stale, duplicated, and unsigned headers."
       },
       {
         "label": "Evidence",
-        "text": "lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance"
+        "text": "Command, redacted output, response status, identifier row, side effect count."
       },
       {
-        "label": "Stop rule",
-        "text": "breaking change, unknown transitive package, unfixed advisory, unsupported runtime, or production-only behavior"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Authority",
+        "text": "Company owner holds the production secret, tolerance change, and merge."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for dependency upgrade validation?",
-        "answer": "one package revision linked to supported runtime, affected features, fixtures, and review state"
+        "question": "Who decides the timestamp tolerance?",
+        "answer": "The company owner sets the tolerance with the sender team. The programmer tests the declared value and reports the observed boundary, not a preferred number."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "lockfile diff, resolved graph, test commands, fixture results, failed checks, and reviewer acceptance"
+        "question": "Can the test use a captured production payload?",
+        "answer": "Only after the owner approves redaction and storage. A synthetic body is usually enough and avoids moving customer data into a test repository."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on breaking change, unknown transitive package, unfixed advisory, unsupported runtime, or production-only behavior or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "What makes the duplicate test pass?",
+        "answer": "One side effect, one stored delivery identifier, and two recorded responses that follow the written rule."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
         "name": "OWASP Application Security Verification Standard",
         "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Verification categories for authentication, session, and input handling that frame the signature check."
+      },
+      {
+        "name": "NIST Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/Projects/ssdf",
+        "note": "Practices for protecting code, secrets, and deployment environments."
+      },
+      {
+        "name": "GitHub pull request reviews",
+        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
+        "note": "First-party description of review, approval, and requested changes."
+      },
+      {
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Guidance for recording delivery identifiers and outcomes in traces and logs."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Plan an outsourced programmer role",
+        "url": "/blog/outsourced-programmers-planning",
+        "note": "Turn the replay ticket into a usable brief."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Give the reviewer commands and context up front."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Scope maintenance work around a bounded integration."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/webhook-signature-replay-window-test.png"
   },
-  "feature-flag-cleanup-evidence": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/feature-flag-cleanup-evidence.webp",
+  "background-job-idempotency-rehearsal": {
     "takeaways": [
-      "Define one flag linked to behavior, environments, owners, rollout state, and removal evidence.",
-      "Require flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt.",
-      "Stop on unknown customer exposure, stale telemetry, permanent override, or dependent release.",
-      "Keep merge and release decisions with the company technical owner."
+      "Define the side effect that must happen once before anyone edits the worker.",
+      "Rehearse duplicate delivery, mid-step crashes, and retry storms in a sandbox queue.",
+      "Prove the idempotency key or unique constraint at the database, not only in application code.",
+      "Keep production queue access and replay approval with the company owner."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one flag linked to behavior, environments, owners, rollout state, and removal evidence",
-        "notReady": "A broad request to improve feature flag retirement"
+        "area": "Side effect",
+        "ready": "One named write, charge, email, or file with an owner",
+        "notReady": "A general request to make the job safe"
       },
       {
-        "area": "Evidence",
-        "ready": "flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Key",
+        "ready": "Declared key, scope, and storage location",
+        "notReady": "A comment that retries are handled"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Sandbox",
+        "ready": "Separate queue, database, and worker image",
+        "notReady": "A rehearsal on the shared staging queue"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Replay",
+        "ready": "Owner approves each production replay with a record",
+        "notReady": "Open access to the dead letter queue"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "name-the-side-effect",
+        "title": "Name the side effect that must happen exactly once",
         "paragraphs": [
-          "Define feature flag retirement as a bounded delivery lane before assigning work. The unit is one flag linked to behavior, environments, owners, rollout state, and removal evidence. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require flag inventory, code references, exposure metrics, dependency map, rollback rule, and product owner before the feature flag retirement item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "Idempotency is not a property of a worker in general. It is a property of one side effect: one invoice line, one confirmation email, one uploaded object, one ledger entry. Before the ticket moves, write which effect must occur once, which table records it, and who can accept a duplicate.",
+          "A Philippines-based programmer can then test a claim instead of rewriting a queue on faith. If the team cannot name the side effect, the work is not ready. Retry logic that is safe for a log line can be dangerous for a payment."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket-and-fixtures",
+        "title": "Write the rehearsal ticket and seed jobs",
         "paragraphs": [
-          "Write the completion state for feature flag retirement in terms of destination evidence: flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of feature flag retirement. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the job type, the payload schema, the queue, the worker image, the database, the retry policy, and the sandbox account. Ask for a seeded job, a forced duplicate, a worker kill at a declared step, and a comparison of the resulting rows.",
+          "Seed from a file with fixed identifiers so the reviewer can rerun the same rehearsal. Random identifiers create a new test every time and make a passing result impossible to compare.",
+          "Write the expected row counts beside the seed file before the run. A rehearsal without an expected count turns into a discussion about whether the extra row matters.",
+          "Bound the first pass to one job type and one worker version. Sequential delivery is the easy case, and it should pass before anyone adds concurrency."
+        ],
+        "bullets": [
+          "Seed job with a known identifier and payload hash.",
+          "Duplicate publish of the same job inside one minute.",
+          "Worker termination after the database write and before the acknowledgement.",
+          "Retry after the visibility timeout expires."
         ]
       },
       {
-        "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "id": "key-and-constraint",
+        "title": "Place the guard where the write happens",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving unknown customer exposure, stale telemetry, permanent override, or dependent release. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: removing a flag while a hidden code path or customer segment still depends on it. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "An in-memory set of processed identifiers disappears when the container restarts. A check followed by an insert is a race. The durable guard is usually a unique constraint on the business key, an upsert with a conditional clause, or a transactional outbox row written in the same transaction as the effect.",
+          "Ask the programmer to show the constraint definition and the failing insert, not only the application branch that checks first. If the database cannot enforce uniqueness, say so in the review and treat the worker as best effort.",
+          "Record the key scope. A key built from the job identifier protects against duplicate publishes. A key built from the business event protects against two different jobs producing the same effect. Most incidents need the second kind."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "crash-rehearsal",
+        "title": "Kill the worker at the worst moment",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for feature flag retirement. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for feature flag retirement, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "A polite retry test sends the same message twice and watches both succeed quietly. The rehearsal that matters stops the worker between the external call and the acknowledgement, then lets the visibility timeout expire.",
+          "The expected result is one effect, one committed transaction, and a visible recovery action. If the effect ran but the acknowledgement did not, the retry must detect the prior write rather than repeat it."
+        ],
+        "bullets": [
+          "Kill after commit, before ack: retry finds the existing row and exits cleanly.",
+          "Kill before commit: retry performs the write once.",
+          "Kill during an external call: the worker records a pending state with a reconciliation owner.",
+          "Two workers on the same job: one wins the constraint, the other records a no-op."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "access",
+        "title": "Separate sandbox access from production replay",
         "paragraphs": [
-          "Record feature flag retirement failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for feature flag retirement. Someone other than the implementer should be able to follow the record without relying on chat history."
+          "The programmer needs a named sandbox account, queue publish and consume rights on a test queue, read access to the worker logs, and read access to the test database. They do not need production queue purge, dead letter replay, or secret rotation.",
+          "Production replay is a company decision with an incident reference. If a rehearsal needs real messages, copy a sanitized shape into the sandbox instead. A duplicate charge created to prove a point is not a test result."
         ]
       },
       {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
+        "id": "evidence",
+        "title": "Attach rows, timestamps, and acknowledgement states",
         "paragraphs": [
-          "For feature flag retirement, measure eligible one flag linked to behavior, environments, owners, rollout state, and removal evidence records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each feature flag retirement item with flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
+          "Evidence for this rehearsal is a small table: attempt number, publish time, consume time, commit time, acknowledgement time, rows written, and the observed duplicate outcome. Add the worker log line that shows which branch ran.",
+          "Ask for the query used to count effects and the count before and after. A reviewer who can rerun the seed and the query has a reproducible result, while a paragraph describing what happened does not survive a staff change.",
+          "Note what the sandbox cannot reproduce, such as managed queue behaviour, clock drift, or production isolation levels. Those gaps belong in the handoff and in the risk list."
         ]
       },
       {
-        "id": "governance",
-        "title": "Close the loop before expanding",
+        "id": "cadence",
+        "title": "Review cadence and honest measures",
         "paragraphs": [
-          "Use a short governance review to ask what decision the feature flag retirement evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a flag retirement packet that preserves exposure evidence and rollback limits. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "Measure duplicate effects per one thousand accepted jobs, reconciled jobs per one hundred failures, and recovery time from kill to clean retry. Report the denominator and the observation window beside every number.",
+          "Run the rehearsal before each change to retry policy, worker image, or key scope, then quarterly on a stable job. A rehearsal that has not run since the last queue upgrade describes an older system.",
+          "Report the rehearsal window and the job volume beside the duplicate rate. One duplicate across a small batch and one across a very large batch are not the same signal, and the reader needs the denominator to tell them apart.",
+          "Attribute waiting time separately: reviewer queue, sandbox availability, vendor limit, and owner approval. Do not turn a blocked environment into a programmer performance signal."
+        ]
+      },
+      {
+        "id": "handoff",
+        "title": "Close with a rerunnable rehearsal record",
+        "paragraphs": [
+          "The final record holds the seed file revision, the constraint definition, the kill points, the effect counts, the reconciliation owner, and the next review date. It also states which retry behaviours remain unproven.",
+          "Accept the work when a second engineer can seed the job, kill the worker at the same point, and reach the same counts. Merge approval and any production replay stay with the company owner.",
+          "Include the sandbox queue name and the seed command in the record. A handoff that points at a dashboard instead of a command tends to expire when the environment is rebuilt."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "feature flag retirement"
+        "label": "Job",
+        "text": "One background job type with one named side effect."
       },
       {
-        "label": "Unit",
-        "text": "one flag linked to behavior, environments, owners, rollout state, and removal evidence"
+        "label": "Guard",
+        "text": "Durable unique key at the write, plus a documented key scope."
       },
       {
-        "label": "Required inputs",
-        "text": "flag inventory, code references, exposure metrics, dependency map, rollback rule, and product owner"
+        "label": "Rehearsal",
+        "text": "Duplicate publish, mid-step kill, visibility timeout retry."
       },
       {
-        "label": "Evidence",
-        "text": "flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt"
-      },
-      {
-        "label": "Stop rule",
-        "text": "unknown customer exposure, stale telemetry, permanent override, or dependent release"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Owner",
+        "text": "Company owner approves the key change, merge, and any production replay."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for feature flag retirement?",
-        "answer": "one flag linked to behavior, environments, owners, rollout state, and removal evidence"
+        "question": "Is a retry counter enough to prevent duplicates?",
+        "answer": "No. A counter in memory or in the job payload is lost or reset. The guard belongs where the effect is written."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "flag key, code references, exposure window, decision, removal change, test result, and cleanup receipt"
+        "question": "Can the worker be tested against the shared staging queue?",
+        "answer": "Prefer a separate queue and database. Shared staging hides interference from other teams and makes a duplicate hard to attribute."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on unknown customer exposure, stale telemetry, permanent override, or dependent release or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Who approves a production replay?",
+        "answer": "A named company owner with an incident or change reference. The programmer prepares the request and the expected effect count."
       }
     ],
     "sources": [
       {
         "name": "NIST Secure Software Development Framework",
         "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
+        "note": "Secure development practices covering code integrity and environment control."
       },
       {
-        "name": "GitHub pull request review documentation",
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Context propagation and span recording used to trace one job across retries."
+      },
+      {
+        "name": "SLSA specification v1.0",
+        "url": "https://slsa.dev/spec/v1.0/",
+        "note": "Build provenance concepts that help separate worker versions in a rehearsal."
+      },
+      {
+        "name": "GitHub pull request reviews",
         "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Review mechanics for requesting changes on the guard implementation."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource Node.js API bug fixes",
+        "url": "/blog/outsource-nodejs-api-bug-fixes",
+        "note": "Set repro steps and access limits for API maintenance."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "A safer plan for outsourcing database cleanup",
+        "url": "/blog/outsource-database-cleanup",
+        "note": "Keep reversible data work separate from risky changes."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "Reporting and QA support",
+        "url": "/services/reporting-and-qa",
+        "note": "Add measured checks to maintenance work."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/background-job-idempotency-rehearsal.png"
   },
   "database-index-change-review": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/database-index-change-review.webp",
     "takeaways": [
-      "Define one proposed index tied to query pattern, table profile, write cost, and verification plan.",
-      "Require index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision.",
-      "Stop on unbounded table lock, write amplification, redundant index, missing rollback, or production-only plan.",
-      "Keep merge and release decisions with the company technical owner."
+      "Start from a named slow query with a captured plan and a measured baseline.",
+      "Compare read gain against write cost, storage, and lock time before approval.",
+      "Prove the migration on a copy with production-like row counts, not a toy schema.",
+      "Keep the apply window, rollback decision, and production execution with the company owner."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one proposed index tied to query pattern, table profile, write cost, and verification plan",
-        "notReady": "A broad request to improve database index change"
+        "area": "Query",
+        "ready": "One statement, parameters, and a captured baseline plan",
+        "notReady": "A complaint that the dashboard feels slow"
       },
       {
-        "area": "Evidence",
-        "ready": "index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Schema",
+        "ready": "Table size, write rate, and existing indexes listed",
+        "notReady": "A proposed index with no table facts"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Migration",
+        "ready": "Reversible or concurrent build with a stated lock profile",
+        "notReady": "A blocking alter during peak traffic"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Decision",
+        "ready": "Owner compares gain, cost, and window",
+        "notReady": "The programmer applies it to production"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "capture-the-baseline",
+        "title": "Capture the slow query before proposing an index",
         "paragraphs": [
-          "Define database index change as a bounded delivery lane before assigning work. The unit is one proposed index tied to query pattern, table profile, write cost, and verification plan. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require query text, execution plan, table size, write rate, storage impact, migration path, and database owner before the database index change item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "An index proposal is only reviewable against a specific statement. Ask for the SQL text with parameters, the observed plan, the row estimates, the actual row counts, and the measured duration over a stated window. A screenshot of a slow dashboard is a symptom, not a baseline.",
+          "Reproduce the query on a copy with realistic data. A table with ten thousand rows will use a sequential scan and tell you nothing about a table with forty million. The programmer should state the row count behind every timing.",
+          "Record the query frequency as well as the duration. A two second query that runs twice a day is a different business decision from a four hundred millisecond query that runs on every page load."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket-shape",
+        "title": "Shape the index ticket around a decision",
         "paragraphs": [
-          "Write the completion state for database index change in terms of destination evidence: index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of database index change. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the table, the columns, the index type, the expected plan change, the write path that will pay for it, and the migration window. It also names the reviewer who can approve a schema change and the owner of the apply step.",
+          "Keep the first ticket to one index on one table. A Philippines-based programmer can prepare the evidence in a day and the reviewer can check it in one sitting. Bundling four indexes into one migration makes a partial rollback expensive.",
+          "State the alternative that was considered, such as a composite index, a covering index, a query rewrite, or a cache. The reviewer needs to see why the simpler option was rejected."
+        ]
+      },
+      {
+        "id": "plan-evidence",
+        "title": "Show the plan change, not just a faster timer",
+        "paragraphs": [
+          "Attach the before and after plan with the same parameters and the same data set. The reviewer should see the scan type, the estimated rows, the actual rows, and the sort or filter step that disappeared.",
+          "A faster median can hide a worse tail. Report the slowest observed execution and the number of executions above the old baseline. If the new plan helps common parameters and harms rare ones, say which case the business cares about.",
+          "Include the exact command used to collect the plan so the reviewer can repeat it on the same revision. Plans drift with statistics, so the collection date and the last analyze time belong in the packet."
+        ],
+        "bullets": [
+          "Query text and parameter values used for both runs.",
+          "Plan output before and after, with node costs and row counts.",
+          "Table and index size, plus estimated build time.",
+          "Executions above the old baseline in the observation window."
+        ]
+      },
+      {
+        "id": "write-cost-and-locks",
+        "title": "Price the write path and the lock profile",
+        "paragraphs": [
+          "Every index adds work to inserts, updates, and deletes, and consumes storage and cache. Ask for the write rate on the table and the columns that change most often. An index on a frequently updated column can turn a fast insert into a measurable slowdown.",
+          "Lock behaviour is the part that causes incidents. State whether the build is concurrent, how long it holds a lock, and what happens to writes during it. A migration that blocks writes for six minutes on a busy table is an outage plan, not a maintenance task.",
+          "Ask the programmer to measure the build on a copy with production-like volume and to report the observed duration. Estimated durations from a small schema are not evidence."
+        ]
+      },
+      {
+        "id": "migration-safety",
+        "title": "Make the migration reversible or repair-ready",
+        "paragraphs": [
+          "Write the rollback before the apply. Dropping an index is fast, but the plan may return to the slow state and the release may need a new query path. Record the last known good revision, the apply command, the verification query, and the person who decides to reverse it.",
+          "If the build cannot be reversed cleanly, say so and treat the apply as a one way change with a higher approval bar. The company owner, not the programmer, chooses the traffic window and accepts the risk.",
+          "Test the migration against an empty table, a small table, and the large copy. The empty case catches syntax and permission problems, while the large case catches duration and lock behaviour."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Probe the cases that make an index useless",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving unbounded table lock, write amplification, redundant index, missing rollback, or production-only plan. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: improving one read while degrading writes or locking a table during rollout. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Low cardinality columns, leading wildcards, functions on the indexed column, and implicit casts all defeat an index. Ask for a case where the index should not be chosen, and confirm the planner behaves as expected rather than forcing a plan in the test.",
+          "Skewed data deserves its own run. If ninety percent of rows share one tenant identifier, an index on that column may not help the largest tenant. Report a plan for the busiest tenant and for a small one.",
+          "Partial and expression indexes need a matching predicate. Show the query that qualifies and the query that does not, so a future author does not assume the index covers both."
+        ],
+        "bullets": [
+          "Leading wildcard search against the indexed column.",
+          "Function or cast applied to the column in the predicate.",
+          "Largest tenant compared with a small tenant.",
+          "Query that does not match a partial index predicate."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "review-cadence",
+        "title": "Set review cadence and measures with denominators",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for database index change. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for database index change, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure the target query duration at the ninety fifth percentile before and after, the number of executions above the old baseline divided by all executions, and the write latency change on the same table. Report the row counts and the collection window.",
+          "Add a count of indexes removed or merged in the same period. A schema that only grows accumulates write cost that no single ticket owns. A quarterly index review keeps that cost visible.",
+          "Review the result one week and one month after apply. A gain that disappears after statistics refresh or data growth was a temporary plan change, not a durable improvement."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Hand off the decision packet, not just the migration",
         "paragraphs": [
-          "Record database index change failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for database index change. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For database index change, measure eligible one proposed index tied to query pattern, table profile, write cost, and verification plan records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each database index change item with index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the database index change evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is an index review with measured query evidence and accepted operational cost. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The packet holds the baseline, the plan comparison, the write cost, the lock profile, the migration revision, the verification query, the rollback, and the apply owner. It also lists untested parameter shapes and known skew.",
+          "Close when a reviewer can rerun the query on a copy and see the same plan, and when the apply owner can follow the migration and verification without a call. Merge and apply authority stay with the company.",
+          "Add the date of the last statistics refresh and the next scheduled one. A plan comparison collected against stale statistics can flatter an index that will not be chosen in production."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "database index change"
+        "label": "Target",
+        "text": "One statement on one table with a captured baseline."
       },
       {
-        "label": "Unit",
-        "text": "one proposed index tied to query pattern, table profile, write cost, and verification plan"
+        "label": "Proof",
+        "text": "Before and after plans, timings, row counts, and write latency."
       },
       {
-        "label": "Required inputs",
-        "text": "query text, execution plan, table size, write rate, storage impact, migration path, and database owner"
+        "label": "Limits",
+        "text": "Copy database only, no production apply, no schema owner rights."
       },
       {
-        "label": "Evidence",
-        "text": "index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision"
-      },
-      {
-        "label": "Stop rule",
-        "text": "unbounded table lock, write amplification, redundant index, missing rollback, or production-only plan"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Decision",
+        "text": "Company reviewer approves the index and owns the apply window."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for database index change?",
-        "answer": "one proposed index tied to query pattern, table profile, write cost, and verification plan"
+        "question": "Should the programmer apply the index in production?",
+        "answer": "No. They prepare and test the migration. A named company owner approves the window and runs or authorises the apply."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "index definition, plan comparison, timing, write-cost evidence, migration test, and owner decision"
+        "question": "Is a faster average enough to accept the change?",
+        "answer": "No. Check the slow tail, the write path, and the lock profile. A gain for common parameters can hide harm for rare ones."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on unbounded table lock, write amplification, redundant index, missing rollback, or production-only plan or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "How large should the test copy be?",
+        "answer": "Large enough that the planner behaves like production, with row counts and distribution stated in the packet."
       }
     ],
     "sources": [
       {
         "name": "NIST Secure Software Development Framework",
         "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
+        "note": "Change control and environment protection practices for schema work."
       },
       {
-        "name": "GitHub pull request review documentation",
+        "name": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Framing for availability risk during planned database changes."
+      },
+      {
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Instrumentation for measuring query duration and write latency."
+      },
+      {
+        "name": "Google Technical Writing",
+        "url": "https://developers.google.com/tech-writing",
+        "note": "Structure for a reviewable evidence packet."
+      },
+      {
+        "name": "GitHub pull request reviews",
         "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Review flow for the migration pull request."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "A safer plan for outsourcing database cleanup",
+        "url": "/blog/outsource-database-cleanup",
+        "note": "Separate reversible cleanup from high-risk data decisions."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Give the reviewer commands, context, and escalation rules."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Scope ongoing maintenance around small reviewed changes."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/database-index-change-review.png"
   },
-  "error-budget-alert-tuning": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/error-budget-alert-tuning.webp",
+  "feature-flag-kill-switch-rehearsal": {
     "takeaways": [
-      "Define one alert rule linked to service objective, query, threshold, window, and response owner.",
-      "Require rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance.",
-      "Stop on alert with no owner, suppressed source, threshold change after an incident, or noisy test traffic.",
-      "Keep merge and release decisions with the company technical owner."
+      "Write what the product must do when the flag is off, not only what it does when on.",
+      "Name the switch owner and the people allowed to flip it during an incident.",
+      "Rehearse a flip with live-ish traffic, cache behaviour, and in-flight work.",
+      "Record the evidence that the fallback path ran and the primary path stopped."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one alert rule linked to service objective, query, threshold, window, and response owner",
-        "notReady": "A broad request to improve error-budget alert tuning"
+        "area": "Default",
+        "ready": "Off state is safe and documented per cohort",
+        "notReady": "Off state was never exercised"
       },
       {
-        "area": "Evidence",
-        "ready": "rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Owner",
+        "ready": "Named operator and backup with console access",
+        "notReady": "Anyone with repository access"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Rehearsal",
+        "ready": "Sandbox flip with cohort and cache checks",
+        "notReady": "A local unit test only"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Record",
+        "ready": "Timestamp, operator, cohort, observed behaviour",
+        "notReady": "A message saying it worked"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "define-the-off-state",
+        "title": "Write the off state before the on state",
         "paragraphs": [
-          "Define error-budget alert tuning as a bounded delivery lane before assigning work. The unit is one alert rule linked to service objective, query, threshold, window, and response owner. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require objective definition, current rule, baseline, incident history, missing-data behavior, and responder before the error-budget alert tuning item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "A kill switch is a product promise about what happens when a capability disappears. Write the promise per surface: does the button hide, does the request fail with a specific message, does the queue drain, does the old code path still exist and still work?",
+          "Many launches test the enabled path and leave the disabled path to a one line condition. That condition becomes the incident response. A Philippines-based programmer should be able to read the off state, find the code path, and show it running in a sandbox.",
+          "Write the off state in user terms as well as code terms. If the button disappears, does the page explain why, or does it look broken? A kill switch that stops the feature and confuses the customer has moved the incident rather than ended it.",
+          "If the fallback needs a manual step, name the person who performs it and the time it takes. If the fallback is impossible, say that the flag stops writes but leaves reads on the new path, and record who accepted that risk."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket-and-owner",
+        "title": "Assign the switch to a person, not a team",
         "paragraphs": [
-          "Write the completion state for error-budget alert tuning in terms of destination evidence: rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of error-budget alert tuning. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the flag key, the default value, the cohorts, the surfaces it controls, the operator, the backup operator, and the escalation channel. It also records who can change the default in code and who can change it in the flag service.",
+          "Two systems can hold the same decision: a configuration service and a hard coded default. When they disagree, behaviour becomes unpredictable. Declare the source of truth and what happens when the service is unreachable.",
+          "Give the programmer sandbox flag rights and read access to the evaluation logs. Production flag changes stay with the company operator, even when the change is a rollback."
+        ]
+      },
+      {
+        "id": "rehearsal-fixtures",
+        "title": "Rehearse with cohorts, cache, and in-flight work",
+        "paragraphs": [
+          "A flip in a local test proves the conditional. A rehearsal proves the system. Use a sandbox with two cohorts, warm the cache, start a request, flip the flag, and observe both the request already in flight and the next one.",
+          "Flags are often cached per process or at the edge. Record the cache lifetime and the observed delay before the new value takes effect. If the delay is five minutes, the incident runbook must say five minutes rather than imply an instant stop.",
+          "Include a job or message already queued under the enabled path. Decide whether it completes, is discarded, or is processed by the new path, and record the decision."
+        ],
+        "bullets": [
+          "Flip on to off for one cohort while a second cohort stays on.",
+          "Flip with a warm cache and measure the propagation delay.",
+          "Flip during an in-flight request and record the response.",
+          "Flip twice in one minute and check for duplicate side effects."
+        ]
+      },
+      {
+        "id": "evidence",
+        "title": "Capture evaluation and behaviour together",
+        "paragraphs": [
+          "The evaluation log shows which variant a request received. The application log shows which branch ran. The database or queue shows whether the side effect happened. Keep all three for the same request identifier.",
+          "Ask for a short table: time, actor, flag value, cohort, request identifier, branch, side effect, and observed user-visible result. This table is what an incident reviewer will ask for later.",
+          "A passing rehearsal also needs a negative case. Show a request that should not have received the new path and confirm it did not. Otherwise the test only proves that the flag exists."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Plan for the flag service being down",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving alert with no owner, suppressed source, threshold change after an incident, or noisy test traffic. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: reducing noise by making real customer-impact signals undetectable. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "The kill switch depends on a service that can fail. Test what happens when the flag service times out: does the application use the last known value, a cached value, or the local default? Each choice has a different risk and needs an owner decision.",
+          "Test a stale value as well. If the service returns the last known good configuration after an outage, a recent rollback may be undone silently. Record the maximum staleness the product can tolerate.",
+          "Test permission loss. If the operator loses console access during an incident, the backup must be able to act without a new approval chain. Write that path before launch."
+        ],
+        "bullets": [
+          "Flag service timeout with a cached value available.",
+          "Flag service returns a stale value after recovery.",
+          "Operator account locked during an incident.",
+          "Default changed in code while the service holds a different value."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "access-and-authority",
+        "title": "Keep production authority with the company",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for error-budget alert tuning. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for error-budget alert tuning, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Sandbox rights are enough for the rehearsal. The programmer does not need production flag console access, release rights, or the ability to change a default that ships to all users.",
+          "If the company wants the programmer on call for flag changes, that is an employment and access decision with its own approval, logging, and removal process. It should not arrive as an implied part of a launch ticket."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "cadence-and-measures",
+        "title": "Set the rehearsal cadence and useful measures",
         "paragraphs": [
-          "Record error-budget alert tuning failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for error-budget alert tuning. Someone other than the implementer should be able to follow the record without relying on chat history."
+          "Measure flip to effect time in seconds, successful fallbacks divided by all fallback attempts, and incidents where the off state was unavailable divided by all flips. Report the cohort size and the observation window.",
+          "Rehearse before each launch that adds a flag, after any change to the flag service or cache layer, and quarterly for flags that guard money, access, or customer data.",
+          "Review the flag inventory each quarter and delete flags that no longer guard anything. A stale flag is a hidden branch that nobody tests."
         ]
       },
       {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
+        "id": "handoff",
+        "title": "Close with a runbook line a stranger can follow",
         "paragraphs": [
-          "For error-budget alert tuning, measure eligible one alert rule linked to service objective, query, threshold, window, and response owner records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each error-budget alert tuning item with rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the error-budget alert tuning evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a tuned alert with explicit missing-data behavior and an accountable responder. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff holds the flag key, the owner, the backup, the console path, the expected propagation delay, the off state per surface, the evidence table, and the flags still needing removal.",
+          "Accept the work when an operator who did not build the feature can flip the flag, see the fallback, and verify recovery using only the written record.",
+          "Note the flags that share a dependency with this one. Flipping two switches in sequence can produce a state that neither flag owner tested alone."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "error-budget alert tuning"
+        "label": "Flag",
+        "text": "One key, declared default, cohorts, and controlled surfaces."
       },
       {
-        "label": "Unit",
-        "text": "one alert rule linked to service objective, query, threshold, window, and response owner"
-      },
-      {
-        "label": "Required inputs",
-        "text": "objective definition, current rule, baseline, incident history, missing-data behavior, and responder"
+        "label": "Rehearsal",
+        "text": "Cohort flip, warm cache, in-flight request, queued work."
       },
       {
         "label": "Evidence",
-        "text": "rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance"
+        "text": "Evaluation log, branch log, side effect state, user visible result."
       },
       {
-        "label": "Stop rule",
-        "text": "alert with no owner, suppressed source, threshold change after an incident, or noisy test traffic"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Operator",
+        "text": "Company operator flips production; programmer works in sandbox."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for error-budget alert tuning?",
-        "answer": "one alert rule linked to service objective, query, threshold, window, and response owner"
+        "question": "Who is allowed to flip a production flag?",
+        "answer": "A named company operator and a backup, listed in the runbook with console access reviewed on a schedule."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "rule revision, query, sample windows, threshold test, alert receipt, and owner acceptance"
+        "question": "How fast should a kill switch take effect?",
+        "answer": "Fast enough for the risk, and no faster than the cache and propagation delay allow. Record the real measured delay."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on alert with no owner, suppressed source, threshold change after an incident, or noisy test traffic or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "What if the flag service is unavailable?",
+        "answer": "The written rule decides between last known value, cached value, and local default. Test that rule before launch."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
         "name": "CISA Secure by Design",
         "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "note": "Product design guidance that places security decisions with the owning organisation."
       },
       {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "name": "SLSA specification v1.0",
+        "url": "https://slsa.dev/spec/v1.0/",
+        "note": "Provenance concepts for matching a running build to a reviewed revision."
+      },
+      {
+        "name": "NIST Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/Projects/ssdf",
+        "note": "Environment separation and change control practices."
+      },
+      {
+        "name": "GitHub pull request reviews",
+        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
+        "note": "Review and approval mechanics for the flag guarded change."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource Next.js maintenance safely",
+        "url": "/blog/outsource-nextjs-maintenance-safely",
+        "note": "Plan small fixes with review and release approval."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Plan an outsourced programmer role",
+        "url": "/blog/outsourced-programmers-planning",
+        "note": "Turn launch support into a bounded brief."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Ongoing maintenance with named owners."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/feature-flag-kill-switch-rehearsal.png"
   },
-  "backfill-job-rehearsal": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/backfill-job-rehearsal.webp",
+  "file-upload-scan-handoff": {
     "takeaways": [
-      "Define one backfill revision exercised against representative disposable data.",
-      "Require query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification.",
-      "Stop on irreversible update, unknown side effect, protected data, unbounded lock, or capacity breach.",
-      "Keep merge and release decisions with the company technical owner."
+      "Model upload as states with an owner for each transition, not as a boolean.",
+      "Prove that a rejected file cannot be downloaded, linked, or copied to a public bucket.",
+      "Test scanner timeout and scanner outage before the feature reaches customers.",
+      "Keep bucket policy changes, quarantine release, and deletion with the company owner."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one backfill revision exercised against representative disposable data",
-        "notReady": "A broad request to improve data backfill rehearsal"
+        "area": "States",
+        "ready": "Uploaded, scanning, clean, rejected, deleted with owners",
+        "notReady": "A single scanned flag"
       },
       {
-        "area": "Evidence",
-        "ready": "query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Storage",
+        "ready": "Private bucket, short lived signed links",
+        "notReady": "Public bucket with an unguessable name"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Failure",
+        "ready": "Timeout and outage route to quarantine",
+        "notReady": "Failure treated as clean"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Release",
+        "ready": "Owner reviews quarantined files",
+        "notReady": "Automatic release after a retry"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "states-and-owners",
+        "title": "Model the upload as states with owners",
         "paragraphs": [
-          "Define data backfill rehearsal as a bounded delivery lane before assigning work. The unit is one backfill revision exercised against representative disposable data. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require selection query, target transformation, row estimate, idempotency rule, runtime limit, and recovery owner before the data backfill rehearsal item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "An upload passes through received, stored, scanning, clean, rejected, and deleted. Each transition needs a trigger, a timestamp, and an owner. A single scanned boolean collapses those states and hides the most dangerous one, which is stored but not yet decided.",
+          "Write the rule for each state. A file in scanning cannot be served. A file that fails the scan cannot be served and cannot be re-scanned into clean without an owner action. A file that times out is not clean by default.",
+          "Name who can move a file from rejected to released, and who can delete a quarantined object. Those are company decisions with customer and legal consequences, not maintenance tasks.",
+          "Give every state a maximum age. A file that sits in scanning for a week is an operational failure even if it is never served, and the age threshold is what turns the state table into a queue someone can work."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Write the handoff ticket around one upload path",
         "paragraphs": [
-          "Write the completion state for data backfill rehearsal in terms of destination evidence: query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of data backfill rehearsal. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the upload endpoint, the storage bucket, the scanner, the callback or queue, the download route, and the retention rule. It also names the reviewer and the owner of the bucket policy.",
+          "Keep the first ticket to one file type and one path. A Philippines-based programmer can then build fixtures, run the scan, and show the download denial for a rejected object without touching every media route in the product.",
+          "Ask for a sequence diagram in the pull request only if the existing docs are wrong. A short written state table is usually more useful than a diagram nobody updates."
+        ]
+      },
+      {
+        "id": "fixtures",
+        "title": "Build fixtures for clean, rejected, and undecided files",
+        "paragraphs": [
+          "The clean fixture is easy. The rejected fixture needs a file the scanner will actually flag in the sandbox, using the vendor test pattern or a documented test object. The undecided fixture needs the scanner to hang or fail.",
+          "Record the fixture hash, the size, the declared content type, and the observed scan result. If the scanner uses a vendor signature set, note the version and whether it can be refreshed in the sandbox.",
+          "Test the mismatch case as well: a file whose declared type differs from its detected type. The rule should be explicit about which value decides the scan and which value decides how the file is served."
+        ],
+        "bullets": [
+          "Clean file: served through a short lived link after the scan completes.",
+          "Rejected file: no link, no public URL, object retained in quarantine.",
+          "Timeout: file stays undecided and unserved until an owner acts.",
+          "Type mismatch: policy decides, and the decision is logged."
+        ]
+      },
+      {
+        "id": "storage-boundary",
+        "title": "Keep quarantine and delivery storage separate",
+        "paragraphs": [
+          "Quarantine should be a different prefix or bucket with a different policy from the delivery store. A rejected object that shares a public prefix is exposed even if the application refuses to link it.",
+          "Check the signed link lifetime and whether the link survives a state change. A link issued while the file was clean can outlive a later rejection, so revocation needs a bounded lifetime and a cache rule.",
+          "The programmer needs sandbox bucket rights and read access to scanner logs. They do not need the ability to change a production bucket policy, disable the scanner, or release quarantined content."
+        ]
+      },
+      {
+        "id": "evidence",
+        "title": "Prove the denial, not only the success",
+        "paragraphs": [
+          "Evidence includes the object key, the state transitions with timestamps, the scanner result, the download attempt and its status, and the bucket policy in force. A clean upload screenshot shows one half of the control.",
+          "Ask for a direct request to the storage URL as well as the application route. The direct request is where a public bucket or an overbroad signed link shows up.",
+          "Record the retention and deletion evidence. A rejected object that lingers forever is a data handling problem even when it is never served."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Test outage, retry, and duplicate upload",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving irreversible update, unknown side effect, protected data, unbounded lock, or capacity breach. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: proving a backfill on a tiny sample while production volume or side effects break it. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Scanner outages are normal. The rule must route the file to quarantine or hold it in undecided, never to clean. Test by pointing the sandbox at an unreachable scanner endpoint.",
+          "Retries can create two scan records for one object. Define which record wins and how the state machine avoids oscillation. Test a duplicate upload of the same content under a new key and decide whether it inherits the prior verdict.",
+          "Large files and slow streams deserve a case. A scan that starts before the upload finishes can produce a false clean result on a partial object."
+        ],
+        "bullets": [
+          "Scanner unreachable for the duration of the test.",
+          "Scanner returns an error after accepting the object.",
+          "Duplicate scan callback for one object.",
+          "Upload interrupted after the object is written."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "measures",
+        "title": "Measure coverage and unserved rejections",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for data backfill rehearsal. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for data backfill rehearsal, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure files scanned divided by files accepted, rejected files without a delivery link divided by all rejected files, and time from upload to decision at the ninety fifth percentile. Report the observation window and the file count.",
+          "Track undecided files older than one business day. That count is the operational backlog of the control and deserves an owner, not a dashboard footnote.",
+          "Review weekly while the feature is new and monthly afterwards. Any change to the scanner, bucket policy, or download route triggers a new rehearsal."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Close with a state table and a denial record",
         "paragraphs": [
-          "Record data backfill rehearsal failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for data backfill rehearsal. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For data backfill rehearsal, measure eligible one backfill revision exercised against representative disposable data records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each data backfill rehearsal item with query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the data backfill rehearsal evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a backfill packet with measured runtime, integrity evidence, and bounded recovery. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff contains the state table, the fixture hashes, the scanner version, the bucket policies, the denial evidence, the retention rule, and the unresolved cases. Add the owner for quarantine release and the next review date.",
+          "Accept the work when a reviewer can upload each fixture and see the correct state, and when a direct storage request for a rejected object fails without a manual step.",
+          "Include the scanner callback endpoint and its authentication rule. A callback that accepts an unsigned result can move a file to clean without a scan."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "data backfill rehearsal"
+        "label": "Path",
+        "text": "One upload endpoint, one bucket, one scanner, one download route."
       },
       {
-        "label": "Unit",
-        "text": "one backfill revision exercised against representative disposable data"
-      },
-      {
-        "label": "Required inputs",
-        "text": "selection query, target transformation, row estimate, idempotency rule, runtime limit, and recovery owner"
+        "label": "States",
+        "text": "Received, stored, scanning, clean, rejected, deleted with owners."
       },
       {
         "label": "Evidence",
-        "text": "query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification"
+        "text": "State timestamps, scan result, denial status, bucket policy."
       },
       {
-        "label": "Stop rule",
-        "text": "irreversible update, unknown side effect, protected data, unbounded lock, or capacity breach"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Authority",
+        "text": "Company owner controls policy, quarantine release, and deletion."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for data backfill rehearsal?",
-        "answer": "one backfill revision exercised against representative disposable data"
+        "question": "Is a failed scan the same as a rejection?",
+        "answer": "No. A failure is undecided and stays unserved. A rejection is a decision that a named owner can review."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "query revision, fixture profile, row counts, timing, integrity checks, failure output, and rollback verification"
+        "question": "Can the programmer test with a real infected sample?",
+        "answer": "Use the scanner vendor test object or a synthetic pattern approved by the company. Do not move live malware into a shared environment."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on irreversible update, unknown side effect, protected data, unbounded lock, or capacity breach or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Who can release a quarantined file?",
+        "answer": "A named company owner after a documented review. Automatic release defeats the control."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
+        "name": "OWASP Application Security Verification Standard",
+        "url": "https://owasp.org/www-project-application-security-verification-standard/",
+        "note": "File upload and access control verification requirements."
       },
       {
         "name": "CISA Secure by Design",
         "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "note": "Design guidance for secure defaults and reduced attack surface."
       },
       {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "name": "NIST Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/Projects/ssdf",
+        "note": "Protection practices for artifacts and deployment environments."
+      },
+      {
+        "name": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Detection and response framing for scanner outages."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Give the programmer context, commands, and escalation rules."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Review access controls",
+        "url": "/blog/outsourced-programmer-access-checklist",
+        "note": "Limit tools and record offboarding."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "App support and bug triage",
+        "url": "/services/customer-support",
+        "note": "Route customer upload reports into engineering tickets."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/file-upload-scan-handoff.png"
   },
-  "third-party-sdk-removal": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/third-party-sdk-removal.webp",
+  "graphql-query-cost-limit-review": {
     "takeaways": [
-      "Define one SDK and version linked to used capabilities, data flows, dependencies, and owner decision.",
-      "Require SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance.",
-      "Stop on hidden dependency, analytics identifier, platform permission, license conflict, or unreviewed replacement.",
-      "Keep merge and release decisions with the company technical owner."
+      "Publish the cost model and the per client budget before tuning any resolver.",
+      "Attack the limit with nested fragments, alias inflation, and wide list fields.",
+      "Enforce at the gateway and record the computed and observed cost for each rejection.",
+      "Keep budget changes, allowlists, and production rollout with the company owner."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one SDK and version linked to used capabilities, data flows, dependencies, and owner decision",
-        "notReady": "A broad request to improve third-party SDK removal"
+        "area": "Model",
+        "ready": "Field weights, depth rule, and list multiplier written",
+        "notReady": "A request count limit only"
       },
       {
-        "area": "Evidence",
-        "ready": "SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Budget",
+        "ready": "Named per client and per operation limit",
+        "notReady": "One global number nobody owns"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Tests",
+        "ready": "Adversarial documents and expected rejection codes",
+        "notReady": "One normal query from the frontend"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Rollout",
+        "ready": "Shadow mode, then enforce, with owner sign off",
+        "notReady": "Immediate production block"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "cost-model",
+        "title": "Publish the cost model before the limit",
         "paragraphs": [
-          "Define third-party SDK removal as a bounded delivery lane before assigning work. The unit is one SDK and version linked to used capabilities, data flows, dependencies, and owner decision. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require usage inventory, replacement plan, network calls, storage, permissions, privacy review, and release plan before the third-party SDK removal item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "A GraphQL limit without a published model becomes an arbitrary rejection that nobody can predict. Write the weight of each field, the multiplier for list fields, the depth ceiling, and the maximum page size. Put the document in the repository next to the schema.",
+          "The model does not have to be perfect. It has to be stable, testable, and explainable to a client team. A Philippines-based programmer can implement a deterministic calculator and show the same input producing the same cost.",
+          "Decide whether the budget applies per operation, per client, or per user session. A generous per operation limit with no per client budget still allows one client to consume the pool.",
+          "Name the unit of work the cost represents. If a weight of one means a single indexed lookup, say so and check a few resolvers against that definition. Weights copied from a blog post without a unit become numbers that nobody can defend when a client asks why a query was refused."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Scope the review to one schema surface",
         "paragraphs": [
-          "Write the completion state for third-party SDK removal in terms of destination evidence: SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of third-party SDK removal. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the schema version, the gateway, the resolver set under review, the calculator location, the rejection status, and the owner of the client allowlist. Ask for a test command and a table of cost against measured work.",
+          "Start with the public read surface. Mutations and subscriptions have different failure modes and should follow in a second ticket once the read limit is stable.",
+          "State the rollout order: log only, then reject above a high threshold, then tighten. Each stage needs an observation window and a named person who decides to move on."
+        ]
+      },
+      {
+        "id": "adversarial-documents",
+        "title": "Attack the limit with documents a normal client would not send",
+        "paragraphs": [
+          "Alias inflation duplicates the same field many times in one document and multiplies resolver work without increasing apparent depth. Nested fragments spread the cost across files that look small in isolation. Wide list fields with large page sizes multiply everything beneath them.",
+          "Ask the programmer to build a document set with expected costs and expected outcomes. The set should include one document just under the budget and one just over it, so the boundary is proven rather than assumed.",
+          "Test introspection and schema queries under the same rule. A limit that exempts introspection leaves a cheap way to do expensive work."
+        ],
+        "bullets": [
+          "Alias inflation on a list field with a page size at the maximum.",
+          "Fragment chain that repeats a costly subtree at depth.",
+          "Query just below and just above the declared budget.",
+          "Introspection query under the same calculator."
+        ]
+      },
+      {
+        "id": "enforcement-point",
+        "title": "Enforce once, at a point you can explain",
+        "paragraphs": [
+          "Enforcement usually belongs at the gateway, before execution, using the parsed document and the schema metadata. Resolver level checks arrive after work has started and produce partial responses that are hard to reason about.",
+          "If the gateway cannot see variable values that affect cost, such as page size, the calculator must use the declared maximum rather than the supplied value. Otherwise a client can send a small variable and a large effective query.",
+          "Rejections need a stable error code and a message that names the budget and the computed cost. That message is part of the contract, not a debugging convenience."
+        ]
+      },
+      {
+        "id": "evidence",
+        "title": "Compare computed cost with observed work",
+        "paragraphs": [
+          "For each test document, record the computed cost, the decision, the response time, the resolver count, and the database query count. A calculator that rejects the right documents but misprices the accepted ones will still allow a costly query through.",
+          "Keep the raw query document hash and the calculator version beside the result. When weights change, the old result should be explainable rather than mysterious.",
+          "Report the false rejection case too. A legitimate dashboard that trips the limit is a product problem, and the client owner needs to see it before enforcement widens."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Test batching, caching, and partial failure",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving hidden dependency, analytics identifier, platform permission, license conflict, or unreviewed replacement. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: removing the package while its tracking, caching, or platform integration remains elsewhere. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Batched operations can hide several expensive documents behind one transport request. Astute clients also retry after a rejection, so the limit must not create a retry loop that increases load.",
+          "Persisted queries change the calculation surface. If the gateway trusts a stored hash without rechecking cost, a previously accepted document can outlive a budget change.",
+          "Test the case where the calculator throws. A failure in cost estimation should fail closed with a clear error, not fall through to execution.",
+          "Check the header and transport layer too. A client that can request compression, batching, or a different content type may reach a path where the parsed document differs from the one the calculator measured, and that gap is worth one adversarial test."
+        ],
+        "bullets": [
+          "Batched request containing two documents near the budget.",
+          "Retry storm after a rejection.",
+          "Persisted document accepted before a weight change.",
+          "Calculator exception during parsing."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "cadence-and-measures",
+        "title": "Review cadence and measures with denominators",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for third-party SDK removal. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for third-party SDK removal, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure rejected operations divided by all operations, costly accepted operations divided by all accepted operations, and p95 latency for accepted operations. Segment by client so one heavy consumer is visible.",
+          "Track the count of documents above the old budget that were accepted before enforcement. That number is the backlog the limit is meant to address.",
+          "Review monthly and after any schema change that adds a list field or a new resolver fan out. A cost model that is not revised with the schema decays into a formality."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Close with a calculator, a test set, and a rollout record",
         "paragraphs": [
-          "Record third-party SDK removal failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for third-party SDK removal. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For third-party SDK removal, measure eligible one SDK and version linked to used capabilities, data flows, dependencies, and owner decision records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each third-party SDK removal item with SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the third-party SDK removal evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is an SDK removal packet with behavior and data-flow evidence. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff contains the cost document, the calculator revision, the adversarial document set, the observed decisions, the false rejection list, and the rollout stage with its owner. It also names the next schema review.",
+          "Accept the work when a reviewer can compute the cost of a new document by hand from the published model and match the gateway decision.",
+          "Record which clients are exempt and why. An exemption list that lives only in a gateway configuration file is invisible to the next reviewer."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "third-party SDK removal"
+        "label": "Surface",
+        "text": "One schema version and its public read operations."
       },
       {
-        "label": "Unit",
-        "text": "one SDK and version linked to used capabilities, data flows, dependencies, and owner decision"
+        "label": "Model",
+        "text": "Field weights, list multiplier, depth ceiling, max page size."
       },
       {
-        "label": "Required inputs",
-        "text": "usage inventory, replacement plan, network calls, storage, permissions, privacy review, and release plan"
+        "label": "Tests",
+        "text": "Adversarial documents with expected cost and rejection code."
       },
       {
-        "label": "Evidence",
-        "text": "SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance"
-      },
-      {
-        "label": "Stop rule",
-        "text": "hidden dependency, analytics identifier, platform permission, license conflict, or unreviewed replacement"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Rollout",
+        "text": "Company owner approves each enforcement stage."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for third-party SDK removal?",
-        "answer": "one SDK and version linked to used capabilities, data flows, dependencies, and owner decision"
+        "question": "Is a request rate limit enough for GraphQL?",
+        "answer": "No. One expensive document can do the work of many cheap requests. Cost needs its own model and budget."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "SDK identity, call sites, removed behavior, replacement tests, network observation, and owner acceptance"
+        "question": "Should the limit reject or truncate?",
+        "answer": "Reject with a stable error code. Silent truncation changes the meaning of the response and hides load."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on hidden dependency, analytics identifier, platform permission, license conflict, or unreviewed replacement or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Who approves a budget increase?",
+        "answer": "The company owner of the API, after seeing the client, the cost, and the capacity impact."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
         "name": "OWASP Application Security Verification Standard",
         "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Input handling and resource consumption verification topics."
+      },
+      {
+        "name": "NIST Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/Projects/ssdf",
+        "note": "Practices for designing and reviewing exposed interfaces."
+      },
+      {
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Instrumentation for resolver counts, latency, and rejection metrics."
+      },
+      {
+        "name": "GitHub pull request reviews",
+        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
+        "note": "Review mechanics for the calculator and schema changes."
+      },
+      {
+        "name": "Google Technical Writing",
+        "url": "https://developers.google.com/tech-writing",
+        "note": "Guidance for a readable cost model document."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource Node.js API bug fixes",
+        "url": "/blog/outsource-nodejs-api-bug-fixes",
+        "note": "Set repro steps and evidence for API changes."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "When to hire outsourced QA automation support",
+        "url": "/blog/hire-qa-automation-support",
+        "note": "Decide which test work is ready for help."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "Reporting and QA support",
+        "url": "/services/reporting-and-qa",
+        "note": "Add measurement to interface reviews."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/graphql-query-cost-limit-review.png"
   },
-  "rollback-artifact-retention": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/rollback-artifact-retention.webp",
+  "keyboard-navigation-regression-sweep": {
     "takeaways": [
-      "Define one release artifact linked to recoverable versions, retention window, access, and verification.",
-      "Require artifact digest, storage location, restore test, configuration match, access result, and disposition date.",
-      "Stop on expired artifact, mutable tag, missing configuration, unavailable secret, or unsupported database state.",
-      "Keep merge and release decisions with the company technical owner."
+      "Fix the route list and the browser matrix before the first tab press.",
+      "Record focus order, visible focus, traps, and the element that received focus.",
+      "Test dialogs, menus, and dynamic content because that is where focus escapes.",
+      "Keep the acceptance decision and any release block with the company owner."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one release artifact linked to recoverable versions, retention window, access, and verification",
-        "notReady": "A broad request to improve rollback artifact retention"
+        "area": "Routes",
+        "ready": "Named screens with states and viewport widths",
+        "notReady": "A request to check accessibility"
       },
       {
-        "area": "Evidence",
-        "ready": "artifact digest, storage location, restore test, configuration match, access result, and disposition date",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Matrix",
+        "ready": "Two browsers and one viewport per route",
+        "notReady": "One developer laptop"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Record",
+        "ready": "Step, key, focused element, expected, observed",
+        "notReady": "A comment that tabbing works"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Triage",
+        "ready": "Owner sets severity and release impact",
+        "notReady": "The tester decides what ships"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "fix-the-route-set",
+        "title": "Fix the route set and the states under test",
         "paragraphs": [
-          "Define rollback artifact retention as a bounded delivery lane before assigning work. The unit is one release artifact linked to recoverable versions, retention window, access, and verification. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require release version, artifact digest, configuration, dependency lock, retention rule, and recovery owner before the rollback artifact retention item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "A keyboard sweep without a route list becomes an opinion. Write the screens, the states on each screen, the viewport widths, and the browsers. Include the empty state, the error state, and the state with a dialog open, because those are where focus behaviour changes.",
+          "A Philippines-based programmer can run the sweep on a defined list in a few hours. The value comes from repetition against the same list, so keep the list in the repository and version it.",
+          "State what is out of scope. A marketing page hosted elsewhere or a third party embed may be excluded, but the exclusion needs a name and a reason."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Write the sweep ticket with an acceptance rule",
         "paragraphs": [
-          "Write the completion state for rollback artifact retention in terms of destination evidence: artifact digest, storage location, restore test, configuration match, access result, and disposition date. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of rollback artifact retention. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the route list revision, the browsers, the viewport widths, the assistive technology if any, and the reviewer. Acceptance is a completed record for every route, not a claim that the site is accessible.",
+          "Ask for one pull request that fixes the defects found in the same pass, or a separate defect ticket per route when the fixes are large. Mixing a sweep record with a broad redesign makes review impossible.",
+          "Set the stop rule. If a defect blocks a checkout or a sign in flow, the sweep stops and the owner decides whether to hold the release."
+        ]
+      },
+      {
+        "id": "sweep-steps",
+        "title": "Run the same steps on every route",
+        "paragraphs": [
+          "Start at the browser address bar, press tab once, and record the first focusable element. Continue to the end of the page and record the order, the visible focus indicator, and any element that cannot be reached.",
+          "Then test the reverse order with shift tab, the skip link, and the escape key on every overlay. A focus indicator that disappears against the background is a defect even when the order is correct.",
+          "Record the element by role and accessible name, not by pixel position. A later reviewer should be able to find the same control after a layout change.",
+          "Note the scroll position at each step. A focus change that jumps the page can leave a keyboard user at the wrong part of a long form, and the screenshot alone rarely shows the jump."
+        ],
+        "bullets": [
+          "First tab stop and whether it is a skip link.",
+          "Full forward order with visible focus at each step.",
+          "Reverse order and shift tab behaviour.",
+          "Escape and focus return for each overlay."
+        ]
+      },
+      {
+        "id": "evidence-sheet",
+        "title": "Keep a sheet a reviewer can rerun",
+        "paragraphs": [
+          "The sheet has one row per step: route, state, key pressed, focused element, expected next element, observed next element, and result. Add the browser version and the viewport width.",
+          "Attach a short screen recording only where the focus indicator is hard to describe. A recording without the step table forces the reviewer to guess what was intended.",
+          "List the defects with the route and the step number so a fix can be verified against the original observation rather than a fresh interpretation."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Test overlays, dynamic content, and hidden inputs",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving expired artifact, mutable tag, missing configuration, unavailable secret, or unsupported database state. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: keeping a label while the actual recoverable artifact or configuration no longer exists. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Dialogs are the usual failure point. Focus should move into the dialog, stay inside it, and return to the trigger on close. A dialog that leaves focus behind lets a keyboard user operate the page underneath.",
+          "Dynamic content adds another case. A validation message, a toast, or a filtered list can remove the element that had focus. The record should show where focus went and whether the user can continue.",
+          "Custom controls built from divs need their own check. If a control is reachable but cannot be activated with enter or space, it fails even though it appears in the tab order."
+        ],
+        "bullets": [
+          "Dialog open, tab cycle, escape, and focus return.",
+          "Menu open with arrow keys and escape.",
+          "Validation error that removes the focused field.",
+          "Custom control activated with enter and with space."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "triage-and-authority",
+        "title": "Triage with the owner, not with the tester",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for rollback artifact retention. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for rollback artifact retention, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "The programmer records the defect and a proposed severity. The company owner decides whether it blocks release. That split keeps a technical observation from becoming an unowned product decision.",
+          "Give the owner a short scale: blocks a task, makes a task difficult, or is cosmetic. Attach the route and the step so the decision is about a real path rather than an abstract rule.",
+          "If a fix needs a design change, stop and escalate. A programmer should not invent a new interaction pattern to close a defect."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "cadence-and-measures",
+        "title": "Set a cadence and measures that survive reruns",
         "paragraphs": [
-          "Record rollback artifact retention failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for rollback artifact retention. Someone other than the implementer should be able to follow the record without relying on chat history."
+          "Measure routes with a completed record divided by routes on the list, defects found per route, and defects verified fixed divided by defects reported. Report the browser and viewport for each number.",
+          "Repeat the sweep before a release that touches navigation, dialogs, or form validation, and on a monthly cadence otherwise. A sweep from six months ago describes an older interface.",
+          "Report the count of routes skipped and why. A completion rate that quietly drops three routes is less honest than a smaller list that was fully tested.",
+          "Track regressions that reappear after a fix. A repeated defect is a signal about the component or the review process, not about the individual tester."
         ]
       },
       {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
+        "id": "handoff",
+        "title": "Close with a route list, a sheet, and a fix log",
         "paragraphs": [
-          "For rollback artifact retention, measure eligible one release artifact linked to recoverable versions, retention window, access, and verification records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each rollback artifact retention item with artifact digest, storage location, restore test, configuration match, access result, and disposition date, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the rollback artifact retention evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a rollback inventory with tested, access-controlled recovery evidence. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff contains the route list revision, the step sheet, the defect log with severities, the fix commits, and the verification rows. It also names the routes excluded and the reason.",
+          "Accept the work when a reviewer can follow the sheet on two routes and reproduce the recorded observations without a call, and when every reported defect has a verified row or an owner decision.",
+          "Store the browser versions in the sheet rather than in the pull request description, because the description changes and the evidence should not."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "rollback artifact retention"
+        "label": "Scope",
+        "text": "A versioned route list with states, widths, and browsers."
       },
       {
-        "label": "Unit",
-        "text": "one release artifact linked to recoverable versions, retention window, access, and verification"
+        "label": "Method",
+        "text": "Forward tab, reverse tab, skip link, overlays, custom controls."
       },
       {
-        "label": "Required inputs",
-        "text": "release version, artifact digest, configuration, dependency lock, retention rule, and recovery owner"
+        "label": "Record",
+        "text": "Step, key, focused element, expected, observed, browser."
       },
       {
-        "label": "Evidence",
-        "text": "artifact digest, storage location, restore test, configuration match, access result, and disposition date"
-      },
-      {
-        "label": "Stop rule",
-        "text": "expired artifact, mutable tag, missing configuration, unavailable secret, or unsupported database state"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Decision",
+        "text": "Company owner sets severity and release impact."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for rollback artifact retention?",
-        "answer": "one release artifact linked to recoverable versions, retention window, access, and verification"
+        "question": "Does a completed sweep prove the site is accessible?",
+        "answer": "No. It proves the listed routes behave as recorded for keyboard operation in the stated browsers."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "artifact digest, storage location, restore test, configuration match, access result, and disposition date"
+        "question": "Which browser should be first?",
+        "answer": "The one your customers use most, with a second engine for comparison. Record the versions in the sheet."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on expired artifact, mutable tag, missing configuration, unavailable secret, or unsupported database state or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Who decides if a defect blocks release?",
+        "answer": "The company owner, using the route, the task impact, and the proposed severity from the tester."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
         "name": "CISA Secure by Design",
         "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "note": "Design guidance that treats usability and safe defaults as product decisions."
       },
       {
         "name": "OWASP Application Security Verification Standard",
         "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Verification framing for client side controls and input handling."
+      },
+      {
+        "name": "Google Technical Writing",
+        "url": "https://developers.google.com/tech-writing",
+        "note": "Structure for a defect record another person can follow."
+      },
+      {
+        "name": "GitHub pull request reviews",
+        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
+        "note": "Review flow for the fix commits."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource workflow state QA",
+        "url": "/blog/outsource-workflow-state-qa",
+        "note": "Map allowed transitions and blocked actions."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Plan the first week with an outsourced React developer",
+        "url": "/blog/outsourced-react-developer-first-week",
+        "note": "Use a small ticket and a named reviewer."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "Reporting and QA support",
+        "url": "/services/reporting-and-qa",
+        "note": "Add a repeatable evidence format to QA work."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/keyboard-navigation-regression-sweep.png"
   },
-  "log-redaction-change-review": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/log-redaction-change-review.webp",
+  "third-party-api-outage-fallback": {
     "takeaways": [
-      "Define one logging path linked to field sensitivity, redaction rule, fixture, and reviewer.",
-      "Require rule version, before-and-after samples, residual scan, parser check, and owner decision.",
-      "Stop on secret, personal data, free-text payload, debug bypass, or downstream parser dependency.",
-      "Keep merge and release decisions with the company technical owner."
+      "Classify each vendor call by what breaks when it stops answering.",
+      "Choose the fallback per call: queue, cache, degrade, or fail with a message.",
+      "Inject timeout, slow response, error, and partial data before trusting the path.",
+      "Keep the vendor contract, spend decision, and customer message with the company."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one logging path linked to field sensitivity, redaction rule, fixture, and reviewer",
-        "notReady": "A broad request to improve log redaction change"
+        "area": "Inventory",
+        "ready": "Each vendor call with its user facing consequence",
+        "notReady": "A generic outage plan"
       },
       {
-        "area": "Evidence",
-        "ready": "rule version, before-and-after samples, residual scan, parser check, and owner decision",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Fallback",
+        "ready": "Named behaviour per call and per duration",
+        "notReady": "Retry until it works"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Test",
+        "ready": "Fault injection with observed states",
+        "notReady": "Waiting for a real outage"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Message",
+        "ready": "Approved customer wording and owner",
+        "notReady": "The programmer writes to customers"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "classify-the-calls",
+        "title": "Classify every vendor call by consequence",
         "paragraphs": [
-          "Define log redaction change as a bounded delivery lane before assigning work. The unit is one logging path linked to field sensitivity, redaction rule, fixture, and reviewer. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require log schema, sensitive-field inventory, redaction rule, sample payloads, consumer need, and privacy owner before the log redaction change item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "Start with an inventory, not a strategy. List each call, the data it returns, the screen or job that depends on it, and what the user sees when it fails. A payment authorisation, a shipping quote, and a profile avatar have nothing in common during an outage.",
+          "Group the calls into four classes: blocking, degradable, deferrable, and cosmetic. The class decides whether the product waits, shows a cached value, queues the work, or hides the feature.",
+          "A Philippines-based programmer can build that inventory from the code in a day. The owner then reviews the classes, because the classification is a product decision disguised as a technical list.",
+          "Include the calls made by background jobs and admin tools, not only the customer facing screens. An outage that stops a nightly reconciliation is a different problem from one that hides an avatar, and both belong on the same list."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Write one ticket per failure class",
         "paragraphs": [
-          "Write the completion state for log redaction change in terms of destination evidence: rule version, before-and-after samples, residual scan, parser check, and owner decision. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of log redaction change. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the calls in the class, the timeout, the retry policy, the fallback state, the user visible message, and the person who owns the vendor relationship. Ask for a test command that can force each failure mode.",
+          "Do not mix a blocking payment path with a cosmetic avatar in one change. The review depth and the blast radius are different, and a shared helper can accidentally apply a lenient fallback to a strict path.",
+          "Record the vendor contract terms that matter: rate limits, retry guidance, status page, support channel, and notice period. The programmer should not interpret the contract for the company."
+        ]
+      },
+      {
+        "id": "fault-injection",
+        "title": "Inject the failures the vendor will actually produce",
+        "paragraphs": [
+          "A real outage is rarely a clean connection refusal. It is a slow response that holds a worker, a gateway timeout, a five hundred error on one endpoint, and partial data for a subset of identifiers.",
+          "Build a stub or proxy that can delay, fail, and truncate responses. Run the same user action against each mode and record the state, the elapsed time, and what the user saw.",
+          "Test the recovery as well. When the vendor returns, the queued work should drain in a bounded way rather than all at once."
+        ],
+        "bullets": [
+          "Timeout at the client threshold with no response body.",
+          "Slow response beyond the worker or request budget.",
+          "Five hundred on one endpoint while others succeed.",
+          "Truncated payload with a success status."
+        ]
+      },
+      {
+        "id": "fallback-design",
+        "title": "Design the fallback and the recovery state",
+        "paragraphs": [
+          "A circuit breaker is useful only if the open state has a defined behaviour. Write what happens for the first failure, after the threshold, and during the half open probe. Each state needs a log line and an owner.",
+          "Cached data needs a maximum age. A shipping quote from yesterday may be acceptable while a stock count is not. State the maximum staleness per class and show the timestamp to the user when the value is old.",
+          "Queued work needs a bound. If the vendor is down for six hours, the queue must not grow without limit or replay into a rate limit. Set a cap and a discard policy with the owner."
+        ]
+      },
+      {
+        "id": "evidence",
+        "title": "Record the state, the message, and the recovery",
+        "paragraphs": [
+          "Evidence is a table per scenario: call, injected fault, breaker state, response time, user visible result, queued items, and recovery outcome. Add the exact stub configuration so the reviewer can repeat it.",
+          "Include the negative case. A cosmetic call should degrade quietly, while a blocking call should stop with a clear message. If both behave the same, the classification was not implemented.",
+          "Record the customer message and who approved it. Wording during an outage is a company responsibility, even when the programmer implements the banner."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Check retry storms, webhook backlog, and partial writes",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving secret, personal data, free-text payload, debug bypass, or downstream parser dependency. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: removing sensitive values while breaking the diagnostic signal operators need. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Retries without jitter and a cap turn a vendor slowdown into a self inflicted load problem. Test the retry path with a hundred queued items and confirm the pacing.",
+          "Vendor webhooks can arrive late and out of order after an outage. The handler needs an idempotency rule and a reconciliation job with an owner.",
+          "A partial write is the worst case: the vendor accepted the request but the response was lost. Test the reconciliation query for the identifier rather than a blind retry."
+        ],
+        "bullets": [
+          "One hundred queued requests during a two minute outage.",
+          "Late webhook after the local state already moved on.",
+          "Vendor accepted the write but the client saw a timeout.",
+          "Vendor rate limit response during recovery."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "measures",
+        "title": "Measure fallback use and recovery time",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for log redaction change. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for log redaction change, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure requests served by fallback divided by requests attempted during an outage, queued items drained divided by items queued, and recovery time from vendor return to normal state. Report the window and the affected class.",
+          "Track the count of outages discovered by customers rather than by monitoring. That number says more about detection than any average uptime figure.",
+          "Report the fallback quality beside the fallback rate. A cached price shown without its age is not a graceful degradation, and the number should not count it as a success.",
+          "Review after every outage that touched a vendor call and on a quarterly cadence for the inventory. A vendor change or a new endpoint invalidates the old rehearsal."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Close with a rehearsal packet per failure class",
         "paragraphs": [
-          "Record log redaction change failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for log redaction change. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For log redaction change, measure eligible one logging path linked to field sensitivity, redaction rule, fixture, and reviewer records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each log redaction change item with rule version, before-and-after samples, residual scan, parser check, and owner decision, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the log redaction change evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a redaction change with verified sensitive-field removal and retained diagnosability. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The packet holds the call inventory, the class, the timeout and retry settings, the fallback state, the injected scenarios, the user messages, and the unresolved dependencies. It names the vendor owner and the next review date.",
+          "Accept the work when an on call engineer can read the packet during an incident and know which path is active without opening the code.",
+          "Add the vendor status page and support contact to the packet. During an outage the on call reader should not have to search for a phone number."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "log redaction change"
+        "label": "Inventory",
+        "text": "Vendor calls with user facing consequence and owner."
       },
       {
-        "label": "Unit",
-        "text": "one logging path linked to field sensitivity, redaction rule, fixture, and reviewer"
+        "label": "Fallback",
+        "text": "Behaviour per class, per duration, with a bound."
       },
       {
-        "label": "Required inputs",
-        "text": "log schema, sensitive-field inventory, redaction rule, sample payloads, consumer need, and privacy owner"
+        "label": "Rehearsal",
+        "text": "Timeout, slow, error, partial, then recovery."
       },
       {
-        "label": "Evidence",
-        "text": "rule version, before-and-after samples, residual scan, parser check, and owner decision"
-      },
-      {
-        "label": "Stop rule",
-        "text": "secret, personal data, free-text payload, debug bypass, or downstream parser dependency"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Message",
+        "text": "Company owner approves customer wording and spend."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for log redaction change?",
-        "answer": "one logging path linked to field sensitivity, redaction rule, fixture, and reviewer"
+        "question": "Should every vendor call have a cache fallback?",
+        "answer": "No. Cache only where stale data is safe and the maximum age is written down. A stale stock count can be worse than an error."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "rule version, before-and-after samples, residual scan, parser check, and owner decision"
+        "question": "Who writes the customer message during an outage?",
+        "answer": "The company owner or support lead. The programmer implements the approved wording and the display rule."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on secret, personal data, free-text payload, debug bypass, or downstream parser dependency or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "How long should queued work be held?",
+        "answer": "Set a cap and a discard policy with the owner, based on the vendor limit and the customer promise."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Tracing and metrics for vendor latency, errors, and breaker state."
       },
       {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
+        "name": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Response and recovery framing for dependency outages."
+      },
+      {
+        "name": "SLSA specification v1.0",
+        "url": "https://slsa.dev/spec/v1.0/",
+        "note": "Provenance and build integrity concepts for the deployed fallback."
       },
       {
         "name": "CISA Secure by Design",
         "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Guidance for resilient defaults and clear failure behaviour."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource Node.js API bug fixes",
+        "url": "/blog/outsource-nodejs-api-bug-fixes",
+        "note": "Structure repro steps and test evidence for API work."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Give the on call reader context and escalation rules."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "App support and bug triage",
+        "url": "/services/customer-support",
+        "note": "Turn customer outage reports into engineering tickets."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/third-party-api-outage-fallback.png"
   },
-  "platform-permission-change-request": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/platform-permission-change-request.webp",
+  "test-data-masking-review": {
     "takeaways": [
-      "Define one declared permission linked to feature need, platform policy, user disclosure, and review state.",
-      "Require permission diff, call site, disclosure, platform test, privacy review, and owner acceptance.",
-      "Stop on unused permission, background access, sensitive capability, policy mismatch, or unexplained SDK request.",
-      "Keep merge and release decisions with the company technical owner."
+      "Inventory the fields and the joins before choosing a masking method.",
+      "Keep fixture provenance so a reviewer knows where every record came from.",
+      "Test masked output for uniqueness, joinability, and free text leaks.",
+      "Keep the production export, retention decision, and sharing approval with the company."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one declared permission linked to feature need, platform policy, user disclosure, and review state",
-        "notReady": "A broad request to improve mobile platform permission change"
+        "area": "Fields",
+        "ready": "Named direct and indirect identifiers with owners",
+        "notReady": "A general instruction to anonymise"
       },
       {
-        "area": "Evidence",
-        "ready": "permission diff, call site, disclosure, platform test, privacy review, and owner acceptance",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Method",
+        "ready": "Chosen per field with reversibility stated",
+        "notReady": "One hash applied to everything"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Output",
+        "ready": "Masked set reviewed for joins and free text",
+        "notReady": "A row count and a spot check"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Sharing",
+        "ready": "Owner approves recipients and retention",
+        "notReady": "A link in a chat thread"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "field-inventory",
+        "title": "Inventory the fields before choosing a method",
         "paragraphs": [
-          "Define mobile platform permission change as a bounded delivery lane before assigning work. The unit is one declared permission linked to feature need, platform policy, user disclosure, and review state. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require feature purpose, permission text, manifest or plist entry, disclosure copy, test devices, and product owner before the mobile platform permission change item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "Masking fails when the inventory is short. List direct identifiers such as name, email, phone, and account number, then indirect identifiers such as postcode, birth date, job title, and rare diagnosis. The combination is often enough to re-identify a person even when each field looks harmless.",
+          "Include free text, file names, and nested JSON. A support note or an uploaded document can carry the same identifiers that were removed from the structured columns.",
+          "Give each field an owner and a purpose. A Philippines-based programmer can then mask to the purpose rather than to a vague standard, and the reviewer can see why a field is present at all.",
+          "Count the fields you remove as well as the fields you mask. A fixture that does not need a phone number is safer without the column, and removal is easier to explain than a clever transformation."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket-and-provenance",
+        "title": "Write the ticket with fixture provenance",
         "paragraphs": [
-          "Write the completion state for mobile platform permission change in terms of destination evidence: permission diff, call site, disclosure, platform test, privacy review, and owner acceptance. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of mobile platform permission change. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the source system, the export query, the row limit, the fields, the masking method per field, the storage location, and the recipients. It also names the reviewer and the retention date.",
+          "Provenance is part of the deliverable. Record the export revision, the extraction time, the row count, and the transformation script revision. A fixture set with no provenance cannot be refreshed or defended later.",
+          "Keep the first ticket to one domain, such as billing records or support tickets. A whole database export is a project with legal review, not a maintenance task."
+        ]
+      },
+      {
+        "id": "masking-methods",
+        "title": "Choose methods that fit the field and the test",
+        "paragraphs": [
+          "Replacement with realistic fake values keeps a demo readable. Hashing keeps joins stable but is not anonymous when the input space is small, because a phone number or an email can be guessed and hashed again.",
+          "Tokenisation with a controlled mapping preserves joins and allows reversal by an authorised holder. The mapping is then a sensitive asset with its own access rule, not a helper file in the repository.",
+          "Aggregation or suppression removes the field entirely. That is often the right choice for a field the test does not need, and it is the easiest method to defend in review."
+        ],
+        "bullets": [
+          "Direct identifiers: replace with fake values or remove.",
+          "Join keys: tokenise with a controlled mapping.",
+          "Quasi identifiers: generalise or bucket.",
+          "Free text: redact, replace, or drop the column."
+        ]
+      },
+      {
+        "id": "output-review",
+        "title": "Review the masked output, not only the script",
+        "paragraphs": [
+          "A correct script can still produce a leaky set. Check that masked emails remain unique where the test needs uniqueness, that joins still match, and that no original value appears in a comment, a file name, or a log line.",
+          "Search the output for the original values you know, including partial strings. A reviewer with a small sample of source records can run that search quickly and catch a column the script missed.",
+          "Test the rare record. A single row with a distinctive combination can be identified even in a large masked set, and that is the row a reviewer should look at first."
+        ]
+      },
+      {
+        "id": "access-and-retention",
+        "title": "Control the export, the masked set, and the clock",
+        "paragraphs": [
+          "The programmer needs a read only export path and a sandbox storage location. They do not need the production database, the customer support console, or the ability to widen the export query.",
+          "Set a retention date before the work starts. A masked set that lives forever in a shared drive becomes an unmanaged copy of customer data, and the masking effort is wasted.",
+          "Decide who can download the set, where it may be stored, and what happens at the retention date. That decision belongs to the company owner, not to the programmer who built the fixture."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Attack the masked set with combinations",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving unused permission, background access, sensitive capability, policy mismatch, or unexplained SDK request. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: requesting broader access than the feature uses or missing a required disclosure. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Try to re-identify one record using three or four fields together. If a birth date, a postcode, and a job title still point to one person, the set needs more generalisation.",
+          "Check partial masking. An email that keeps the local part, or a phone that keeps the last four digits, can be enough when combined with a public profile.",
+          "Check the side channels as well: commit history, test output, screenshots, and error messages. A masked database with an unmasked screenshot in the pull request is not masked."
+        ],
+        "bullets": [
+          "Re-identification attempt with three quasi identifiers.",
+          "Partial mask that keeps a recognisable fragment.",
+          "Original value found in a log, file name, or screenshot.",
+          "Join across two masked sets that were tokenised with different mappings."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "measures",
+        "title": "Measure coverage and residual risk",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for mobile platform permission change. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for mobile platform permission change, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure fields masked divided by fields identified, records with a re-identification attempt reviewed divided by records sampled, and sets past their retention date divided by all sets. Report the sample size.",
+          "Track the count of masking exceptions approved by the owner. Exceptions accumulate quietly and turn a strict rule into a habit.",
+          "Report the age of each stored set. A set created before the current field inventory may be missing a column that was added later, and its age is the fastest way to spot that gap.",
+          "Review before each new fixture share and quarterly for stored sets. Any schema change that adds a personal field triggers a new inventory."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Close with a provenance record and a sharing rule",
         "paragraphs": [
-          "Record mobile platform permission change failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for mobile platform permission change. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For mobile platform permission change, measure eligible one declared permission linked to feature need, platform policy, user disclosure, and review state records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each mobile platform permission change item with permission diff, call site, disclosure, platform test, privacy review, and owner acceptance, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the mobile platform permission change evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a permission change packet with purpose, disclosure, and platform evidence. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff contains the field inventory, the methods, the script revision, the output checks, the retention date, the recipient list, and the exceptions. It also names the owner who can approve a new share.",
+          "Accept the work when a reviewer can regenerate the masked set from the recorded export revision and verify the same output checks without the original programmer.",
+          "Record who holds the token mapping and when it was last reviewed. A mapping with no owner is a master key with no lock."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "mobile platform permission change"
+        "label": "Domain",
+        "text": "One data domain with a named export query and row limit."
       },
       {
-        "label": "Unit",
-        "text": "one declared permission linked to feature need, platform policy, user disclosure, and review state"
+        "label": "Method",
+        "text": "Per field choice with reversibility and mapping owner."
       },
       {
-        "label": "Required inputs",
-        "text": "feature purpose, permission text, manifest or plist entry, disclosure copy, test devices, and product owner"
+        "label": "Checks",
+        "text": "Uniqueness, joins, free text, screenshots, retention."
       },
       {
-        "label": "Evidence",
-        "text": "permission diff, call site, disclosure, platform test, privacy review, and owner acceptance"
-      },
-      {
-        "label": "Stop rule",
-        "text": "unused permission, background access, sensitive capability, policy mismatch, or unexplained SDK request"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Share",
+        "text": "Company owner approves recipients, storage, and deletion."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for mobile platform permission change?",
-        "answer": "one declared permission linked to feature need, platform policy, user disclosure, and review state"
+        "question": "Is hashing a personal identifier enough?",
+        "answer": "Not on its own. A small input space can be guessed and hashed again, so treat hashed identifiers as sensitive unless the mapping is removed and the space is large."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "permission diff, call site, disclosure, platform test, privacy review, and owner acceptance"
+        "question": "Can masked data live in the test repository?",
+        "answer": "Only with owner approval, a retention date, and access control. A repository is a shared copy, not a private sandbox."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on unused permission, background access, sensitive capability, policy mismatch, or unexplained SDK request or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Who approves sharing a fixture set with a vendor?",
+        "answer": "The company owner responsible for the data, after reviewing the field list and the recipient controls."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Framework for identifying and managing privacy risk in data handling."
       },
       {
         "name": "OWASP Application Security Verification Standard",
         "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Data protection verification topics relevant to test environments."
+      },
+      {
+        "name": "NIST Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/Projects/ssdf",
+        "note": "Environment separation and artifact protection practices."
+      },
+      {
+        "name": "CISA Secure by Design",
+        "url": "https://www.cisa.gov/securebydesign",
+        "note": "Secure defaults and minimisation principles for shared data."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Review access controls",
+        "url": "/blog/outsourced-programmer-access-checklist",
+        "note": "Limit tools and record offboarding for data work."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "A safer plan for outsourcing database cleanup",
+        "url": "/blog/outsource-database-cleanup",
+        "note": "Keep reversible data work separate from risky changes."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "label": "Code documentation support",
+        "url": "/services/admin-support",
+        "note": "Document the fixture and retention rules for the team."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/test-data-masking-review.png"
   },
-  "container-image-base-update": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/container-image-base-update.webp",
+  "release-rollback-evidence-pack": {
     "takeaways": [
-      "Define one image digest linked to base version, packages, build inputs, scans, and deployment review.",
-      "Require image digests, build log, package diff, scan result, runtime smoke test, and owner decision.",
-      "Stop on unpinned tag, unfixed critical advisory, changed entrypoint, unsupported architecture, or missing rollback.",
-      "Keep merge and release decisions with the company technical owner."
+      "Name the last known good revision and the artifact that proves it shipped.",
+      "List the irreversible steps before the release, not after the incident.",
+      "Give one operator the authority and the command, with a second person watching.",
+      "Verify recovery with a check the reviewer can run without the author."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one image digest linked to base version, packages, build inputs, scans, and deployment review",
-        "notReady": "A broad request to improve container base image update"
+        "area": "Baseline",
+        "ready": "Revision, artifact digest, and deploy time recorded",
+        "notReady": "A branch name someone remembers"
       },
       {
-        "area": "Evidence",
-        "ready": "image digests, build log, package diff, scan result, runtime smoke test, and owner decision",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Reversal",
+        "ready": "Commands, data steps, and irreversible points listed",
+        "notReady": "Redeploy the previous tag"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Operator",
+        "ready": "Named primary and observer with access tested",
+        "notReady": "Whoever is online"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Check",
+        "ready": "Smoke and data verification queries",
+        "notReady": "The deploy turned green"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "name-the-baseline",
+        "title": "Name the baseline with an artifact, not a tag",
         "paragraphs": [
-          "Define container base image update as a bounded delivery lane before assigning work. The unit is one image digest linked to base version, packages, build inputs, scans, and deployment review. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require current and target digests, package changes, build reproducibility, scan result, runtime tests, and rollback image before the container base image update item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "Rollback starts with a known good state. Record the revision, the built artifact digest, the deploy time, the configuration version, and the migration level that produced the current production state. A tag can move; a digest cannot.",
+          "A Philippines-based programmer can assemble that record from the pipeline and the registry in an hour. The reviewer should be able to match the running artifact to the record without trusting a dashboard label.",
+          "Include the vendor and infrastructure versions that affect behaviour, such as a runtime upgrade or a feature flag default. A code rollback that leaves a new flag default in place is only half a rollback.",
+          "Record how the baseline was verified at the time it shipped, not only that it shipped. A revision that passed a smoke check on a quiet Sunday is a weaker baseline than one that ran through a weekday peak, and the pack should say which it was."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Write the pack as a release ticket",
         "paragraphs": [
-          "Write the completion state for container base image update in terms of destination evidence: image digests, build log, package diff, scan result, runtime smoke test, and owner decision. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of container base image update. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the release, the change list, the baseline, the target, the operator, the observer, the maintenance window, and the go or no go owner. Ask for the pack in the repository so it versions with the code.",
+          "Keep the first pack for one service. A platform wide release note becomes a document nobody reads, while one service pack can be rehearsed and corrected.",
+          "State the trigger for using the pack: an error rate, a failed smoke check, a data anomaly, or a customer report. A rollback without a trigger becomes a matter of mood."
         ]
       },
       {
-        "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "id": "irreversible-steps",
+        "title": "List the irreversible steps before the release",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving unpinned tag, unfixed critical advisory, changed entrypoint, unsupported architecture, or missing rollback. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: updating a tag while the deployed image digest or startup behavior changes silently. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Most rollbacks are easy until a data migration runs. Identify every step that drops a column, rewrites a table, sends an external message, charges a card, or changes a file format. Mark whether the application rollback still works after that step.",
+          "For each irreversible step, write the forward repair and the decision owner. If the only recovery is a restore, say that plainly and record the acceptable data loss window.",
+          "Separate expand and contract migrations. An additive schema change is usually reversible in behaviour, while a destructive change needs its own approval and its own window."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "operator-and-comms",
+        "title": "Assign the operator, the observer, and the message",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for container base image update. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for container base image update, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "One person runs the commands and one person watches the signals. Both need tested access before the window, including the ability to reach the registry, the deploy tool, and the database console if the plan requires it.",
+          "Write the internal update and the customer message in advance, with the owner who approves sending. During an incident, wording should not be invented under pressure.",
+          "The programmer can prepare the commands, the checks, and the draft notes. Production execution and the decision to reverse stay with the company owner unless a written policy says otherwise."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "verification",
+        "title": "Verify recovery with checks that do not need the author",
         "paragraphs": [
-          "Record container base image update failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for container base image update. Someone other than the implementer should be able to follow the record without relying on chat history."
+          "A deploy returning success is not recovery. Run a smoke check on the critical path, a data check on the affected tables, and a queue or job check if the release touched asynchronous work.",
+          "Record the expected result for each check before the release. After the rollback, the reviewer compares the observed result with that expectation rather than with a fresh interpretation.",
+          "Include one check that would fail if the new code were still running, such as a version endpoint or a response field only the old build returns. That check proves the rollback took effect.",
+          "Write the pass condition as a value, not an adjective. A queue that is healthy is not a check, while a queue depth below the pre-release band for ten minutes is. The observer should never have to interpret the result during an incident."
+        ],
+        "bullets": [
+          "Version or build endpoint shows the baseline digest.",
+          "Critical user path completes on the old behaviour.",
+          "Affected table count and checksum match the expectation.",
+          "Queue depth returns to the pre-release band."
         ]
       },
       {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
+        "id": "rehearsal",
+        "title": "Rehearse the rollback in a lower environment",
         "paragraphs": [
-          "For container base image update, measure eligible one image digest linked to base version, packages, build inputs, scans, and deployment review records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each container base image update item with image digests, build log, package diff, scan result, runtime smoke test, and owner decision, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
+          "Run the pack against a staging copy with the same migration level. Time each step and record where the runbook was wrong. A pack that has never been executed is a hypothesis.",
+          "Rehearse the partial failure case: the rollback command succeeds but a smoke check fails. The observer needs a next step, such as restoring a snapshot or disabling a flag, and an owner to approve it.",
+          "Note the differences between staging and production, including traffic, data volume, and external dependencies. Those differences belong in the pack as known limits."
         ]
       },
       {
-        "id": "governance",
-        "title": "Close the loop before expanding",
+        "id": "measures",
+        "title": "Measure time to reverse and checks passed",
         "paragraphs": [
-          "Use a short governance review to ask what decision the container base image update evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a base-image update with digest, scan, and runtime verification. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "Measure minutes from the trigger decision to the baseline running, checks passed divided by checks planned, and rollbacks that required a step not in the pack divided by all rollbacks. Report the service and the window.",
+          "Track releases with an irreversible step and no rehearsal. That count is the real risk inventory, and it should be reviewed before the next release.",
+          "Run a tabletop review quarterly and a live rehearsal before any release with a destructive migration. Update the pack from every real or simulated use."
+        ]
+      },
+      {
+        "id": "handoff",
+        "title": "Close with a pack someone else can execute",
+        "paragraphs": [
+          "The handoff contains the baseline record, the change list, the irreversible steps, the commands, the checks, the operator and observer, the messages, and the rehearsal notes. It also records the known differences from production.",
+          "Accept the work when a reviewer who did not write the code can follow the pack in staging and reach the baseline with every check accounted for.",
+          "Add the contact list for the release window, including the database owner and the vendor support line. A pack without a name to call is a document, not a plan."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "container base image update"
+        "label": "Service",
+        "text": "One service, its pipeline, and its migration level."
       },
       {
-        "label": "Unit",
-        "text": "one image digest linked to base version, packages, build inputs, scans, and deployment review"
+        "label": "Baseline",
+        "text": "Revision, artifact digest, config version, deploy time."
       },
       {
-        "label": "Required inputs",
-        "text": "current and target digests, package changes, build reproducibility, scan result, runtime tests, and rollback image"
+        "label": "Pack",
+        "text": "Commands, irreversible points, checks, messages, rehearsal notes."
       },
       {
-        "label": "Evidence",
-        "text": "image digests, build log, package diff, scan result, runtime smoke test, and owner decision"
-      },
-      {
-        "label": "Stop rule",
-        "text": "unpinned tag, unfixed critical advisory, changed entrypoint, unsupported architecture, or missing rollback"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Execution",
+        "text": "Company operator runs production; observer verifies."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for container base image update?",
-        "answer": "one image digest linked to base version, packages, build inputs, scans, and deployment review"
+        "question": "Is redeploying the previous tag a rollback plan?",
+        "answer": "Only if the config, migrations, and external side effects also return to the baseline. Otherwise it is a partial reversal with unknown state."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "image digests, build log, package diff, scan result, runtime smoke test, and owner decision"
+        "question": "Who decides to roll back?",
+        "answer": "The named go or no go owner, using the trigger written in the pack. The programmer prepares evidence and can recommend, not decide."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on unpinned tag, unfixed critical advisory, changed entrypoint, unsupported architecture, or missing rollback or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "How often should the pack be rehearsed?",
+        "answer": "Before any release with a destructive step, after a material architecture change, and at least quarterly for critical services."
       }
     ],
     "sources": [
       {
+        "name": "SLSA specification v1.0",
+        "url": "https://slsa.dev/spec/v1.0/",
+        "note": "Artifact provenance and build integrity concepts behind the baseline record."
+      },
+      {
         "name": "NIST Secure Software Development Framework",
         "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
+        "note": "Release, environment, and response practices for software changes."
       },
       {
-        "name": "GitHub pull request review documentation",
+        "name": "GitHub pull request reviews",
         "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
+        "note": "Review and approval record for the release change list."
       },
       {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "name": "OpenTelemetry documentation",
+        "url": "https://opentelemetry.io/docs/",
+        "note": "Signals used in smoke checks and recovery verification."
       },
       {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "name": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Recovery planning and communication framing."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Outsource Next.js maintenance safely",
+        "url": "/blog/outsource-nextjs-maintenance-safely",
+        "note": "Plan small fixes with review and release approval."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Give the operator context and escalation rules."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Scope release preparation as ongoing support."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/release-rollback-evidence-pack.png"
   },
-  "scheduled-job-idempotency-review": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/scheduled-job-idempotency-review.webp",
+  "code-review-sla-evidence": {
     "takeaways": [
-      "Define one job run linked to schedule, input set, side effects, retry state, and reconciliation.",
-      "Require run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup.",
-      "Stop on duplicate execution, overlapping window, partial side effect, missing lock, or unbounded retry.",
-      "Keep merge and release decisions with the company technical owner."
+      "Define when the review clock starts and which hours count.",
+      "Separate author work, reviewer queue, and rework instead of blending them.",
+      "Use pull request events as the source, not memory or chat messages.",
+      "Keep the target advisory and never turn review latency into a ranking."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one job run linked to schedule, input set, side effects, retry state, and reconciliation",
-        "notReady": "A broad request to improve scheduled job idempotency"
+        "area": "Clock",
+        "ready": "Start event, stop event, and counted hours written",
+        "notReady": "A feeling that reviews are slow"
       },
       {
-        "area": "Evidence",
-        "ready": "run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Source",
+        "ready": "Pull request timestamps exported and deduplicated",
+        "notReady": "A spreadsheet of guesses"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Ownership",
+        "ready": "Wait attributed to author, reviewer, or dependency",
+        "notReady": "One average for the team"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Use",
+        "ready": "Advisory target with a repair action",
+        "notReady": "A public leaderboard"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "define-the-clock",
+        "title": "Define the clock before collecting a single timestamp",
         "paragraphs": [
-          "Define scheduled job idempotency as a bounded delivery lane before assigning work. The unit is one job run linked to schedule, input set, side effects, retry state, and reconciliation. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require job revision, trigger, idempotency key, overlap policy, side-effect inventory, fixture, and owner before the scheduled job idempotency item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "A review target without a clock definition produces arguments. Decide whether the clock starts at pull request open, at ready for review, or at the first reviewer request. Decide whether it stops at the first review, at approval, or at merge.",
+          "Decide which hours count. Business hours in the company time zone, business hours in the programmer time zone, and elapsed clock time give three different answers for the same event. Pick one and print it beside the number.",
+          "Write the rule for weekends, holidays, and long review threads. A Philippines-based programmer working a shifted schedule should not be penalised by a clock that only counts one office's daylight.",
+          "State the time zone used for every timestamp in the export. Two offices reading the same pull request can disagree about the day it was opened, and the disagreement usually appears in the first review of the numbers rather than in the data."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket",
+        "title": "Scope the first measurement to one repository",
         "paragraphs": [
-          "Write the completion state for scheduled job idempotency in terms of destination evidence: run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of scheduled job idempotency. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the repository, the date range, the clock rule, the event fields, the export method, and the reviewer. Ask for a script that can be rerun for the next period rather than a one off report.",
+          "Start with one repository and one quarter. A cross organisation dashboard built first tends to encode inconsistent definitions from teams that never agreed on the clock.",
+          "Record the data source version and the query. When the platform changes an event name, the reviewer needs to know which extraction produced the old numbers."
+        ]
+      },
+      {
+        "id": "event-data",
+        "title": "Build the dataset from pull request events",
+        "paragraphs": [
+          "Use the event stream: opened, ready for review, review submitted, changes requested, approved, merged, closed. Each event has an actor and a timestamp, which is what makes attribution possible.",
+          "Deduplicate bot reviews, draft periods, and force pushes carefully. A bot that comments within seconds should not make the team look fast, and a draft that sat for a week should not count as reviewer queue.",
+          "Record the pull request size band, the number of files, and whether the change touched a protected area. Size explains more variance than individual speed, and a target that ignores size rewards tiny changes.",
+          "Keep the raw event rows in the evidence folder, with personal fields removed. A summary table cannot answer the question a reviewer will ask next month about one unusual pull request."
+        ],
+        "bullets": [
+          "Opened, ready, first review, approval, merge timestamps.",
+          "Actor role for each event: author, reviewer, bot.",
+          "Draft and force push intervals excluded by rule.",
+          "Change size band and protected area flag."
+        ]
+      },
+      {
+        "id": "wait-ownership",
+        "title": "Attribute the wait to the owner who caused it",
+        "paragraphs": [
+          "Time in author hands is not reviewer latency. Time waiting for a dependency, a test environment, or a product decision is not reviewer latency either. Split the interval and label each part.",
+          "The useful output is a small table: pull request, wait in author hands, wait for first reviewer, wait for re-review, wait for merge approval, and the dominant cause. The dominant cause is what a manager can repair.",
+          "Do not sum overlapping intervals. A pull request can be waiting for a reviewer and for a product answer at the same time, and adding both inflates the total."
+        ]
+      },
+      {
+        "id": "evidence-quality",
+        "title": "Check the evidence for gaming and gaps",
+        "paragraphs": [
+          "A target invites behaviour. Watch for tiny pull requests opened to reset a clock, approvals without comments, and reviews split into many small events. None of these improve the code, and all of them improve the number.",
+          "Check for missing events and time zone conversion errors. A naive date truncation can move a review across a day boundary and change the median.",
+          "Pair the latency number with a quality signal such as defects found after merge or review comments that led to a change. Speed without review depth is not a result."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Handle large changes, re-reviews, and holidays",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving duplicate execution, overlapping window, partial side effect, missing lock, or unbounded retry. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: adding retries while the job duplicates emails, charges, records, or downstream actions. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Report large pull requests separately. A thousand line change reviewed in two days is a different achievement from a ten line change reviewed in two days, and a single median hides both.",
+          "Count re-reviews as a separate interval. A pull request that returns three times is a signal about the brief or the change size, not just about reviewer speed.",
+          "Exclude declared holidays from business hour calculations or publish the effect. Silent exclusion looks like manipulation when someone recomputes the number later."
+        ],
+        "bullets": [
+          "Change above the declared size threshold.",
+          "Second and third review rounds.",
+          "Declared holiday inside the interval.",
+          "Reviewer unavailable with a named backup."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "measures-and-cadence",
+        "title": "Publish measures with denominators and a repair action",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for scheduled job idempotency. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for scheduled job idempotency, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "Measure pull requests with a first review inside the target divided by all eligible pull requests, and median business hours to first review by size band. Add the count of pull requests with no reviewer assigned.",
+          "Review monthly and change one thing at a time: reviewer rotation, a smaller change size, a scheduled review window, or a clearer template. Re-measure after the change rather than declaring success from a single month.",
+          "Keep the target advisory. A hard target applied to individuals distorts behaviour, and review latency is mostly a queue design problem."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "handoff",
+        "title": "Close with a reproducible query and a short readout",
         "paragraphs": [
-          "Record scheduled job idempotency failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for scheduled job idempotency. Someone other than the implementer should be able to follow the record without relying on chat history."
-        ]
-      },
-      {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
-        "paragraphs": [
-          "For scheduled job idempotency, measure eligible one job run linked to schedule, input set, side effects, retry state, and reconciliation records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each scheduled job idempotency item with run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the scheduled job idempotency evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a job reliability packet proving idempotent or bounded retry behavior. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The handoff holds the clock definition, the extraction revision, the event table, the exclusion list, the size bands, and the readout with denominators. It also names the owner of the next measurement.",
+          "Accept the work when a reviewer can rerun the extraction on the same range and reach the same counts, including the exclusions.",
+          "Include the query text and the range parameters in the readout so the next analyst does not rebuild the extraction from a screenshot."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "scheduled job idempotency"
+        "label": "Range",
+        "text": "One repository and one declared quarter."
       },
       {
-        "label": "Unit",
-        "text": "one job run linked to schedule, input set, side effects, retry state, and reconciliation"
+        "label": "Clock",
+        "text": "Start event, stop event, counted hours, exclusions."
       },
       {
-        "label": "Required inputs",
-        "text": "job revision, trigger, idempotency key, overlap policy, side-effect inventory, fixture, and owner"
+        "label": "Data",
+        "text": "Pull request events with actor, timestamp, size band."
       },
       {
-        "label": "Evidence",
-        "text": "run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup"
-      },
-      {
-        "label": "Stop rule",
-        "text": "duplicate execution, overlapping window, partial side effect, missing lock, or unbounded retry"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Use",
+        "text": "Advisory target, repair action, no individual ranking."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for scheduled job idempotency?",
-        "answer": "one job run linked to schedule, input set, side effects, retry state, and reconciliation"
+        "question": "Should review time count calendar hours or business hours?",
+        "answer": "Either can work if the choice is written and applied consistently. Business hours need a declared time zone and a holiday list."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "run ID, trigger time, input hash, side-effect count, retry result, overlap evidence, and cleanup"
+        "question": "Is a fast first review always good?",
+        "answer": "No. An approval without reading is fast and harmful. Pair latency with a quality signal such as post merge defects or review comments that changed the code."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on duplicate execution, overlapping window, partial side effect, missing lock, or unbounded retry or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "Can this measure be used in a performance review?",
+        "answer": "It should not be used as an individual ranking. Review latency is shaped by queue design, change size, and reviewer availability."
       }
     ],
     "sources": [
       {
+        "name": "GitHub pull request reviews",
+        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
+        "note": "First-party description of review states, approvals, and requested changes."
+      },
+      {
+        "name": "Google Technical Writing",
+        "url": "https://developers.google.com/tech-writing",
+        "note": "Guidance for clearer change descriptions and review notes."
+      },
+      {
+        "name": "OpenSSF Scorecard",
+        "url": "https://scorecard.dev/",
+        "note": "Checks that include review and branch protection practices."
+      },
+      {
         "name": "NIST Secure Software Development Framework",
         "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
-      },
-      {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
-      },
-      {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
-      },
-      {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "note": "Review and change management practices that frame the control."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Hire software developers in the Philippines with a clear code review plan",
+        "url": "/blog/hire-software-developers-philippines-code-review",
+        "note": "Set review rules before the first ticket."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Build a technical handoff",
+        "url": "/blog/outsourced-programmer-technical-handoff",
+        "note": "Reduce rework with a clearer brief."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Keep review and handoff work inside a bounded lane."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/code-review-sla-evidence.png"
   },
-  "codeowner-map-change-review": {
-    "strictNoPricing": true,
-    "heroImage": "/oct22/blog/codeowner-map-change-review.webp",
+  "offboarding-access-revocation-drill": {
     "takeaways": [
-      "Define one repository path linked to current owner, review requirement, escalation route, and effective date.",
-      "Require map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance.",
-      "Stop on unowned critical path, conflicting teams, departed owner, emergency bypass, or unreviewed protection change.",
-      "Keep merge and release decisions with the company technical owner."
+      "Inventory every grant, including vendor seats, personal tokens, and CI secrets.",
+      "Time the revocation from the stop signal to the last verified removal.",
+      "Check the source system, not the admin console summary.",
+      "Record shared accounts and unremovable grants as open risks with owners."
     ],
     "readinessRows": [
       {
-        "area": "Scope",
-        "ready": "one repository path linked to current owner, review requirement, escalation route, and effective date",
-        "notReady": "A broad request to improve code owner map change"
+        "area": "Inventory",
+        "ready": "Systems, grant type, owner, and last used date",
+        "notReady": "A list from memory"
       },
       {
-        "area": "Evidence",
-        "ready": "map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance",
-        "notReady": "A status without reproducible artifacts"
+        "area": "Signal",
+        "ready": "Named person who starts the clock",
+        "notReady": "An email whenever it happens"
       },
       {
-        "area": "Access",
-        "ready": "Named task-limited account and safe fixture",
-        "notReady": "Shared credentials or unnecessary production access"
+        "area": "Checks",
+        "ready": "Source system query per grant",
+        "notReady": "The console shows no user"
       },
       {
-        "area": "Authority",
-        "ready": "Company owner approves consequential decisions",
-        "notReady": "Contributor infers policy, merge, or release approval"
+        "area": "Gaps",
+        "ready": "Shared and unremovable grants documented",
+        "notReady": "Assumed handled"
       }
     ],
     "sections": [
       {
-        "id": "scope",
-        "title": "Define the unit and readiness gate",
+        "id": "inventory",
+        "title": "Inventory the grants before the drill",
         "paragraphs": [
-          "Define code owner map change as a bounded delivery lane before assigning work. The unit is one repository path linked to current owner, review requirement, escalation route, and effective date. Name the repository, maintained version, environments, observation window, reviewer, and decisions the evidence may support. This keeps the assignment testable and prevents an outsourced contributor from inheriting product or risk authority by implication.",
-          "Require current map, proposed change, team membership, branch protection, service ownership, and release policy before the code owner map change item is ready. Missing inputs receive a reason code, return owner, and safe holding state. The contributor may locate facts and propose a clarification, but the technical owner decides whether the brief is sufficient to change maintained software."
+          "Start from the identity provider and work outward. Repository access, cloud roles, database accounts, package registry tokens, CI variables, monitoring seats, vendor dashboards, and shared mailboxes all count. A Philippines-based programmer often holds fewer production rights than a local employee, but the vendor seats and tokens are easy to forget.",
+          "Record the grant type, the owner, the business purpose, the last used date, and the removal method. If a grant has no owner, that is already a finding worth reporting before the drill.",
+          "Include indirect access: a personal access token in a laptop keychain, an SSH key in an agent, a saved password in a browser profile, and a deploy key on a repository. Removal that stops at the identity provider leaves those paths open."
         ]
       },
       {
-        "id": "finish-state",
-        "title": "Specify evidence and a safe fixture",
+        "id": "ticket-and-signal",
+        "title": "Write the drill ticket and name the stop signal",
         "paragraphs": [
-          "Write the completion state for code owner map change in terms of destination evidence: map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance. A commit, message, or green status is an activity signal, not proof that the intended behavior was reviewed and accepted. Preserve the exact revision and rule version used.",
-          "Use a branch, disposable fixture, or isolated test surface that matches the risk of code owner map change. Synthetic records should preserve relevant shape, timing, relationships, and failure conditions without copying customer data, secrets, tokens, or production identifiers. Record how the fixture can be reset."
+          "The ticket names the person, the systems, the start signal, the expected removal time per system, the verifier, and the escalation path. Ask for a timestamped log of each action and a check per grant.",
+          "The start signal must be a person and a channel, not a vague date. In a drill, the signal is simulated but the clock is real. In an actual offboarding, the same record applies, which is why the rehearsal is worth the effort.",
+          "Keep the first drill to one role and one set of systems. A full identity review across the company is a different project with legal and HR involvement."
+        ]
+      },
+      {
+        "id": "run-the-drill",
+        "title": "Run the drill in the order a real exit follows",
+        "paragraphs": [
+          "Revoke the highest risk access first: production, customer data, source control, and payment systems. Then remove vendor seats and communication channels. Then rotate any shared secret the person could read, and finally close the identity record.",
+          "Time each step and record who performed it. The interesting number is not the total, it is the gap between the stop signal and the first revocation, and the gap between the last revocation and the verification.",
+          "Test the removal while the account is still present but disabled. A disabled account can be re-enabled by mistake, while a deleted account can hide a lingering token issued earlier."
+        ],
+        "bullets": [
+          "Disable the identity and revoke active sessions.",
+          "Remove repository and cloud role bindings.",
+          "Revoke personal tokens, deploy keys, and CI variables.",
+          "Remove vendor seats and shared mailbox access.",
+          "Rotate shared secrets the person could read."
+        ]
+      },
+      {
+        "id": "verification",
+        "title": "Verify in the source system, not the summary screen",
+        "paragraphs": [
+          "The admin console shows an account as removed while a role binding, a team membership, or a token still exists. Query the source system for the identifier and record the empty result.",
+          "Check the audit log for the removal event and for any access after the stop signal. Access after the signal is the finding that matters most, because it shows the revocation did not take effect.",
+          "Have a second person run the verification. The person who removed the access is the least reliable verifier of their own action.",
+          "Capture the exact query and its empty result for each system. A note that access was removed is a claim, while a query, a timestamp, and a zero row result is a record that survives a staff change."
         ]
       },
       {
         "id": "adverse-cases",
-        "title": "Test the boundary and independent replay",
+        "title": "Probe shared accounts, tokens, and vendor gaps",
         "paragraphs": [
-          "Rehearse one ordinary case and adverse cases involving unowned critical path, conflicting teams, departed owner, emergency bypass, or unreviewed protection change. Stop the workflow when authority or required evidence is absent. An urgent deadline does not silently widen access, suppress a failed control, or authorize a contributor to decide an unresolved product policy.",
-          "Design review around the main failure: updating names while critical code becomes unreviewable or permanently blocked. A reviewer should reproduce the primary result from the ticket, revision, fixture, commands, and output. If independent replay requires private explanation, repair the handoff before treating the lane as stable."
+          "Shared accounts are the common failure. If a password is shared, removing one person does not remove access, and rotation is the only real fix. Record each shared account and who owns the rotation.",
+          "Personal tokens created outside the identity provider are the second failure. Search the repository and CI settings for tokens issued by the departing account, and check package registries and cloud keys.",
+          "Vendor dashboards often sit outside single sign on. If the vendor has no administrative API, the removal is manual and needs a screenshot of the seat list plus a named owner for the next check."
+        ],
+        "bullets": [
+          "Shared password with no rotation after the drill.",
+          "Personal access token still valid after account disable.",
+          "Vendor seat removed from the list but active in the product.",
+          "Repository deploy key issued by the departing account."
         ]
       },
       {
-        "id": "time-and-access",
-        "title": "Separate wait ownership and limit access",
+        "id": "authority",
+        "title": "Keep the decision and the exceptions with the company",
         "paragraphs": [
-          "Separate active engineering time from company-review wait, environment delay, external dependency wait, and time outside the service window for code owner map change. Do not add overlapping intervals twice. Honest ownership makes a slow stage actionable without converting queue latency into an individual performance score.",
-          "Apply named, least-privilege access for code owner map change, with an owner, business purpose, grant event, expiry, and removal check. Keep production execution, secrets administration, customer communication, risk acceptance, merge approval, and release authority with qualified company owners unless a documented policy states otherwise."
+          "The programmer can prepare the inventory, run the sandbox drill, and document the gaps. The company owner decides when an account is disabled, who may keep a vendor seat for a transition, and which exceptions are accepted.",
+          "Write the exception with an expiry. A temporary seat that nobody removes becomes permanent access, and the next drill will find it again.",
+          "Do not let a drill become a performance assessment of the person leaving. The record is about the system's ability to revoke, not about the individual."
         ]
       },
       {
-        "id": "failure-and-recovery",
-        "title": "Preserve failures and rehearse recovery",
+        "id": "measures",
+        "title": "Measure time to revoke and residual access",
         "paragraphs": [
-          "Record code owner map change failures as evidence. A failing check needs the exact command, relevant sanitized output, environment, revision, reproduction status, and next owner. Never rerun, exclude, quarantine, or relabel that failure merely to manufacture a clean completion state.",
-          "Prepare recovery before approval. Identify the last known-good state, rollback or forward-repair steps, irreversible points, operator, trigger, and post-recovery verification for code owner map change. Someone other than the implementer should be able to follow the record without relying on chat history."
+          "Measure minutes from the stop signal to the first revocation, minutes to the last verified removal, and grants verified removed divided by grants inventoried. Report the role, the systems, and the drill date.",
+          "Track residual access found in the next drill. A grant that survives two drills is a design problem that needs an owner and a date.",
+          "Run the drill quarterly for roles with production or customer data access, and after any change to the identity provider or a major vendor. Update the inventory when a new system is added."
         ]
       },
       {
-        "id": "measurement",
-        "title": "Measure the lane without gaming it",
+        "id": "handoff",
+        "title": "Close with a closure register a reviewer can audit",
         "paragraphs": [
-          "For code owner map change, measure eligible one repository path linked to current owner, review requirement, escalation route, and effective date records, accepted outcomes, corrections, reopened work, correct stops, escaped defects, and wait time by owner. Show denominators, exclusions, and sample limits; a favorable average cannot erase a severe tail case.",
-          "Close each code owner map change item with map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance, plus unresolved risks and named next actions. Reconcile temporary permissions, local downloads, test accounts, scheduled jobs, and created resources. Verified cleanup is part of delivery rather than an informal task after the handoff."
-        ]
-      },
-      {
-        "id": "governance",
-        "title": "Close the loop before expanding",
-        "paragraphs": [
-          "Use a short governance review to ask what decision the code owner map change evidence supports, what alternative explanation remains, and whether the measure encourages hidden work. Repair recurring gaps in briefs, fixtures, ownership, or review capacity before expanding the contributor’s lane.",
-          "The desired outcome is a code owner change with path coverage and review-path evidence. Expand only when representative normal and adverse cases can be reconstructed from intake through company acceptance. Reopen the design after a material system, risk, data, owner, or scope change."
+          "The register lists each grant, the removal action, the verifier, the timestamp, and the evidence reference. It also lists shared accounts, exceptions with expiry, and grants that could not be removed.",
+          "Accept the drill when a reviewer can pick three grants and confirm from the source system that each is gone, and when every remaining grant has a named owner and a date.",
+          "Add the next drill date and the person who will run it, so the register has a successor rather than a historian."
         ]
       }
     ],
     "roleBrief": [
       {
-        "label": "System",
-        "text": "code owner map change"
+        "label": "Role",
+        "text": "One role with its systems, vendors, and token paths."
       },
       {
-        "label": "Unit",
-        "text": "one repository path linked to current owner, review requirement, escalation route, and effective date"
+        "label": "Inventory",
+        "text": "Grant type, owner, purpose, last used, removal method."
       },
       {
-        "label": "Required inputs",
-        "text": "current map, proposed change, team membership, branch protection, service ownership, and release policy"
+        "label": "Drill",
+        "text": "Timed revocation, session kill, token rotation, verification."
       },
       {
-        "label": "Evidence",
-        "text": "map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance"
-      },
-      {
-        "label": "Stop rule",
-        "text": "unowned critical path, conflicting teams, departed owner, emergency bypass, or unreviewed protection change"
-      },
-      {
-        "label": "Owner authority",
-        "text": "Company technical owner approves product behavior, security exceptions, merges, and releases."
+        "label": "Authority",
+        "text": "Company owner disables accounts and accepts exceptions."
       }
     ],
     "faqs": [
       {
-        "question": "What is the unit for code owner map change?",
-        "answer": "one repository path linked to current owner, review requirement, escalation route, and effective date"
+        "question": "Is disabling the account enough?",
+        "answer": "No. Sessions, tokens, keys, role bindings, and vendor seats can outlive the account. Verify each one in its source system."
       },
       {
-        "question": "What must be attached at handoff?",
-        "answer": "map diff, path coverage, reviewer availability, protection rule, test pull request, and owner acceptance"
+        "question": "Who should verify the removal?",
+        "answer": "A second person who did not perform it, using a source system query rather than the admin summary."
       },
       {
-        "question": "When should work stop?",
-        "answer": "Stop on unowned critical path, conflicting teams, departed owner, emergency bypass, or unreviewed protection change or any missing authority."
-      },
-      {
-        "question": "Who approves release?",
-        "answer": "The qualified company technical owner retains final merge and release approval."
+        "question": "What about a shared account?",
+        "answer": "Removing one person does not remove access. Rotate the credential and record who owns the next rotation."
       }
     ],
     "sources": [
       {
-        "name": "NIST Secure Software Development Framework",
-        "url": "https://csrc.nist.gov/Projects/ssdf",
-        "note": "Authoritative secure-development practices for planning, protection, production, and response."
+        "name": "NIST Role Based Access Control",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "note": "Role and permission modelling reference for grant inventories."
       },
       {
-        "name": "GitHub pull request review documentation",
-        "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews",
-        "note": "First-party documentation for review, comments, approval, and requested changes."
+        "name": "CISA Zero Trust Maturity Model",
+        "url": "https://www.cisa.gov/zero-trust-maturity-model",
+        "note": "Identity centric access framing for revocation and verification."
       },
       {
-        "name": "CISA Secure by Design",
-        "url": "https://www.cisa.gov/securebydesign",
-        "note": "Security ownership and product-design guidance used to frame company-retained decisions."
+        "name": "NIST SP 800-53 Rev. 5",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "note": "Access control and account management control family."
       },
       {
-        "name": "OWASP Application Security Verification Standard",
-        "url": "https://owasp.org/www-project-application-security-verification-standard/",
-        "note": "Application-security verification requirements that can inform scoped test cases."
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Data access minimisation relevant to customer records."
       }
     ],
     "internalLinks": [
       {
-        "label": "Research library",
-        "url": "/research",
-        "note": "Review deeper evidence and measurement protocols."
+        "label": "Review access controls",
+        "url": "/blog/outsourced-programmer-access-checklist",
+        "note": "Limit tools and record offboarding from day one."
       },
       {
-        "label": "All programming guides",
-        "url": "/blog",
-        "note": "Choose the next bounded delivery workflow."
+        "label": "Plan an outsourced programmer role",
+        "url": "/blog/outsourced-programmers-planning",
+        "note": "Write access limits into the role brief."
       },
       {
         "label": "Development operations support",
         "url": "/services/operations-support",
-        "note": "Plan a scoped outsourced-programmer lane."
+        "note": "Keep access and handoff work inside a reviewed lane."
       }
-    ]
+    ],
+    "heroImage": "/oct22/blog/offboarding-access-revocation-drill.png"
   }
 };
