@@ -1,118 +1,249 @@
 {
+  "date": "2026-10-22",
   "site": "OutsourcedProgrammers.com",
+  "canonicalDomain": "https://outsourcedprogrammers.com",
   "repository": "coolifystealthagents/outsourcedprogrammers",
   "branch": "main",
-  "baseSha": "1840052dd3e12a3b0e0f38839483714c8296e7af",
-  "date": "2026-10-22",
-  "blog": [
+  "baseSha": "0a12e1e852e247f9af788fec2fe74b7e15a32411",
+  "blogCount": 12,
+  "researchCount": 5,
+  "blogRegistry": "app/data.ts",
+  "researchRegistry": "app/fleet-content.ts",
+  "blogRoute": "app/blog/[slug]/page.tsx",
+  "researchRoute": "app/research/[slug]/page.tsx",
+  "items": [
     {
-      "slug": "dependency-upgrade-test-matrix",
-      "title": "Build a Dependency Upgrade Test Matrix Before Merging",
-      "route": "/blog/dependency-upgrade-test-matrix",
-      "thumbnail": "/oct22/blog/dependency-upgrade-test-matrix.png"
+      "system": "Blog",
+      "slug": "webhook-signature-replay-window-test",
+      "title": "Test Webhook Signature Replay Windows Before Cutover",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/webhook-signature-replay-window-test",
+      "thumbnail": "/oct22/blog/webhook-signature-replay-window-test.png",
+      "thumbnailTitle": "Test Webhook Signature Replay Windows Before Cutover",
+      "wordCount": 56,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "628813c8a655c8b7d5f6b69b88cf78715aa118b18f5f1fd34378cb57d4a2b7f8",
+      "contentSha256": "093fde1de009ffd038b5d18009b1f4cb4c370faa19f26d53ee5fac88cd98a7de"
     },
     {
-      "slug": "feature-flag-cleanup-evidence",
-      "title": "Retire a Feature Flag With Production Evidence",
-      "route": "/blog/feature-flag-cleanup-evidence",
-      "thumbnail": "/oct22/blog/feature-flag-cleanup-evidence.png"
+      "system": "Blog",
+      "slug": "background-job-idempotency-rehearsal",
+      "title": "Rehearse Background Job Idempotency With Duplicate Deliveries",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/background-job-idempotency-rehearsal",
+      "thumbnail": "/oct22/blog/background-job-idempotency-rehearsal.png",
+      "thumbnailTitle": "Rehearse Background Job Idempotency With Duplicate Deliveries",
+      "wordCount": 52,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "8bf255a8bbc98cc24a58072d991efe9b92079c96d999bdb2a43d3d7aeef118b7",
+      "contentSha256": "bfd2317fd7f1cc07c89e3f9f66c0a982df8119578598c1617c2a6fec554be6b9"
     },
     {
+      "system": "Blog",
       "slug": "database-index-change-review",
-      "title": "Review Database Index Changes With Query Evidence",
+      "title": "Review Database Index Changes Against Real Query Evidence",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
       "route": "/blog/database-index-change-review",
-      "thumbnail": "/oct22/blog/database-index-change-review.png"
+      "thumbnail": "/oct22/blog/database-index-change-review.png",
+      "thumbnailTitle": "Review Database Index Changes Against Real Query Evidence",
+      "wordCount": 54,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "3029f5efb0b0645b5c4ce977cf24d5fb1503b546daa1f83c8dd51f6d67c45362",
+      "contentSha256": "8a65699239a4b6f0ce96374d8b65d013003a6cd87ed56f809d7bc40e11afa3d0"
     },
     {
-      "slug": "error-budget-alert-tuning",
-      "title": "Tune Error-Budget Alerts Without Hiding Incidents",
-      "route": "/blog/error-budget-alert-tuning",
-      "thumbnail": "/oct22/blog/error-budget-alert-tuning.png"
+      "system": "Blog",
+      "slug": "feature-flag-kill-switch-rehearsal",
+      "title": "Rehearse a Feature Flag Kill Switch Before Launch Day",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/feature-flag-kill-switch-rehearsal",
+      "thumbnail": "/oct22/blog/feature-flag-kill-switch-rehearsal.png",
+      "thumbnailTitle": "Rehearse a Feature Flag Kill Switch Before Launch Day",
+      "wordCount": 58,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "a9ac2b61fe4f6610e8b0b33d341fe23e020f758711bd4aa2260685f662b8d47c",
+      "contentSha256": "bf54d75e68ce63045864ae1bb009bdc649aa22909f7bef780dcf43673f5fa352"
     },
     {
-      "slug": "backfill-job-rehearsal",
-      "title": "Rehearse a Data Backfill Job Before Production Execution",
-      "route": "/blog/backfill-job-rehearsal",
-      "thumbnail": "/oct22/blog/backfill-job-rehearsal.png"
+      "system": "Blog",
+      "slug": "file-upload-scan-handoff",
+      "title": "Hand Off File Upload Scanning Without Skipping Quarantine",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/file-upload-scan-handoff",
+      "thumbnail": "/oct22/blog/file-upload-scan-handoff.png",
+      "thumbnailTitle": "Hand Off File Upload Scanning Without Skipping Quarantine",
+      "wordCount": 52,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "d1573640213815da5edaa99ad4045eaf440810fd586f03c97d99e636e82c5463",
+      "contentSha256": "3e79092787314b3546a2321cb7cddd8535ce3bf1d76e15ded2908686a60c6ea2"
     },
     {
-      "slug": "third-party-sdk-removal",
-      "title": "Remove a Third-Party SDK Without Dropping Required Behavior",
-      "route": "/blog/third-party-sdk-removal",
-      "thumbnail": "/oct22/blog/third-party-sdk-removal.png"
+      "system": "Blog",
+      "slug": "graphql-query-cost-limit-review",
+      "title": "Review GraphQL Query Cost Limits With Adversarial Documents",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/graphql-query-cost-limit-review",
+      "thumbnail": "/oct22/blog/graphql-query-cost-limit-review.png",
+      "thumbnailTitle": "Review GraphQL Query Cost Limits With Adversarial Documents",
+      "wordCount": 50,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "deafab636cc9e38f298195de1f54ffb605842439c6c11da96d8cb6acdd6423a9",
+      "contentSha256": "3f81f43d86ce574a06cfd98aa39d7a14ce59dc9f901657550544607f18d5ddb1"
     },
     {
-      "slug": "rollback-artifact-retention",
-      "title": "Retain Rollback Artifacts for the Supported Recovery Window",
-      "route": "/blog/rollback-artifact-retention",
-      "thumbnail": "/oct22/blog/rollback-artifact-retention.png"
+      "system": "Blog",
+      "slug": "keyboard-navigation-regression-sweep",
+      "title": "Sweep Keyboard Navigation Regressions on a Bounded Route Set",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/keyboard-navigation-regression-sweep",
+      "thumbnail": "/oct22/blog/keyboard-navigation-regression-sweep.png",
+      "thumbnailTitle": "Sweep Keyboard Navigation Regressions on a Bounded Route Set",
+      "wordCount": 49,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "557edc018cc64f003a267703b4df7de28da0fb142ec44990956f4cdef7c339af",
+      "contentSha256": "99e0e455cc88855b15c451be0927bf61a2024eabfc7d8ab9279edf20d5ea9843"
     },
     {
-      "slug": "log-redaction-change-review",
-      "title": "Review Log Redaction Changes Before Deploying Them",
-      "route": "/blog/log-redaction-change-review",
-      "thumbnail": "/oct22/blog/log-redaction-change-review.png"
+      "system": "Blog",
+      "slug": "third-party-api-outage-fallback",
+      "title": "Test Third Party API Outage Fallbacks With Named Owners",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/third-party-api-outage-fallback",
+      "thumbnail": "/oct22/blog/third-party-api-outage-fallback.png",
+      "thumbnailTitle": "Test Third Party API Outage Fallbacks With Named Owners",
+      "wordCount": 48,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "528bb2d4d076c4a28ecbf2a1cc9ba737fa5e95c8f3aac1103bda45b28dc254b8",
+      "contentSha256": "1f226b175bc7c12557df3e98907d0dad41d6404e92a6244ea084f0a551a12d85"
     },
     {
-      "slug": "platform-permission-change-request",
-      "title": "Route Mobile Platform Permission Changes With Evidence",
-      "route": "/blog/platform-permission-change-request",
-      "thumbnail": "/oct22/blog/platform-permission-change-request.png"
+      "system": "Blog",
+      "slug": "test-data-masking-review",
+      "title": "Review Test Data Masking Before Sharing a Fixture Set",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/test-data-masking-review",
+      "thumbnail": "/oct22/blog/test-data-masking-review.png",
+      "thumbnailTitle": "Review Test Data Masking Before Sharing a Fixture Set",
+      "wordCount": 45,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "956fa744c75722c65e5fa5d0382089d7771604e2eeb0dff9c5cefb3ce1cfb136",
+      "contentSha256": "ddd7ebea869bb2969240b29ee7c746880c688fddf5191195e406e1467848872a"
     },
     {
-      "slug": "container-image-base-update",
-      "title": "Update a Container Base Image With Reproducible Evidence",
-      "route": "/blog/container-image-base-update",
-      "thumbnail": "/oct22/blog/container-image-base-update.png"
+      "system": "Blog",
+      "slug": "release-rollback-evidence-pack",
+      "title": "Assemble a Release Rollback Evidence Pack",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/release-rollback-evidence-pack",
+      "thumbnail": "/oct22/blog/release-rollback-evidence-pack.png",
+      "thumbnailTitle": "Assemble a Release Rollback Evidence Pack",
+      "wordCount": 49,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "529709dea4895c7970846d0760a20ff73618f2beb83e4b426c8488b225ba2980",
+      "contentSha256": "97c26173c299c04bd0493fd3e24b344dbe3e3a93c7c660de497752b06d7a7758"
     },
     {
-      "slug": "scheduled-job-idempotency-review",
-      "title": "Review Scheduled Job Idempotency Before Enabling Retries",
-      "route": "/blog/scheduled-job-idempotency-review",
-      "thumbnail": "/oct22/blog/scheduled-job-idempotency-review.png"
+      "system": "Blog",
+      "slug": "code-review-sla-evidence",
+      "title": "Measure Code Review Turnaround Without Hiding Wait Time",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/code-review-sla-evidence",
+      "thumbnail": "/oct22/blog/code-review-sla-evidence.png",
+      "thumbnailTitle": "Measure Code Review Turnaround Without Hiding Wait Time",
+      "wordCount": 45,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "3eb9d3b958693594d5fdc60e9ee6fa5a496b786f8fbdd35162d68aa1a8d8d7dd",
+      "contentSha256": "c29c0be68ae02e478609b625b2ed9a491a8f2862ec8752c9016a36d1a4fb02ae"
     },
     {
-      "slug": "codeowner-map-change-review",
-      "title": "Review Code Owner Map Changes Against Real Review Paths",
-      "route": "/blog/codeowner-map-change-review",
-      "thumbnail": "/oct22/blog/codeowner-map-change-review.png"
+      "system": "Blog",
+      "slug": "offboarding-access-revocation-drill",
+      "title": "Drill Offboarding Access Revocation With a Closure Register",
+      "date": "2026-10-22",
+      "source": "app/october22-blog-batch.ts",
+      "route": "/blog/offboarding-access-revocation-drill",
+      "thumbnail": "/oct22/blog/offboarding-access-revocation-drill.png",
+      "thumbnailTitle": "Drill Offboarding Access Revocation With a Closure Register",
+      "wordCount": 43,
+      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailSha256": "090ca44dea639f4c4ba802a25ebfc41d632935f4f62588100268cfceb33e2f30",
+      "contentSha256": "e52f060c3750733f5e5533d3317be8b93fe5e63c1a6d3aa564c391700f86c8eb"
+    },
+    {
+      "system": "Research",
+      "slug": "defect-escape-attribution-method",
+      "title": "Defect Escape Attribution: A Method for Bounded Records",
+      "date": "2026-10-22",
+      "source": "app/october22-research-batch.ts",
+      "route": "/research/defect-escape-attribution-method",
+      "thumbnail": "/oct22/research/defect-escape-attribution-method.png",
+      "thumbnailTitle": "Defect Escape Attribution: A Method for Bounded Records",
+      "sha256": "ad067656e79c904b17f27da7045cd370268b59805ddd3d73a6f2ee44835042f8",
+      "thumbnailSha256": "b3d797682734b4421a9d76a232713609ccc5d12118c1e66237abf12008968d03",
+      "contentSha256": "016b3ade6c12bbb8cc8cce1db6eb1e170b09a78c5be40f332b35bb1008cbe474"
+    },
+    {
+      "system": "Research",
+      "slug": "review-turnaround-evidence-protocol",
+      "title": "Review Turnaround Evidence: A Protocol With Declared Clocks",
+      "date": "2026-10-22",
+      "source": "app/october22-research-batch.ts",
+      "route": "/research/review-turnaround-evidence-protocol",
+      "thumbnail": "/oct22/research/review-turnaround-evidence-protocol.png",
+      "thumbnailTitle": "Review Turnaround Evidence: A Protocol With Declared Clocks",
+      "sha256": "ad067656e79c904b17f27da7045cd370268b59805ddd3d73a6f2ee44835042f8",
+      "thumbnailSha256": "7eacb020fffac4f4011177b88ebf576ad2172c0071074dc7c98a23d7ab6971f1",
+      "contentSha256": "6aed130dd1072bf2031cf334ab1869375f814a0ce3d5eff720714c1076c742ab"
+    },
+    {
+      "system": "Research",
+      "slug": "test-coverage-claim-verification",
+      "title": "Verifying Test Coverage Claims Without Invented Numbers",
+      "date": "2026-10-22",
+      "source": "app/october22-research-batch.ts",
+      "route": "/research/test-coverage-claim-verification",
+      "thumbnail": "/oct22/research/test-coverage-claim-verification.png",
+      "thumbnailTitle": "Verifying Test Coverage Claims Without Invented Numbers",
+      "sha256": "ad067656e79c904b17f27da7045cd370268b59805ddd3d73a6f2ee44835042f8",
+      "thumbnailSha256": "62a8089bbb21b0475e8d80159ee865fffa2b028ac48e801d8919b49e7501da7e",
+      "contentSha256": "85871028a4436aa8191fb4ba03656e3da89cfab36ffd2b26fd4f354438ff7e33"
+    },
+    {
+      "system": "Research",
+      "slug": "dependency-vulnerability-triage-reliability",
+      "title": "Dependency Vulnerability Triage: Reliability of a Declared Queue",
+      "date": "2026-10-22",
+      "source": "app/october22-research-batch.ts",
+      "route": "/research/dependency-vulnerability-triage-reliability",
+      "thumbnail": "/oct22/research/dependency-vulnerability-triage-reliability.png",
+      "thumbnailTitle": "Dependency Vulnerability Triage: Reliability of a Declared Queue",
+      "sha256": "ad067656e79c904b17f27da7045cd370268b59805ddd3d73a6f2ee44835042f8",
+      "thumbnailSha256": "0ce828e631c48e969577adf16d15af2b7dc537bd84c4bae9b9a89096e8d1fd51",
+      "contentSha256": "0bdc3a397eb64e175dd992e035ad9c7eb73c45390af32c6427cfd8cc651bf6bb"
+    },
+    {
+      "system": "Research",
+      "slug": "offboarding-access-closure-audit",
+      "title": "Offboarding Access Closure: An Audit Method for Grant Records",
+      "date": "2026-10-22",
+      "source": "app/october22-research-batch.ts",
+      "route": "/research/offboarding-access-closure-audit",
+      "thumbnail": "/oct22/research/offboarding-access-closure-audit.png",
+      "thumbnailTitle": "Offboarding Access Closure: An Audit Method for Grant Records",
+      "sha256": "ad067656e79c904b17f27da7045cd370268b59805ddd3d73a6f2ee44835042f8",
+      "thumbnailSha256": "d99611ab4cbc8e6ae51529a378ac5bc7d5f58d72a72a845b76f5cba5715db8d8",
+      "contentSha256": "318f8916b927ac732c2b2ce0935b8325d2d9234179717aead8c0275a581f3516"
     }
-  ],
-  "research": [
-    {
-      "slug": "dependency-upgrade-regression-study",
-      "title": "Dependency Upgrade Regression Evidence Study",
-      "route": "/research/dependency-upgrade-regression-study",
-      "thumbnail": "/oct22/research/dependency-upgrade-regression-study.png"
-    },
-    {
-      "slug": "flag-retirement-exposure-study",
-      "title": "Feature Flag Retirement Exposure Study",
-      "route": "/research/flag-retirement-exposure-study",
-      "thumbnail": "/oct22/research/flag-retirement-exposure-study.png"
-    },
-    {
-      "slug": "index-change-write-cost-study",
-      "title": "Database Index Change Write-Cost Study",
-      "route": "/research/index-change-write-cost-study",
-      "thumbnail": "/oct22/research/index-change-write-cost-study.png"
-    },
-    {
-      "slug": "backfill-integrity-rehearsal-study",
-      "title": "Data Backfill Integrity Rehearsal Study",
-      "route": "/research/backfill-integrity-rehearsal-study",
-      "thumbnail": "/oct22/research/backfill-integrity-rehearsal-study.png"
-    },
-    {
-      "slug": "rollback-artifact-availability-study",
-      "title": "Rollback Artifact Availability Study",
-      "route": "/research/rollback-artifact-availability-study",
-      "thumbnail": "/oct22/research/rollback-artifact-availability-study.png"
-    }
-  ],
-  "expected": {
-    "blog": 12,
-    "research": 5,
-    "thumbnails": 17
-  }
+  ]
 }
