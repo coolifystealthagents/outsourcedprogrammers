@@ -1,237 +1,457 @@
 {
-  "date": "2026-10-22",
   "site": "OutsourcedProgrammers.com",
-  "canonicalDomain": "https://outsourcedprogrammers.com",
+  "domain": "https://outsourcedprogrammers.com",
   "repository": "coolifystealthagents/outsourcedprogrammers",
   "branch": "main",
-  "baseSha": "f5c7b1888b826fd2d5c8d83d5577a81fdb710f45",
-  "blogCount": 12,
-  "researchCount": 5,
-  "blogRegistry": "app/data.ts",
-  "researchRegistry": "app/fleet-content.ts",
-  "blogRoute": "app/blog/[slug]/page.tsx",
-  "researchRoute": "app/research/[slug]/page.tsx",
-  "items": [
+  "baseSha": "c1b7079f2295cb309180597a44db79ee89c88095",
+  "publicationDate": "2026-10-22",
+  "visibleDate": "October 22, 2026",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "articles": [
     {
-      "system": "Blog",
-      "slug": "webhook-signature-replay-window-test",
+      "section": "Blog",
       "title": "Test Webhook Signature Replay Windows Before Cutover",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "webhook-signature-replay-window-test",
       "route": "/blog/webhook-signature-replay-window-test",
-      "thumbnail": "/oct22/blog/webhook-signature-replay-window-test.png",
-      "thumbnailTitle": "Test Webhook Signature Replay Windows Before Cutover",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/webhook-signature-replay-window-test.png",
       "thumbnailSha256": "628813c8a655c8b7d5f6b69b88cf78715aa118b18f5f1fd34378cb57d4a2b7f8",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 887,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/webhook-signature-replay-window-test-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/webhook-signature-replay-window-test-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/webhook-signature-replay-window-test-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/webhook-signature-replay-window-test-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/webhook-signature-replay-window-test-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "background-job-idempotency-rehearsal",
+      "section": "Blog",
       "title": "Rehearse Background Job Idempotency With Duplicate Deliveries",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "background-job-idempotency-rehearsal",
       "route": "/blog/background-job-idempotency-rehearsal",
-      "thumbnail": "/oct22/blog/background-job-idempotency-rehearsal.png",
-      "thumbnailTitle": "Rehearse Background Job Idempotency With Duplicate Deliveries",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/background-job-idempotency-rehearsal.png",
       "thumbnailSha256": "8bf255a8bbc98cc24a58072d991efe9b92079c96d999bdb2a43d3d7aeef118b7",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 883,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/background-job-idempotency-rehearsal-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/background-job-idempotency-rehearsal-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/background-job-idempotency-rehearsal-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/background-job-idempotency-rehearsal-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/background-job-idempotency-rehearsal-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "database-index-change-review",
+      "section": "Blog",
       "title": "Review Database Index Changes Against Real Query Evidence",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "database-index-change-review",
       "route": "/blog/database-index-change-review",
-      "thumbnail": "/oct22/blog/database-index-change-review.png",
-      "thumbnailTitle": "Review Database Index Changes Against Real Query Evidence",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/database-index-change-review.png",
       "thumbnailSha256": "3029f5efb0b0645b5c4ce977cf24d5fb1503b546daa1f83c8dd51f6d67c45362",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 905,
+      "sourceCount": 5,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/database-index-change-review-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/database-index-change-review-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/database-index-change-review-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/database-index-change-review-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/database-index-change-review-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "feature-flag-kill-switch-rehearsal",
+      "section": "Blog",
       "title": "Rehearse a Feature Flag Kill Switch Before Launch Day",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "feature-flag-kill-switch-rehearsal",
       "route": "/blog/feature-flag-kill-switch-rehearsal",
-      "thumbnail": "/oct22/blog/feature-flag-kill-switch-rehearsal.png",
-      "thumbnailTitle": "Rehearse a Feature Flag Kill Switch Before Launch Day",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/feature-flag-kill-switch-rehearsal.png",
       "thumbnailSha256": "a9ac2b61fe4f6610e8b0b33d341fe23e020f758711bd4aa2260685f662b8d47c",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 892,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/feature-flag-kill-switch-rehearsal-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/feature-flag-kill-switch-rehearsal-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/feature-flag-kill-switch-rehearsal-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/feature-flag-kill-switch-rehearsal-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/feature-flag-kill-switch-rehearsal-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "file-upload-scan-handoff",
+      "section": "Blog",
       "title": "Hand Off File Upload Scanning Without Skipping Quarantine",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "file-upload-scan-handoff",
       "route": "/blog/file-upload-scan-handoff",
-      "thumbnail": "/oct22/blog/file-upload-scan-handoff.png",
-      "thumbnailTitle": "Hand Off File Upload Scanning Without Skipping Quarantine",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/file-upload-scan-handoff.png",
       "thumbnailSha256": "d1573640213815da5edaa99ad4045eaf440810fd586f03c97d99e636e82c5463",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 883,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/file-upload-scan-handoff-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/file-upload-scan-handoff-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/file-upload-scan-handoff-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/file-upload-scan-handoff-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/file-upload-scan-handoff-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "graphql-query-cost-limit-review",
+      "section": "Blog",
       "title": "Review GraphQL Query Cost Limits With Adversarial Documents",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "graphql-query-cost-limit-review",
       "route": "/blog/graphql-query-cost-limit-review",
-      "thumbnail": "/oct22/blog/graphql-query-cost-limit-review.png",
-      "thumbnailTitle": "Review GraphQL Query Cost Limits With Adversarial Documents",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/graphql-query-cost-limit-review.png",
       "thumbnailSha256": "deafab636cc9e38f298195de1f54ffb605842439c6c11da96d8cb6acdd6423a9",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 900,
+      "sourceCount": 5,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/graphql-query-cost-limit-review-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/graphql-query-cost-limit-review-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/graphql-query-cost-limit-review-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/graphql-query-cost-limit-review-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/graphql-query-cost-limit-review-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "keyboard-navigation-regression-sweep",
+      "section": "Blog",
       "title": "Sweep Keyboard Navigation Regressions on a Bounded Route Set",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "keyboard-navigation-regression-sweep",
       "route": "/blog/keyboard-navigation-regression-sweep",
-      "thumbnail": "/oct22/blog/keyboard-navigation-regression-sweep.png",
-      "thumbnailTitle": "Sweep Keyboard Navigation Regressions on a Bounded Route Set",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/keyboard-navigation-regression-sweep.png",
       "thumbnailSha256": "557edc018cc64f003a267703b4df7de28da0fb142ec44990956f4cdef7c339af",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 870,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/keyboard-navigation-regression-sweep-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/keyboard-navigation-regression-sweep-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/keyboard-navigation-regression-sweep-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/keyboard-navigation-regression-sweep-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/keyboard-navigation-regression-sweep-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "third-party-api-outage-fallback",
+      "section": "Blog",
       "title": "Test Third Party API Outage Fallbacks With Named Owners",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "third-party-api-outage-fallback",
       "route": "/blog/third-party-api-outage-fallback",
-      "thumbnail": "/oct22/blog/third-party-api-outage-fallback.png",
-      "thumbnailTitle": "Test Third Party API Outage Fallbacks With Named Owners",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/third-party-api-outage-fallback.png",
       "thumbnailSha256": "528bb2d4d076c4a28ecbf2a1cc9ba737fa5e95c8f3aac1103bda45b28dc254b8",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 884,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/third-party-api-outage-fallback-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/third-party-api-outage-fallback-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/third-party-api-outage-fallback-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/third-party-api-outage-fallback-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/third-party-api-outage-fallback-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "test-data-masking-review",
+      "section": "Blog",
       "title": "Review Test Data Masking Before Sharing a Fixture Set",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "test-data-masking-review",
       "route": "/blog/test-data-masking-review",
-      "thumbnail": "/oct22/blog/test-data-masking-review.png",
-      "thumbnailTitle": "Review Test Data Masking Before Sharing a Fixture Set",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/test-data-masking-review.png",
       "thumbnailSha256": "956fa744c75722c65e5fa5d0382089d7771604e2eeb0dff9c5cefb3ce1cfb136",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 877,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/test-data-masking-review-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/test-data-masking-review-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/test-data-masking-review-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/test-data-masking-review-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/test-data-masking-review-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "release-rollback-evidence-pack",
+      "section": "Blog",
       "title": "Assemble a Release Rollback Evidence Pack",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "release-rollback-evidence-pack",
       "route": "/blog/release-rollback-evidence-pack",
-      "thumbnail": "/oct22/blog/release-rollback-evidence-pack.png",
-      "thumbnailTitle": "Assemble a Release Rollback Evidence Pack",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/release-rollback-evidence-pack.png",
       "thumbnailSha256": "529709dea4895c7970846d0760a20ff73618f2beb83e4b426c8488b225ba2980",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 898,
+      "sourceCount": 5,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/release-rollback-evidence-pack-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/release-rollback-evidence-pack-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/release-rollback-evidence-pack-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/release-rollback-evidence-pack-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/release-rollback-evidence-pack-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "code-review-sla-evidence",
+      "section": "Blog",
       "title": "Measure Code Review Turnaround Without Hiding Wait Time",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "code-review-sla-evidence",
       "route": "/blog/code-review-sla-evidence",
-      "thumbnail": "/oct22/blog/code-review-sla-evidence.png",
-      "thumbnailTitle": "Measure Code Review Turnaround Without Hiding Wait Time",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/code-review-sla-evidence.png",
       "thumbnailSha256": "3eb9d3b958693594d5fdc60e9ee6fa5a496b786f8fbdd35162d68aa1a8d8d7dd",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 869,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/code-review-sla-evidence-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/code-review-sla-evidence-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/code-review-sla-evidence-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/code-review-sla-evidence-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/code-review-sla-evidence-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "offboarding-access-revocation-drill",
+      "section": "Blog",
       "title": "Drill Offboarding Access Revocation With a Closure Register",
-      "date": "2026-10-22",
-      "source": "app/october22-blog-batch.ts",
+      "slug": "offboarding-access-revocation-drill",
       "route": "/blog/offboarding-access-revocation-drill",
-      "thumbnail": "/oct22/blog/offboarding-access-revocation-drill.png",
-      "thumbnailTitle": "Drill Offboarding Access Revocation With a Closure Register",
-      "sha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "sourcePath": "app/october22-blog-batch.ts",
+      "sourceSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721",
+      "thumbnailPath": "public/oct22/blog/offboarding-access-revocation-drill.png",
       "thumbnailSha256": "090ca44dea639f4c4ba802a25ebfc41d632935f4f62588100268cfceb33e2f30",
-      "contentSha256": "3d7203fab863f35c2ec38bd212eee83ec3a7e86f222ed6d682f9027fb4857721"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 879,
+      "sourceCount": 4,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-revocation-drill-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-revocation-drill-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-revocation-drill-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-revocation-drill-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-revocation-drill-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "defect-escape-attribution-method",
+      "section": "Research",
       "title": "Defect Escape Attribution: A Method for Bounded Records",
-      "date": "2026-10-22",
-      "source": "app/october22-research-batch.ts",
+      "slug": "defect-escape-attribution-method",
       "route": "/research/defect-escape-attribution-method",
-      "thumbnail": "/oct22/research/defect-escape-attribution-method.png",
-      "thumbnailTitle": "Defect Escape Attribution: A Method for Bounded Records",
-      "sha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "sourcePath": "app/october22-research-batch.ts",
+      "sourceSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "thumbnailPath": "public/oct22/research/defect-escape-attribution-method.png",
       "thumbnailSha256": "b3d797682734b4421a9d76a232713609ccc5d12118c1e66237abf12008968d03",
-      "contentSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1428,
+      "sourceCount": 10,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/defect-escape-attribution-method-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/defect-escape-attribution-method-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/defect-escape-attribution-method-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/defect-escape-attribution-method-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/defect-escape-attribution-method-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "review-turnaround-evidence-protocol",
+      "section": "Research",
       "title": "Review Turnaround Evidence: A Protocol With Declared Clocks",
-      "date": "2026-10-22",
-      "source": "app/october22-research-batch.ts",
+      "slug": "review-turnaround-evidence-protocol",
       "route": "/research/review-turnaround-evidence-protocol",
-      "thumbnail": "/oct22/research/review-turnaround-evidence-protocol.png",
-      "thumbnailTitle": "Review Turnaround Evidence: A Protocol With Declared Clocks",
-      "sha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "sourcePath": "app/october22-research-batch.ts",
+      "sourceSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "thumbnailPath": "public/oct22/research/review-turnaround-evidence-protocol.png",
       "thumbnailSha256": "7eacb020fffac4f4011177b88ebf576ad2172c0071074dc7c98a23d7ab6971f1",
-      "contentSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1352,
+      "sourceCount": 10,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/review-turnaround-evidence-protocol-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/review-turnaround-evidence-protocol-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/review-turnaround-evidence-protocol-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/review-turnaround-evidence-protocol-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/review-turnaround-evidence-protocol-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "test-coverage-claim-verification",
+      "section": "Research",
       "title": "Verifying Test Coverage Claims Without Invented Numbers",
-      "date": "2026-10-22",
-      "source": "app/october22-research-batch.ts",
+      "slug": "test-coverage-claim-verification",
       "route": "/research/test-coverage-claim-verification",
-      "thumbnail": "/oct22/research/test-coverage-claim-verification.png",
-      "thumbnailTitle": "Verifying Test Coverage Claims Without Invented Numbers",
-      "sha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "sourcePath": "app/october22-research-batch.ts",
+      "sourceSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "thumbnailPath": "public/oct22/research/test-coverage-claim-verification.png",
       "thumbnailSha256": "62a8089bbb21b0475e8d80159ee865fffa2b028ac48e801d8919b49e7501da7e",
-      "contentSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1332,
+      "sourceCount": 10,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/test-coverage-claim-verification-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/test-coverage-claim-verification-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/test-coverage-claim-verification-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/test-coverage-claim-verification-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/test-coverage-claim-verification-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "dependency-vulnerability-triage-reliability",
+      "section": "Research",
       "title": "Dependency Vulnerability Triage: Reliability of a Declared Queue",
-      "date": "2026-10-22",
-      "source": "app/october22-research-batch.ts",
+      "slug": "dependency-vulnerability-triage-reliability",
       "route": "/research/dependency-vulnerability-triage-reliability",
-      "thumbnail": "/oct22/research/dependency-vulnerability-triage-reliability.png",
-      "thumbnailTitle": "Dependency Vulnerability Triage: Reliability of a Declared Queue",
-      "sha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "sourcePath": "app/october22-research-batch.ts",
+      "sourceSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "thumbnailPath": "public/oct22/research/dependency-vulnerability-triage-reliability.png",
       "thumbnailSha256": "0ce828e631c48e969577adf16d15af2b7dc537bd84c4bae9b9a89096e8d1fd51",
-      "contentSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1335,
+      "sourceCount": 10,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/dependency-vulnerability-triage-reliability-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/dependency-vulnerability-triage-reliability-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/dependency-vulnerability-triage-reliability-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/dependency-vulnerability-triage-reliability-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/dependency-vulnerability-triage-reliability-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "offboarding-access-closure-audit",
+      "section": "Research",
       "title": "Offboarding Access Closure: An Audit Method for Grant Records",
-      "date": "2026-10-22",
-      "source": "app/october22-research-batch.ts",
+      "slug": "offboarding-access-closure-audit",
       "route": "/research/offboarding-access-closure-audit",
-      "thumbnail": "/oct22/research/offboarding-access-closure-audit.png",
-      "thumbnailTitle": "Offboarding Access Closure: An Audit Method for Grant Records",
-      "sha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "sourcePath": "app/october22-research-batch.ts",
+      "sourceSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06",
+      "thumbnailPath": "public/oct22/research/offboarding-access-closure-audit.png",
       "thumbnailSha256": "d99611ab4cbc8e6ae51529a378ac5bc7d5f58d72a72a845b76f5cba5715db8d8",
-      "contentSha256": "f1e4c0f39f3be26753779fd651b35816e996c2786f531bf7c8844339cbcc6f06"
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1315,
+      "sourceCount": 10,
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-closure-audit-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-closure-audit-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-closure-audit-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-closure-audit-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcedprogrammers/render/shots/offboarding-access-closure-audit-mobile-toc.png"
+      }
     }
-  ]
+  ],
+  "errors": [],
+  "generatedAt": "2026-10-25",
+  "coverageJob": "outsourcedprogrammers|2026-10-22|render_evidence",
+  "checks": {
+    "contentCounts": "12 blog + 5 research",
+    "publicationDate": "2026-10-22",
+    "thumbnailSize": "1200x630",
+    "wordBands": "blog 850-1250, research 1300-2000 pass",
+    "uniqueSlugs": true,
+    "uniqueTitles": true,
+    "sourceHashes": "sha256 per source registry",
+    "thumbnailHashes": "sha256 per article",
+    "researchSources": ">=10 authoritative HTTPS sources per research article",
+    "build": "pass (npm run build through safe_build.sh)",
+    "renderedAudit": "17/17 articles pass desktop+mobile",
+    "visibleDate": "October 22, 2026 observed",
+    "timeDatetime": "2026-10-22 observed",
+    "desktopStickyToc": "pass",
+    "mobileStickyToc": "pass",
+    "horizontalOverflow": "0",
+    "missingAnchors": "none",
+    "brokenImages": "none"
+  },
+  "evidence": {
+    "helperArtifact": "helper-2/qa/coverage-outsourcedprogrammers/render/qa.json",
+    "screenshots": "helper-2/qa/coverage-outsourcedprogrammers/render/shots",
+    "note": "Evidence generated from local production server at content commit 4b82a8a; this manifest-only commit follows."
+  }
 }
