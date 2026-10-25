@@ -65,6 +65,10 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
       [
         "OpenTelemetry documentation",
         "https://opentelemetry.io/docs/"
+      ],
+      [
+        "GAO Assessing Data Reliability",
+        "https://www.gao.gov/products/gao-20-283g"
       ]
     ],
     "related": [
@@ -140,6 +144,14 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
       [
         "OpenTelemetry documentation",
         "https://opentelemetry.io/docs/"
+      ],
+      [
+        "GAO Assessing Data Reliability",
+        "https://www.gao.gov/products/gao-20-283g"
+      ],
+      [
+        "OWASP Application Security Verification Standard",
+        "https://owasp.org/www-project-application-security-verification-standard/"
       ]
     ],
     "related": [
@@ -215,6 +227,14 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
       [
         "OpenTelemetry documentation",
         "https://opentelemetry.io/docs/"
+      ],
+      [
+        "CISA Secure by Design",
+        "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GAO Assessing Data Reliability",
+        "https://www.gao.gov/products/gao-20-283g"
       ]
     ],
     "related": [
@@ -294,6 +314,10 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
       [
         "OpenTelemetry documentation",
         "https://opentelemetry.io/docs/"
+      ],
+      [
+        "GAO Assessing Data Reliability",
+        "https://www.gao.gov/products/gao-20-283g"
       ]
     ],
     "related": [
@@ -373,6 +397,10 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
       [
         "CISA Secure by Design",
         "https://www.cisa.gov/securebydesign"
+      ],
+      [
+        "GAO Assessing Data Reliability",
+        "https://www.gao.gov/products/gao-20-283g"
       ]
     ],
     "related": [
