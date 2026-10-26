@@ -265,9 +265,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Give the reviewer commands and context up front."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Scope maintenance work around a bounded integration."
+        "label": "Node.js API development",
+        "url": "/services/nodejs-api-development",
+        "note": "Scope the receiver work around one bounded integration."
       }
     ],
     "heroImage": "/oct22/blog/webhook-signature-replay-window-test.png"
@@ -452,9 +452,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Keep reversible data work separate from risky changes."
       },
       {
-        "label": "Reporting and QA support",
-        "url": "/services/reporting-and-qa",
-        "note": "Add measured checks to maintenance work."
+        "label": "Node.js API development",
+        "url": "/services/nodejs-api-development",
+        "note": "Test one queue worker with a written duplicate-delivery rule."
       }
     ],
     "heroImage": "/oct22/blog/background-job-idempotency-rehearsal.png"
@@ -645,9 +645,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Give the reviewer commands, context, and escalation rules."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Scope ongoing maintenance around small reviewed changes."
+        "label": "Database engineering",
+        "url": "/services/database-engineering",
+        "note": "Review one index change against the query evidence."
       }
     ],
     "heroImage": "/oct22/blog/database-index-change-review.png"
@@ -833,9 +833,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Turn launch support into a bounded brief."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Ongoing maintenance with named owners."
+        "label": "DevOps support",
+        "url": "/services/devops-support",
+        "note": "Prepare one controlled feature-flag change for owner review."
       }
     ],
     "heroImage": "/oct22/blog/feature-flag-kill-switch-rehearsal.png"
@@ -1022,9 +1022,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Limit tools and record offboarding."
       },
       {
-        "label": "App support and bug triage",
-        "url": "/services/customer-support",
-        "note": "Route customer upload reports into engineering tickets."
+        "label": "Node.js API development",
+        "url": "/services/nodejs-api-development",
+        "note": "Route one upload-control fix through an owner-reviewed API change."
       }
     ],
     "heroImage": "/oct22/blog/file-upload-scan-handoff.png"
@@ -1217,9 +1217,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Decide which test work is ready for help."
       },
       {
-        "label": "Reporting and QA support",
-        "url": "/services/reporting-and-qa",
-        "note": "Add measurement to interface reviews."
+        "label": "Node.js API development",
+        "url": "/services/nodejs-api-development",
+        "note": "Review one API limit with reproducible request evidence."
       }
     ],
     "heroImage": "/oct22/blog/graphql-query-cost-limit-review.png"
@@ -1407,9 +1407,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Use a small ticket and a named reviewer."
       },
       {
-        "label": "Reporting and QA support",
-        "url": "/services/reporting-and-qa",
-        "note": "Add a repeatable evidence format to QA work."
+        "label": "QA automation",
+        "url": "/services/qa-automation",
+        "note": "Add a repeatable evidence format to one keyboard test."
       }
     ],
     "heroImage": "/oct22/blog/keyboard-navigation-regression-sweep.png"
@@ -1597,9 +1597,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Give the on call reader context and escalation rules."
       },
       {
-        "label": "App support and bug triage",
-        "url": "/services/customer-support",
-        "note": "Turn customer outage reports into engineering tickets."
+        "label": "Node.js API development",
+        "url": "/services/nodejs-api-development",
+        "note": "Trace one outage fallback with the API owner."
       }
     ],
     "heroImage": "/oct22/blog/third-party-api-outage-fallback.png"
@@ -1787,9 +1787,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Keep reversible data work separate from risky changes."
       },
       {
-        "label": "Code documentation support",
-        "url": "/services/admin-support",
-        "note": "Document the fixture and retention rules for the team."
+        "label": "QA automation",
+        "url": "/services/qa-automation",
+        "note": "Test one masked fixture set with written retention rules."
       }
     ],
     "heroImage": "/oct22/blog/test-data-masking-review.png"
@@ -1976,9 +1976,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Give the operator context and escalation rules."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Scope release preparation as ongoing support."
+        "label": "DevOps support",
+        "url": "/services/devops-support",
+        "note": "Prepare one rollback packet for the platform owner."
       }
     ],
     "heroImage": "/oct22/blog/release-rollback-evidence-pack.png"
@@ -2166,9 +2166,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Reduce rework with a clearer brief."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Keep review and handoff work inside a bounded lane."
+        "label": "QA automation",
+        "url": "/services/qa-automation",
+        "note": "Keep one review record inside a bounded QA lane."
       }
     ],
     "heroImage": "/oct22/blog/code-review-sla-evidence.png"
@@ -2356,9 +2356,9 @@ export const october22BlogDetails: Record<string, BlogDetail> = {
         "note": "Write access limits into the role brief."
       },
       {
-        "label": "Development operations support",
-        "url": "/services/operations-support",
-        "note": "Keep access and handoff work inside a reviewed lane."
+        "label": "DevOps support",
+        "url": "/services/devops-support",
+        "note": "Keep access closure inside an owner-reviewed DevOps lane."
       }
     ],
     "heroImage": "/oct22/blog/offboarding-access-revocation-drill.png"

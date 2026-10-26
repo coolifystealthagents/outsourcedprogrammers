@@ -162,8 +162,8 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
     "hero": "/oct22/research/review-turnaround-evidence-protocol.png",
     "nextStep": {
       "heading": "Measure one repository honestly",
-      "href": "/services/reporting-and-qa",
-      "label": "Review reporting and QA support",
+      "href": "/services/qa-automation",
+      "label": "Review QA automation support",
       "copy": "Use one repository and one quarter to test the clock definition before expanding the measurement."
     }
   },
@@ -328,8 +328,8 @@ export const october22ResearchBatch: ReadonlyArray<ResearchPost> = [
     "hero": "/oct22/research/dependency-vulnerability-triage-reliability.png",
     "nextStep": {
       "heading": "Audit one dependency queue",
-      "href": "/services/operations-support",
-      "label": "Review operations support",
+      "href": "/services/devops-support",
+      "label": "Review DevOps support",
       "copy": "Use one service and one advisory source to test the dedupe and decision rules before widening the queue."
     }
   },

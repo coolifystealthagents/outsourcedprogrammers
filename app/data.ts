@@ -41,7 +41,7 @@ export const site = {
 
 export const services = [
   {
-    slug: 'operations-support',
+    slug: 'legacy-application-maintenance',
     title: 'Development operations support',
     desc: 'Ongoing programming support for small teams that need backlog cleanup, release notes, ticket updates, and careful code handoffs.',
     buyerProblem: 'The dev backlog keeps growing, but full-time local hiring is too slow for small fixes, QA follow-up, and maintenance work.',
@@ -58,7 +58,7 @@ export const services = [
     ],
   },
   {
-    slug: 'customer-support',
+    slug: 'qa-automation',
     title: 'App support and bug triage',
     desc: 'Developer-backed support for SaaS and web teams that need bugs sorted, repro steps written, and fixes routed to the right owner.',
     buyerProblem: 'Support tickets reach engineering without screenshots, repro steps, browser details, or clear severity. Programmers waste time rebuilding context.',
@@ -75,7 +75,7 @@ export const services = [
     ],
   },
   {
-    slug: 'admin-support',
+    slug: 'legacy-application-maintenance',
     title: 'Code documentation support',
     desc: 'Programming admin support for teams that need setup docs, SOPs, changelog notes, and clearer developer handoffs.',
     buyerProblem: 'Good developers lose time because the same setup, access, and handoff questions get answered again and again.',
@@ -92,7 +92,7 @@ export const services = [
     ],
   },
   {
-    slug: 'reporting-and-qa',
+    slug: 'qa-automation-reporting',
     title: 'QA reporting and release checks',
     desc: 'QA support for outsourced programming teams that need test notes, bug logs, release checks, and manager-ready status reports.',
     buyerProblem: 'A build can look done while bugs, missed edge cases, and unclear release notes sit underneath it.',
