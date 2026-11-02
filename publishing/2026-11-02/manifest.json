@@ -1,0 +1,191 @@
+{
+  "site": "OutsourcedProgrammers.com",
+  "domain": "https://outsourcedprogrammers.com",
+  "repository": "coolifystealthagents/outsourcedprogrammers",
+  "branch": "main",
+  "baseSha": "da7474741fbd4fbdd0c736048628d4d67d6a2789",
+  "publicationDate": "2026-11-02",
+  "visibleDate": "November 2, 2026",
+  "counts": {
+    "blog": 5,
+    "research": 5,
+    "total": 10,
+    "thumbnails": 10
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Review pull request scope before merging outsourced work",
+      "slug": "outsourcedprogrammers-pull-request-scope-review",
+      "route": "/blog/outsourcedprogrammers-pull-request-scope-review",
+      "sourcePath": "app/november2-blog-batch.ts",
+      "sourceSha256": "3604bc3193c285220f0efe41aa1d058a43a073f1edb728fd84c18fe20d04bc10",
+      "thumbnailPath": "public/nov02/blog/outsourcedprogrammers-pull-request-scope-review.webp",
+      "thumbnailSha256": "b5885667083972635c794c15bbcf2598add8f70e2b257dcbe3fd28d615856c2b",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1462,
+      "sourceCount": 4,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Blog",
+      "title": "Open legacy code with a read-only reconnaissance ticket",
+      "slug": "outsourcedprogrammers-legacy-code-read-only-recon",
+      "route": "/blog/outsourcedprogrammers-legacy-code-read-only-recon",
+      "sourcePath": "app/november2-blog-batch.ts",
+      "sourceSha256": "3604bc3193c285220f0efe41aa1d058a43a073f1edb728fd84c18fe20d04bc10",
+      "thumbnailPath": "public/nov02/blog/outsourcedprogrammers-legacy-code-read-only-recon.webp",
+      "thumbnailSha256": "0a527c5aa1fb1b91704ef38e8be0b4872da6670740d286163226d3f73f543858",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1377,
+      "sourceCount": 4,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Blog",
+      "title": "Run a production hotfix lane without moving release authority",
+      "slug": "outsourcedprogrammers-production-hotfix-approval-lane",
+      "route": "/blog/outsourcedprogrammers-production-hotfix-approval-lane",
+      "sourcePath": "app/november2-blog-batch.ts",
+      "sourceSha256": "3604bc3193c285220f0efe41aa1d058a43a073f1edb728fd84c18fe20d04bc10",
+      "thumbnailPath": "public/nov02/blog/outsourcedprogrammers-production-hotfix-approval-lane.webp",
+      "thumbnailSha256": "b1c90fd555e47342a83cb7a18b9816c4057ea6110e17aa340afb746598580fa1",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1389,
+      "sourceCount": 4,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Blog",
+      "title": "Rehearse rollback before an outsourced release",
+      "slug": "outsourcedprogrammers-release-rollback-rehearsal",
+      "route": "/blog/outsourcedprogrammers-release-rollback-rehearsal",
+      "sourcePath": "app/november2-blog-batch.ts",
+      "sourceSha256": "3604bc3193c285220f0efe41aa1d058a43a073f1edb728fd84c18fe20d04bc10",
+      "thumbnailPath": "public/nov02/blog/outsourcedprogrammers-release-rollback-rehearsal.webp",
+      "thumbnailSha256": "a56a13bb42867b89e8a3df5cc5f73f8953fabf9a0b7587100f37f864b838084e",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1355,
+      "sourceCount": 4,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Blog",
+      "title": "Make QA evidence survive the next sprint handoff",
+      "slug": "outsourcedprogrammers-qa-evidence-sprint-handoff",
+      "route": "/blog/outsourcedprogrammers-qa-evidence-sprint-handoff",
+      "sourcePath": "app/november2-blog-batch.ts",
+      "sourceSha256": "3604bc3193c285220f0efe41aa1d058a43a073f1edb728fd84c18fe20d04bc10",
+      "thumbnailPath": "public/nov02/blog/outsourcedprogrammers-qa-evidence-sprint-handoff.webp",
+      "thumbnailSha256": "e92a70d37857a54508184572382893279d669240c5b56b363792b86f2ee05977",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1332,
+      "sourceCount": 4,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Research",
+      "title": "How much review evidence does an outsourced pull request need?",
+      "slug": "outsourcedprogrammers-review-evidence-sufficiency-research",
+      "route": "/research/outsourcedprogrammers-review-evidence-sufficiency-research",
+      "sourcePath": "app/november2-research-batch.ts",
+      "sourceSha256": "44ac1c55d64941994ef5757c14f28ddd85dadd8a373a46be4dbf6e708623afcc",
+      "thumbnailPath": "public/nov02/research/outsourcedprogrammers-review-evidence-sufficiency-research.webp",
+      "thumbnailSha256": "779d4a3c8e0f2900e69b99d675909a997acaac2980e8ef41ed6535092c219807",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1408,
+      "sourceCount": 5,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Research",
+      "title": "Sampling review comments for repeated defect patterns",
+      "slug": "outsourcedprogrammers-review-comment-sampling-research",
+      "route": "/research/outsourcedprogrammers-review-comment-sampling-research",
+      "sourcePath": "app/november2-research-batch.ts",
+      "sourceSha256": "44ac1c55d64941994ef5757c14f28ddd85dadd8a373a46be4dbf6e708623afcc",
+      "thumbnailPath": "public/nov02/research/outsourcedprogrammers-review-comment-sampling-research.webp",
+      "thumbnailSha256": "4dea5e70631567faa03e2e4c45594e5d49631cc826fe9b8a19db550801dead2f",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1363,
+      "sourceCount": 5,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Research",
+      "title": "Measuring rework in an outsourced maintenance queue",
+      "slug": "outsourcedprogrammers-maintenance-rework-measurement-research",
+      "route": "/research/outsourcedprogrammers-maintenance-rework-measurement-research",
+      "sourcePath": "app/november2-research-batch.ts",
+      "sourceSha256": "44ac1c55d64941994ef5757c14f28ddd85dadd8a373a46be4dbf6e708623afcc",
+      "thumbnailPath": "public/nov02/research/outsourcedprogrammers-maintenance-rework-measurement-research.webp",
+      "thumbnailSha256": "542795bc6f80e0fa65bd12d9a7ea546c28b891d50c1ac3cecfd5d0099a23ce74",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1402,
+      "sourceCount": 5,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Research",
+      "title": "Testing whether test evidence predicts escaped defects",
+      "slug": "outsourcedprogrammers-test-evidence-escaped-defects-research",
+      "route": "/research/outsourcedprogrammers-test-evidence-escaped-defects-research",
+      "sourcePath": "app/november2-research-batch.ts",
+      "sourceSha256": "44ac1c55d64941994ef5757c14f28ddd85dadd8a373a46be4dbf6e708623afcc",
+      "thumbnailPath": "public/nov02/research/outsourcedprogrammers-test-evidence-escaped-defects-research.webp",
+      "thumbnailSha256": "4d087803afbd662a6ef4874eaa3aee3f2a1321780267c23700a775ac366cb4fe",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1427,
+      "sourceCount": 5,
+      "publicationDate": "2026-11-02"
+    },
+    {
+      "section": "Research",
+      "title": "Auditing access removal after contractor offboarding",
+      "slug": "outsourcedprogrammers-offboarding-access-removal-research",
+      "route": "/research/outsourcedprogrammers-offboarding-access-removal-research",
+      "sourcePath": "app/november2-research-batch.ts",
+      "sourceSha256": "44ac1c55d64941994ef5757c14f28ddd85dadd8a373a46be4dbf6e708623afcc",
+      "thumbnailPath": "public/nov02/research/outsourcedprogrammers-offboarding-access-removal-research.webp",
+      "thumbnailSha256": "3458be099250bcb0fa49789330dad8daa895e4ba2a29b510a1287db5e00c12a2",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "wordCount": 1327,
+      "sourceCount": 5,
+      "publicationDate": "2026-11-02"
+    }
+  ]
+}
