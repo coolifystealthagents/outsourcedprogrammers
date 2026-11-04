@@ -23,6 +23,7 @@ import { october12BlogBatch, october12BlogDetails } from './october12-blog-batch
 import { october13BlogBatch, october13BlogDetails } from './october13-blog-batch';
 import { november2BlogBatch, november2BlogDetails } from './november2-blog-batch';
 import { november3BlogBatch, november3BlogDetails } from './november3-blog-batch';
+import { november4BlogBatch, november4BlogDetails } from './november4-blog-batch';
 import { october28BlogBatch, october28BlogDetails } from './october28-blog-batch';
 import { october27BlogBatch, october27BlogDetails } from './october27-blog-batch';
 import { october26BlogBatch, october26BlogDetails } from './october26-blog-batch';
@@ -117,6 +118,7 @@ export const services = [
 ] as const;
 
 export const blogPosts: ReadonlyArray<{ slug: string; title: string; excerpt: string; minutes: number; published?: string }> = [
+  ...november4BlogBatch,
   ...november3BlogBatch,
   ...november2BlogBatch,
   ...october28BlogBatch,
@@ -354,6 +356,7 @@ export type BlogDetail = {
 };
 
 export const blogDetails: Record<string, BlogDetail> = {
+  ...november4BlogDetails,
   ...november3BlogDetails,
   ...november2BlogDetails,
   ...october28BlogDetails,
