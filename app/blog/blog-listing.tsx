@@ -1,7 +1,7 @@
 import { FeaturedComparison } from "./FeaturedComparison";
 import { notFound } from "next/navigation";
 import { Header, Footer } from "../components";
-import { blogPosts } from "../data";
+import { blogDetails, blogPosts } from "../data";
 const PAGE_SIZE = 20;
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-US", {
@@ -35,6 +35,16 @@ export function BlogListing({ page = 1 }: { page?: number }) {
             <div className="fleet-card-grid">
               {posts.map((p) => (
                 <a className="fleet-card" href={`/blog/${p.slug}`} key={p.slug}>
+                  {blogDetails[p.slug]?.heroImage && (
+                    <img
+                      className="fleet-card-media"
+                      src={blogDetails[p.slug].heroImage}
+                      alt={p.title}
+                      width={1200}
+                      height={630}
+                      loading="lazy"
+                    />
+                  )}
                   <h2>{p.title}</h2>
                   <p>{p.excerpt}</p>
                   {p.published && (

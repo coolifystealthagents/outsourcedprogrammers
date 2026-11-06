@@ -39,6 +39,16 @@ export default function Research() {
                 key={p.slug}
               >
                 <p className="eyebrow">{p.topic || "Research"}</p>
+                {p.hero && (
+                  <img
+                    className="fleet-card-media"
+                    src={p.hero}
+                    alt={p.title}
+                    width={1200}
+                    height={630}
+                    loading="lazy"
+                  />
+                )}
                 <h2>{p.title}</h2>
                 <p>{p.excerpt}</p>
                 <small>
