@@ -30,7 +30,7 @@ export const november6BlogBatch = [
     ]
   },
   {
-    "slug": "set-a-code-freeze-that-an-offshore-team-can-follow",
+    "slug": "set-a-code-freeze-that-an-offshore-team-can-actually-follow",
     "title": "Set a code freeze that an offshore team can actually follow",
     "excerpt": "A narrow, time-zone-aware freeze with a real hotfix lane, dependency controls, and a written reopening check.",
     "minutes": 6,
@@ -286,7 +286,7 @@ export const november6BlogDetails = {
     ],
     "heroImage": "/nov06/blog/run-a-weekly-defect-triage-queue-with-an-offshore-qa-partner.webp"
   },
-  "set-a-code-freeze-that-an-offshore-team-can-follow": {
+  "set-a-code-freeze-that-an-offshore-team-can-actually-follow": {
     "takeaways": [
       "Name repositories, branches, and the protected release reference.",
       "Publish the window in client, offshore, and UTC time.",
@@ -418,7 +418,7 @@ export const november6BlogDetails = {
         "note": "Guidance on controlled releases and accountable ownership."
       }
     ],
-    "heroImage": "/nov06/blog/set-a-code-freeze-that-an-offshore-team-can-follow.webp"
+    "heroImage": "/nov06/blog/set-a-code-freeze-that-an-offshore-team-can-actually-follow.webp"
   },
   "write-a-remote-pairing-agenda-for-outsourced-engineers": {
     "takeaways": [
