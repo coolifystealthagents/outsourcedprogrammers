@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const csp=["default-src 'self'","base-uri 'self'","object-src 'none'","frame-ancestors 'none'","form-action 'self'","img-src 'self' data: https:","font-src 'self' data:","style-src 'self' 'unsafe-inline'","script-src 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://static.cloudflareinsights.com","connect-src 'self' https://acrtracking.stealthagents.us https://cloudflareinsights.com","frame-src https://go.oncehub.com","upgrade-insecure-requests"].join('; ');
+const csp=["default-src 'self'","base-uri 'self'","object-src 'none'","frame-ancestors 'none'","form-action 'self'","img-src 'self' data: https:","font-src 'self' data:","style-src 'self' 'unsafe-inline'"," https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://static.cloudflareinsights.com"," https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us https://cloudflareinsights.com","frame-src https://go.oncehub.com","upgrade-insecure-requests"].join('; ');
 const securityHeaders=[
  {key:'Content-Security-Policy',value:csp},
  {key:'Strict-Transport-Security',value:'max-age=31536000; includeSubDomains; preload'},
