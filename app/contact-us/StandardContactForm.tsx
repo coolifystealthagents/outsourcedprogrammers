@@ -60,17 +60,10 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
+      try { /* ACR captures the native submit event once. */ } catch {}
       window.location.assign("/thank-you");
     } catch {
-      try {
-        const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-        if (tracker) {
-          tracker(payload);
-          window.location.assign("/thank-you");
-          return;
-        }
-      } catch {}
+      /* ACR auto capture must not turn a rejected booking into success. */
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
     }
@@ -80,7 +73,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     <div className="sa-form-card" id="top-form">
       <p className="sa-form-kicker">Free developer consultation</p>
       <h2>Tell us about the programmer you need.</h2>
-      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm">
+      <form data-acr-managed="react" action={endpoint} method="post" onSubmit={submit} id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>

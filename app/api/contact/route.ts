@@ -84,5 +84,6 @@ export async function POST(request:NextRequest){
     await sendLeadFallbackToMattermost(fallbackLead);
     return errorPage(502);
   }
-  return NextResponse.redirect(new URL('/thank-you',request.url),303);
+  if(request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you'}, {headers:{'cache-control':'no-store'}});
+  return NextResponse.redirect(new URL('/thank-you','https://outsourcedprogrammers.com'),303);
 }
