@@ -1,0 +1,1042 @@
+{
+  "blog/set-up-a-client-owned-staging-environment-for-an-offshore-team": {
+    "image": "/nov07/blog/set-up-a-client-owned-staging-environment-for-an-offshore-team.webp",
+    "imageAlt": "Set up a client-owned staging environment for an offshore team"
+  },
+  "blog/outsource-database-lock-contention-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Investigate database lock contention in a bounded outsourced task"
+  },
+  "blog/outsource-config-drift-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-config-drift-review.png",
+    "imageAlt": "Outsource application configuration-drift review with source evidence"
+  },
+  "blog/outsource-data-import-resume-checkpoint-test": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Interrupt a data import at every checkpoint that matters"
+  },
+  "blog/outsource-graphql-error-contract-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-graphql-error-contract-review.png",
+    "imageAlt": "Outsource GraphQL error-contract review before clients depend on it"
+  },
+  "blog/outsource-api-idempotency-key-scope-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Define the boundary of an API idempotency key before testing retries"
+  },
+  "blog/outsource-audit-export-redaction-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Review audit-export redaction with an outsourced programmer"
+  },
+  "blog/outsource-search-synonym-release-review-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Review a search synonym release with queries people can recognize , September 14 review"
+  },
+  "blog/plan-a-quarterly-knowledge-transfer-for-an-outsourced-codebase": {
+    "image": "/nov07/blog/plan-a-quarterly-knowledge-transfer-for-an-outsourced-codebase.webp",
+    "imageAlt": "Plan a quarterly knowledge transfer for an outsourced codebase"
+  },
+  "blog/run-a-weekly-defect-triage-queue-with-an-offshore-qa-partner": {
+    "image": "/nov06/blog/run-a-weekly-defect-triage-queue-with-an-offshore-qa-partner.webp",
+    "imageAlt": "Run a weekly defect triage queue with an offshore QA partner"
+  },
+  "blog/outsource-object-store-presigned-upload-review-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Put presigned uploads through their awkward boundary cases , September 14 review"
+  },
+  "blog/outsource-session-expiry-warning-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test session-expiry warnings without using real accounts"
+  },
+  "blog/outsource-redis-eviction-policy-rehearsal": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Rehearse Redis eviction with data that has different jobs"
+  },
+  "blog/run-a-quarterly-architecture-decision-review-with-an-offshore-team": {
+    "image": "/nov08/blog/run-a-quarterly-architecture-decision-review-with-an-offshore-team.webp",
+    "imageAlt": "Run a quarterly architecture decision review with an offshore team"
+  },
+  "blog/outsource-redirect-canonical-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-redirect-canonical-review.png",
+    "imageAlt": "Outsource redirect and canonical review for safe site changes"
+  },
+  "blog/outsource-pdf-generation-font-fallback-qa-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check generated PDFs when the preferred font has missing glyphs , September 11 review"
+  },
+  "blog/outsource-analytics-event-validation": {
+    "image": "/blog-heroes/2026-08-20/outsource-analytics-event-validation.png",
+    "imageAlt": "Outsource analytics-event validation with consent-aware fixtures"
+  },
+  "blog/outsource-admin-role-qa": {
+    "image": "/blog-heroes/2026-08-20/outsource-admin-role-qa.png",
+    "imageAlt": "Outsource admin-role QA with explicit authorization fixtures"
+  },
+  "blog/set-a-pull-request-size-limit-for-an-offshore-delivery-team": {
+    "image": "/nov07/blog/set-a-pull-request-size-limit-for-an-offshore-delivery-team.webp",
+    "imageAlt": "Set a pull request size limit for an offshore delivery team"
+  },
+  "blog/outsource-postgres-failover-connection-qa": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check application connections during a PostgreSQL failover drill"
+  },
+  "blog/define-a-client-approval-window-for-offshore-database-changes": {
+    "image": "/nov09/blog/define-a-client-approval-window-for-offshore-database-changes.webp",
+    "imageAlt": "Define a client approval window for offshore database changes"
+  },
+  "blog/outsource-mobile-offline-conflict-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test mobile offline edits when two devices reconnect"
+  },
+  "blog/outsource-terraform-state-lock-recovery-drill-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Practice recovering a Terraform state lock without forcing the wrong unlock , September 11 review"
+  },
+  "blog/outsource-search-index-rebuild-qa": {
+    "image": "/blog-heroes/2026-08-21/outsource-search-index-rebuild-qa.png",
+    "imageAlt": "Outsource search-index rebuild QA with freshness and permission checks"
+  },
+  "blog/outsource-saml-metadata-rotation-rehearsal-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Rehearse a SAML metadata rotation before the old certificate expires: September 14 review"
+  },
+  "blog/define-a-shared-definition-of-done-for-an-outsourced-qa-lane": {
+    "image": "/nov08/blog/define-a-shared-definition-of-done-for-an-outsourced-qa-lane.webp",
+    "imageAlt": "Define a shared definition of done for an outsourced QA lane"
+  },
+  "blog/outsource-websocket-backpressure-qa-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Push a WebSocket client past its comfortable message rate: September 14 review"
+  },
+  "blog/outsource-incident-log-reconstruction": {
+    "image": "/blog-heroes/2026-08-20/outsource-incident-log-reconstruction.png",
+    "imageAlt": "Outsource incident log reconstruction with a bounded timeline"
+  },
+  "blog/outsource-feature-flag-targeting-precedence-test-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Make feature flag targeting rules disagree on purpose , September 11 review"
+  },
+  "blog/outsource-graphql-depth-limit-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Review GraphQL depth limits with queries that resemble real work"
+  },
+  "blog/outsource-pagination-cursor-contract-review": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Review pagination cursor contracts across changing data"
+  },
+  "blog/outsource-webhook-destination-dns-change-test": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Test webhook delivery when a destination changes DNS answers"
+  },
+  "blog/outsource-pull-request-handoff": {
+    "image": "/blog-heroes/2026-08-20/outsource-pull-request-handoff.png",
+    "imageAlt": "Outsource pull-request handoffs with reviewer-ready evidence"
+  },
+  "blog/outsource-background-job-lease-expiry-test-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test what happens when a background job outlives its lease , September 11 review"
+  },
+  "blog/outsource-object-storage-multipart-cleanup": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Audit abandoned multipart uploads before storage quietly grows"
+  },
+  "blog/outsource-push-notification-token-lifecycle-qa-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Follow a push notification token from registration to retirement , September 14 review"
+  },
+  "blog/write-a-rollback-rehearsal-plan-for-an-offshore-release-train": {
+    "image": "/nov09/blog/write-a-rollback-rehearsal-plan-for-an-offshore-release-train.webp",
+    "imageAlt": "Write a rollback rehearsal plan for an offshore release train"
+  },
+  "blog/outsource-database-backup-restore-drill": {
+    "image": "/blog-heroes/2026-08-20/outsource-database-backup-restore-drill.png",
+    "imageAlt": "Outsource backup-restore drill preparation with recovery evidence"
+  },
+  "blog/set-a-defect-triage-rota-for-an-outsourced-maintenance-team": {
+    "image": "/nov09/blog/set-a-defect-triage-rota-for-an-outsourced-maintenance-team.webp",
+    "imageAlt": "Set a defect triage rota for an outsourced maintenance team"
+  },
+  "blog/outsource-signed-download-expiry-testing": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test signed download expiry with two clocks and one clear policy"
+  },
+  "blog/outsource-api-error-envelope-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Compare API error envelopes before assigning client fixes"
+  },
+  "blog/outsource-api-pagination-snapshot-consistency-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test pagination while records are changing underneath it , September 11 review"
+  },
+  "blog/outsource-idempotency-key-retention-test": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test idempotency keys after their retention window closes"
+  },
+  "blog/outsource-postgres-row-level-security-review-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Review PostgreSQL row security with the roles the application actually uses , September 14 review"
+  },
+  "blog/outsource-cache-key-tenant-boundary-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Audit cache-key tenant boundaries with contrasting fixtures"
+  },
+  "blog/outsource-feature-entitlement-cache-qa": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Test cached feature entitlements after a plan change"
+  },
+  "blog/outsource-email-bounce-state-reconciliation": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Reconcile email bounce states across provider and application records"
+  },
+  "blog/outsource-csv-formula-injection-qa": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check CSV exports for spreadsheet formula injection"
+  },
+  "blog/run-a-quarterly-secrets-rotation-review-for-an-offshore-team": {
+    "image": "/nov09/blog/run-a-quarterly-secrets-rotation-review-for-an-offshore-team.webp",
+    "imageAlt": "Run a quarterly secrets rotation review for an offshore team"
+  },
+  "blog/outsource-service-worker-update-race-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Catch a service worker update between two page loads"
+  },
+  "blog/outsource-orm-query-regression-review": {
+    "image": "/blog-heroes/2026-08-20/outsource-orm-query-regression-review.png",
+    "imageAlt": "Outsource ORM query regression review with fixture evidence"
+  },
+  "blog/outsource-cache-invalidation-testing": {
+    "image": "/blog-heroes/2026-08-20/outsource-cache-invalidation-testing.png",
+    "imageAlt": "Outsource cache-invalidation testing with freshness evidence"
+  },
+  "blog/outsource-oauth-device-code-flow-test-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test the OAuth device code flow on a second screen , September 14 review"
+  },
+  "blog/outsource-api-pagination-snapshot-consistency-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test pagination while records are changing underneath it , September 14 review"
+  },
+  "blog/outsource-postgres-row-level-security-review-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Review PostgreSQL row security with the roles the application actually uses , September 11 review"
+  },
+  "blog/outsource-file-upload-security-qa": {
+    "image": "/blog-heroes/2026-08-20/outsource-file-upload-security-qa.png",
+    "imageAlt": "Outsource file-upload QA with safe validation fixtures"
+  },
+  "blog/outsource-email-template-rendering": {
+    "image": "/blog-heroes/2026-08-20/outsource-email-template-rendering.png",
+    "imageAlt": "Outsource email-template rendering checks with inbox fixtures"
+  },
+  "blog/outsource-third-party-sdk-upgrade": {
+    "image": "/blog-heroes/2026-08-20/outsource-third-party-sdk-upgrade.png",
+    "imageAlt": "Outsource third-party SDK upgrade triage with compatibility proof"
+  },
+  "blog/outsource-background-job-cancellation-review": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test background-job cancellation at each work boundary"
+  },
+  "blog/outsource-oauth-device-code-flow-test-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test the OAuth device code flow on a second screen , September 11 review"
+  },
+  "blog/outsource-browser-storage-migration-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test a browser storage migration with old tabs still open"
+  },
+  "blog/write-a-client-owned-incident-severity-matrix-for-an-offshore-support-pod": {
+    "image": "/nov10/blog/write-a-client-owned-incident-severity-matrix-for-an-offshore-support-pod.webp",
+    "imageAlt": "Write a client-owned incident severity matrix for an offshore support pod"
+  },
+  "blog/outsource-passkey-recovery-path-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test passkey recovery paths before users get locked out"
+  },
+  "blog/outsource-feature-flag-targeting-precedence-test-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Make feature flag targeting rules disagree on purpose , September 14 review"
+  },
+  "blog/outsource-feature-flag-retirement-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-feature-flag-retirement-review.png",
+    "imageAlt": "Outsource a feature-flag retirement review without leaving dead paths"
+  },
+  "blog/outsource-background-job-lease-expiry-test-september-14-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test what happens when a background job outlives its lease: September 14 review"
+  },
+  "blog/write-a-release-note-that-an-offshore-team-can-hand-to-support": {
+    "image": "/nov07/blog/write-a-release-note-that-an-offshore-team-can-hand-to-support.webp",
+    "imageAlt": "Write a release note that an offshore team can hand to support"
+  },
+  "blog/outsource-dependency-license-inventory-handoff": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Build a dependency-license inventory for counsel review"
+  },
+  "blog/outsource-schema-registry-compatibility-check": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Put a schema registry compatibility rule against real change shapes"
+  },
+  "blog/set-an-asynchronous-decision-log-for-an-offshore-delivery-team": {
+    "image": "/nov10/blog/set-an-asynchronous-decision-log-for-an-offshore-delivery-team.webp",
+    "imageAlt": "Set an asynchronous decision log for an offshore delivery team"
+  },
+  "blog/outsource-kubernetes-termination-grace-period-drill": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Watch a Kubernetes workload run out of termination grace"
+  },
+  "blog/outsource-push-notification-token-lifecycle-qa-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Follow a push notification token from registration to retirement , September 11 review"
+  },
+  "blog/set-a-code-freeze-that-an-offshore-team-can-actually-follow": {
+    "image": "/nov06/blog/set-a-code-freeze-that-an-offshore-team-can-actually-follow.webp",
+    "imageAlt": "Set a code freeze that an offshore team can actually follow"
+  },
+  "blog/outsource-clock-skew-token-validation-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Move two clocks apart and inspect token validation"
+  },
+  "blog/outsource-pdf-accessibility-qa": {
+    "image": "/blog-heroes/2026-08-21/outsource-pdf-accessibility-qa.png",
+    "imageAlt": "Outsource PDF accessibility QA with document fixtures"
+  },
+  "blog/outsource-cache-invalidation-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-cache-invalidation-review.png",
+    "imageAlt": "Outsource cache-invalidation review around observable freshness"
+  },
+  "blog/outsource-terraform-state-lock-recovery-drill-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Practice recovering a Terraform state lock without forcing the wrong unlock , September 14 review"
+  },
+  "blog/outsource-browser-extension-permission-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Review browser extension permissions before a managed rollout"
+  },
+  "blog/set-up-a-client-owned-milestone-tracker-for-an-offshore-delivery-team": {
+    "image": "/nov08/blog/set-up-a-client-owned-milestone-tracker-for-an-offshore-delivery-team.webp",
+    "imageAlt": "Set up a client-owned milestone tracker for an offshore delivery team"
+  },
+  "blog/outsource-cdn-cache-key-query-parameter-review": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Review which query parameters belong in a CDN cache key"
+  },
+  "blog/outsource-mobile-release-smoke-testing": {
+    "image": "/blog-heroes/2026-08-20/outsource-mobile-release-smoke-testing.png",
+    "imageAlt": "Outsource mobile release smoke testing with device evidence"
+  },
+  "blog/outsource-file-preview-isolation-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check file-preview isolation before delegating upload QA"
+  },
+  "blog/outsource-websocket-backpressure-qa-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Push a WebSocket client past its comfortable message rate , September 11 review"
+  },
+  "blog/outsource-acceptance-criteria-review": {
+    "image": "/blog-heroes/2026-08-20/outsource-acceptance-criteria-review.png",
+    "imageAlt": "Outsource acceptance-criteria review with testable decisions"
+  },
+  "blog/run-a-monthly-dependency-patch-window-with-an-offshore-maintenance-team": {
+    "image": "/nov07/blog/run-a-monthly-dependency-patch-window-with-an-offshore-maintenance-team.webp",
+    "imageAlt": "Run a monthly dependency patch window with an offshore maintenance team"
+  },
+  "blog/outsource-saml-metadata-rotation-rehearsal-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Rehearse a SAML metadata rotation before the old certificate expires , September 11 review"
+  },
+  "blog/set-a-shared-admin-account-ban-for-outsourced-production-work": {
+    "image": "/nov10/blog/set-a-shared-admin-account-ban-for-outsourced-production-work.webp",
+    "imageAlt": "Set a shared admin account ban for outsourced production work"
+  },
+  "blog/outsource-queue-retry-dead-letter-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-queue-retry-dead-letter-review.png",
+    "imageAlt": "Outsource queue retry-policy review with duplicate-safe evidence"
+  },
+  "blog/outsource-webhook-delivery-ledger-review": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Review a webhook delivery ledger with an outsourced programmer"
+  },
+  "blog/outsource-websocket-reconnect-testing": {
+    "image": "/blog-heroes/2026-08-21/outsource-websocket-reconnect-testing.png",
+    "imageAlt": "Outsource WebSocket reconnect testing with state-safe fixtures"
+  },
+  "blog/outsource-service-worker-update-recovery": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Test service worker updates when old tabs refuse to disappear"
+  },
+  "blog/outsource-search-synonym-release-review-september-11-2026": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Review a search synonym release with queries people can recognize , September 11 review"
+  },
+  "blog/write-an-acceptance-criteria-checklist-for-an-offshore-review-queue": {
+    "image": "/nov10/blog/write-an-acceptance-criteria-checklist-for-an-offshore-review-queue.webp",
+    "imageAlt": "Write an acceptance criteria checklist for an offshore review queue"
+  },
+  "blog/set-a-code-review-rotation-for-an-offshore-delivery-pod": {
+    "image": "/nov08/blog/set-a-code-review-rotation-for-an-offshore-delivery-pod.webp",
+    "imageAlt": "Set a code review rotation for an offshore delivery pod"
+  },
+  "blog/outsource-object-store-presigned-upload-review-september-11-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Put presigned uploads through their awkward boundary cases , September 11 review"
+  },
+  "blog/write-an-incident-handoff-brief-for-a-follow-the-sun-offshore-team": {
+    "image": "/nov08/blog/write-an-incident-handoff-brief-for-a-follow-the-sun-offshore-team.webp",
+    "imageAlt": "Write an incident handoff brief for a follow-the-sun offshore team"
+  },
+  "blog/outsource-database-index-migration-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-database-index-migration-review.png",
+    "imageAlt": "Outsource database-index migration review with rollback evidence"
+  },
+  "blog/outsource-file-upload-boundary-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-file-upload-boundary-review.png",
+    "imageAlt": "Outsource file-upload boundary review with safe fixtures"
+  },
+  "blog/outsource-accessibility-regression-review": {
+    "image": "/blog-heroes/2026-08-21/outsource-accessibility-regression-review.png",
+    "imageAlt": "Outsource accessibility regression review around real user journeys"
+  },
+  "blog/outsource-pdf-generation-font-fallback-qa-september-14-2026": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check generated PDFs when the preferred font has missing glyphs , September 14 review"
+  },
+  "blog/outsource-audit-log-pagination-integrity-review": {
+    "image": "/illustrations/getillustrations/inkdex-saas/code-control.webp",
+    "imageAlt": "Check an audit log for gaps across pagination boundaries"
+  },
+  "blog/write-a-support-escalation-map-for-an-offshore-application-team": {
+    "image": "/nov09/blog/write-a-support-escalation-map-for-an-offshore-application-team.webp",
+    "imageAlt": "Write a support escalation map for an offshore application team"
+  },
+  "blog/write-a-production-access-revocation-checklist-for-an-offshore-contractor-exit": {
+    "image": "/nov10/blog/write-a-production-access-revocation-checklist-for-an-offshore-contractor-exit.webp",
+    "imageAlt": "Write a production access revocation checklist for an offshore contractor exit"
+  },
+  "blog/outsource-feature-flag-cleanup-handoff": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Prepare a feature-flag cleanup handoff for owner approval"
+  },
+  "blog/outsource-email-suppression-list-sync-qa": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Trace an email address through suppression-list synchronization"
+  },
+  "research/secret-exposure-response-completeness": {
+    "image": "/oct13/research/secret-exposure-response-completeness.png",
+    "imageAlt": "Secret Exposure Response Completeness Study"
+  },
+  "research/research-incident-handoff-actionability-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "When an incident handoff is ready for action"
+  },
+  "research/outsourcedprogrammers-testing-whether-dependency-update-monitoring-catches-silent-failures": {
+    "image": "/oct27-heroes/outsourcedprogrammers-testing-whether-dependency-update-monitoring-catches-silent-failures.png",
+    "imageAlt": "Testing whether dependency update monitoring catches silent failures"
+  },
+  "research/outsourced-dependency-upgrade-audit-research": {
+    "image": "/nov03/research/outsourced-dependency-upgrade-audit-research.webp",
+    "imageAlt": "Can outsourced dependency upgrade decisions be reconstructed?"
+  },
+  "research/research-pull-request-review-latency-context-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What pull request review latency leaves out"
+  },
+  "research/outsourced-timezone-handoff-research": {
+    "image": "/nov03/research/outsourced-timezone-handoff-research.webp",
+    "imageAlt": "Where does time-zone delay accumulate in outsourced engineering handoffs?"
+  },
+  "research/outsourced-keyboard-navigation-study": {
+    "image": "/research-heroes/2026-08-20-replacements/outsourced-keyboard-navigation-study.png",
+    "imageAlt": "How can an outsourced web change demonstrate usable keyboard navigation?"
+  },
+  "research/how-often-do-outsourced-pull-requests-arrive-without-a-reproducible-test": {
+    "image": "/nov05/research/how-often-do-outsourced-pull-requests-arrive-without-a-reproducible-test.webp",
+    "imageAlt": "How often do outsourced pull requests arrive without a reproducible test?"
+  },
+  "research/outsourcedprogrammers-test-evidence-escaped-defects-research": {
+    "image": "/nov02/research/outsourcedprogrammers-test-evidence-escaped-defects-research.webp",
+    "imageAlt": "Testing whether test evidence predicts escaped defects"
+  },
+  "research/outsourcedprogrammers-capacity-planning-for-qa-evidence": {
+    "image": "/oct25-heroes/outsourcedprogrammers-capacity-planning-for-qa-evidence.png",
+    "imageAlt": "Capacity planning for QA evidence"
+  },
+  "research/outsourcedprogrammers-auditing-access-changes-around-rollback-plan": {
+    "image": "/oct27-heroes/outsourcedprogrammers-auditing-access-changes-around-rollback-plan.png",
+    "imageAlt": "Auditing access changes around rollback plan"
+  },
+  "research/distributed-dependency-update-lead-time-analysis": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Dependency-update lead time for distributed software teams"
+  },
+  "research/outsourcedprogrammers-review-comment-sampling-research": {
+    "image": "/nov02/research/outsourcedprogrammers-review-comment-sampling-research.webp",
+    "imageAlt": "Sampling review comments for repeated defect patterns"
+  },
+  "research/research-dependency-update-evidence-reading-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Reading the evidence behind a dependency update"
+  },
+  "research/outsourced-qa-visual-regression-baseline-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "How should outsourced QA govern visual-regression baselines?"
+  },
+  "research/outsourced-release-recovery-evidence-2026": {
+    "image": "/research-heroes/2026-08-21/outsourced-release-recovery-evidence.png",
+    "imageAlt": "Which evidence makes recovery from an outsourced software release credible?"
+  },
+  "research/defect-escape-attribution-method": {
+    "image": "/oct22/research/defect-escape-attribution-method.png",
+    "imageAlt": "Defect Escape Attribution: A Method for Bounded Records"
+  },
+  "research/how-long-do-revoked-offshore-credentials-stay-usable-after-an-exit": {
+    "image": "/nov10/research/how-long-do-revoked-offshore-credentials-stay-usable-after-an-exit.webp",
+    "imageAlt": "How long do revoked offshore credentials stay usable after an exit?"
+  },
+  "research/how-often-does-an-offshore-estimate-change-after-refinement": {
+    "image": "/nov08/research/how-often-does-an-offshore-estimate-change-after-refinement.webp",
+    "imageAlt": "How often does an offshore estimate change after refinement?"
+  },
+  "research/research-secret-scanner-alert-closure-evidence-2026-september-14-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Reading the evidence behind a closed secret-scanning alert , September 14 study"
+  },
+  "research/maintenance-backlog-risk-stratification": {
+    "image": "/oct12/research/maintenance-backlog-risk-stratification.png",
+    "imageAlt": "Software Maintenance Backlogs: A Risk-Stratification Study"
+  },
+  "research/outsourced-programmer-paid-trial-design-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "How should a company design a paid trial for an outsourced programmer?"
+  },
+  "research/outsourcedprogrammers-estimating-rework-cost-in-dependency-update": {
+    "image": "/oct26-heroes/outsourcedprogrammers-estimating-rework-cost-in-dependency-update.png",
+    "imageAlt": "Estimating rework cost in dependency update"
+  },
+  "research/outsourcedprogrammers-attributing-rework-in-dependency-update": {
+    "image": "/oct25-heroes/outsourcedprogrammers-attributing-rework-in-dependency-update.png",
+    "imageAlt": "Attributing rework in dependency update"
+  },
+  "research/queue-retry-policy-effectiveness-study": {
+    "image": "/oct13/research/queue-retry-policy-effectiveness-study.png",
+    "imageAlt": "Queue Retry Policy Effectiveness: A Bounded Study"
+  },
+  "research/how-much-of-an-offshore-incident-is-spent-waiting-for-a-severity-decision": {
+    "image": "/nov10/research/how-much-of-an-offshore-incident-is-spent-waiting-for-a-severity-decision.webp",
+    "imageAlt": "How much of an offshore incident is spent waiting for a severity decision?"
+  },
+  "research/how-reproducible-are-bug-reports-before-outsourced-triage-begins": {
+    "image": "/nov04/research/how-reproducible-are-bug-reports-before-outsourced-triage-begins.webp",
+    "imageAlt": "How reproducible are bug reports before outsourced triage begins?"
+  },
+  "research/what-survives-a-code-handover-when-an-outsourced-engineer-rotates": {
+    "image": "/nov04/research/what-survives-a-code-handover-when-an-outsourced-engineer-rotates.webp",
+    "imageAlt": "What survives a code handover when an outsourced engineer rotates?"
+  },
+  "research/research-synthetic-fixture-boundaries-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "Where synthetic QA fixtures stop being representative"
+  },
+  "research/outsourcedprogrammers-estimating-exception-spillover-in-deployment-window": {
+    "image": "/oct28-heroes/outsourcedprogrammers-estimating-exception-spillover-in-deployment-window.png",
+    "imageAlt": "Estimating exception spillover in deployment window"
+  },
+  "research/wordpress-wp-cron-reliability-outsourced-maintenance-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "When is WP-Cron evidence strong enough for a maintenance decision?"
+  },
+  "research/outsourced-programmer-code-review-service-level-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "How fast should a company review an outsourced programmer's pull request?"
+  },
+  "research/outsourcedprogrammers-testing-evidence-completeness-in-code-review-without-a-convenience-sample": {
+    "image": "/oct27-heroes/outsourcedprogrammers-testing-evidence-completeness-in-code-review-without-a-convenience-sample.png",
+    "imageAlt": "Testing evidence completeness in code review without a convenience sample"
+  },
+  "research/what-share-of-outsourced-production-work-uses-a-shared-admin-account": {
+    "image": "/nov10/research/what-share-of-outsourced-production-work-uses-a-shared-admin-account.webp",
+    "imageAlt": "What share of outsourced production work uses a shared admin account?"
+  },
+  "research/research-synthetic-test-data-for-outsourced-qa": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "Synthetic test data for outsourced QA: evidence, limits, and ownership"
+  },
+  "research/do-accessibility-fixes-close-the-defect-or-only-the-reported-symptom": {
+    "image": "/nov04/research/do-accessibility-fixes-close-the-defect-or-only-the-reported-symptom.webp",
+    "imageAlt": "Do accessibility fixes close the defect or only the reported symptom?"
+  },
+  "research/how-much-of-an-offshore-sprint-goes-to-unplanned-production-support": {
+    "image": "/nov07/research/how-much-of-an-offshore-sprint-goes-to-unplanned-production-support.webp",
+    "imageAlt": "How much of an offshore sprint goes to unplanned production support?"
+  },
+  "research/research-accessibility-defect-retest-sampling-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "What an accessibility defect retest leaves unproven"
+  },
+  "research/outsourced-programmer-bug-triage-severity-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "How should an outsourced programmer triage software bugs without owning product priority?"
+  },
+  "research/outsourcedprogrammers-testing-whether-dependency-update-audit-samples-detect-silent-gaps": {
+    "image": "/oct28-heroes/outsourcedprogrammers-testing-whether-dependency-update-audit-samples-detect-silent-gaps.png",
+    "imageAlt": "Testing whether dependency update audit samples detect silent gaps"
+  },
+  "research/dependency-vulnerability-triage-reliability": {
+    "image": "/oct22/research/dependency-vulnerability-triage-reliability.png",
+    "imageAlt": "Dependency Vulnerability Triage: Reliability of a Declared Queue"
+  },
+  "research/remote-code-review-queue-latency-research": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Code-review queue latency in distributed engineering teams"
+  },
+  "research/deployment-rollback-rehearsal-reliability": {
+    "image": "/oct12/research/deployment-rollback-rehearsal-reliability.png",
+    "imageAlt": "Deployment Rollback Rehearsals: A Reliability Protocol"
+  },
+  "research/test-coverage-claim-verification": {
+    "image": "/oct22/research/test-coverage-claim-verification.png",
+    "imageAlt": "Verifying Test Coverage Claims Without Invented Numbers"
+  },
+  "research/how-often-do-outsourced-releases-roll-back-after-deployment": {
+    "image": "/nov07/research/how-often-do-outsourced-releases-roll-back-after-deployment.webp",
+    "imageAlt": "How often do outsourced releases roll back after deployment?"
+  },
+  "research/research-remote-incident-handoff-completeness": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "Measuring incident handoff completeness in remote engineering teams"
+  },
+  "research/how-long-does-access-provisioning-take-for-a-new-offshore-developer": {
+    "image": "/nov07/research/how-long-does-access-provisioning-take-for-a-new-offshore-developer.webp",
+    "imageAlt": "How long does access provisioning take for a new offshore developer?"
+  },
+  "research/api-contract-drift-detection-study": {
+    "image": "/oct13/research/api-contract-drift-detection-study.png",
+    "imageAlt": "API Contract Drift Detection: A Reproducibility Study"
+  },
+  "research/how-much-of-an-offshore-engineers-week-goes-to-client-meetings": {
+    "image": "/nov08/research/how-much-of-an-offshore-engineers-week-goes-to-client-meetings.webp",
+    "imageAlt": "How much of an offshore engineer's week goes to client meetings?"
+  },
+  "research/outsourcedprogrammers-minimum-access-effectiveness-study": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Outsourced Software Development Minimum Access Effectiveness Study"
+  },
+  "research/research-feature-flag-stale-evaluation-study-2026-september-11-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "Studying stale feature flag decisions without blaming the cache , September 11 study"
+  },
+  "research/outsourcedprogrammers-review-evidence-sufficiency-research": {
+    "image": "/nov02/research/outsourcedprogrammers-review-evidence-sufficiency-research.webp",
+    "imageAlt": "How much review evidence does an outsourced pull request need?"
+  },
+  "research/research-accessibility-defect-retest-sampling-2026-september-11-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "What an accessibility defect retest leaves unproven , September 11 study"
+  },
+  "research/outsourcedprogrammers-testing-completeness-in-rollback-plan": {
+    "image": "/oct25-heroes/outsourcedprogrammers-testing-completeness-in-rollback-plan.png",
+    "imageAlt": "Testing completeness in rollback plan"
+  },
+  "research/outsourced-search-permission-freshness-study": {
+    "image": "/research-heroes/2026-08-20-replacements/outsourced-search-permission-freshness-study.png",
+    "imageAlt": "Which reconciliation evidence exposes stale or unauthorized search results?"
+  },
+  "research/how-long-does-a-new-offshore-engineer-take-to-make-a-first-production-change": {
+    "image": "/nov08/research/how-long-does-a-new-offshore-engineer-take-to-make-a-first-production-change.webp",
+    "imageAlt": "How long does a new offshore engineer take to make a first production change?"
+  },
+  "research/outsourced-database-migration-rehearsal-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "What makes a database migration rehearsal credible for outsourced programming work?"
+  },
+  "research/how-much-stale-feature-flag-debt-accumulates-in-an-outsourced-codebase": {
+    "image": "/nov06/research/how-much-stale-feature-flag-debt-accumulates-in-an-outsourced-codebase.webp",
+    "imageAlt": "How much stale feature-flag debt accumulates in an outsourced codebase?"
+  },
+  "research/offboarding-access-closure-audit": {
+    "image": "/oct22/research/offboarding-access-closure-audit.png",
+    "imageAlt": "Offboarding Access Closure: An Audit Method for Grant Records"
+  },
+  "research/outsourcedprogrammers-measuring-backlog-age-in-deployment-window": {
+    "image": "/oct26-heroes/outsourcedprogrammers-measuring-backlog-age-in-deployment-window.png",
+    "imageAlt": "Measuring backlog age in deployment window"
+  },
+  "research/outsourced-developer-repository-access-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "What repository access should an outsourced developer receive?"
+  },
+  "research/outsourced-programmer-inherited-codebase-assessment": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "How to assess an inherited codebase before assigning outsourced maintenance"
+  },
+  "research/how-long-does-a-client-database-change-approval-take": {
+    "image": "/nov09/research/how-long-does-a-client-database-change-approval-take.webp",
+    "imageAlt": "How long does a client database change approval take?"
+  },
+  "research/outsourced-nodejs-api-rate-limit-contract-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "How should an outsourced Node.js developer specify an API rate-limit contract?"
+  },
+  "research/outsourced-qa-flaky-test-ownership-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "Who should own flaky tests in an outsourced QA engagement?"
+  },
+  "research/shopify-webhook-idempotency-handoff-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "How can an outsourced team prove a Shopify webhook handler is idempotent?"
+  },
+  "research/outsourcedprogrammers-testing-monitoring-coverage-for-incident-handoff": {
+    "image": "/oct26-heroes/outsourcedprogrammers-testing-monitoring-coverage-for-incident-handoff.png",
+    "imageAlt": "Testing monitoring coverage for incident handoff"
+  },
+  "research/test-fixture-representativeness-analysis": {
+    "image": "/oct12/research/test-fixture-representativeness-analysis.png",
+    "imageAlt": "Test Fixture Representativeness: An Engineering Analysis"
+  },
+  "research/research-database-connection-pool-wait-evidence-2026-september-11-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "When database connection wait time points to the wrong bottleneck , September 11 study"
+  },
+  "research/what-share-of-offshore-defects-are-reopened-after-a-fix": {
+    "image": "/nov09/research/what-share-of-offshore-defects-are-reopened-after-a-fix.webp",
+    "imageAlt": "What share of offshore defects are reopened after a fix?"
+  },
+  "research/outsourced-pr-scope-drift-research": {
+    "image": "/nov03/research/outsourced-pr-scope-drift-research.webp",
+    "imageAlt": "How often do outsourced pull requests change files outside the ticket?"
+  },
+  "research/outsourced-programmer-knowledge-transfer-acceptance-test": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "Test knowledge transfer before an outsourced programmer handoff is accepted"
+  },
+  "research/outsourcedprogrammers-handoff-completeness-observation": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Outsourced Software Development Handoff Completeness Observation"
+  },
+  "research/research-ci-queue-time-interpretation-2026-september-14-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What CI queue time can tell you, and what it cannot , September 14 study"
+  },
+  "research/research-review-queue-wait-state-analysis-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What review queue data leaves unexplained"
+  },
+  "research/outsourced-shopify-theme-performance-budget-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "What performance budget should govern an outsourced Shopify theme change?"
+  },
+  "research/outsourced-release-observability-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What observability evidence helps review an outsourced software release?"
+  },
+  "research/mobile-deep-link-handoff-testing-outsourced-team-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What should a mobile deep-link handoff prove before release?"
+  },
+  "research/research-access-removal-verification-lag-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "The gap between disabling an account and ending access"
+  },
+  "research/how-often-does-an-offshore-release-wait-on-client-approval": {
+    "image": "/nov06/research/how-often-does-an-offshore-release-wait-on-client-approval.webp",
+    "imageAlt": "How often does an offshore release wait on client approval?"
+  },
+  "research/test-isolation-contamination-analysis": {
+    "image": "/oct13/research/test-isolation-contamination-analysis.png",
+    "imageAlt": "Test Isolation Contamination: An Engineering Analysis"
+  },
+  "research/outsourcedprogrammers-measuring-decision-latency-in-ticket-intake": {
+    "image": "/oct28-heroes/outsourcedprogrammers-measuring-decision-latency-in-ticket-intake.png",
+    "imageAlt": "Measuring decision latency in ticket intake"
+  },
+  "research/outsourced-release-recovery-time-evidence-research": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Release recovery-time evidence for outsourced software changes"
+  },
+  "research/outsourced-accessibility-regression-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "Which evidence shows an outsourced web change preserved keyboard access?"
+  },
+  "research/outsourced-code-review-incident-research": {
+    "image": "/nov03/research/outsourced-code-review-incident-research.webp",
+    "imageAlt": "Which review comments precede production incidents in outsourced code?"
+  },
+  "research/react-hydration-mismatch-evidence-outsourced-team-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What evidence makes a React hydration mismatch reviewable?"
+  },
+  "research/research-package-lockfile-drift-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Studying lockfile drift without treating every diff as a dependency change"
+  },
+  "research/outsourcedprogrammers-measuring-cycle-time-for-ticket-intake-from-request-to-verified-close": {
+    "image": "/oct27-heroes/outsourcedprogrammers-measuring-cycle-time-for-ticket-intake-from-request-to-verified-close.png",
+    "imageAlt": "Measuring cycle time for ticket intake from request to verified close"
+  },
+  "research/research-api-error-budget-window-effects-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "How the observation window changes an API error-budget result"
+  },
+  "research/nodejs-graceful-shutdown-acceptance-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "How should a team test graceful shutdown in a Node.js service?"
+  },
+  "research/how-often-do-offshore-support-escalations-miss-their-response-target": {
+    "image": "/nov09/research/how-often-do-offshore-support-escalations-miss-their-response-target.webp",
+    "imageAlt": "How often do offshore support escalations miss their response target?"
+  },
+  "research/research-kubernetes-probe-failure-interpretation-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "Reading Kubernetes probe failures as separate signals"
+  },
+  "research/research-database-connection-pool-wait-evidence-2026-september-14-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "When database connection wait time points to the wrong bottleneck , September 14 study"
+  },
+  "research/outsourced-api-contract-drift-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "How can an outsourced programmer detect API contract drift before release?"
+  },
+  "research/what-share-of-outsourced-qa-defects-are-reopened-after-a-fix": {
+    "image": "/nov06/research/what-share-of-outsourced-qa-defects-are-reopened-after-a-fix.webp",
+    "imageAlt": "What share of outsourced QA defects are reopened after a fix?"
+  },
+  "research/research-ci-queue-time-interpretation-2026-september-11-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What CI queue time can tell you, and what it cannot , September 11 study"
+  },
+  "research/outsourced-programmer-change-failure-evidence-study": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Change-failure evidence for outsourced programming work"
+  },
+  "research/outsourcedprogrammers-estimating-rework-in-deployment-window-from-correction-and-reopen-records": {
+    "image": "/oct27-heroes/outsourcedprogrammers-estimating-rework-in-deployment-window-from-correction-and-reopen-records.png",
+    "imageAlt": "Estimating rework in deployment window from correction and reopen records"
+  },
+  "research/what-share-of-offshore-defects-are-found-after-release": {
+    "image": "/nov08/research/what-share-of-offshore-defects-are-found-after-release.webp",
+    "imageAlt": "What share of offshore defects are found after release?"
+  },
+  "research/outsourced-dependency-provenance-review-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "How should an outsourced programmer review dependency provenance?"
+  },
+  "research/outsourcedprogrammers-measuring-response-time-for-deployment-window": {
+    "image": "/oct25-heroes/outsourcedprogrammers-measuring-response-time-for-deployment-window.png",
+    "imageAlt": "Measuring response time for deployment window"
+  },
+  "research/outsourced-test-data-privacy-control-study": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Privacy controls for test data in outsourced development"
+  },
+  "research/outsourced-software-dependency-license-handoff": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "Review dependency and license evidence in an outsourced software handoff"
+  },
+  "research/what-share-of-offshore-pull-requests-need-a-second-review-round": {
+    "image": "/nov07/research/what-share-of-offshore-pull-requests-need-a-second-review-round.webp",
+    "imageAlt": "What share of offshore pull requests need a second review round?"
+  },
+  "research/outsourced-documentation-reproducibility-2026": {
+    "image": "/research-heroes/2026-08-21/outsourced-documentation-reproducibility.png",
+    "imageAlt": "How can an outsourced team measure whether technical documentation is reproducible?"
+  },
+  "research/outsourcedprogrammers-early-warning-signals-in-incident-handoff": {
+    "image": "/oct25-heroes/outsourcedprogrammers-early-warning-signals-in-incident-handoff.png",
+    "imageAlt": "Early-warning signals in incident handoff"
+  },
+  "research/what-share-of-offshore-handoff-notes-are-usable-without-a-meeting": {
+    "image": "/nov07/research/what-share-of-offshore-handoff-notes-are-usable-without-a-meeting.webp",
+    "imageAlt": "What share of offshore handoff notes are usable without a meeting?"
+  },
+  "research/research-secret-scanner-alert-closure-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Reading the evidence behind a closed secret-scanning alert"
+  },
+  "research/research-access-removal-latency-outsourced-programmers": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "Access removal latency after an outsourced programming assignment"
+  },
+  "research/how-often-do-outsourced-debugging-sessions-expose-production-secrets": {
+    "image": "/nov04/research/how-often-do-outsourced-debugging-sessions-expose-production-secrets.webp",
+    "imageAlt": "How often do outsourced debugging sessions expose production secrets?"
+  },
+  "research/outsourcedprogrammers-auditing-backup-owner-coverage-for-rollback-plan": {
+    "image": "/oct28-heroes/outsourcedprogrammers-auditing-backup-owner-coverage-for-rollback-plan.png",
+    "imageAlt": "Auditing backup-owner coverage for rollback plan"
+  },
+  "research/where-does-onboarding-time-go-for-a-new-outsourced-engineer": {
+    "image": "/nov06/research/where-does-onboarding-time-go-for-a-new-outsourced-engineer.webp",
+    "imageAlt": "Where does onboarding time go for a new outsourced engineer?"
+  },
+  "research/research-outsourced-dependency-update-evidence": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Evidence standards for outsourced dependency updates"
+  },
+  "research/outsourcedprogrammers-offboarding-access-removal-research": {
+    "image": "/nov02/research/outsourcedprogrammers-offboarding-access-removal-research.webp",
+    "imageAlt": "Auditing access removal after contractor offboarding"
+  },
+  "research/research-feature-flag-stale-evaluation-study-2026-september-14-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "Studying stale feature flag decisions without blaming the cache , September 14 study"
+  },
+  "research/research-accessibility-defect-retest-sampling-2026-september-14-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-accessibility-regression-evidence-2026.png",
+    "imageAlt": "What an accessibility defect retest leaves unproven , September 14 study"
+  },
+  "research/research-feature-flag-stale-evaluation-study-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-api-contract-drift-evidence-2026.png",
+    "imageAlt": "Studying stale feature flag decisions without blaming the cache"
+  },
+  "research/outsourcedprogrammers-reviewer-agreement-reliability-study": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Outsourced Software Development Reviewer Agreement Reliability Study"
+  },
+  "research/what-share-of-staging-access-grants-outlive-their-ticket": {
+    "image": "/nov05/research/what-share-of-staging-access-grants-outlive-their-ticket.webp",
+    "imageAlt": "What share of staging access grants outlive their ticket?"
+  },
+  "research/what-share-of-offshore-delivery-decisions-are-recorded-in-writing": {
+    "image": "/nov10/research/what-share-of-offshore-delivery-decisions-are-recorded-in-writing.webp",
+    "imageAlt": "What share of offshore delivery decisions are recorded in writing?"
+  },
+  "research/outsourcedprogrammers-queue-wait-state-evidence-study": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Outsourced Software Development Queue Wait-State Evidence Study"
+  },
+  "research/research-secret-scanner-alert-closure-evidence-2026-september-11-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-dependency-provenance-review-2026.png",
+    "imageAlt": "Reading the evidence behind a closed secret-scanning alert , September 11 study"
+  },
+  "research/outsourced-search-permission-freshness-2026": {
+    "image": "/research-heroes/2026-08-21/outsourced-search-permission-freshness.png",
+    "imageAlt": "How should an outsourced team test search freshness without missing permission defects?"
+  },
+  "research/outsourced-api-compatibility-boundary-study": {
+    "image": "/research-heroes/2026-08-20-replacements/outsourced-api-compatibility-boundary-study.png",
+    "imageAlt": "When does a delegated API change become breaking for real consumers?"
+  },
+  "research/research-database-connection-pool-wait-evidence-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "When database connection wait time points to the wrong bottleneck"
+  },
+  "research/review-turnaround-evidence-protocol": {
+    "image": "/oct22/research/review-turnaround-evidence-protocol.png",
+    "imageAlt": "Review Turnaround Evidence: A Protocol With Declared Clocks"
+  },
+  "research/research-outsourced-code-review-queue-health": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What code review queue data can and cannot tell an outsourced team"
+  },
+  "research/outsourced-programmer-continuity-bus-factor-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "How can a buyer reduce key-person risk with an outsourced programmer?"
+  },
+  "research/outsourcedprogrammers-auditing-access-changes-around-qa-evidence": {
+    "image": "/oct26-heroes/outsourcedprogrammers-auditing-access-changes-around-qa-evidence.png",
+    "imageAlt": "Auditing access changes around QA evidence"
+  },
+  "research/how-often-do-offshore-releases-need-a-rollback-rehearsal": {
+    "image": "/nov09/research/how-often-do-offshore-releases-need-a-rollback-rehearsal.webp",
+    "imageAlt": "How often do offshore releases need a rollback rehearsal?"
+  },
+  "research/how-much-review-queue-time-comes-from-missing-acceptance-criteria": {
+    "image": "/nov10/research/how-much-review-queue-time-comes-from-missing-acceptance-criteria.webp",
+    "imageAlt": "How much review queue time comes from missing acceptance criteria?"
+  },
+  "research/how-complete-is-migration-rollback-evidence-before-release": {
+    "image": "/nov05/research/how-complete-is-migration-rollback-evidence-before-release.webp",
+    "imageAlt": "How complete is migration rollback evidence before release?"
+  },
+  "research/research-ci-queue-time-interpretation-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "What CI queue time can tell you, and what it cannot"
+  },
+  "research/cache-invalidation-recovery-reliability": {
+    "image": "/oct13/research/cache-invalidation-recovery-reliability.png",
+    "imageAlt": "Cache Invalidation Recovery Reliability Study"
+  },
+  "research/outsourced-developer-production-incident-access-decision": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "Decide when an outsourced developer should enter a production incident"
+  },
+  "research/outsourced-api-compatibility-boundary-2026": {
+    "image": "/research-heroes/2026-08-21/outsourced-api-compatibility-boundary.png",
+    "imageAlt": "Where does an outsourced API change cross the compatibility boundary?"
+  },
+  "research/outsourcedprogrammers-control-change-traceability-research": {
+    "image": "/programmer-workbench.jpg",
+    "imageAlt": "Outsourced Software Development Control Change Traceability Research"
+  },
+  "research/production-access-expiry-control-study": {
+    "image": "/oct12/research/production-access-expiry-control-study.png",
+    "imageAlt": "Production Access Expiry: A Control-Effectiveness Study"
+  },
+  "research/outsourced-event-deduplication-evidence-study": {
+    "image": "/research-heroes/2026-08-20-replacements/outsourced-event-deduplication-evidence-study.png",
+    "imageAlt": "What evidence shows delegated webhook handling will not duplicate side effects?"
+  },
+  "research/outsourcedprogrammers-maintenance-rework-measurement-research": {
+    "image": "/nov02/research/outsourcedprogrammers-maintenance-rework-measurement-research.webp",
+    "imageAlt": "Measuring rework in an outsourced maintenance queue"
+  },
+  "research/outsourced-keyboard-navigation-evidence-2026": {
+    "image": "/research-heroes/2026-08-21/outsourced-keyboard-navigation-evidence.png",
+    "imageAlt": "What evidence shows an outsourced web change preserves keyboard navigation?"
+  },
+  "research/outsourcedprogrammers-testing-evidence-retention-across-code-review-corrections": {
+    "image": "/oct28-heroes/outsourcedprogrammers-testing-evidence-retention-across-code-review-corrections.png",
+    "imageAlt": "Testing evidence retention across code review corrections"
+  },
+  "research/outsourced-developer-ai-coding-assistant-boundaries": {
+    "image": "/research-heroes/2026-08-23/outsourced-release-observability-evidence-2026.png",
+    "imageAlt": "Set evidence-based AI coding-assistant boundaries for outsourced developers"
+  },
+  "research/what-share-of-offshore-teams-rotate-secrets-on-schedule": {
+    "image": "/nov09/research/what-share-of-offshore-teams-rotate-secrets-on-schedule.webp",
+    "imageAlt": "What share of offshore teams rotate secrets on schedule?"
+  },
+  "research/where-does-review-time-accumulate-in-a-distributed-engineering-team": {
+    "image": "/nov05/research/where-does-review-time-accumulate-in-a-distributed-engineering-team.webp",
+    "imageAlt": "Where does review time accumulate in a distributed engineering team?"
+  },
+  "research/outsourced-wordpress-staging-data-refresh-research-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "How should an outsourced WordPress developer refresh staging without exposing production data?"
+  },
+  "research/outsourced-rollback-readiness-research": {
+    "image": "/nov03/research/outsourced-rollback-readiness-research.webp",
+    "imageAlt": "How much rollback evidence does an outsourced release packet contain?"
+  },
+  "research/code-review-rework-denominator-study": {
+    "image": "/oct12/research/code-review-rework-denominator-study.png",
+    "imageAlt": "Code Review Rework: A Denominator-First Study"
+  },
+  "research/outsourcedprogrammers-testing-handoff-completeness-in-rollback-plan": {
+    "image": "/oct26-heroes/outsourcedprogrammers-testing-handoff-completeness-in-rollback-plan.png",
+    "imageAlt": "Testing handoff completeness in rollback plan"
+  },
+  "research/research-database-migration-duration-estimate-limits-2026": {
+    "image": "/research-heroes/2026-08-23/outsourced-database-migration-rehearsal-evidence-2026.png",
+    "imageAlt": "Why a staging migration duration is not a production promise"
+  },
+  "research/outsourced-release-recovery-evidence-study": {
+    "image": "/research-heroes/2026-08-20-replacements/outsourced-release-recovery-evidence-study.png",
+    "imageAlt": "Which recovery evidence makes an outsourced release decision defensible?"
+  },
+  "research/how-much-third-party-sdk-risk-is-visible-before-adoption": {
+    "image": "/nov04/research/how-much-third-party-sdk-risk-is-visible-before-adoption.webp",
+    "imageAlt": "How much third-party SDK risk is visible before adoption?"
+  },
+  "research/what-share-of-offshore-pull-requests-are-abandoned-before-merge": {
+    "image": "/nov08/research/what-share-of-offshore-pull-requests-are-abandoned-before-merge.webp",
+    "imageAlt": "What share of offshore pull requests are abandoned before merge?"
+  },
+  "research/how-often-do-offshore-test-environments-contain-production-personal-data": {
+    "image": "/nov06/research/how-often-do-offshore-test-environments-contain-production-personal-data.webp",
+    "imageAlt": "How often do offshore test environments contain production personal data?"
+  },
+  "research/how-often-do-dependency-upgrades-change-supported-runtime-versions": {
+    "image": "/nov05/research/how-often-do-dependency-upgrades-change-supported-runtime-versions.webp",
+    "imageAlt": "How often do dependency upgrades change supported runtime versions?"
+  }
+}
