@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "engineering",
+    "kind": "blog",
+    "id": "6805152",
+    "source": "https://www.pexels.com/photo/programmer-working-in-office-6805152/",
+    "photographer": "cottonbro studio",
+    "alt": "Programmer concentrating on code at a desktop computer",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://images.pexels.com/photos/6805152/pexels-photo-6805152.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
+    "file": "/Users/wrayns/Documents/Codex/2026-11-10/optimization-design-knowledge/work/six-listing-refresh/assets/engineering-blog-6805152.webp",
+    "width": 2200,
+    "height": 1467,
+    "sha256": "78c656c0d0c24c8d3ef3f94ba982f05199e8b2b593f7a0522d0232c2783fff2c",
+    "visual_review": "Reviewed actual photograph in contact sheet on 2026-11-12. No AI rendering or title overlay; subject sharp and suitable for a wide hero."
+  },
+  {
+    "theme": "engineering",
+    "kind": "research",
+    "id": "36706460",
+    "source": "https://www.pexels.com/photo/developer-working-on-code-in-a-modern-office-36706460/",
+    "photographer": "Zayed Hossain",
+    "alt": "Software developer reviewing code across two monitors in an office",
+    "license": "https://www.pexels.com/license/",
+    "download": "https://images.pexels.com/photos/36706460/pexels-photo-36706460.jpeg?auto=compress&cs=tinysrgb&w=2200&q=90",
+    "file": "/Users/wrayns/Documents/Codex/2026-11-10/optimization-design-knowledge/work/six-listing-refresh/assets/engineering-research-36706460.webp",
+    "width": 2200,
+    "height": 1650,
+    "sha256": "3498a68feda5d13d769d80b2e1374bf8915ecd2e83330bbcd3fb3fabd5899927",
+    "visual_review": "Reviewed actual photograph in contact sheet on 2026-11-12. No AI rendering or title overlay; subject sharp and suitable for a wide hero."
+  }
+]
