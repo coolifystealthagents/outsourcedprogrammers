@@ -1,0 +1,110 @@
+{
+  "domain": "outsourcedprogrammers.com",
+  "brand": "Outsourced Programmers",
+  "theme": "engineering",
+  "eyebrow": "More engineering capacity. Clear ownership.",
+  "headline": "Your backlog.",
+  "accent": "Our next build.",
+  "intro": "Extend your development team with programmers who work inside your stack, your repository, and your review process. Turn well-scoped tickets into tested changes your technical lead can trust.",
+  "cta": "Scope your first project",
+  "serviceTitle": "Specialist skills. Reviewable work.",
+  "serviceIntro": "Add capacity where your product needs it: frontend, APIs, platforms, data, quality assurance, and maintenance. Every engagement starts with the stack, acceptance checks, and an accountable reviewer.",
+  "storyTitle": "Built to fit your engineering rhythm.",
+  "story": "You should not have to surrender control to get more done. Work moves through your existing branches, pull requests, staging environments, and release decisions.",
+  "pillars": [
+    [
+      "Start with an actual ticket",
+      "Show us the repository conventions, affected module, expected behavior, and a useful example of accepted work."
+    ],
+    [
+      "Keep the work reviewable",
+      "Small pull requests, reproducible checks, and clear implementation notes give your reviewer the context to make decisions."
+    ],
+    [
+      "Keep production in your hands",
+      "Your technical owner controls architecture, sensitive access, merges, and releases. The team prepares the change and its evidence."
+    ]
+  ],
+  "tags": [
+    "Frontend & APIs",
+    "Platform development",
+    "Testing & maintenance"
+  ],
+  "footer": "Programming support for product teams that value clear scope, maintainable code, and client-controlled releases.",
+  "homeImage": "/refresh-20261112/6804068.webp",
+  "homeImageAlt": "Developers working at computers in a tech office",
+  "servicesImage": "/refresh-20261112/7988742.webp",
+  "servicesImageAlt": "Developers discussing code on a screen",
+  "services": [
+    {
+      "slug": "nextjs-development",
+      "title": "Next.js Development",
+      "description": "Extend your Next.js application with tested routes, components, metadata, and responsive interfaces.",
+      "image": "/refresh-20261112/16129728.webp",
+      "alt": "Developer coding at a multi-monitor workstation"
+    },
+    {
+      "slug": "react-application-development",
+      "title": "React Application Development",
+      "description": "Build React views and interactions that fit your existing component system, data contracts, and state rules.",
+      "image": "/refresh-20261112/12899191.webp",
+      "alt": "Two developers reviewing software on a laptop"
+    },
+    {
+      "slug": "nodejs-api-development",
+      "title": "Node.js API Development",
+      "description": "Implement API handlers, validation, and integration behavior against your approved backend contracts.",
+      "image": "/refresh-20261112/3184357.webp",
+      "alt": "Design team collaborating at computers"
+    },
+    {
+      "slug": "wordpress-engineering",
+      "title": "WordPress Engineering",
+      "description": "Develop maintainable WordPress themes, blocks, and plugins within your staging and release process.",
+      "image": "/refresh-20261112/8872202.webp",
+      "alt": "A diverse team collaborates in an office meeting, using a laptop and taking notes"
+    },
+    {
+      "slug": "shopify-development",
+      "title": "Shopify Development",
+      "description": "Create Shopify theme sections, storefront interactions, and configurable layouts in a development theme.",
+      "image": "/refresh-20261112/6937819.webp",
+      "alt": "Adult using a laptop for video conferencing, taking notes during a remote meeting indoors."
+    },
+    {
+      "slug": "qa-automation",
+      "title": "QA Automation",
+      "description": "Automate critical browser and API journeys with reproducible fixtures and useful failure evidence.",
+      "image": "/refresh-20261112/7693253.webp",
+      "alt": "Diverse business team collaborating in an office, working on laptops and discussing projects."
+    },
+    {
+      "slug": "devops-support",
+      "title": "DevOps Support",
+      "description": "Support CI pipelines, observability, and infrastructure changes under your platform team\u2019s approval process.",
+      "image": "/refresh-20261112/12903182.webp",
+      "alt": "A collaborative team working together on laptops in a modern office setting."
+    },
+    {
+      "slug": "database-engineering",
+      "title": "Database Engineering",
+      "description": "Prepare query improvements and schema changes with staging evidence and clear rollback limits.",
+      "image": "/refresh-20261112/7888818.webp",
+      "alt": "Group of diverse colleagues collaborating in a bright office space."
+    },
+    {
+      "slug": "mobile-app-development",
+      "title": "Mobile App Development",
+      "description": "Build mobile screens, integrations, and defect fixes for your agreed iOS and Android targets.",
+      "image": "/refresh-20261112/16129728.webp",
+      "alt": "Developer coding at a multi-monitor workstation"
+    },
+    {
+      "slug": "legacy-application-maintenance",
+      "title": "Legacy Application Maintenance",
+      "description": "Repair bounded issues in established applications while preserving their known behavior and interfaces.",
+      "image": "/refresh-20261112/12899191.webp",
+      "alt": "Two developers reviewing software on a laptop"
+    }
+  ]
+}
