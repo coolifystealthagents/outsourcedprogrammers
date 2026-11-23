@@ -537,11 +537,13 @@ export const november23BlogDetails = {
     "readinessRows": [
       {
         "area": "Evidence",
-        "ready": "The record names the source and date."
+        "ready": "The record names the source and date.",
+        "notReady": "The lane has no written record for this check."
       },
       {
         "area": "Owner",
-        "ready": "A named person owns the next step."
+        "ready": "A named person owns the next step.",
+        "notReady": "The lane has no written record for this check."
       }
     ],
     "sections": [
@@ -623,11 +625,13 @@ export const november23BlogDetails = {
     "readinessRows": [
       {
         "area": "Evidence",
-        "ready": "The record names the source and date."
+        "ready": "The record names the source and date.",
+        "notReady": "The lane has no written record for this check."
       },
       {
         "area": "Owner",
-        "ready": "A named person owns the next step."
+        "ready": "A named person owns the next step.",
+        "notReady": "The lane has no written record for this check."
       }
     ],
     "sections": [
@@ -709,11 +713,13 @@ export const november23BlogDetails = {
     "readinessRows": [
       {
         "area": "Evidence",
-        "ready": "The record names the source and date."
+        "ready": "The record names the source and date.",
+        "notReady": "The lane has no written record for this check."
       },
       {
         "area": "Owner",
-        "ready": "A named person owns the next step."
+        "ready": "A named person owns the next step.",
+        "notReady": "The lane has no written record for this check."
       }
     ],
     "sections": [
@@ -795,11 +801,13 @@ export const november23BlogDetails = {
     "readinessRows": [
       {
         "area": "Evidence",
-        "ready": "The record names the source and date."
+        "ready": "The record names the source and date.",
+        "notReady": "The lane has no written record for this check."
       },
       {
         "area": "Owner",
-        "ready": "A named person owns the next step."
+        "ready": "A named person owns the next step.",
+        "notReady": "The lane has no written record for this check."
       }
     ],
     "sections": [
@@ -881,11 +889,13 @@ export const november23BlogDetails = {
     "readinessRows": [
       {
         "area": "Evidence",
-        "ready": "The record names the source and date."
+        "ready": "The record names the source and date.",
+        "notReady": "The lane has no written record for this check."
       },
       {
         "area": "Owner",
-        "ready": "A named person owns the next step."
+        "ready": "A named person owns the next step.",
+        "notReady": "The lane has no written record for this check."
       }
     ],
     "sections": [
